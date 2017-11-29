@@ -1,0 +1,25 @@
+$circleW : 30px;
+$circleBorderW : 1px;
+
+.circle-with-border {
+    position: relative;
+    width: $circleW;
+    height: $circleW;
+
+    .circle-border {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: $circleW / 2 solid $white;
+        border-radius: 60%;
+    }
+
+    .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: ($circleW / 2 - 2 * $circleBorderW) solid $black;
+        border-radius: 60%;
+    }
+}

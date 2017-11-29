@@ -1,18 +1,18 @@
 {
     "projects": [
       {
-          "title": "tttttttttttt 1",
-          "creator": "creator 1",
+          "title": "on a possible passing from the digital",
+          "creator": "Ho Tzu Nyen",
           "type": "text",
-          "cover_img": "img/a.jpg",
+          "cover_img": "assets/img/projects/title1/cover.jpg",
           "content": [
               {
                   "type": "text",
-                  "text": "lorem ipsum ..."
+                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
               },
               {
                   "type": "img",
-                  "img": "img/projects/title1/b.jpg"
+                  "img": "assets/img/projects/title1/cover.jpg"
               },
               {
                   "type": "video",
@@ -21,17 +21,21 @@
               {
                   "type": "gallery",
                   "gallery": [
-                      { "img": "img/projects/title1/gallery/b.jpg" },
-                      { "img": "img/projects/title1/gallery/b.jpg" }
+                      { "img": "assets/img/projects/title1/gallery/cover.jpg" },
+                      { "img": "assets/img/projects/title1/gallery/cover.jpg" }
                   ]
+              },
+              {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu"
               }
           ]
       },
       {
-          "title": "title 2",
+          "title": "Lorem ipsum dolor sit amet, ad suavitate theophrastus est. Has ne recusabo iracundia, no populo volumus nec. Ut his esse exerci quodsi. Ad quas tibique fabellas usu, ei nam efficiantur voluptatibus necessitatibus. Ea officiis rationibus qui. Sed in magna commune disputationi, mei erant cetero ad. Pri graece essent ocurreret te, duis impetus nonumes sea et. Minim altera consequat ad nec, sed odio probo tractatos id, magna mediocritatem nec at. No vel dicit consequat conclusionemque, congue partem definiebas has an. Eu pri cibo brute, est meis delicata id. Veniam torquatos sadipscing cu usu, ne pri adhuc homero.",
           "creator": "creator 2",
           "type": "text",
-          "cover_img": "img/b.jpg",
+          "cover_img":  "assets/img/projects/title2/cover.jpg",
           "content": [
               {
                   "type": "text",
@@ -43,7 +47,43 @@
           "title": "title 3",
           "creator": "creator 3",
           "type": "text",
-          "cover_img": "img/b.jpg",
+          "cover_img": "assets/img/projects/title3/cover.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              }
+          ]
+      },
+      {
+          "title": "title 4",
+          "creator": "creator 4",
+          "type": "text",
+          "cover_img": "assets/img/projects/title2/cover.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              }
+          ]
+      },
+      {
+          "title": "title 5",
+          "creator": "creator 5",
+          "type": "text",
+          "cover_img": "assets/img/projects/title1/cover.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              }
+          ]
+      },
+      {
+          "title": "title 6",
+          "creator": "creator 6",
+          "type": "text",
+          "cover_img": "assets/img/projects/title2/cover.jpg",
           "content": [
               {
                   "type": "text",
@@ -55,24 +95,24 @@
 
   "model_imgs" : [
       {
-          "img": "img/model-1.jpg",
+          "img": "assets/img/models/model-1.jpg",
           "selector": "model-1"
       },
       {
-          "img": "img/model-1.jpg",
-          "selector": "model-1"
+          "img": "assets/img/models/model-2.jpg",
+          "selector": "model-2"
       },
       {
-          "img": "img/model-1.jpg",
-          "selector": "model-1"
+          "img": "assets/img/models/model-3.jpg",
+          "selector": "model-3"
       },
       {
-          "img": "img/model-1.jpg",
-          "selector": "model-1"
+          "img": "assets/img/models/model-4.jpg",
+          "selector": "model-4"
       },
       {
-          "img": "img/model-1.jpg",
-          "selector": "model-1"
+          "img": "assets/img/models/model-5.jpg",
+          "selector": "model-5"
       }
   ],
 
@@ -82,11 +122,26 @@
           "text": "If the original calls for a complement"
       }
   ],
-
-  "contact" : [
+  "contributors" : [
       {
-          "title": "the project",
-          "text": "If the original calls for a complement"
+          "name": "author name",
+          "text":   "Anna psychoanalysis refer to as the"
+      },
+      {
+          "name": "author name",
+          "text":   "Anna psychoanalysis refer to as the"
+      },
+      {
+          "name": "author name",
+          "text":   "Anna psychoanalysis refer to as the"
+      },
+      {
+          "name": "author name",
+          "text":   "Anna psychoanalysis refer to as the"
+      },
+      {
+          "name": "author name",
+          "text":   "Anna psychoanalysis refer to as the"
       }
   ]
 }

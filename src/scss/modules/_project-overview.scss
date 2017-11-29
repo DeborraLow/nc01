@@ -1,0 +1,6 @@
+.project-overview {
+    width: 100%;
+    height: calc(100vh - #{$infoPanelH} - #{$navigationPanelH});
+    overflow-y: scroll;
+    
+}

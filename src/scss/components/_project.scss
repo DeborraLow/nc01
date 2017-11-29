@@ -1,0 +1,72 @@
+$projectHeaderH: 100px;
+
+.project {
+    width: 100%;
+
+    .navigation-panel {
+        position: fixed;
+        background: $background;
+    }
+
+
+    .project-header {
+        position: fixed;
+        top: $navigationPanelH;
+        float: left;
+        width: 100%;
+        border-bottom: $borderW solid $border-color;
+        background: $background;
+    }
+
+
+    .project-title {
+        width: 70%;
+        float: right;
+        text-transform: uppercase;
+    }
+
+
+    .project-type {
+        width: 30%;
+        float: right;
+        text-transform: capitalize;
+    }
+
+    .project-content {
+        padding-top: $navigationPanelH + $projectHeaderH;
+        width: 40%;
+        margin-left: 30%;
+    }
+
+
+    .project-creator {
+        float: left;
+        width: 25%;
+        text-transform: uppercase;
+    }
+
+
+    .project-text {
+        float: right;
+        width: 75%;
+    }
+
+
+    .project-img {
+        width: 100%;
+    }
+
+
+    .project-gallery {
+        width: 100%;
+    }
+
+
+    .project-next {
+        position: fixed;
+        top: 50%;
+        right: 0px;
+        transform: rotate(-90deg) translateY(100%);
+        text-transform: uppercase;
+    }
+}

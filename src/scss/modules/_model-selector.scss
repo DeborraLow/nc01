@@ -1,0 +1,6 @@
+.model-selector {
+    display: block;
+    width: 100%;
+    height: calc(100vh - #{$bigModelH});
+    border: $borderW solid $border-color;
+}

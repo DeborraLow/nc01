@@ -8,4 +8,10 @@ $white:       rgb(255, 255, 255);
 $black:       rgb(0, 0, 0);
 $blue:        rgb(104, 139, 196);
 
-$borderColor: $black;
+
+$background: $black;
+$border-color: $white;
+$text-color: $white;
+$landing-title-color: $black;
+$project-overview-text-color: $gray;
+$project-overview-text-hover-color: $white;

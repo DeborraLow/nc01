@@ -1,0 +1,11 @@
+{% from "components/about/about-title.njk" import title as title %}
+{% from "components/about/about-contributor.njk" import item as tree %}
+
+<div class="about-contributors">
+    {{ title('contributors') }}
+
+    {% for item in contributors %}
+        {{ tree(item.name, item.text) }}
+    {% endfor %}
+
+</div>

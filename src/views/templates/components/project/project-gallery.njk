@@ -1,5 +1,7 @@
-{% macro gallery(text) %}
+{% macro gallery(gallery) %}
     <div class="project-gallery">
-        {{ text }}
+        {% for item in gallery %}
+            <img src="{{ item.img }}" alt="">
+        {% endfor %}
     </div>
 {% endmacro %}

@@ -1,0 +1,9 @@
+{% from "components/about/about-title.njk" import title as title %}
+{% from "components/about/about-text.njk" import text as text %}
+
+<div class="about-project">
+    {{ title('the project') }}
+
+    {{ text(about.text) }}
+
+</div>

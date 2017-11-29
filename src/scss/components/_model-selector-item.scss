@@ -1,0 +1,11 @@
+.model-selector-item {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    border: $borderW solid $border-color;
+    background-color: $background;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

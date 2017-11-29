@@ -1,0 +1,28 @@
+.project-overview-item {
+    float: left;
+    width: 100%;
+    border: $borderW solid $border-color;
+
+    .project-img {
+        width: 40%;
+        float: left;
+        padding: $project-overview-padding;
+    }
+
+    .project-title {
+        width: 40%;
+        float: left;
+        padding: $project-overview-padding;
+        text-transform: uppercase;
+    }
+
+    .project-creator-and-type {
+        width: 20%;
+        float: left;
+        padding: $project-overview-padding;
+    }
+
+    .project-creator {
+        text-transform: uppercase;
+    }
+}

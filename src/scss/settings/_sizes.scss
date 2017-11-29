@@ -5,22 +5,30 @@
 $closeBbutton: 50px;
 
 
-
 //BORDERS
-$sectionBorderW: 6px;
+$borderW: 1px;
 
 
 //SPACING
-$sideSpacing: 2vw;
+
+$project-overview-padding: 5px;
+
+//SECTION HEIGHTS
+$navigationPanelH: 40px;
+$infoPanelH: 80px;
+$bigModelH: 80vh;
 
 
 //FONT SIZE
 //landscape
 $landing-font-size: 10vw;
-$info-left-font-size: 7vw;
-$info-right-font-size: 2vw;
-$menu-font-size: 5vw;
-$gallery-font-size: $info-right-font-size;
+
+$project-text-font-size: 7vw;
+$project-title-font-size: 2vw;
+$project-creator-font-size: 5vw;
+$project-type-font-size: 5vw;
+
+
 
 //portrait
 $landing-font-size--portrait: 10vh;

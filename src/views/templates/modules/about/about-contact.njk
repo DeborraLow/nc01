@@ -1,0 +1,27 @@
+ {% from "components/about/about-title.njk" import title as title %}
+
+ <div class="about-contact">
+     {{ title('contact') }}
+
+    <div class="contact-name">
+        <ul>
+            <li>Laura Hermann &</li>
+            <li>Charlotte Dumoncel d’Argence</li>
+        </ul>
+    </div>
+
+    <address>
+        {# EMAIL #}
+        <span>E</span>
+        <a class="email" href="mailto:info@naturalcapital.com">info@naturalcapital.com</a>
+
+        {# ADDRESS #}
+        <span>A</span>
+        <div class="address">
+            Strantstrass 32<br>
+            56C Brussels<br>
+            Belgium
+        </div>
+    </address>
+
+</div>

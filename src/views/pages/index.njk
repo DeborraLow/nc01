@@ -13,7 +13,18 @@
     {# LANDING VIEW #}
     {% include "modules/landing-view.njk" %}
 
-    <div class="main-right">
+    <div class="half-panel">
+
+        {# BIG MODEL #}
+        {% include "modules/big-model.njk" %}
+
+        {# MODEL SELECTOR #}
+        {% include "modules/model-selector.njk" %}
+
+    </div>
+
+
+    <div class="half-panel">
 
         {# NAVIGATION PANEL #}
         {% include "modules/navigation-panel.njk" %}
@@ -24,16 +35,8 @@
         {# PROJECTS OVERVIEW #}
         {% include "modules/project-overview.njk" %}
 
-    </div>
-
-
-    <div class="main-left">
-
-        {# BIG MODEL #}
-        {% include "modules/big-model.njk" %}
-
-        {# MODEL SELECTOR #}
-        {% include "modules/model-selector.njk" %}
+        {# PROJECTS OVERVIEW SWITCH FULL #}
+        {% include "components/project-overview/project-overview-switch-full.njk" %}
 
     </div>
 
