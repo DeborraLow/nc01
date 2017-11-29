@@ -1,0 +1,92 @@
+{
+    "projects": [
+      {
+          "title": "tttttttttttt 1",
+          "creator": "creator 1",
+          "type": "text",
+          "cover_img": "img/a.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              },
+              {
+                  "type": "img",
+                  "img": "img/projects/title1/b.jpg"
+              },
+              {
+                  "type": "video",
+                  "video": "lorem ipsum ..."
+              },
+              {
+                  "type": "gallery",
+                  "gallery": [
+                      { "img": "img/projects/title1/gallery/b.jpg" },
+                      { "img": "img/projects/title1/gallery/b.jpg" }
+                  ]
+              }
+          ]
+      },
+      {
+          "title": "title 2",
+          "creator": "creator 2",
+          "type": "text",
+          "cover_img": "img/b.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              }
+          ]
+      },
+      {
+          "title": "title 3",
+          "creator": "creator 3",
+          "type": "text",
+          "cover_img": "img/b.jpg",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "lorem ipsum ..."
+              }
+          ]
+      }
+  ],
+
+  "model_imgs" : [
+      {
+          "img": "img/model-1.jpg",
+          "selector": "model-1"
+      },
+      {
+          "img": "img/model-1.jpg",
+          "selector": "model-1"
+      },
+      {
+          "img": "img/model-1.jpg",
+          "selector": "model-1"
+      },
+      {
+          "img": "img/model-1.jpg",
+          "selector": "model-1"
+      },
+      {
+          "img": "img/model-1.jpg",
+          "selector": "model-1"
+      }
+  ],
+
+  "about" : [
+      {
+          "title": "the project",
+          "text": "If the original calls for a complement"
+      }
+  ],
+
+  "contact" : [
+      {
+          "title": "the project",
+          "text": "If the original calls for a complement"
+      }
+  ]
+}

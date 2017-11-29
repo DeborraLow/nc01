@@ -1,0 +1,7 @@
+{% macro model_selector(img, selector) %}
+
+    {% set backgroundImg = 'background-image: url(' + img + ');'  %}
+
+    <li class="model-selector" style = "{{ backgroundImg }}"></li>
+
+{% endmacro %}

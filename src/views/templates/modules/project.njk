@@ -1,0 +1,49 @@
+{% from "components/project/project-title.njk" import title as title %}
+{% from "components/project/project-creator.njk" import creator as creator %}
+{% from "components/project/project-type.njk" import type as type %}
+{% from "components/project/project-text.njk" import text as text %}
+{% from "components/project/project-img.njk" import img as img %}
+{% from "components/project/project-gallery.njk" import gallery as gallery %}
+{% from "components/project/project-video.njk" import video as video %}
+
+<div class="project">
+
+    {# TITLE #}
+    {{ title(project.title) }}
+
+    {# CREATOR #}
+    {{ title(project.title) }}
+
+    {# TYPE #}
+    {{ title(project.title) }}
+
+    {% for item in project.content %}
+
+        {% if item.type == 'text' %}
+
+            {# TEXT #}
+            {{ title(project.title) }}
+
+        {% elif item.type == 'gallery' %}
+
+            {# GALLERY #}
+            {{ title(project.title) }}
+
+        {% elif item.type == 'img' %}
+
+            {# IMAGE #}
+            {{ title(project.title) }}
+
+        {% elif item.type == 'video' %}
+
+            {# VIDEO #}
+            {{ title(project.title) }}
+
+        {% endif %}
+
+    {% endfor %}
+
+    {# NEXT PROJECT #}
+    {{ include "components/project/project-next.njk" }}
+    
+</div>
