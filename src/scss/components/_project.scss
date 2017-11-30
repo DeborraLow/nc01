@@ -1,10 +1,16 @@
 $projectHeaderH: 100px;
 
 .project {
-    width: 100%;
+    width: calc(100% - #{$side-model-selectorW});
+    float: right;
+
+    @include bp-s {
+        width: 100%;
+    }
 
     .navigation-panel {
         position: fixed;
+        width: calc(100% - #{$side-model-selectorW});
         background: $background;
     }
 
@@ -13,7 +19,7 @@ $projectHeaderH: 100px;
         position: fixed;
         top: $navigationPanelH;
         float: left;
-        width: 100%;
+        width: calc(100% - #{$side-model-selectorW});
         border-bottom: $borderW solid $border-color;
         background: $background;
     }
@@ -22,33 +28,70 @@ $projectHeaderH: 100px;
     .project-title {
         width: 70%;
         float: right;
+        font-size: $project-title-font-size;
         text-transform: uppercase;
+
+        @include bp-s {
+            width: 100%;
+            font-size: $project-title-font-size-bps;
+        }
     }
 
 
     .project-type {
         width: 30%;
         float: right;
+        font-size: $project-type-font-size;
         text-transform: capitalize;
+
+        @include bp-s {
+            display: none;
+            font-size: $project-type-font-size-bps;
+        }
     }
 
     .project-content {
         padding-top: $navigationPanelH + $projectHeaderH;
         width: 40%;
         margin-left: 30%;
+
+        @include bp-s {
+            width: 85%;
+            margin-left: 15%;
+        }
     }
 
 
     .project-creator {
         float: left;
         width: 25%;
+        font-size: $project-creator-font-size;
         text-transform: uppercase;
+
+        &:before {
+            @include bp-s {
+                content: 'BY';
+                position: absolute;
+                left: $project-overview-padding-bps;
+            }
+        }
+
+        @include bp-s {
+            width: 90%;
+            font-size: $project-creator-font-size-bps;
+        }
     }
 
 
     .project-text {
         float: right;
         width: 75%;
+        font-size: $project-text-font-size;
+
+        @include bp-s {
+            width: 100%;
+            font-size: $project-text-font-size-bps;
+        }
     }
 
 

@@ -1,28 +1,81 @@
 .project-overview-item {
-    float: left;
+    float: right;
     width: 100%;
-    border: $borderW solid $border-color;
+    border-bottom: $borderW solid $border-color;
+    color: $project-overview-text-color;
+
+    &:hover {
+        color: $project-overview-text-hover-color;
+    }
+
+    @include bp-s {
+        color: $project-overview-text-hover-color;
+    }
+
+
+    .img-container {
+        position: relative;
+        width: 40%;
+        float: right;
+        padding: $project-overview-padding;
+
+        @include bp-s {
+            width: 100%;
+            padding: $project-overview-padding-bps;
+        }
+    }
 
     .project-img {
-        width: 40%;
-        float: left;
-        padding: $project-overview-padding;
+        width: 100%;
     }
+
+    .img-overlay {
+        position: absolute;
+        top: $project-overview-padding;
+        left: $project-overview-padding;
+        width: calc(100% - 2 * #{$project-overview-padding});
+        height: calc(100% - 2 * #{$project-overview-padding});
+        background: rgba(0, 0, 255, 0.4);
+
+        @include bp-s {
+            top: $project-overview-padding-bps;
+            left: $project-overview-padding-bps;
+            width: calc(100% - 2 * #{$project-overview-padding-bps});
+            height: calc(100% - 2 * #{$project-overview-padding-bps});
+        }
+    }
+
 
     .project-title {
         width: 40%;
-        float: left;
+        float: right;
         padding: $project-overview-padding;
         text-transform: uppercase;
+
+        @include bp-s {
+            width: 65%;
+            padding: $project-overview-padding-bps;
+        }
     }
 
     .project-creator-and-type {
         width: 20%;
-        float: left;
+        float: right;
         padding: $project-overview-padding;
+
+        @include bp-s {
+            width: 35%;
+            padding: $project-overview-padding-bps;
+        }
     }
 
     .project-creator {
         text-transform: uppercase;
+    }
+
+    .project-type {
+        @include bp-s {
+            display: none;
+        }
     }
 }

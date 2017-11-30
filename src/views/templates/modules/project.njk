@@ -8,42 +8,61 @@
 
 <div class="project">
 
-    {# TITLE #}
-    {{ title(project.title) }}
+    <div class="project">
 
-    {# CREATOR #}
-    {{ title(project.title) }}
+        {# NAVIGATION PANEL #}
+        {% include "modules/navigation-panel.njk" %}
 
-    {# TYPE #}
-    {{ title(project.title) }}
+        {# HEADER #}
+        <div class="project-header">
 
-    {% for item in project.content %}
-
-        {% if item.type == 'text' %}
-
-            {# TEXT #}
+            {# TITLE #}
             {{ title(project.title) }}
 
-        {% elif item.type == 'gallery' %}
+            {# TYPE #}
+            {{ type(project.type) }}
 
-            {# GALLERY #}
-            {{ title(project.title) }}
+        </div>
 
-        {% elif item.type == 'img' %}
 
-            {# IMAGE #}
-            {{ title(project.title) }}
+        {# CONTENT #}
 
-        {% elif item.type == 'video' %}
+        <div class="project-content">
 
-            {# VIDEO #}
-            {{ title(project.title) }}
+            {# CREATOR #}
+            {{ creator(project.creator) }}
 
-        {% endif %}
 
-    {% endfor %}
+            {% for item in project.content %}
 
-    {# NEXT PROJECT #}
-    {{ include "components/project/project-next.njk" }}
-    
-</div>
+                {% if item.type == 'text' %}
+
+                    {# TEXT #}
+                    {{ text(item.text) }}
+
+                {% elif item.type == 'gallery' %}
+
+                    {# GALLERY #}
+                    {{ gallery(item.gallery) }}
+
+                {% elif item.type == 'img' %}
+
+                    {# IMAGE #}
+                    {{ img(item.img) }}
+
+                {% elif item.type == 'video' %}
+
+                    {# VIDEO #}
+                    {{ video(item.video) }}
+
+                {% endif %}
+
+            {% endfor %}
+
+            {# NEXT PROJECT #}
+            {% include "components/project/project-next.njk" %}
+
+        </div>
+
+
+    </div>

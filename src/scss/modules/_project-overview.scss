@@ -2,5 +2,7 @@
     width: 100%;
     height: calc(100vh - #{$infoPanelH} - #{$navigationPanelH});
     overflow-y: scroll;
-    
+    box-sizing: content-box;
+   //  margin-right: -100px;
+   // padding-right: 100px;
 }

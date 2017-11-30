@@ -2,5 +2,24 @@
     display: block;
     width: 100%;
     height: calc(100vh - #{$bigModelH});
-    border: $borderW solid $border-color;
+    border-top: $borderW solid $border-color;
+
+    @include bp-s {
+        border-bottom: $borderW solid $border-color;
+    }
+
+    &.side {
+        float: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: $side-model-selectorW;
+        height: 100vh;
+        border: none;
+        border-right: $borderW solid $border-color;
+
+        @include bp-s {
+            display: none;
+        }
+    }
 }

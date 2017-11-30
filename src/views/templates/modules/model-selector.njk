@@ -1,6 +1,6 @@
 {% from "components/model-selector-item.njk" import model_selector as model_selector %}
 
-<ul class="model-selector">
+<ul class="model-selector {{ modelSelectorClass }}">
     {% for model in model_imgs %}
         {{ model_selector(model.img, model.selector) }}
     {% endfor %}

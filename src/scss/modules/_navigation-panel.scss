@@ -2,6 +2,13 @@
     position: relative;
     width: 100%;
     height: $navigationPanelH;
-    border: $borderW solid $border-color;
+    border-bottom: $borderW solid $border-color;
     text-transform: uppercase;
+    font-size: calc(#{$navigationPanelH} - 2 * #{$project-overview-padding});
+
+    @include bp-s {
+       border-left: none;
+       border-right: none;
+       font-size: calc(#{$navigationPanelH} - 2 * #{$project-overview-padding-bps});
+    }
 }

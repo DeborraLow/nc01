@@ -2,4 +2,10 @@
     width: 100vw;
     height: 100vh;
     background: grey;
+    font-size: $landing-font-size;
+    color: $landing-title-color;
+
+    @include bp-s {
+       font-size: $landing-font-size-bps;
+    }
 }

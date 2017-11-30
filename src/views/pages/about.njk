@@ -10,22 +10,37 @@
 
 {% block content %}
 
-    <div class="half-panel">
 
-        {# PROJECT #}
-        {% include "modules/about/about-project.njk" %}
-
-        {# CONTACT #}
-        {% include "modules/about/about-contact.njk" %}
-
-    </div>
+        {# MODEL SELECTOR #}
+        {% set modelSelectorClass = "side" %}
+        {% include "modules/model-selector.njk" %}
 
 
-    <div class="half-panel">
 
-        {# CONTRIBUTORS #}
-        {% include "modules/about/about-contributors.njk" %}
 
+    <div class="about">
+
+        {# NAVIGATION PANEL #}
+        {% include "modules/navigation-panel.njk" %}
+
+
+        <div class="half-panel half-panel--left">
+
+            {# PROJECT #}
+            {% include "modules/about/about-project.njk" %}
+
+            {# CONTACT #}
+            {% include "modules/about/about-contact.njk" %}
+
+        </div>
+
+
+        <div class="half-panel">
+
+            {# CONTRIBUTORS #}
+            {% include "modules/about/about-contributors.njk" %}
+
+        </div>
     </div>
 
 {% endblock %}

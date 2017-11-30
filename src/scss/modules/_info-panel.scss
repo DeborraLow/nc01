@@ -2,5 +2,10 @@
     position: relative;
     width: 100%;
     height: $infoPanelH;
-    border: $borderW solid $border-color;
+    border-bottom: $borderW solid $border-color;
+
+    @include bp-s {
+       border-left: none;
+       border-right: none;
+    }
 }

@@ -4,6 +4,10 @@
     left: 0;
     height: 100%;
     padding: $project-overview-padding;
+
+    @include bp-s {
+        padding: $project-overview-padding-bps;
+    }
 }
 
 
@@ -13,4 +17,8 @@
     right: 0;
     height: 100%;
     padding: $project-overview-padding;
+
+    @include bp-s {
+        padding: $project-overview-padding-bps;
+    }
 }

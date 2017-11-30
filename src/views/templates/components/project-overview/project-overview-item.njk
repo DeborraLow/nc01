@@ -1,10 +1,18 @@
 {% macro box(creator, type, title, img) %}
+
     <li class="project-overview-item">
+
+        <div class="img-container">
+            <img class="project-img" src="{{ img }}" alt="{{ title }}">
+            <div class="img-overlay"></div>
+        </div>
+
+        <h2 class="project-title">{{ title }}</h2>
+
         <div class="project-creator-and-type">
             <div class="project-creator">{{ creator }}</div>
             <div class="project-type">[{{ type }}]</div>
         </div>
-        <h2 class="project-title">{{ title }}</h2>
-        <img class="project-img" src="{{ img }}" alt="{{ title }}">
+
     </li>
 {% endmacro %}

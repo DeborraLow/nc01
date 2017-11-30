@@ -11,9 +11,13 @@
 
 //GENERAL
 @import "general/_general.scss";
+@import "general/_reset.scss";
 
 
 //COMPONENTS
+@import "components/_about-contributors.scss";
+@import "components/_about-section.scss";
+@import "components/_about-title.scss";
 @import "components/_circle-with-border.scss";
 @import "components/_half-panel.scss";
 @import "components/_landing-view.scss";
@@ -24,6 +28,7 @@
 @import "components/_project.scss";
 
 //MODULES
+@import "modules/_about.scss";
 @import "modules/_big-model.scss";
 @import "modules/_info-panel.scss";
 @import "modules/_model-selector.scss";

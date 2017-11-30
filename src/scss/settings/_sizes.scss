@@ -9,30 +9,42 @@ $closeBbutton: 50px;
 $borderW: 1px;
 
 
-//SPACING
-
+//PADDING
 $project-overview-padding: 5px;
+$project-overview-padding-bps: 10px;
+
 
 //SECTION HEIGHTS
-$navigationPanelH: 40px;
+$navigationPanelH: 30px;
 $infoPanelH: 80px;
 $bigModelH: 80vh;
 
 
+$side-model-selectorW: 10%;
+
+
 //FONT SIZE
 //landscape
-$landing-font-size: 10vw;
+$landing-font-size: 8vw;
 
-$project-text-font-size: 7vw;
-$project-title-font-size: 2vw;
-$project-creator-font-size: 5vw;
-$project-type-font-size: 5vw;
+$project-text-font-size: 2vw;
+$project-title-font-size: 4vw;
+$project-creator-font-size: 2vw;
+$project-type-font-size: 1vw;
+
+$about-title-font-size: 3vw;
+$about-contributor-font-size: 1.5vw;
+$about-text-font-size: 2vw;
 
 
+//bp-s
+$landing-font-size-bps: 10vw;
 
-//portrait
-$landing-font-size--portrait: 10vh;
-$info-left-font-size--portrait: 7vh;
-$info-right-font-size--portrait: 2vh;
-$menu-font-size--portrait: 10vh;
-$gallery-font-size--portrait: $info-right-font-size--portrait;
+$project-text-font-size-bps: 7vw;
+$project-title-font-size-bps: 2vw;
+$project-creator-font-size-bps: 5vw;
+$project-type-font-size-bps: 5vw;
+
+$about-title-font-size-bps: 5vw;
+$about-contributor-font-size-bps: 3vw;
+$about-text-font-size-bps: 3vw;
