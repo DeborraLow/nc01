@@ -41,7 +41,7 @@ gulp.task('js', function() {
 
 
 gulp.task('img', function() {
-   gulp.src('src/img/*')
+   gulp.src('src/img/**/*')
    .pipe(gulp.dest('public/assets/img'));
 });
 
