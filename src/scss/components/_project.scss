@@ -109,7 +109,8 @@ $projectHeaderH: 100px;
         position: fixed;
         top: 50%;
         right: 0px;
-        transform: rotate(-90deg) translateY(100%);
+        transform: rotate(-90deg) translate(50%, -50%);
+        transform-origin: right center;
         text-transform: uppercase;
     }
 }

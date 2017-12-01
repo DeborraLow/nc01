@@ -4,65 +4,75 @@
 {% from "components/project/project-text.njk" import text as text %}
 {% from "components/project/project-img.njk" import img as img %}
 {% from "components/project/project-gallery.njk" import gallery as gallery %}
+{% from "components/project/project-next.njk" import nextProject as nextProject %}
 {% from "components/project/project-video.njk" import video as video %}
 
-<div class="project">
-
-    <div class="project">
-
-        {# NAVIGATION PANEL #}
-        {% include "modules/navigation-panel.njk" %}
-
-        {# HEADER #}
-        <div class="project-header">
-
-            {# TITLE #}
-            {{ title(project.title) }}
-
-            {# TYPE #}
-            {{ type(project.type) }}
-
-        </div>
+{% set work = projects[projectIndex] %}
 
 
-        {# CONTENT #}
-
-        <div class="project-content">
-
-            {# CREATOR #}
-            {{ creator(project.creator) }}
+{# MODEL SELECTOR #}
+{% set modelSelectorClass = "side" %}
+{% include "modules/model-selector.njk" %}
 
 
-            {% for item in project.content %}
+<div class="project barba-container">
 
-                {% if item.type == 'text' %}
+{# NAVIGATION PANEL #}
+{% include "modules/navigation-panel.njk" %}
 
-                    {# TEXT #}
-                    {{ text(item.text) }}
+{# HEADER #}
+<div class="project-header">
 
-                {% elif item.type == 'gallery' %}
+    {# TITLE #}
+    {{ title(work.title) }}
 
-                    {# GALLERY #}
-                    {{ gallery(item.gallery) }}
+    {# TYPE #}
+    {{ type(work.type) }}
 
-                {% elif item.type == 'img' %}
-
-                    {# IMAGE #}
-                    {{ img(item.img) }}
-
-                {% elif item.type == 'video' %}
-
-                    {# VIDEO #}
-                    {{ video(item.video) }}
-
-                {% endif %}
-
-            {% endfor %}
-
-            {# NEXT PROJECT #}
-            {% include "components/project/project-next.njk" %}
-
-        </div>
+</div>
 
 
-    </div>
+{# CONTENT #}
+
+<div class="project-content">
+
+    {# CREATOR #}
+    {{ creator(work.creator) }}
+
+
+    {% for item in work.content %}
+
+        {% if item.type == 'text' %}
+
+            {# TEXT #}
+            {{ text(item.text) }}
+
+        {% elif item.type == 'gallery' %}
+
+            {# GALLERY #}
+            {{ gallery(item.gallery) }}
+
+        {% elif item.type == 'img' %}
+
+            {# IMAGE #}
+            {{ img(item.img) }}
+
+        {% elif item.type == 'video' %}
+
+            {# VIDEO #}
+            {{ video(item.video) }}
+
+        {% endif %}
+
+    {% endfor %}
+
+    {% set nrOfProjects = projects | length %}
+
+
+    {% if projectIndex < nrOfProjects - 1 %}
+        {# NEXT PROJECT #}
+        {{ nextProject('./project_' + (projectIndex + 2) + '.html') }}
+        {% include "components/project/project-next.njk" %}
+    {% endif %}
+
+</div>

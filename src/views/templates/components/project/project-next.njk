@@ -1,1 +1,3 @@
-<button type="button" name="button" class="project-next">next article</button>
+{% macro nextProject(nextHref) %}
+    <a class="project-next js-project-next" href="{{ nextHref }}">next article</a>
+{% endmacro %}
