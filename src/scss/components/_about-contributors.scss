@@ -5,17 +5,4 @@
         min-height: 0;
     }
 
-    .name {
-        font-size: $about-contributor-font-size;
-        text-transform: uppercase;
-
-        @include bp-s {
-            font-size: $about-contributor-font-size-bps;
-        }
-    }
-
-    .description {
-
-    }
-
 }

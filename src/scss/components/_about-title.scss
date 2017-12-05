@@ -1,8 +1,10 @@
 .about-title {
     font-size: $about-title-font-size;
     text-transform: uppercase;
+    margin-bottom: $about-title-margin-bottom;
 
     @include bp-s {
         font-size: $about-title-font-size-bps;
+        margin-bottom: $about-title-margin-bottom-bps;
     }
 }

@@ -15,8 +15,11 @@
 
 
 //COMPONENTS
+@import "components/_about-contact.scss";
+@import "components/_about-contributor-item.scss";
 @import "components/_about-contributors.scss";
 @import "components/_about-section.scss";
+@import "components/_about-text.scss";
 @import "components/_about-title.scss";
 @import "components/_circle-with-border.scss";
 @import "components/_half-panel.scss";
@@ -26,6 +29,7 @@
 @import "components/_project-overview-item.scss";
 @import "components/_project-overview-switch-full.scss";
 @import "components/_project.scss";
+@import "components/_scroll-indicator.scss";
 
 //MODULES
 @import "modules/_about.scss";

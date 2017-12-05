@@ -1,6 +1,6 @@
 {% import "components/project-overview/project-overview-item.njk" as projectOverview %}
 
-<ul class="project-overview">
+<ul class="project-overview js-content-height">
     {% for project in projects %}
         {{ projectOverview.box(project.creator, project.type, project.title, project.cover_img, loop.index) }}
     {% endfor %}

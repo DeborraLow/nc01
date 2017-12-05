@@ -1,0 +1,27 @@
+.about-contribution-item {
+    margin-bottom: $about-contribution-item-margin-bottom;
+
+    @include bp-s {
+        margin-bottom: $about-contribution-item-margin-bottom-bps;
+    }
+
+    .name {
+        font-size: $about-contributor-font-size;
+        text-transform: uppercase;
+
+        @include bp-s {
+            font-size: $about-contributor-font-size-bps;
+        }
+    }
+
+    .description {
+        margin-left: $about-contribution-item-margin-left;
+        margin-right: $about-contribution-item-margin-right;
+
+        @include bp-s {
+            margin-left: $about-contribution-item-margin-left-bps;
+            margin-right: $about-contribution-item-margin-right-bps;
+        }
+    }
+
+}

@@ -12,8 +12,8 @@
 }
 
 
-.half-panel--left {
-    border-right: $borderW solid $border-color;
+.half-panel--right {
+    border-left: $borderW solid $border-color;
 
     @include bp-s {
        border: none;

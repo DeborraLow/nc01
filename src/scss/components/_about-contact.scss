@@ -1,0 +1,16 @@
+.about-contact {
+    float: left;
+    width: 100%;
+}
+
+
+.about-contact-abbrev {
+    width: 10%;
+    float: left;
+}
+
+
+.about-contact-abbrev + * {
+    width: 60%;
+    float: left;
+}
