@@ -1,0 +1,32 @@
+{% macro interview(interview, q_name, a_name) %}
+
+	<div class="project-interview">
+
+	
+		{% for item in interview %}
+
+			{% if item.type == 'question' %}
+
+				{% set name = q_name %}
+
+	        {% elif item.type == 'answer' %}
+
+	        	{% set name = a_name %}
+
+	        {% endif %}
+
+	        <div class="project-interview-item">
+		        <div class="project-creator">
+			        {{ name }}
+			    </div>
+			    <div class="project-interview-text">
+			        {{ item.text }}
+			    </div>
+			</div>
+		    
+
+		{% endfor %}
+	
+	</div>
+	
+{% endmacro %}
