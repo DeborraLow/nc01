@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     nunjucksRender = require('gulp-nunjucks-render'),
     data = require('gulp-data');
+    spritesmith = require('gulp.spritesmith');
 
 
 gulp.task('nunjucks', function() {
@@ -71,4 +72,15 @@ gulp.task('default', ['css', 'js', 'nunjucks', 'nunjucks_projects', 'img'], func
     gulp.watch("src/views/**/*.njk", ['nunjucks']);
     gulp.watch("src/views/**/*.njk", ['nunjucks_projects']);
     gulp.watch("src/views/data/data.json", ['nunjucks']);
+});
+
+
+ gulp.task('sprite', function () {
+  var spriteData = gulp.src('src/img/sprite/model_2/*.png').pipe(spritesmith({
+    imgName: 'model_2_vertical.png',
+    cssName: 'sprite.css',
+    algorithmOpts: { sort: false },
+    algorithm: 'top-down',
+  }));
+  return spriteData.pipe(gulp.dest('./public/assets/img/models/'));
 });
