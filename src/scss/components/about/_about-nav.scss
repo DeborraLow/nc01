@@ -1,0 +1,22 @@
+.about-nav {
+	display: block;
+	position: fixed;
+	top: $navigationPanelH;
+	width: calc(100% - #{$vertical-model-selectorW});
+	height: $about-navigation-h;
+	border-bottom: $borderW solid $border-color;
+}
+
+
+.about-nav-item{
+	
+	float: left;
+	width: 20vw;
+
+	&:before {
+		content: '';
+		border: 20px solid $white;
+		border-radius: 60%;
+	}
+}
+

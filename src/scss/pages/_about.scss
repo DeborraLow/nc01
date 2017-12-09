@@ -1,0 +1,21 @@
+.about {
+    padding-top: calc(#{$navigationPanelH} + #{$about-navigation-h});
+    width: calc(100% - #{$vertical-model-selectorW});
+    float: right;
+    font-size: $about-text-font-size;
+
+    @include bp-s {
+        width: 100%;
+        font-size: $about-text-font-size-bps;
+    }
+
+    .half-panel--left {
+    	position: fixed;
+    	width: calc(50vw - #{$vertical-model-selectorW});
+    }
+
+
+    .half-panel {
+    	padding-top: $navigationPanelH;
+    }
+}

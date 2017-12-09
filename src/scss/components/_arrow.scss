@@ -1,0 +1,15 @@
+.arrow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70%;
+	transform: translate(-50%, -50%) rotate(180deg);
+
+	* {
+		fill:none;
+		stroke:#FFFFFF;
+		stroke-width:7;
+		stroke-miterlimit:10;
+	}
+	
+}

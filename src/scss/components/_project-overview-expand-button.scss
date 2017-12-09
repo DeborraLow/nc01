@@ -1,0 +1,25 @@
+.project-overview-expand-button {
+	z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    @include bp-s {
+        display: none;
+    }
+
+    &.tr-fade-out {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+.sticky {
+	.project-overview-expand-button.stick {
+		top: 50%;
+		left: 50%;
+	}
+}
