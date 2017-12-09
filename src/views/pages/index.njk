@@ -5,39 +5,48 @@
  #}
 
 
-
+{% set bodyClass = 'landing' %}
 {% extends "layout.njk" %}
 
 {% block content %}
 
+
     {# LANDING VIEW #}
     {% include "modules/landing-view.njk" %}
 
-    <div class="half-panel half-panel--left">
+    <div class="landing-content">
 
-        {# BIG MODEL #}
-        {% include "modules/big-model.njk" %}
 
-        {# MODEL SELECTOR #}
-        {% include "modules/model-selector.njk" %}
+        <div class="half-panel half-panel--left js-fix-indicator stick">
+
+            {# BIG MODEL #}
+            {% include "modules/big-model.njk" %}
+
+            {# MODEL SELECTOR #}
+            {% include "modules/model-selector.njk" %}
+
+        </div>
+
+
+        <div class="half-panel half-panel--right js-landing-expandable">
+
+            {# NAVIGATION PANEL #}
+            {% set extraClass = 'stick' %}
+            {% include "modules/navigation-panel.njk" %}
+
+            {# INFO PANEL #}
+            {% set extraClass = 'stick' %}
+            {% include "modules/info-panel.njk" %}
+
+            {# PROJECTS OVERVIEW #}
+            {% include "modules/project-overview.njk" %}
+
+            {# PROJECTS OVERVIEW EXPANND BUTTON #}
+            {% include "components/project-overview/project-overview-expand-button.njk" %}
+
+        </div>
 
     </div>
 
-
-    <div class="half-panel half-panel--right">
-
-        {# NAVIGATION PANEL #}
-        {% include "modules/navigation-panel.njk" %}
-
-        {# INFO PANEL #}
-        {% include "modules/info-panel.njk" %}
-
-        {# PROJECTS OVERVIEW #}
-        {% include "modules/project-overview.njk" %}
-
-        {# PROJECTS OVERVIEW SWITCH FULL #}
-        {% include "components/project-overview/project-overview-switch-full.njk" %}
-
-    </div>
 
 {% endblock %}

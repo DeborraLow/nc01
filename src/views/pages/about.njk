@@ -12,10 +12,8 @@
 
 
         {# MODEL SELECTOR #}
-        {% set modelSelectorClass = "side" %}
+        {% set modelSelectorClass = "vertical" %}
         {% include "modules/model-selector.njk" %}
-
-
 
 
     <div class="about">
@@ -23,24 +21,33 @@
         {# NAVIGATION PANEL #}
         {% include "modules/navigation-panel.njk" %}
 
+        {# ABOUT NAVIGATION #}
+        {% include "modules/about/about-navigation.njk" %}
 
-        <div class="half-panel half-panel--left">
 
-            {# PROJECT #}
-            {% include "modules/about/about-project.njk" %}
+        <div class="about-content">
 
             {# CONTACT #}
             {% include "modules/about/about-contact.njk" %}
 
-        </div>
-
-
-        <div class="half-panel half-panel--right">
+            {# THE PROJECT #}
+            {% include "modules/about/about-project.njk" %}
 
             {# CONTRIBUTORS #}
             {% include "modules/about/about-contributors.njk" %}
 
+            {# BIBLIOGRAPHY #}
+            {% include "modules/about/about-bibliography.njk" %}
+
+            {# ACKNOWLEDGEMENTS #}
+            {% include "modules/about/about-acknowledgements.njk" %}
+      
+            {# IMPRINT #}
+            {% include "modules/about/about-imprint.njk" %}
+
         </div>
+
+       
     </div>
 
 {% endblock %}

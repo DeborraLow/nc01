@@ -1,16 +1,22 @@
-{% macro box(creator, type, title, img, index) %}
+{% macro projectOverview(creator, type, title, text, img, index) %}
 
 {% set href =  "./project_" + index + ".html" %}
 
-    <li>
-        <a class="project-overview-item" href="{{ href }}">
-
-            <div class="img-container">
-                <img class="project-img" src="{{ img }}" alt="{{ title }}">
-                <div class="img-overlay"></div>
+    <li class="project-overview-item">
+        <a href="{{ href }}">
+            
+            <div class="saturated-img-container">
+                <div class="project-img-overlay"></div>
+                <img class="project-img-saturation" src="{{ img }}" alt="{{ title }}">
+                <img class="project-img-grayscale" src="{{ img }}" alt="{{ title }}">
             </div>
 
-            <h2 class="project-title">{{ title }}</h2>
+
+            <div class="project-title-and-text">
+                <h2 class="project-title">{{ title }}</h2>
+                <p class="project-text">{{ text }}</p>
+            </div>
+
 
             <div class="project-creator-and-type">
                 <div class="project-creator">{{ creator }}</div>
@@ -19,4 +25,5 @@
 
         </a>
     </li>
+
 {% endmacro %}
