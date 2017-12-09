@@ -1,11 +1,21 @@
 .info-panel {
     position: relative;
-    width: 100%;
+    width: 50vw;
     height: $infoPanelH;
+    background: $background;
     border-bottom: $borderW solid $border-color;
 
     @include bp-s {
        border-left: none;
        border-right: none;
+    }
+}
+
+
+.sticky {
+    .info-panel.stick {
+        top: $navigationPanelH;
+        right: 0;
+        
     }
 }

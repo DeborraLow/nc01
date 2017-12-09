@@ -8,12 +8,13 @@
         border-bottom: $borderW solid $border-color;
     }
 
-    &.side {
+    &.vertical {
+        z-index: 6;
         float: left;
         position: fixed;
         top: 0;
         left: 0;
-        width: $side-model-selectorW;
+        width: $vertical-model-selectorW;
         height: 100vh;
         border: none;
         border-right: $borderW solid $border-color;

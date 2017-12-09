@@ -15,26 +15,38 @@
 
 
 //COMPONENTS
+@import "components/about/_about-nav.scss";
 @import "components/_about-contact.scss";
 @import "components/_about-contributor-item.scss";
 @import "components/_about-contributors.scss";
+@import "components/_about-project.scss";
 @import "components/_about-section.scss";
 @import "components/_about-text.scss";
 @import "components/_about-title.scss";
+@import "components/_arrow.scss";
 @import "components/_circle-with-border.scss";
+@import "components/_filters.scss";
 @import "components/_half-panel.scss";
 @import "components/_landing-view.scss";
 @import "components/_model-selector-item.scss";
+@import "components/_model.scss";
 @import "components/_navigation.scss";
 @import "components/_project-overview-item.scss";
-@import "components/_project-overview-switch-full.scss";
+@import "components/_project-overview-expand-button.scss";
 @import "components/_project.scss";
 @import "components/_scroll-indicator.scss";
+@import "components/_sticky.scss";
+
 
 //MODULES
-@import "modules/_about.scss";
+
 @import "modules/_big-model.scss";
 @import "modules/_info-panel.scss";
 @import "modules/_model-selector.scss";
 @import "modules/_navigation-panel.scss";
 @import "modules/_project-overview.scss";
+
+
+//PAGES
+@import "pages/_about.scss";
+@import "pages/_landing.scss";

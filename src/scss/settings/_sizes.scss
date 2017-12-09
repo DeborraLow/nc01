@@ -18,9 +18,10 @@ $project-overview-padding-bps: 10px;
 $navigationPanelH: 30px;
 $infoPanelH: 80px;
 $bigModelH: 80vh;
+$about-navigation-h: 20vh;
 
 
-$side-model-selectorW: 10%;
+$vertical-model-selectorW: 10vw;
 
 
 //VERTICAL SPACING
@@ -30,6 +31,9 @@ $about-title-margin-bottom-bps: 1vw;
 $about-contribution-item-margin-bottom: 1vw;
 $about-contribution-item-margin-bottom-bps: 1vw;
 
+$project-item-margin-bottom: 2vw;
+$project-item-margin-bottom-bps: 2vw;
+
 
 //HORIZONTAL SPACING
 $about-contribution-item-margin-left: 5%;
@@ -37,6 +41,14 @@ $about-contribution-item-margin-left-bps: 5%;
 
 $about-contribution-item-margin-right: 15%;
 $about-contribution-item-margin-right-bps: 15%;
+
+
+
+//PROJECT PAGE SIZES
+$project-content-w: 50vw;
+$project-title-w: $project-content-w;
+$project-text-w: 75%;
+$project-creator-w: 25%;
 
 
 

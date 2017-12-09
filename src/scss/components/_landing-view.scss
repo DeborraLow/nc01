@@ -1,11 +1,20 @@
 .landing-view {
-    width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
     height: 100vh;
-    background: grey;
+  	width: 100vw;
+  	background:  url('http://nc01.surge.sh/assets/img/pattern/pattern_1.png');
+  	background-color: white;
     font-size: $landing-font-size;
     color: $landing-title-color;
 
     @include bp-s {
        font-size: $landing-font-size-bps;
     }
+}
+
+
+.landing-content {
+	padding-top: 100vh;
 }

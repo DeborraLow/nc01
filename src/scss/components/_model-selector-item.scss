@@ -20,7 +20,14 @@
 }
 
 
-.side {
+.vertical {
+
+    &.model-delector.move-in {
+        transfrom: translateX(0);
+        transition: 1s;
+    }
+
+
     .model-selector-item {
         width: 100%;
         height: 20%;

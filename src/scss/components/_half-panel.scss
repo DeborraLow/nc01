@@ -1,7 +1,7 @@
 .half-panel {
     position: relative;
     float: left;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
 
 
@@ -9,13 +9,27 @@
         width: 100%;
         height: auto;
     }
+
+    &.tr-expand {
+        width: calc(100vw - #{$vertical-model-selectorW});
+
+        .navigation-panel, .info-panel {
+            width: calc(100vw - #{$vertical-model-selectorW});
+        }
+    }
 }
 
 
 .half-panel--right {
-    border-left: $borderW solid $border-color;
+    z-index: 2;
+    float: right;
 
     @include bp-s {
        border: none;
     }
+}
+
+
+.half-panel--left {
+    border-right: $borderW solid $border-color;
 }

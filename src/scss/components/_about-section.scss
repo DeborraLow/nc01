@@ -1,8 +1,8 @@
 .about-section {
     padding: $project-overview-padding;
-    border-bottom: $borderW solid $border-color;
 
     @include bp-s {
         padding: $project-overview-padding-bps;
+        border-bottom: $borderW solid $border-color;
     }
 }
