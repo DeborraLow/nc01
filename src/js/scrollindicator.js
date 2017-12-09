@@ -6,15 +6,24 @@
     var content = document.querySelector('.js-content-height');
     var contentH = content.getBoundingClientRect().height;
 
-    console.log('contentH ' + contentH);
-    console.log('window.scrollY ' + window.scrollY);
-    console.log('window.innerHeight ' + window.innerHeight);
+    scrollPosToHeightRatio = (window.scrollY + window.innerHeight) / contentH;
+    indicator.style.transform = 'scaleX(' + scrollPosToHeightRatio + ')';
+
 
 
     window.addEventListener('scroll', function(e) {
 
-      scrollPosToHeightRatio = (window.scrollY + window.innerHeight) / contentH;
-      indicator.style.transform = 'scaleX(' + scrollPosToHeightRatio + ')';
+        if(indicator.getBoundingClientRect().top <= 0) {
+            scrollPosToHeightRatio = (window.scrollY + window.innerHeight) / (contentH + indicator.getBoundingClientRect().top);
+            indicator.style.transform = 'scaleX(' + scrollPosToHeightRatio + ')';
+        }
+
     });
 
 }());
+
+
+/*
+TODO: find a general solution that also fits landing page, so one 
+that accounts for the scroll indicator not being on the top of the document
+*/
