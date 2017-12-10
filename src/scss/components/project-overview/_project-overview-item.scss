@@ -1,0 +1,24 @@
+.project-overview-item {
+    float: right;
+    width: 100%;
+    border-bottom: $borderW solid $border-color;
+    color: $project-overview-text-color;
+
+    &:last-child {
+        border: none;
+    }
+
+    &:hover {
+        color: $project-overview-text-hover-color;
+    }
+
+    @include bp-s {
+        color: $project-overview-text-hover-color;
+    }
+
+    a {
+        float: left;
+        width: 100%;
+    }
+
+}

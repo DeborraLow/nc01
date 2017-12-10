@@ -1,0 +1,15 @@
+.project-title-and-text {
+    width: 40%;
+    float: right;
+    padding: $project-overview-padding;
+
+    @include bp-s {
+        width: 65%;
+        padding: $project-overview-padding-bps;
+    }
+}
+
+
+.project-title {
+    text-transform: uppercase;
+}

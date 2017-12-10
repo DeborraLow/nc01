@@ -1,0 +1,20 @@
+.project-creator-and-type {
+    width: 20%;
+    float: right;
+    padding: $project-overview-padding;
+
+    @include bp-s {
+        width: 35%;
+        padding: $project-overview-padding-bps;
+    }
+}
+
+.project-creator {
+    text-transform: uppercase;
+}
+
+.project-type {
+    @include bp-s {
+        display: none;
+    }
+}
