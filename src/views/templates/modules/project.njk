@@ -1,12 +1,16 @@
-{% from "components/project/project-title.njk" import title as title %}
+{% from "components/project/project-audio.njk" import audio as audio %}
 {% from "components/project/project-creator.njk" import creator as creator %}
-{% from "components/project/project-type.njk" import type as type %}
-{% from "components/project/project-text.njk" import text as text %}
-{% from "components/project/project-img.njk" import img as img %}
 {% from "components/project/project-gallery.njk" import gallery as gallery %}
-{% from "components/project/project-next.njk" import nextProject as nextProject %}
-{% from "components/project/project-video.njk" import video as video %}
+{% from "components/project/project-img.njk" import img as img %}
 {% from "components/project/project-interview.njk" import interview as interview %}
+{% from "components/project/project-text.njk" import text as text %}
+{% from "components/project/project-title.njk" import title as title %}
+{% from "components/project/project-type.njk" import type as type %}
+{% from "components/project/project-video.njk" import video as video %}
+
+{% from "components/project/project-next.njk" import nextProject as nextProject %}
+
+
 
 {% set work = projects[projectIndex] %}
 
@@ -64,6 +68,11 @@
 
                     {# VIDEO #}
                     {{ video(item.video) }}
+
+                {% elif item.type == 'audio' %}
+
+                    {# AUDIO #}
+                    {{ audio(item.audio) }}
 
                 {% elif item.type == 'interview' %}
 

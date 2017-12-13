@@ -1,5 +1,16 @@
 {% macro video(video) %}
-    <div class="project-video">
-        {{ video }}
-    </div>
+
+	<div class="project-media-wrapper js-media-wrapper">
+
+		<video class="js-video" >
+			<source src="{{ video }}" type="video/mp4">
+		</video>
+
+
+		{# MEDIA CONTROLS #}
+		{% include "components/project/project-media-control.njk" %}
+		
+	</div>
+
 {% endmacro %}
+		

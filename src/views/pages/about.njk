@@ -5,7 +5,7 @@
  #}
 
 
-
+{% set bodyClass = 'about' %}
 {% extends "layout.njk" %}
 
 {% block content %}
@@ -16,7 +16,7 @@
         {% include "modules/model-selector.njk" %}
 
 
-    <div class="about">
+    <div class="about js-content-height">
 
         {# NAVIGATION PANEL #}
         {% include "modules/navigation-panel.njk" %}
@@ -31,7 +31,7 @@
             {% include "modules/about/about-contact.njk" %}
 
             {# THE PROJECT #}
-            {% include "modules/about/about-project.njk" %}
+            {% include "modules/about/about-theproject.njk" %}
 
             {# CONTRIBUTORS #}
             {% include "modules/about/about-contributors.njk" %}

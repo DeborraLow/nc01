@@ -1,0 +1,11 @@
+{% from "components/about/about-text.njk" import text as text %}
+
+<section class="about-theproject about-section hidden"
+		 data-section="theproject"
+>
+
+    {% for item in about_theproject %}
+    	<p class="about-text">{{ item.p }}</p>
+    {% endfor %}
+
+</section>

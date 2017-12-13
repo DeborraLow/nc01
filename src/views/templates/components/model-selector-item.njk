@@ -1,7 +1,25 @@
-{% macro model_selector(img, selector) %}
+{% macro model_selector_item(img, selector, isWithLink, loopIndex) %}
 
     {% set backgroundImg = 'background-image: url(' + img + ');'  %}
+    {% set activeClass = ''  %}
 
-    <li class="model-selector-item js-filter-selector" style = "{{ backgroundImg }}"></li>
+    {% if  loopIndex == 0 %}
+    	{% set activeClass = 'active'  %}
+    {% endif %}
+
+
+    	{% if isWithLink %}
+
+    		<li class="model-selector-item js-filter-selector {{ activeClass }}" style = "{{ backgroundImg }}">
+    			<a href="./index.html"></a>
+    		</li>
+
+    	{% else %}
+
+    		<li class="model-selector-item js-filter-selector {{ activeClass }}" style = "{{ backgroundImg }}"></li>
+
+    	{% endif %}
+
+    
 
 {% endmacro %}
