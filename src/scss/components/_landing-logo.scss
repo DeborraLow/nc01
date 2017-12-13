@@ -1,0 +1,15 @@
+.landing-logo-wrapper {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	padding: $project-overview-padding + 2px $project-overview-padding $project-overview-padding - 2px $project-overview-padding;
+	height: calc(4vh + 2 * #{$project-overview-padding});
+	background: $black;
+}
+
+
+.landing-logo {
+	position: absolute;
+	height: 4vh;
+}

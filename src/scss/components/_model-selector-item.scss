@@ -14,7 +14,7 @@
         border: none;
     }
 
-    &:hover, .active { filter: grayscale(0%); }
+    &:hover, &.active { filter: grayscale(0%); }
 
     &:hover { cursor: pointer; }
 }

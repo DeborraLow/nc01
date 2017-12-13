@@ -9,13 +9,8 @@
         font-size: $about-text-font-size-bps;
     }
 
-    .half-panel--left {
-    	position: fixed;
-    	width: calc(50vw - #{$vertical-model-selectorW});
+    p {
+    	margin-bottom: $about-title-margin-bottom;
     }
 
-
-    .half-panel {
-    	padding-top: $navigationPanelH;
-    }
 }

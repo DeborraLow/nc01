@@ -21,6 +21,13 @@
 }
 
 
+.filter-0 {
+    .model-3d {
+		background-image:  url('../img/models/model-0-sprite.png');
+	}
+}
+
+
 .filter-1 {
     .model-3d {
 		background-image:  url('../img/models/model-1-sprite.png');
@@ -48,12 +55,6 @@
 	}
 }
 
-
-.filter-5 {
-    .model-3d {
-		background-image:  url('../img/models/model-5-sprite.png');
-	}
-}
 
 
 //TODO: crop images so that they only contain the model

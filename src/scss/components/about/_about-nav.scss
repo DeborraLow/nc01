@@ -1,22 +1,42 @@
-.about-nav {
+.about-nav-outer-wrapper {
 	display: block;
 	position: fixed;
 	top: $navigationPanelH;
 	width: calc(100% - #{$vertical-model-selectorW});
 	height: $about-navigation-h;
+	padding: $project-overview-padding;
 	border-bottom: $borderW solid $border-color;
+	background: $background;
+	font-size: $about-navigation-font-size;
+
+	@include bp-s {
+        font-size: $about-navigation-font-size-bps;
+    }
+}
+
+
+.about-nav-inner-wrapper {
+	float: left;
+	width: $about-navigation-font-size * 40;
 }
 
 
 .about-nav-item{
 	
 	float: left;
-	width: 20vw;
+	width: $about-navigation-font-size * 15;
+	cursor: pointer;
 
 	&:before {
 		content: '';
-		border: 20px solid $white;
+		display: inline-block;
+		width: $about-navigation-font-size / 1.5;
+		height: $about-navigation-font-size / 1.5;
+		border: 1px solid $white;
 		border-radius: 60%;
+		cursor: pointer;
 	}
+
+	&:hover:before, &.active:before { background-color: $white; }
 }
 

@@ -10,6 +10,7 @@ $projectHeaderH: 200px;
 
 
     .project-header {
+        z-index: 1;
         position: fixed;
         top: $navigationPanelH;
         float: left;
@@ -48,7 +49,8 @@ $projectHeaderH: 200px;
 
 
     .project-content {
-        padding-top: $navigationPanelH + $projectHeaderH;
+        padding-top: $navigationPanelH;
+        margin-top:  $projectHeaderH;
         width: $project-content-w;
         margin-left: calc((100vw - #{$vertical-model-selectorW} - #{$project-content-w}) / 2);
 
@@ -150,5 +152,14 @@ $projectHeaderH: 200px;
         transform: rotate(-90deg) translate(50%, -50%);
         transform-origin: right center;
         text-transform: uppercase;
+    }
+
+
+    .project-audio-cover {
+        width: 100%;
+        padding-bottom: 56.25%;
+        background-image: url('../img/pattern/pattern_3.png');
+        background-color:gray;
+
     }
 }

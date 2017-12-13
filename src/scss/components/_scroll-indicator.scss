@@ -3,4 +3,8 @@
     height: 100%;
     transform: scaleX(0.5);
     transform-origin: left;
+
+    &.transition {
+    	transition: transform 0.3s;
+    }
 }

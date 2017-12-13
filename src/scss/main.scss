@@ -19,16 +19,18 @@
 @import "components/about/_about-contact.scss";
 @import "components/about/_about-contributor-item.scss";
 @import "components/about/_about-contributors.scss";
-@import "components/about/_about-project.scss";
 @import "components/about/_about-section.scss";
 @import "components/about/_about-text.scss";
+@import "components/about/_about-theproject.scss";
 @import "components/about/_about-title.scss";
 
 @import "components/_arrow.scss";
 @import "components/_circle-with-border.scss";
+@import "components/_custom-input-range.scss";
 @import "components/_filters.scss";
 @import "components/_half-panel.scss";
 @import "components/_landing-view.scss";
+@import "components/_landing-logo.scss";
 @import "components/_model-3d.scss";
 @import "components/_model-selector-item.scss";
 @import "components/_navigation.scss";
@@ -40,6 +42,7 @@
 @import "components/project-overview/_title-and-text.scss";
 
 @import "components/project/_project.scss";
+@import "components/project/_custom-media-controls.scss";
 
 @import "components/_scroll-indicator.scss";
 @import "components/_sticky.scss";

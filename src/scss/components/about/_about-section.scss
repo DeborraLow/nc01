@@ -1,4 +1,6 @@
 .about-section {
+	width: $about-section-w;
+	margin: 0 auto;
     padding: $project-overview-padding;
 
     @include bp-s {

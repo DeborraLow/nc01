@@ -2,6 +2,46 @@
   #SIZES
 \*------------------------------------*/
 
+
+//FONT SIZE
+//landscape
+$landing-font-size: 8vw;
+
+$project-text-font-size: 2vw;
+$project-title-font-size: 4vw;
+$project-creator-font-size: 2vw;
+$project-type-font-size: 1vw;
+
+$about-title-font-size: 2vw;
+$about-contributor-font-size: 1.5vw;
+$about-text-font-size: 1.5vw;
+$about-navigation-font-size: 1.5vw;
+
+$navigation-font-size: 2vw;
+
+
+//bp-s
+$landing-font-size-bps: 10vw;
+
+$project-text-font-size-bps: 7vw;
+$project-title-font-size-bps: 2vw;
+$project-creator-font-size-bps: 5vw;
+$project-type-font-size-bps: 5vw;
+
+$about-title-font-size-bps: 5vw;
+$about-contributor-font-size-bps: 3vw;
+$about-text-font-size-bps: 3vw;
+$about-navigation-font-size-bps: 1vw;
+
+$navigation-font-size-bps: 1vw;
+
+
+
+//LINE HEIGHTS
+$project-text-line-height: 1.5;
+$about-text-line-height: 1.5;
+
+
 $closeBbutton: 50px;
 
 
@@ -15,10 +55,10 @@ $project-overview-padding-bps: 10px;
 
 
 //SECTION HEIGHTS
-$navigationPanelH: 30px;
+$navigationPanelH: calc(#{$navigation-font-size} + #{$project-overview-padding} * 2);
 $infoPanelH: 80px;
 $bigModelH: 80vh;
-$about-navigation-h: 20vh;
+$about-navigation-h: calc(#{$about-navigation-font-size} * 3 + #{$project-overview-padding} * 2);
 
 
 $vertical-model-selectorW: 10vw;
@@ -42,6 +82,8 @@ $about-contribution-item-margin-left-bps: 5%;
 $about-contribution-item-margin-right: 15%;
 $about-contribution-item-margin-right-bps: 15%;
 
+$about-section-w: 50vw;
+
 
 
 //PROJECT PAGE SIZES
@@ -52,34 +94,4 @@ $project-creator-w: 25%;
 
 
 
-//FONT SIZE
-//landscape
-$landing-font-size: 8vw;
 
-$project-text-font-size: 2vw;
-$project-title-font-size: 4vw;
-$project-creator-font-size: 2vw;
-$project-type-font-size: 1vw;
-
-$about-title-font-size: 3vw;
-$about-contributor-font-size: 1.5vw;
-$about-text-font-size: 2vw;
-
-
-//bp-s
-$landing-font-size-bps: 10vw;
-
-$project-text-font-size-bps: 7vw;
-$project-title-font-size-bps: 2vw;
-$project-creator-font-size-bps: 5vw;
-$project-type-font-size-bps: 5vw;
-
-$about-title-font-size-bps: 5vw;
-$about-contributor-font-size-bps: 3vw;
-$about-text-font-size-bps: 3vw;
-
-
-
-//LINE HEIGHTS
-$project-text-line-height: 1.5;
-$about-text-line-height: 1.5;

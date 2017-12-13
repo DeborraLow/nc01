@@ -1,0 +1,99 @@
+/* ------------- */
+/* THUMB */
+/* ------------- */
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 5px solid $white;
+  width: 10px;
+  height: 10px;
+  border-radius: 60%;
+  cursor: pointer;
+  margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: 5px solid $white;
+  border-radius: 60%;
+  cursor: pointer;
+}
+
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  width: 10px;
+  height: 10px;
+  border: 5px solid $white;
+  border-radius: 60%;
+  cursor: pointer;
+}
+
+
+
+
+
+/* ------------- */
+/* TRACK */
+/* ------------- */
+input[type=range]::-webkit-slider-runnable-track {
+  width: calc(100% - 4px);
+  height: 11px;
+  cursor: pointer;
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]::-moz-range-track {
+  width: calc(100% - 4px);
+  height: 11px;
+  cursor: pointer;
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]::-ms-track {
+  width: calc(100% - 4px);
+  height: 11px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  margin: 0;
+}
+
+
+input[type=range]::-ms-fill-lower {
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]:focus::-ms-fill-lower {
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]::-ms-fill-upper {
+  background: transparent;
+  margin: 0;
+}
+
+
+input[type=range]:focus::-ms-fill-upper {
+  background: transparent;
+  margin: 0;
+}
