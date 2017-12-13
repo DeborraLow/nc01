@@ -65,10 +65,9 @@ gulp.task('moveToMamp', function() {
 });
 
 
-gulp.task('default', ['css', 'js', 'nunjucks', 'nunjucks_projects', 'img'], function () {
+gulp.task('default', ['css', 'js', 'nunjucks', 'nunjucks_projects'], function () {
     gulp.watch("src/scss/**/*.scss", ['css']);
     gulp.watch("src/js/*.js", ['js']);
-    gulp.watch("src/img/*", ['img']);
     gulp.watch("src/views/**/*.njk", ['nunjucks']);
     gulp.watch("src/views/**/*.njk", ['nunjucks_projects']);
     gulp.watch("src/views/data/data.json", ['nunjucks']);
@@ -76,8 +75,8 @@ gulp.task('default', ['css', 'js', 'nunjucks', 'nunjucks_projects', 'img'], func
 
 
  gulp.task('sprite', function () {
-  var spriteData = gulp.src('src/img/sprite/model_2/*.png').pipe(spritesmith({
-    imgName: 'model_2_vertical.png',
+  var spriteData = gulp.src('src/img/sprite/model_test/*.png').pipe(spritesmith({
+    imgName: 'model_test.png',
     cssName: 'sprite.css',
     algorithmOpts: { sort: false },
     algorithm: 'top-down',
