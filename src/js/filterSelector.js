@@ -1,29 +1,31 @@
-(function(){
+// (function(){
 
 
-	var filterSelectorList = document.querySelectorAll('.js-filter-selector');
-	var filterSelectorListLength = filterSelectorList.length;
-	var body = document.querySelector('body');
+// 	var filterSelectorList = document.querySelectorAll('.js-filter-selector');
+// 	var filterSelectorListLength = filterSelectorList.length;
+// 	var body = document.querySelector('body');
+// 	var currentlyActiveIndex = 0;
 
 
-	for(var i = 0; i < filterSelectorListLength; i++){
+// 	for(var i = 0; i < filterSelectorListLength; i++){
 
-		(function(j) {
+// 		(function(j) {
 
-			filterSelectorList[i].addEventListener(
-				'click',
-				function() {
+// 			filterSelectorList[i].addEventListener(
+// 				'click',
+// 				function(e) {
 
-					body.classList.remove('filter-1');
-					body.classList.remove('filter-2');
-					body.classList.remove('filter-3');
-					body.classList.remove('filter-4');
-					body.classList.remove('filter-5');
-					body.classList.add('filter-' + j);
-				}
-			);
+// 					filterSelectorList[currentlyActiveIndex].classList.remove('active');
+// 					body.classList.remove('filter-' + currentlyActiveIndex);
 
-		}(i+1));
+// 					currentlyActiveIndex = j;
+
+// 					filterSelectorList[j].classList.add('active');
+// 					body.classList.add('filter-' + j);
+// 				}
+// 			);
+
+// 		}(i));
 		
-	}
-}())
+// 	}
+// }())

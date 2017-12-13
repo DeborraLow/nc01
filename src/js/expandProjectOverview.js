@@ -1,6 +1,4 @@
-(function(){
-
-	console.log('expand project overview');
+function expandProjectOverview(){
 
 	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
 	var modelSelectors = document.querySelector('.js-model-selector');
@@ -11,7 +9,6 @@
 		'click',
 		function() {
 
-			console.log('clicked');
 
 			modelSelectors.classList.add('tr-move-down');
 
@@ -25,4 +22,4 @@
 		}
 	);
 
-}())
+}

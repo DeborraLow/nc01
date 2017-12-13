@@ -1,4 +1,4 @@
-(function(){
+function sticky() {
 
 	var indicator = document.querySelector('.js-fix-indicator');
 	var toBeFixedList = document.querySelectorAll('.js-fix');
@@ -25,5 +25,4 @@
 	}
 
 	
-}())
-
+}

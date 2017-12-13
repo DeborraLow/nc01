@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+  console.log('dom content loaded');
+  console.log('barba wrapper ' + document.querySelector('#barba-wrapper'));
     
   var lastElementClicked;
   var nextProject = document.querySelector('.js-project-next');

@@ -1,33 +1,31 @@
-(function(){
+function modelInteraction() {
 
 	var modelInteractionArea = document.querySelector('.js-model-interaction-area');
-	var model = document.querySelector('.js-3d-model');
-	var modelInteractionAreaWidth = modelInteractionArea.getBoundingClientRect().width;
-	var nrOfSegments = 90; //minus one
 
-	modelInteractionArea.addEventListener('mousemove', function(e) {
-		modelRotateANimation(e.clientX);
-	})
+	if(modelInteractionArea) {
 
-	function modelRotateANimation(mousePosX) {
+		var model = document.querySelector('.js-3d-model');
+		var modelInteractionAreaWidth = modelInteractionArea.getBoundingClientRect().width;
+		var nrOfSegments = 90; //minus one
 
-		var ratio = Math.round(mousePosX / modelInteractionAreaWidth * nrOfSegments) / nrOfSegments * 100;
+		modelInteractionArea.addEventListener('mousemove', function(e) {
+			modelRotateANimation(e.clientX);
+		})
 
-		console.log('rounding ' + Math.round(mousePosX / modelInteractionAreaWidth * nrOfSegments));
+		function modelRotateANimation(mousePosX) {
 
-		console.log('ratio ' + ratio);
+			var ratio = Math.round(mousePosX / modelInteractionAreaWidth * nrOfSegments) / nrOfSegments * 100;
 
-		return (
-			TweenMax.to('.js-3d-model', 0.01, 
-			{
-			    backgroundPosition: '0 ' + ratio + '%', 
-			    ease: SteppedEase.config(1)
-			})
-		)
+			return (
+				TweenMax.to('.js-3d-model', 0.01, 
+				{
+				    backgroundPosition: '0 ' + ratio + '%', 
+				    ease: SteppedEase.config(1)
+				})
+			)
+
+		}
 
 	}
 
-
-}())
-
-
+}

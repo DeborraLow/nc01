@@ -9,12 +9,16 @@
 	var humidityJakarta = document.querySelector('.js-humidity-jakarta');
 	var humidityBrussels = document.querySelector('.js-humidity-brussels');
 
-	timeJakarta.innerHTML = '19:45';
-	timeBrussels.innerHTML = '12:45';
+	if(timeJakarta) {
+		timeJakarta.innerHTML = '19:45';
+		timeBrussels.innerHTML = '12:45';
 
-	temperatureJakarta.innerHTML = '11';
-	temperatureBrussels.innerHTML = '20';
+		temperatureJakarta.innerHTML = '11';
+		temperatureBrussels.innerHTML = '20';
 
-	humidityJakarta.innerHTML = '40%';
-	humidityBrussels.innerHTML = '55%';
+		humidityJakarta.innerHTML = '40%';
+		humidityBrussels.innerHTML = '55%';
+	}
+
+	
 }())
