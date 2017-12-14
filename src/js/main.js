@@ -17,6 +17,8 @@ Call all functions from here depending on what page we are on
 		var GLOBAL_CONTENT_H;
 		var GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO;
 		var GLOBAL_INDICATOR;
+		var GLOBAL_NAVIGATION_PANEL = document.querySelector('.js-navigation-panel');
+		var GLOBAL_OBJECT_SELECTOR = document.querySelector('.js-object-selector');
 
 		
 		// LANDING PAGE
@@ -26,9 +28,14 @@ Call all functions from here depending on what page we are on
 			expandProjectOverview();
 			//introAnimation();
 			//infoPanel();
-			modelInteraction();
+			objectInteraction();
 			sticky();
 			filterSelector('landing');
+
+			//handle barba fix elements
+			GLOBAL_NAVIGATION_PANEL.classList.add('navigation-panel-home');
+			GLOBAL_OBJECT_SELECTOR.classList.add('object-selector-home');
+
 
 		}
 
@@ -39,6 +46,10 @@ Call all functions from here depending on what page we are on
 			aboutNavigation();
 			filterSelector('about');
 
+			//handle barba fix elements
+			GLOBAL_NAVIGATION_PANEL.classList.remove('navigation-panel-home');
+			GLOBAL_OBJECT_SELECTOR.classList.remove('object-selector-home');
+
 		}
 
 		//PROJECT PAGE
@@ -47,6 +58,10 @@ Call all functions from here depending on what page we are on
 			scrollIndicator();
 			mediaControl();
 			filterSelector('project');
+
+			//handle barba fix elements
+			GLOBAL_NAVIGATION_PANEL.classList.remove('navigation-panel-home');
+			GLOBAL_OBJECT_SELECTOR.classList.remove('object-selector-home');
 
 		}
 

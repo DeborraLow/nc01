@@ -6,6 +6,8 @@
 
 
 {% set bodyClass = 'landing' %}
+{% set dataNamespace = 'homepage' %}
+
 {% extends "layout.njk" %}
 
 {% block content %}
@@ -19,20 +21,13 @@
 
         <div class="half-panel half-panel--left js-fix-indicator stick">
 
-            {# BIG MODEL #}
-            {% include "modules/model-3d.njk" %}
-
-            {# MODEL SELECTOR #}
-            {% include "modules/model-selector.njk" %}
+            {# OBJECT 3D #}
+            {% include "modules/object-3d.njk" %}
 
         </div>
 
 
         <div class="half-panel half-panel--right js-landing-expandable">
-
-            {# NAVIGATION PANEL #}
-            {% set extraClass = 'stick' %}
-            {% include "modules/navigation-panel.njk" %}
 
             {# INFO PANEL #}
             {% set extraClass = 'stick' %}

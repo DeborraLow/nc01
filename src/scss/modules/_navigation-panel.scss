@@ -1,7 +1,9 @@
 .navigation-panel {
     z-index: 1;
-    position: relative;
-    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - #{$vertical-object-selectorW});
     height: $navigationPanelH;
     background: $background;
     border-bottom: $borderW solid $border-color;
@@ -13,21 +15,14 @@
        border-right: none;
        font-size: calc(#{$navigationPanelH} - 2 * #{$project-overview-padding-bps});
     }
-
-    &.stick { 
-        right: 0;
-        width: 50vw; 
-    }
-
 }
 
 
-.project-page, .about {
-    .navigation-panel {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: calc(100% - #{$vertical-model-selectorW});
-        background: $background;
-    }
+.navigation-panel-home {
+    z-index: 3;
+    position: absolute;
+    top: 100vh;
+    right: 0;  
+    width: 50vw; 
 }
+

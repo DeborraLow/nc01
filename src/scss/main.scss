@@ -31,8 +31,8 @@
 @import "components/_half-panel.scss";
 @import "components/_landing-view.scss";
 @import "components/_landing-logo.scss";
-@import "components/_model-3d.scss";
-@import "components/_model-selector-item.scss";
+@import "components/_object-3d.scss";
+@import "components/_object-selector-item.scss";
 @import "components/_navigation.scss";
 
 @import "components/project-overview/_creator-and-type.scss";
@@ -50,7 +50,7 @@
 
 //MODULES
 @import "modules/_info-panel.scss";
-@import "modules/_model-selector.scss";
+@import "modules/_object-selector.scss";
 @import "modules/_navigation-panel.scss";
 @import "modules/_project-overview.scss";
 
@@ -58,4 +58,3 @@
 //PAGES
 @import "pages/_about.scss";
 @import "pages/_landing.scss";
-

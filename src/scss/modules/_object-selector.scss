@@ -1,0 +1,38 @@
+.object-selector {
+    z-index: 6;
+    display: block;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $vertical-object-selectorW;
+    height: 100vh;
+    border-right: $borderW solid $border-color;
+    
+    @include bp-s {
+        display: none;
+    }
+}
+
+
+.object-selector-home {
+    z-index: 1;
+    position: absolute;
+    top: calc(200vh - 100vh + #{$object3D-h});
+    width: 50vw;
+    height: calc(100vh - #{$object3D-h});
+    border: none;
+    border-top: $borderW solid $border-color;
+
+    @include bp-s {
+        border-bottom: $borderW solid $border-color;
+    }
+}
+
+
+.sticky {
+    .object-selector.stick {
+        top: auto; 
+        bottom: 0;
+    }
+}

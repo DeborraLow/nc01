@@ -41,7 +41,19 @@
     <body class="filter-0 {{ bodyClass }}-page">
 
         <main id="barba-wrapper">
-        {% block content %}{% endblock %}
+
+            {# OBJECT SELECTOR #}
+            {% set objectSelectorClass = 'object-selector-home' %}
+            {% include "modules/object-selector.njk" %}
+
+            {# NAVIGATION PANEL #}
+            {% set extraClass = 'stick navigation-panel-home' %}
+            {% include "modules/navigation-panel.njk" %}
+
+            <div class="barba-container" data-namespace="{{ dataNamespace }}">
+                {% block content %}{% endblock %}
+            </div>
+
         </main>
 
 

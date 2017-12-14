@@ -11,10 +11,10 @@
     }
 
     &.tr-expand {
-        width: calc(100vw - #{$vertical-model-selectorW});
+        width: calc(100vw - #{$vertical-object-selectorW});
 
         .navigation-panel, .info-panel {
-            width: calc(100vw - #{$vertical-model-selectorW});
+            width: calc(100vw - #{$vertical-object-selectorW});
         }
     }
 }
@@ -31,5 +31,6 @@
 
 
 .half-panel--left {
+    height: $object3D-h;
     border-right: $borderW solid $border-color;
 }

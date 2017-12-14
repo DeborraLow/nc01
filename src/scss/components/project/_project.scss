@@ -1,7 +1,7 @@
 $projectHeaderH: 200px;
 
 .project {
-    width: calc(100% - #{$vertical-model-selectorW});
+    width: calc(100% - #{$vertical-object-selectorW});
     float: right;
 
     @include bp-s {
@@ -14,7 +14,7 @@ $projectHeaderH: 200px;
         position: fixed;
         top: $navigationPanelH;
         float: left;
-        width: calc(100vw - #{$vertical-model-selectorW});
+        width: calc(100vw - #{$vertical-object-selectorW});
         border-bottom: $borderW solid $border-color;
         background: $background;
     }
@@ -23,7 +23,7 @@ $projectHeaderH: 200px;
     .project-title {
         width: $project-title-w;
         float: right;
-        margin-right: calc((100vw - #{$vertical-model-selectorW} - #{$project-title-w}) / 2);
+        margin-right: calc((100vw - #{$vertical-object-selectorW} - #{$project-title-w}) / 2);
         font-size: $project-title-font-size;
         text-transform: uppercase;
 
@@ -36,7 +36,7 @@ $projectHeaderH: 200px;
 
 
     .project-type {
-        width: calc((100vw - #{$vertical-model-selectorW} - #{$project-title-w}) / 2);
+        width: calc((100vw - #{$vertical-object-selectorW} - #{$project-title-w}) / 2);
         float: right;
         font-size: $project-type-font-size;
         text-transform: capitalize;
@@ -52,7 +52,7 @@ $projectHeaderH: 200px;
         padding-top: $navigationPanelH;
         margin-top:  $projectHeaderH;
         width: $project-content-w;
-        margin-left: calc((100vw - #{$vertical-model-selectorW} - #{$project-content-w}) / 2);
+        margin-left: calc((100vw - #{$vertical-object-selectorW} - #{$project-content-w}) / 2);
 
         @include bp-s {
             width: 85%;

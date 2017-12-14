@@ -24,14 +24,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
-    opacity: 0.7;
+    filter: grayscale(40%);
+    opacity: 0.5;
 }
 
 .project-img-saturation {
     display: block;
     width: 100%;
     mix-blend-mode: saturation;
+    filter: contrast(300%);
 }
 
 
@@ -51,7 +52,7 @@
 
 .filter-0 {
     .project-overview-item:hover .saturated-img-container:after {
-        background-image: url('../img/pattern/pattern_0.png');
+        background-image: url('../img/pattern/pattern_0_color.png');
     }
 
     .saturated-img-container:before { background-color: $filter-color0; }
@@ -60,7 +61,7 @@
 
 .filter-1 {
     .project-overview-item:hover .saturated-img-container:after {
-        background-image: url('../img/pattern/pattern_1.png');
+        background-image: url('../img/pattern/pattern_1_color.png');
     }
 
     .saturated-img-container:before { background-color: $filter-color1; }
@@ -69,7 +70,7 @@
 
 .filter-2 {
     .project-overview-item:hover .saturated-img-container:after {
-        background-image: url('../img/pattern/pattern_2.png');
+        background-image: url('../img/pattern/pattern_2_color.png');
     }
 
     .saturated-img-container:before { background-color: $filter-color2; }
@@ -78,7 +79,7 @@
 
 .filter-3 {
     .project-overview-item:hover .saturated-img-container:after {
-        background-image: url('../img/pattern/pattern_3.png');
+        background-image: url('../img/pattern/pattern_3_color.png');
     }
 
     .saturated-img-container:before { background-color: $filter-color3; }
@@ -87,7 +88,7 @@
 
 .filter-4 {
     .project-overview-item:hover .saturated-img-container:after {
-        background-image: url('../img/pattern/pattern_4.png');
+        background-image: url('../img/pattern/pattern_4_color.png');
     }
 
     .saturated-img-container:before { background-color: $filter-color4; }

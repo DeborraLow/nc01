@@ -6,20 +6,13 @@
 
 
 {% set bodyClass = 'about' %}
+{% set dataNamespace = 'about' %}
+
 {% extends "layout.njk" %}
 
 {% block content %}
 
-
-        {# MODEL SELECTOR #}
-        {% set modelSelectorClass = "vertical" %}
-        {% include "modules/model-selector.njk" %}
-
-
     <div class="about js-content-height">
-
-        {# NAVIGATION PANEL #}
-        {% include "modules/navigation-panel.njk" %}
 
         {# ABOUT NAVIGATION #}
         {% include "modules/about/about-navigation.njk" %}
@@ -46,7 +39,6 @@
             {% include "modules/about/about-imprint.njk" %}
 
         </div>
-
        
     </div>
 

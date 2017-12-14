@@ -1,8 +1,0 @@
-{% from "components/model-selector-item.njk" import model_selector_item as model_selector_item %}
-{% set isWithLink = modelSelectorClass|default(true, false)  %}
-
-<ul class="model-selector js-model-selector {{ modelSelectorClass }}">
-    {% for model in model_imgs %}
-        {{ model_selector_item(model.img, model.selector, isWithLink, loop.index0) }}
-    {% endfor %}
-</ul>

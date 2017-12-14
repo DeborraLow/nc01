@@ -2,7 +2,7 @@
 	display: block;
 	position: fixed;
 	top: $navigationPanelH;
-	width: calc(100% - #{$vertical-model-selectorW});
+	width: calc(100% - #{$vertical-object-selectorW});
 	height: $about-navigation-h;
 	padding: $project-overview-padding;
 	border-bottom: $borderW solid $border-color;

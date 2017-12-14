@@ -183,26 +183,26 @@
       }
   ],
 
-  "model_imgs" : [
+  "object_imgs" : [
       {
-          "img": "assets/img/models/model-0.jpg",
-          "selector": "model-0"
+          "img": "assets/img/objects/object_0.png",
+          "selector": "object-0"
       },
       {
-          "img": "assets/img/models/model-1.jpg",
-          "selector": "model-1"
+          "img": "assets/img/objects/object_1.png",
+          "selector": "object-1"
       },
       {
-          "img": "assets/img/models/model-2.jpg",
-          "selector": "model-2"
+          "img": "assets/img/objects/object_2.png",
+          "selector": "object-2"
       },
       {
-          "img": "assets/img/models/model-3.jpg",
-          "selector": "model-3"
+          "img": "assets/img/objects/object_3.png",
+          "selector": "object-3"
       },
       {
-          "img": "assets/img/models/model-4.jpg",
-          "selector": "model-4"
+          "img": "assets/img/objects/object_4.png",
+          "selector": "object-4"
       }
   ],
 

@@ -8,8 +8,15 @@ $white:       rgb(255, 255, 255);
 $black:       rgb(0, 0, 0);
 $blue:        rgb(104, 139, 196);
 
+$light-green: rgba(60, 200, 100, 1);
+$light-purple: rgba(171, 168, 238, 1);
+$light-cyan: rgba(50, 190, 240, 1);
+$light-pumpkin: rgba(240, 206, 136, 1);
+$light-red: rgba(232, 140, 123, 1);
 
 $background: $black;
+$landing-background: rgb(205, 205, 205);
+
 $border-color: $white;
 $text-color: $white;
 $landing-title-color: $black;
@@ -17,8 +24,8 @@ $project-overview-text-color: $gray;
 $project-overview-text-hover-color: $white;
 
 
-$filter-color0: rgba(0, 255, 255, 1);
-$filter-color1: rgba(255, 0, 0, 1);
-$filter-color2: rgba(0, 255, 0, 1);
-$filter-color3: rgba(0, 0, 255, 1);
-$filter-color4: rgba(255, 255, 0, 1);
+$filter-color0: $light-green;
+$filter-color1: $light-purple; 
+$filter-color2: $light-cyan; 
+$filter-color3: $light-pumpkin;
+$filter-color4: $light-red;

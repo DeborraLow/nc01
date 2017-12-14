@@ -1,4 +1,6 @@
 .project-overview {
+    position: relative;
+    top: $navigationPanelH;
 	float: left;
     width: 100%;
     //height: calc(100vh - #{$infoPanelH} - #{$navigationPanelH});
@@ -11,6 +13,6 @@
 
 .sticky {
 	.project-overview {
-		padding-top: $navigationPanelH + $infoPanelH;
+		padding-top: $infoPanelH;
 	}
 }

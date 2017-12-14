@@ -1,0 +1,8 @@
+{% from "components/object-selector-item.njk" import object_selector_item as object_selector_item %}
+{% set isWithLink = objectSelectorClass|default(true, false)  %}
+
+<ul class="object-selector js-object-selector stick {{ objectSelectorClass }}">
+    {% for object in object_imgs %}
+        {{ object_selector_item(object.img, object.selector, isWithLink, loop.index0) }}
+    {% endfor %}
+</ul>
