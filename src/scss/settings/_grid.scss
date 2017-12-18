@@ -1,0 +1,27 @@
+$general-side-panel: calc(5px + (100vw - 110px) / 10 + 10px);
+$ganeral-main-panel: calc(5px + (100vw - 110px) / 10 * 9 + 90px);
+
+$landing-left-panel: calc(10px + (100vw - 110px) / 10 * 5 + 50px);
+$landing-right-panel: calc((100vw - 110px) / 10 * 5 + 50px);
+
+
+.debug-grid {
+	pointer-events: none;
+	z-index: 7;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	float: left;
+
+	.col {
+		float: left;
+		width: calc((100vw - 110px) / 10);
+		margin-right: 10px;
+		outline: 1px solid red;
+		height: 100vh;
+	}
+
+	.col1 {
+		margin-left: 10px;
+	}
+}

@@ -5,7 +5,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: $vertical-object-selectorW;
+    //width: $vertical-object-selectorW;
+    width: $general-side-panel;
     height: 100vh;
     border-right: $borderW solid $border-color;
     
@@ -19,7 +20,7 @@
     z-index: 1;
     position: absolute;
     top: calc(200vh - 100vh + #{$object3D-h});
-    width: 50vw;
+    width: $landing-left-panel;
     height: calc(100vh - #{$object3D-h});
     border: none;
     border-top: $borderW solid $border-color;

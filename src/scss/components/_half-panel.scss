@@ -1,12 +1,11 @@
 .half-panel {
     position: relative;
     float: left;
-    width: 50vw;
     height: 100vh;
 
 
     @include bp-s {
-        width: 100%;
+        width: 100vw;
         height: auto;
     }
 }
@@ -23,6 +22,8 @@
 .half-panel--right {
     z-index: 2;
     float: right;
+    width: $landing-right-panel;
+    height: auto;
     border-left: $borderW solid $border-color;
 
     @include bp-s {
@@ -32,6 +33,7 @@
 
 
 .half-panel--left {
+    width: $landing-left-panel;
     height: 100vh;
 
     &.stick {

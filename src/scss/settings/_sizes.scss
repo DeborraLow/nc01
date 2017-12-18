@@ -19,6 +19,7 @@ $about-text-font-size: 1.5vw;
 $about-navigation-font-size: 1.5vw;
 
 $navigation-font-size: 2vw;
+$info-panel-font-size: 2vw;
 
 
 //bp-s
@@ -52,14 +53,14 @@ $borderW: 1px;
 
 
 //PADDING
-$project-overview-padding: 5px;
+$project-overview-padding: 10px;
 $project-overview-padding-bps: 10px;
 
 
 //SECTION HEIGHTS
 $navigationPanelH: calc(#{$navigation-font-size} + #{$project-overview-padding} * 2);
 $navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$project-overview-padding-bps} * 2);
-$infoPanelH: 80px;
+$infoPanelH: calc(#{$info-panel-font-size} * 3 + #{$project-overview-padding} * 2);
 $object3D-h: 80vh;
 $about-navigation-h: calc(#{$about-navigation-font-size} * 3 + #{$project-overview-padding} * 2);
 $about-navigation-h-bps: calc(#{$about-navigation-font-size-bps} * 3 + #{$project-overview-padding-bps} * 2);

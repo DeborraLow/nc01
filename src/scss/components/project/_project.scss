@@ -1,11 +1,11 @@
 $projectHeaderH: 200px;
 
 .project {
-    width: calc(100% - #{$vertical-object-selectorW});
+    width: $ganeral-main-panel;
     float: right;
 
     @include bp-s {
-        width: 100%;
+        width: 100vw;
     }
 
 
@@ -14,7 +14,7 @@ $projectHeaderH: 200px;
         position: fixed;
         top: $navigationPanelH;
         float: left;
-        width: calc(100vw - #{$vertical-object-selectorW});
+        width: $ganeral-main-panel;
         border-bottom: $borderW solid $border-color;
         background: $background;
 
@@ -50,7 +50,6 @@ $projectHeaderH: 200px;
 
         @include bp-s {
             display: none;
-            font-size: $project-location-font-size-bps;
         }
     }
 
