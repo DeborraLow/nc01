@@ -16,11 +16,9 @@
 
     .description {
         margin-left: $about-contribution-item-margin-left;
-        margin-right: $about-contribution-item-margin-right;
 
         @include bp-s {
             margin-left: $about-contribution-item-margin-left-bps;
-            margin-right: $about-contribution-item-margin-right-bps;
         }
     }
 
