@@ -8,12 +8,14 @@
     background: $background;
     border-bottom: $borderW solid $border-color;
     text-transform: uppercase;
-    font-size: calc(#{$navigationPanelH} - 2 * #{$project-overview-padding});
+    font-size: $navigation-font-size;
 
     @include bp-s {
-       border-left: none;
-       border-right: none;
-       font-size: calc(#{$navigationPanelH} - 2 * #{$project-overview-padding-bps});
+        width: 100vw; 
+        height: $navigationPanel-h-bps;
+        border-left: none;
+        border-right: none;
+        font-size: $navigation-font-size-bps;
     }
 }
 
@@ -24,5 +26,12 @@
     top: 100vh;
     right: 0;  
     width: 50vw; 
+    border-left: $borderW solid $border-color;
+
+    @include bp-s {
+        top: 200vh;
+        width: 100vw; 
+        border-left: none;
+    }
 }
 

@@ -5,8 +5,8 @@
     margin: $project-overview-padding;
 
     @include bp-s {
-        width: 100%;
-        padding: $project-overview-padding-bps;
+        width: calc(100vw - 2 * #{$project-overview-padding-bps});
+        margin: $project-overview-padding-bps;
     }
 
     &:before {

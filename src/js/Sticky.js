@@ -3,6 +3,7 @@ function sticky() {
 	var indicator = document.querySelector('.js-fix-indicator');
 	var toBeFixedList = document.querySelectorAll('.js-fix');
 	var body = document.querySelector('body');
+	var done = false;
 
 	if(indicator) {
 
@@ -14,11 +15,12 @@ function sticky() {
 
 
 				//check if the indicator has reached the top
-				if(window.pageYOffset >= indicatorDistFromTop) {
+				if(window.pageYOffset >= indicatorDistFromTop && !done) {
+					done = true;
 					body.classList.add('sticky');
-				} else {
-					body.classList.remove('sticky');
-				}
+					body.classList.add('no-intro');
+					window.scrollTo(0, 0);
+				} 
 			}
 		);
 

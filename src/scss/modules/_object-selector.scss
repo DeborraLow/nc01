@@ -25,6 +25,8 @@
     border-top: $borderW solid $border-color;
 
     @include bp-s {
+        display: block;
+        width: 100vw;
         border-bottom: $borderW solid $border-color;
     }
 }
@@ -34,5 +36,9 @@
     .object-selector.stick {
         top: auto; 
         bottom: 0;
+
+        @include bp-s {
+            position: relative;
+        }
     }
 }

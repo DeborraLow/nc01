@@ -1,92 +1,565 @@
 {
     "projects": [
       {
-          "title": "on a possible passing from the digital",
-          "creator": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img": "assets/img/projects/title1/cover.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
+          "title": "title 1",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
           "content": [
               {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
-              },
-              {
-                  "type": "img",
-                  "img": "assets/img/projects/title1/cover.jpg"
-              },
-              {
-                  "type": "video",
-                  "video": "./assets/video/Intro_Video.mp4"
-              },
-              {
-                  "type": "gallery",
-                  "gallery": [
-                      { "img": "assets/img/projects/title1/gallery/cover.jpg" },
-                      { "img": "assets/img/projects/title1/gallery/cover.jpg" }
-                  ]
-              },
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei.<sup>1</sup> Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-              },
-              {
-                  "type": "audio",
-                  "video": "./assets/video/Intro_Video.mp4"
-              },
-              {
-                  "type": "credits",
-                  "credits": [
-                    {
-                      "nr": "[1]",
-                      "text": "credit text blwij irejc erirjc rcij cierojc ijrioéjcn ircjeio."
-                    }
-                  ]
+                  "text": ""
               }
           ]
       },
       {
-          "title": "Lorem ipsum dolor sit amet",
-          "creator": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img":  "assets/img/projects/title2/cover.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
+          "title": "Natural Capital—The Exhibition",
+          "author": "Charlotte Dumoncel d’Argence (FR) and Laura Herman (BE)",
+          "type": "not ready",
+          "location":"Brussels",
+          "cover_img": "./assets/img/projects/02/thumbnail.jpg",
+          "cover_text": "For second edition of the Europalia Curator’s Award in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition Natural Capital (Modal Alam), including five participating artists: Martin Belou(FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH) and Adrien Vermont (FR). Here you can findits catalogue.",
           "content": [
               {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
+                  "text": "Comprising an exhibition and online publication, Natural Capital (Modal Alam) aims to confront economic and scientific accounts of biodiversity in the Indonesian archipelago — one of the world's most biodiverse countries. ‘Natural capital’ is an economic concept that we have come to understand as the world’s assets of natural resources capable of flowing into goods and services. No doubt, there must be more liberating and emancipatory concepts to describe the natural commons, currently managed, quantified, and represented as natural capital."
               },
               {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                  "text": "Dealing with this current treatment of the natural world — an outcome of 19th century notions of heroic discovery and scientific classification — while being aware of the contemporary filters through which our experience of nature is mediated, the invited artists and contributors engage with languages and visualisations of Indonesian nature that attempt to thwart the abstractions of natural capital. Yet these investigations raise the question of whether the channels that allow us to mediate and exchange alternative forms of knowledge and experience — such as travel, cultural diplomacy, the media, and the Internet — are capable of transmitting a genuine understanding."
               },
               {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                  "text": "An installation by Martin Belou comprises an unlikely combination of coral skeletons and the kinds of empty advertising panels that dot the Indonesian landscape, bearing campaigns, adverts, or political messages that have dwindled over time. Scenes of faded organic matter and panels devoid of signs quickly become aestheticized abstractions, displaced from their original context and emptied of meaning."
               },
               {
-                  "type": "img",
-                  "img": "assets/img/projects/title1/cover.jpg"
+                  "type": "text",
+                  "text": "In It will end up in me, Description use of medicinal plants and The Expedition, a film installation by Rachel Monosov, the artist leads us through the Indonesian landscape to encounter indigenous botanists and healers. Her films address bioethical questions and subtly upend the oppositions between science and mythology, documentary and fiction."
               },
               {
-                  "type": "img",
-                  "img": "assets/img/projects/title1/cover.jpg"
+                "type": "video",
+                "video": "/.."
               },
               {
-                  "type": "img",
-                  "img": "assets/img/projects/title1/cover.jpg"
+                  "type": "text",
+                  "text": "Inspired by Conrad Gesner’s 1615 Historiae Animalium, the first species encyclopedia, Adrien Vermont researches the historical shifts in animal representation. Through a series of drawings he references the ambiguous representation of the tiger, which, throughout Indonesian history, has provoked both terror and admiration, and — tough facing near-extinction — continues to appear as an emblem of nationalism, a brand mascot, and as a stand-in for the Western fascination with an ancestral nature."
               },
               {
-                  "type": "audio",
-                  "video": "./assets/video/Intro_Video.mp4"
+                "type": "img",
+                "img": "./assets/img/projects/02/tigre-A4-1.jpeg"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/tigre-A4-3.jpeg"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/tigreA4-1.jpeg"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/tigreA4-2.jpeg"
+              },
+              {
+                "type": "text",
+                "text": "With More or Less (Psychometric Portrait), Adrien Missika connects the hazards of nature with his own mood swings. A series of hygrometers simultaneously measure humidity and human feelings. Using humour, Missika questions our relationship to nature, spanning scientific rationality, quasi-esoteric beliefs, and undeniable biological rhythms."
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/Adrien_Missika_1.jpg"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/Adrien_Missika_2.jpg"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/02/Adrien_Missika_3.jpg"
+              },
+              {
+                  "type": "text",
+                  "text": "Finally, a series of pivoting, synthetic, organic-looking 3D objects by Offshore Studio refer to the artificiality of the ‘natural’, as well as the challenges of going beyond clichés of cultural appropriation in contemporary modes of representation."
               }
           ]
       },
       {
           "title": "title 3",
-          "creator": "Ho Tzu Nyen",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Nature Conflict Scenario",
+          "author": "Yuki Agriardi",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/04/thumbnail.jpg",
+          "cover_text": "The observation of an environment and its inhabitants is part of a journey in bonding with nature and within ourselves. Departing from the belief that everything around us keeps moving, nudging, colliding or growing, Nature Conflict Scenario deciphers and fragments nature’s density and the invisible daily conflict taking place in a forest.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "there will only be gifs here"
+              }
+          ]
+      },
+      {
+          "title": "title 5",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Cooking in Pressure",
+          "author": "Bakudapan",
+          "type": "",
+          "location":"",
+          "cover_img":  "./assets/img/projects/06/thumbnail.jpg",
+          "cover_text": "The ethnobotanical project Cooking in Pressure (2017) by Badukapan, food study group, engages with knowledge of edible weeds and the intersection with gender. The film brings the minor histories of the female former political prisoners of 1965-66, pitted against the politics of food and agriculture policies implemented during the Soeharto-era in Indonesia.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/06/thumbnail.jpg"
+              },
+              {
+                  "type": "audio",
+                  "video": "./assets/video/Intro_Video.mp4"
+              }
+          ]
+      },
+      {
+          "title": "Rumah Putih",
+          "author": "Yudi Chandra and Charlotte Dumoncel d’Argence",
+          "type": "not ready",
+          "location": "Lamalera",
+          "cover_img": "./assets/img/projects/07/thumbnail.jpg",
+          "cover_text": "Rumah Putih is a house located in the traditional whale hunting village of Lamalera, NTT Indonesia. From within, one can hear the sea and the sounds of daily life, but through the openings, the wind also carries inside, legends,stories, rumors, traditions and the narratives of random encounters.",
+          "content": [
+              {
+                  "type": "audio",
+                  "video": "./assets/img/projects/07/Meta_Rumah_Putih.mpeg"
+              }
+          ]
+      },
+      {
+          "title": "The offsetted",
+          "author": "Cooking Sections",
+          "type": "not ready",
+          "location": "New York City",
+          "cover_img": "./assets/img/projects/08/thumbnail.jpg",
+          "cover_text": "How do you turn a tree into a financial asset? In Offsetted, Cooking Sections (Daniel Fernández Pascual and Alon Schwabe) explores the legacy of “America’s greenest mayor”, Michael Bloomberg, who championed afforestation (the process of planting trees in areas devoid of any) to increase local resistance to storms and improve energy conservation, while at the same time transforming trees into carbon reserves for industrialists to offset their environmental damage.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": "Michael Bloomberg, once referred to as “America’s greenest mayor,” launched One Million Trees for New York (MTNYC) in 2007. This project, initiated as the subprime mortgage crisis started to be noticed, ventured to protect citizens from the effects of air pollution and climate change. Working to add the eponymous amount of trees to the city, MTNYC was considered the largest urban afforestation effort in the world. Highlighting the benefits of improved air quality, increased shading, and reduced energy consumption, the majority of trees were planted in low income neighborhoods with poor tree canopy and high asthma rates. The aspiration was to increase the city’s “urban resilience” in times of devaluation of real estate assets and ecological collapse. The project was accompanied by an extensive community-based survey that invited people to document trees in their neighborhood. This promoted the caretaking and mapping of the different species by involving  “the community” in that process. Volunteers contributed 12,000 hours of their own time, worth an estimated $100,000, inventorying the city’s trees. As a consequence, each single tree in the city was assigned an economic value based on the “environmental services” it performed."
+              },
+              {
+                  "type": "text",
+                  "text": "It is difficult to argue against afforestation, but why is the accurate value of every single tree so relevant to the city? Who is benefitting from it? Is this a second wave of what David Gissen refers to as “environmental gentrification” initiated in NYC during the 1970s? Before current quantifications that assign figures and formulae to plants, their value was extracted in a more direct way. When British Empire forestry was first established as a disciplinary practice in India, formalizing the right of the state over “nature,” it proscribed private interests and initiated a new system of forest management based on a logic of utilitarian preservation. Rather than the actual survival of plants or animals, the goal of this forestry was focused on preventing the exhaustion of resource extraction. Using the universal goodness of plants to prevent indigenous peoples from living off the forest for the sake of the “environment,” Empire forestry eventually masqueraded a form of biopolitical control, limiting access to the forest for its original dwellers. Furthermore, the extraction of commodities from every single tree (timber, rubber, or pharmaceutical substances) has been used as a form of ecocracy throughout history: controlling space and people through the conservation of ecology. This conservation paradigm implied that the ruling class could keep extracting material resources from trees without exhausting the forest. As Arun Agrawal articulates with his notion of environmentality, much before the pacifist Chipko movement of the 1970s, the reclassification of forests into designated reserves led villagers in Northern India to resist becoming environmental subjects through violent actions. They started hundreds of forest fires in the early 1920s to protest colonial British regulations that were passed to “protect the environment” from the harms the Empire itself inflicted."
+              },
+              {
+                  "type": "text",
+                  "text": "A century later, the failed attempts to develop mechanisms for long lasting and sustainable material extraction have brought forth financial quantification as a new theory and practice of conservation. The extraction of value from trees does not imply subtraction of physical matter (sap, bark, leaves, roots, or oil extracts), but rather precisely by keeping all that materiality intact and in place. Trees have turned into carbon reserves that are to be protected from any form of indigenous, domestic, or industrial usage, so that they keep acting as fixed carbon sinks. Contemporary struggles in Niassa, Mozambique against the neocolonial logic of “afforestation projects” reflect similar uprisings in early twentieth century India, where forests are being “preserved” to offset air pollution in cities of the global North. In protest of consequent land dispossessions, thousands of pine trees planted by multinational “Green Resources” corporation were uprooted in 2013."
+              },
+              {
+                  "type": "text",
+                  "text": "The New York Street Tree Map (NYSTM), released online in early 2017 by the Department of Parks and Recreation, is deeply embedded in the financial quantification of trees and reveals a slightly less benevolent agenda behind urban greening. Despite the publicly stated goal being the maintenance and caretaking of the trees in the city, the target of NYC Street Tree Map is to “provide tools for developers.” The 681,053 street trees that appear on the cartographic tool provide much more information than the species, trunk diameter, and exact address of each plant. Utilizing the Tree Carbon Calculator (TCC), a federally approved spreadsheet developed by the Center for Urban Forest Research, the yearly capacity of stormwater interception, energy conservation, air pollutant removal, and CO2 reduction prefigures each tree on the database. Plugging this latter set of information into an algorithm behind environmental investment software allows the TCC to accurately calculate the annual financial benefits provided by each one of those trees, which developers or industrialists who have to mitigate their environmental damage can pay to “neutralize” the detrimental effect of their activities."
+              },
+              {
+                  "type": "text",
+                  "text": "The way this mechanism works can be explained by looking at one of the most iconic corporate atria of New York, Kevin Roche John Dinkeloo and Associates’ Ford Foundation Garden (1967). Produced in response to fears of the City’s endemic pollution, its protected environment was built to display how corporations also cared about cultivating “urban nature.” It “wasted” floor area inside the building to gain green reputation. Today, however, the Ford Foundation atrium is losing greenwashing capacity to the six thornless honey locusts right outside, on 309 East 42nd street, and another six in front of the façade on 320 East 43rd street. They measure between three and eleven inches in diameter. One of them in particular intercepts ten dollars and twelve cents worth of stormwater, conserves one hundred and fifteen dollars and fifty one cents worth of energy, removes eight dollars and twenty-one cents worth of air pollutants, sequesters one dollar and thirty-eight cents worth of CO2, providing a total of $136.59 in annual benefits."
+              },
+              {
+                  "type": "text",
+                  "text": "When amounted together, Brooklyn counts on a total of 177,873 trees, which are worth for the local authority almost thirty million dollars. Queens has 247,165 trees, which are worth forty-four million, five hundred fifty-four thousand, and nine hundred and eighty-two dollars and seventy-four cents per year in environmental benefits. Throughout the five boroughs of NYC, all mapped trees are annually providing one hundred and ten million, six hundred and seventy-three thousand, seven hundred and eighty-eight dollars and twenty cents. Now marked with a fully articulated and mathematically sound price tag, trees can automatically become objects of transaction and start to offset environmental damage from any development elsewhere. Planting trees is thus the outcome of an emerging and carefully engineered government of financial flows: the cartography of street trees constitutes a dataset for the calculation of “environmental services” (the services that nature suddenly provides to humans). By means of the software, these services can be turned into “financial gains” that the city can start accumulating by benefiting from environmental destruction."
+              },
+              {
+                  "type": "text",
+                  "text": "NYC trees are branded as an “urban forest.” But more than just greening the city, they are an “offset forest”: its trees have acquired the mission to trade environmental destruction with environmental preservation. At the same time, their newly assigned role expropriates all kinds of inhabitants of the city from their environment, as the main aim of the trees is to become a public asset for developers. The degree of authority of those paying for the environmental services of each tree is uncertain, despite the trees being rooted in public soil. In this case, what is conserved is not just trees to improve air quality in the city, but also its real estate capital flows. Humans and other-than-humans thus become financial victims of conservation. Trees that provide environmental services for offsetting purposes could, as has happened in places like India or Mozambique, be prioritized over aesthetic, health, or ecological concerns."
+              },
+              {
+                  "type": "text",
+                  "text": "This circulation of greening capital to mitigate architectural development is indebted to George H.W. Bush’s No Net Loss policy, passed in the 1980s. According to No Net Loss, any development that destroys natural habitats (especially wetlands, streams or vernal pools) has to be recouped by the restoration of an “equivalent” landscape elsewhere. The net amount of biodiversity is meant to remain “the same” in terms of surface, quality, or quantity. For each acre of lost wetland, for instance, there should be at least one acre created or restored. This one-for-one logic becomes perverse when the idea of preservation gets thrown into the mix: a developer can destroy a forest for the construction of a condominium on site A and pay a third-party entity owning an equivalent amount of trees on site B to preserve them. Like the trading of air-rights to build higher developments, this logic of urban afforestation has evolved into more sophisticated forms. Air pollution can be legitimized as long as it is traded with planting and keeping trees untouched that absorb the equivalent amount of CO2. The US government has recently updated its social cost of carbon to $37 a ton, which refers to the total social and environmental benefits that accrue from avoiding the emission of one ton of CO2, or alternatively, the damage done by releasing that ton of CO2. Once these equivalences are set, trading can easily commence."
+              },
+              {
+                  "type": "text",
+                  "text": "With this logic of offsetting by means of environmental mitigation, architecture acquired the agency to destroy, displace, and replicate natural landscapes miles away from their original location. Offsetting becomes a financial practice that swaps destruction here with reconstruction, or preservation there. Eventually, spatial offsets are directly entangled with the offsetting, and obfuscation of responsibility. As María Gutiérrez remarks, even if such a mechanism of spatial offsetting was to be considered environmentally sensitive, it is not clear yet who is accountable if, for instance, the mitigation forest catches fire or succumbs to a disease, releasing all the “stored carbon” back into the atmosphere. Hence, environmental mitigation and holding trees accountable as a solution remains nebulous."
+              },
+              {
+                  "type": "text",
+                  "text": "In the same decade that No Net Loss emerged as a form of circulating financial value through the environment based on entirely unscientific calculations of return, concepts of “biodiversity” and “sustainable development” also appeared in the literature and practice of financial ecology. In the 1980s biologists shifted from providing facts about the natural world (already social constructions themselves) to start speaking of nature’s “values.” As facts were not enough, subjective valuation of nature started playing a more ambiguous active role, malleable enough to different economic interests. There are many ways of valuing, but unlike the concept of wilderness, the moment “natural variety” appeared (the fact that species are different and contribute differently to the ecological balance of a habitat), the gradients of environmental importance to biodiversity easily became a commodity that could be compared, exchanged, lost, gained, depleted, restored, quantified, and scientized; allowing metaphors such as “balance of nature” to disguise poor understandings of ecology."
+              },
+              {
+                  "type": "text",
+                  "text": "Environmentality and the entangled forms of contemporary power struggles between polluting and cleansing sites in the Global North and South only got worse with the first carbon offsetting schemes formalized with the 1997 Kyoto Protocol. Air pollution in the Global North was accepted as a lesser evil of modernization if compensated with “sustainable” afforestation programs in the Global South that “enhanced global biodiversity.” Offset forest projects turned environmental guilt into a tradable commodity. Rich nations became entitled to keep polluting as long as they ensure that impoverished nations keep their forests intact, or their land grabbed to green the planet. Some of the ethical contradictions in this postcolonial logic were obviously reinstating abusive power dynamics within a pseudo-environmentalist discourse, as in one of the first post-Kyoto offsetting projects, where US-based Applied Energy Services promised to plant millions of trees on the highland hills of Western Guatemala in exchange for permission to construct a large, coal-burning power station in Connecticut. This “participatory” planting project, branded as Mi Bosque, was calculated to absorb as much CO2 from the environment as would be produced by the power station over its lifetime. It was meant to sequester between 15.5 and 16.3 million tons of carbon over 40 years, but according to a report, only 270,000 tons of carbon were offset by the project over the first ten years. Therefore, the ways in which any carbon footprint is neutralized through corporate social responsibility only exacerbates the still-colonial relationships between the rich and the poor, between high carbon-emitting nations’ right to pollute and enjoy and low carbon-emitting nations obligation to cleanse and labor."
+              },
+              {
+                  "type": "text",
+                  "text": "From No Net Loss to profiting from bioassets and local livelihood, what is emerging appears to be a new green space race. Nations and companies are competing to appropriate the last piece of available “untapped” forest that can provide the most amount of “environmental services.” A green space race to designate space itself as a protected zone. Eco-utilities and forest bonds are some of the instruments that are boosting the neoliberal quantification of space embedded in that process and determining how to classify and demarcate it. The main challenge for this form of speculation, however, is how and whether to make offsetting calculations standard and universal. In order to securitize ecology, the definition of the “values” of each single tree are crucial. For that operation, standard measurements to quantify forests properties would be necessary. However, such agreement on a transnational form of currency or valuing units has yet to happen. No governmental body has proven offsetting mechanisms as simultaneously financially efficient and environmentally successful."
+              },
+              {
+                  "type": "text",
+                  "text": "Pierre Bourdieu stated that there are three forms of capital—economic, social, and cultural—and that value can be translated from one category to the other by means of economic conversions. Ernst Friedrich Schumacher further articulated this morphology when, after the 1973 oil crisis and the accessibility of fossil fuels was under threat for Western powers, he posited the idea of natural capital. Further still, Paul Hawken, Amory Lovins, and Hunter Lovins expanded the lexicon into the notion of natural capitalism at the end of the twentieth century, framing natural capitalism within the notion of eco-efficiency—how to make sense of nature by making money—and arguing that environmental sensitivity is so necessary to shareholders that for the sake of business, corporations should be careful not to miss out. Natural capitalism did not refer to capitalism as being a natural phenomenon to humanity, as it was misunderstood at the time, but as something embedded in the trading of nature. This vision implies that the environment has its own assets waiting for human stewards to make the most of them."
+              },
+              {
+                  "type": "text",
+                  "text": "It is remarkable how the NYC Street Tree Map promotes people to join as part of the stewardship scheme for “tree care activities.” Under the values of stewardship, the environment is seen as a socially significant space providing resources and/or services in and of itself. Hence, the rise of stewardship principles reflects the spatiality of a neoliberal economy, legitimizing environmental protection in order to regulate the extraction of value. This process of raising awareness about the value of trees for the city is equivalent to the so-called “Cousteauization” of the oceans: a popular movement to cultivate public interest in the ocean’s biota, through figures like Captain Jacques Cousteau, in order to generate financial support for further marine research and governmental and/or corporate stewardship of marine resources. In that regard, neoliberal environmental conservation can extract even more value by “protecting” nature in order to further boost the speculation on its exploitation, be it real estate potential or prospective natural resources. This perverse logic profiteering from environmental protection is what Bram Büscher and Robert Fletcher frame as “accumulation by conservation.”"
+              },
+              {
+                  "type": "text",
+                  "text": "Energy efficient glazing or LEED certificates will not make humanity resilient to the effects of climate change. On the contrary, they will carry on instrumentalizing “resilience” in order to create new markets. New forms of capital are monetizing the environment through the banking of nature. Increasingly after the collapse of the housing market in 2007–2008, an ever-increasing number of international investors and credit institutions shifted their activity from real estate speculation to trading natural capital. What we are observing in New York is just one example of a booming market in which inhabitants of the city are environmentally dispossessed by a price tag on its trees. In this transformation process, a neighborhood like East New York, comprised of a population of which more than 50% live under the poverty line, is now becoming one of the highest valued areas of urban trees in the whole city, generating annual benefits of millions of dollars in environmental services for offsetting powers. Very quickly some of the most vulnerable people in the city could be also offset, swept away under a new speculative market where the environment serves as a driving force for new forms of dispossession, real estate speculation, and green “renewal.” The offsetted (humans and other-than-humans) are a new social class that stands not to be displaced, but replaced by trees. Trees might be purifying the air on-site, but the financial value of each tree does not stay in front of citizens’ houses. The double agenda of calculating the carbon footprint for each tree, and the services it provides, exposes how every tree of New York is connected to a very specific architectural site of destruction. It is the responsibility of architects and realtors to de-quantify the “value” of trees instead of profiteering from them and what they offset."
+              }
+          ]
+      },
+      {
+          "title": "title 9",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "title 10",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "title 11",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "title 12",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Saksi Bisu (Silent Witness) / Let Me Take You to a Tropical Paradise.",
+          "author": "Elisabeth Ida",
+          "type": "not ready",
+          "location":"Yogyakarta",
+          "cover_img": "./assets/img/projects/13/thumbnail.jpg",
+          "cover_text": "Nature in Elisabeth Ida’s film Saksi Bisu (Silent Witness) is not what it seems. It appears to be light, paradisiacal, and exotic, yet as silent witness it conceals a dark episode from Indonesian history that is seldom openly discussed. A conversation with Elisabeth Ida on the 1965-events and nature as silent witness.",
+          "content": [
+              {
+                "type": "text",
+                "text": "Saksi Bisu. A Conversation with Elisabeth Ida on the 1965-events and Nature as Silent Witness."
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "Nature in Saksi Bisu (Silent Witness) is not what it seems. It appears to be light, paradisiacal, and exotic, yet as silent witness it conceals a dark episode from Indonesian history, which is seldom openly discussed. Could you please speak to these historical events?"
+                    },
+                    {
+                      "type": "answer",
+                      "text": "The installation Saksi Bisu (Silent Witness) comprises a film, a sound installation produced in collaboration with the Mexican artist Mauricio Valdés San Emeterio – and small sculptures. Together these works address one of most heinous genocides of the 20th century, namely the mass killings that took place in 1965 and led to president Sukarno's displacement from power. Following the alleged coup by the members of the Communist Party (PKI) on September 30, 1965, General Suharto called for their prosecution, leading to the slaughter of about one million (alleged) communists. Possibly more. After this, Suharto remained in power for 32 more years. In 1998, he was eventually forced to resign as President of Indonesia under pressure of the population and the international political community. Today, Indonesians still talk about 1965-66, especially in the weeks prior to September. During that period, you'll see big banners throughout Indonesia with slogans saying \"Beware of Communism.\" This is absurd, of course, because Communism no longer exists in Indonesia. All Communists were murdered at the time."
+                    }
+                  ]
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/13/EIM_1.jpg",
+                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "Communism in Indonesia may have been eradicated, it seems collectivist values rather than individualist ones underpin society."
+                    },
+                    {
+                      "type": "answer",
+                      "text": "Collectivism in Indonesia doesn’t necessary have to do with Communism, but can be considered a cultural characteristic of Indonesia. Of course, in 1965 the Communist Party in Indonesia (PKI) was the third largest non-ruling party in the world. During that time, China and the Soviet Union were completely red. If Indonesia had turned completely red, the West Block would have faced a major challenge."
+                    }
+                  ]
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/13/EIM_2.jpg",
+                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "The United States, United Kingdom and Australia were quick to contain the Communist expansion. They were complicit in Suharto’s coup d'état (Kudeta)."
+                    },
+                    {
+                      "type": "answer",
+                      "text": "Yes, those countries were only found to be accomplices in 2015 for massacres and crimes against humanity by members of the jury of the International People's Tribunal 1965 in The Hague. The sentence published by seven of the international judges contained the term ‘genocide’, which mostly referred to the persecution of ethnic Chinese."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_3.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "In Joshua Oppenheimer's controversial documentary The Act of Killing (2012) (Jagal in Indonesian, meaning ‘butcher’), the members of the infamous Pemuda Pancasila Assassination Command are asked to stage re-enactments of the mass killings. What did you think about the film?"
+                    },
+                    {
+                      "type": "answer",
+                      "text": "The film contains many contradictions, but I think that’s a good thing. Both The Act of Killing and its predecessor The Look of Silence created space for dialogue, while also triggering manifestations of hatred. In that sense, the films have made the slumbering conflict that underlies Indonesian society more manifest. If you want to take steps towards a different kind of society, you should first acknowledge that there are problems. When the truth comes out, people either agree or disagree. That’s a good start, because, in Indonesia, our thinking long been very uniform and little critical due to the heavy brainwash that happened for decades."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_4.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "How did you experience the brainwashing?"
+                    },
+                    {
+                      "type": "answer",
+                      "text": "My generation was heavily brainwashed. From 1984, students of 6 or 7 years old had to watch the propaganda film Pengkhianatan G30S / PKI (Treason of G30S / PKI) on TV each evening of September 30th. The next morning your teachers questioned you about it. The generation of my slightly older sister was forced to watch the film in a cinema with locked doors. The film is a government-manipulated version of the coup attempt translated into a docudrama with very 'cheesy' but 'creepy' music. You mainly see atrocities such as the face of a general mutilated with a razor. Children were forced to see all that horror. You can only imagine how deep the hatred was. The film was one of our few permitted sources regarding the history of Indonesia. Even today, those events in schoolbooks are still being manipulated. It was only when I came to Belgium and could distance myself that I saw how much a truth was taught to me that turned out to be one big lie."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_5.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "Was this same measure applied to the inhabitants of all the islands in the Indonesian archipelago?"
+                    },
+                    {
+                      "type": "answer",
+                      "text": "Yes, everywhere. For an earlier work (De / Re) Construction I asked several young Indonesians: \"What crosses your mind when you hear the word ‘communism’?\" From the answers I got, I could easily deduce how traumatic the brainwashing had been. Some youngsters gave answers that were rather apolitical and indifferent, but in general the film created a lot of fear. A woman told me that she got panic reactions when she saw a banana tree, a species that grows all over Indonesia. There was a scene in the film in which a pile of corpses is covered with banana trees. Those scenes remain with us; they were very violent and traumatising."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_6.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "Let's come back to your film Saksi Bisu (Silent Witness). Rather than showing the bloodbath and the violence, you present us with the image of a seemingly untouched nature."
+                    },
+                    {
+                      "type": "answer",
+                      "text": "The film shows footage of Gua Grubug in Yogyakarta, a cave where 1,500 corpses were dumped during the genocide. In the film, you don’t see anything of that lugubrious history. You only see the natural beauty that characterises Indonesia. The cave was completely cleaned up in the eighties and is nowadays a tourist attraction for foreign tourists. For locals access is too expensive. Relatively few people can enter each day because everyone wants to see the so-called celestial light that enters the cave opening around 12 o'clock in the afternoon. I have entered twice. The first time with a tour guide to hear what he would tell. That turned out to be very disappointing: no word was spoken about 1965-66, just as nature is silent. The title of the work Silent Witness is based on the book Guilty Landscapes by Armando. Nature seems innocent and impartial, but you can also view it differently. It can grow and thrive on human remains and serves as a cover for murders and assaults. In this way, nature is an accomplice."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_7.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "The idea of the landscape as an actor also makes sense in the context of Indonesia culture rife with animist elements."
+                    },
+                    {
+                      "type": "answer",
+                      "text": "Yes, people still believe in the soul of nature, even if Islam increasing pressure on this belief."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_9.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              },
+              {
+                  "type": "interview",
+                  "q_name": "?",
+                  "a_name": "Elisabeth Ida",
+                  "interview": [
+                    {
+                      "type": "question",
+                      "text": "How will your research further develop?"
+                    },
+                    {
+                      "type": "answer",
+                      "text": "In the coming years, I want to extend my work to a broader and more universal investigation into genocide. I want to study how genocides were visually translated into the public at various places in the world. Which languages, word choices or visual aspects are used by the rulers and oppressed? That is how I went to Sarajevo in Bosnia and Herzegovina and to Phnom Penh in Cambodia. Communication about genocide is very specific from country to country. While all traces were wiped out in Indonesia, the genocide in Cambodia was extensively documented, eventually making possible a trial of the regime. In Indonesia we can only dream about that kind of documentation. In order to arrive at proof, the law must first be amended in which it is still stated that Communism is forbidden. This prohibition must first be lifted before 1965-66 can openly be discussed."
+                    }
+                  ]
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/13/EIM_10.jpg",
+                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+              }
+          ]
+      },
+      {
+          "title": "Hujan emas di negri orang, hujan batu di negri sendiri",
+          "author": "Setu Legi",
+          "type": "not ready",
+          "location": "?",
+          "cover_img": "./assets/img/projects/14/thumbnail.jpg",
+          "cover_text": "Land and water, rather than oil and coals lie at the basis of life, according to Setu Legi. Taking care of the environment, rather than exploring what it can bring us is far more important. Setu Legi’s work consists of references to natural elements and what they are destined to become. Biodiversity becomes biouniformity.",
+          "content": [
+              {
+                  "type": "img",
+                  "text": "./assets/img/projects/14/Monsanto.jpg"
+              },
+              {
+                  "type": "cover"
+              }
+          ]
+      },
+      {
+          "title": "Making the monkey",
+          "author": "Celia Lowe",
+          "type": "not ready",
+          "location":"Togean Island",
+          "cover_img": "./assets/img/projects/15/thumbnail.jpg",
+          "cover_text": "In Togean Island, anthropologist Celia Lowe witnessed and reported the acts of “making, unmaking, and remaking” a monkey, its unique and endemic status being crucial for the preservation their living area; while observing an indonesian and american scientific collaboration in a postcolonial context.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Everything",
+          "author": "David O’Reilly",
+          "type": "not ready",
+          "location": "?",
+          "cover_img": "./assets/img/projects/16/thumbnail.jpg",
+          "cover_text": "Everything is an interactive experience where everything you see is a thing you can be, from animals to planets to galaxies and beyond. Everything is a procedural, AI-driven simulation of the systems of nature, seen from the points of view of everything in the universe. Everything is narrated by the late great British American philosopher Alan Watts.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Where Farming Methods Read as Poems",
+          "author": "Yasmine Ostendorf",
+          "type": "not ready",
+          "location": "Indonesia",
+          "cover_img": "./assets/img/projects/17/thumbnail.jpg",
+          "cover_text": "The inherited commons in Indonesia are valuable natural capital under continuous threat. Yasmine Ostendorf describes how art collectives across Indonesia create alternative ways of dealing with resources, alternative currencies, and skills. Artists communities play an important role in society, where art and cultural expression is integrated in farming practices. A strong DIWO (do-it-with-others) ethic and arts infrastructure makes commoning in Indonesia possible.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "title 18",
+          "author": "",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
+          "cover_text": "empty",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "title 3",
+          "author": "Ho Tzu Nyen",
           "type": "text",
-          "cover_img": "assets/img/projects/title3/cover.jpg",
+          "cover_img": "./assets/img/projects/title3/thumbnail.jpg",
           "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
           "content": [
               {
@@ -131,8 +604,8 @@
               {
                   "type": "gallery",
                   "gallery": [
-                      { "img": "assets/img/projects/title1/gallery/cover.jpg" },
-                      { "img": "assets/img/projects/title1/gallery/cover.jpg" }
+                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" },
+                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" }
                   ]
               },
               {
@@ -144,9 +617,9 @@
       },
       {
           "title": "title 4",
-          "creator": "Ho Tzu Nyen",
+          "author": "Ho Tzu Nyen",
           "type": "text",
-          "cover_img": "assets/img/projects/title2/cover.jpg",
+          "cover_img": "./assets/img/projects/title2/thumbnail.jpg",
           "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
           "content": [
               {
@@ -157,9 +630,9 @@
       },
       {
           "title": "title 5",
-          "creator": "Ho Tzu Nyen",
+          "author": "Ho Tzu Nyen",
           "type": "text",
-          "cover_img": "assets/img/projects/title1/cover.jpg",
+          "cover_img": "./assets/img/projects/title1/thumbnail.jpg",
           "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
           "content": [
               {
@@ -170,14 +643,54 @@
       },
       {
           "title": "title 6",
-          "creator": "Ho Tzu Nyen",
+          "author": "Ho Tzu Nyen",
           "type": "text",
-          "cover_img": "assets/img/projects/title2/cover.jpg",
+          "cover_img": "./assets/img/projects/title2/thumbnail.jpg",
           "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
           "content": [
               {
                   "type": "text",
                   "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
+              },
+              {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+              },
+              {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/title1/thumbnail.jpg"
+              },
+              {
+                  "type": "video",
+                  "video": "./assets/video/Intro_Video.mp4"
+              },
+              {
+                  "type": "gallery",
+                  "gallery": [
+                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" },
+                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" }
+                  ]
+              },
+              {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit um ei.<sup>1</sup> Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+              },
+              {
+                  "type": "audio",
+                  "video": "./assets/video/Intro_Video.mp4"
+              },
+              {
+                  "type": "credits",
+                  "credits": [
+                    {
+                      "nr": "[1]",
+                      "text": "credit text blwij irejc erirjc rcij cierojc ijrioéjcn ircjeio."
+                    }
+                  ]
               }
           ]
       }
@@ -185,57 +698,203 @@
 
   "object_imgs" : [
       {
-          "img": "assets/img/objects/object_0.png",
+          "img": "./assets/img/objects/object_0.png",
           "selector": "object-0"
       },
       {
-          "img": "assets/img/objects/object_1.png",
+          "img": "./assets/img/objects/object_1.png",
           "selector": "object-1"
       },
       {
-          "img": "assets/img/objects/object_2.png",
+          "img": "./assets/img/objects/object_2.png",
           "selector": "object-2"
       },
       {
-          "img": "assets/img/objects/object_3.png",
+          "img": "./assets/img/objects/object_3.png",
           "selector": "object-3"
       },
       {
-          "img": "assets/img/objects/object_4.png",
+          "img": "./assets/img/objects/object_4.png",
           "selector": "object-4"
       }
   ],
 
-  "about_theproject" : [
+  "about_editorial" : [
     {
-      "p": "naturalcapital.online is an online publication that addresses the visual culture and discourses surrounding biodiversity in the Indonesian archipelago. It is both the digital counterpart and catalogue of the exhibition Natural Capital (Modal Alam) organised by Charlotte Dumoncel d’Argence and Laura Herman in the context of Europalia Indonesia at BOZAR, Centre for Fine Arts in Brussels, Belgium (21 December 2017 - 21 January 2018). The online publication includes commissioned contributions and interviews with artists and theorists living in Indonesia, Belgium, and elsewhere, written in English and Bahasa Indonesia."
-    },
-    {
-      "p": "The format of the online publication was conceived as a platform to enable our thoughts to travel outside of Belgium and the limits of the exhibition. Although the focus is on Indonesian biodiversity, we have also included voices that talk about the concept of natural capital as"
+      "p": "Naturalcapital.online is a digital publication that addresses the visual culture and discourses surrounding biodiversity in the Indonesian archipelago, and challenges the biased ways in which we experience, describe and visually represent the \"natural world\". It is the digital counterpart of—and includes the catalogue of— the exhibition Natural Capital (Modal Alam) organised by Charlotte Dumoncel d’Argence and Laura Herman in the context of Europalia Indonesia at BOZAR, Centre for Fine Arts in Brussels, Belgium (21 December 2017–21 January 2018). The online publication features commissioned contributions and interviews with artists and theorists living in Indonesia, Belgium, and elsewhere, written in English and Bahasa Indonesia. The format of the online publication was conceived as a platform to enable artworks and ideas to travel outside of Belgium, to generate a new dimension of artistic production, and to bypass the constraints of the physical exhibition. "
     }
   ],
 
 
   "contributors" : [
       {
-          "name": "author name",
-          "text":   "Anna psychoanalysis refer to as the Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "name": "Yuki Agriardi",
+          "text": "(1984, Indonesia), <i>received his</i> MA in Design (Furniture) from Central Saint Martins, University of The Arts in London. Over the past years, he has developed many projects using different media, and often crossing the boundaries between art and design. Agriardi is interested in the complex relationship between humans, animals and space. He is currently working on a journey to The Native Island, an expedition through a space that straddles the line between the space of the domestic and wildlife. His observations of different types of habitats and the relationships between inhabitants enable new reflections on how to connect with nature. In his work, Agriardi often relies on the color blue, which sometimes appears in nature, but almost never as pigment."
       },
       {
-          "name": "author name",
-          "text":   "Anna psychoanalysis refer to as the Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "name": "Mira Asriningtyas",
+          "text": "(1986, Indonesia) works as an independent curator and art writer. In 2011, she co-founded an independent art space to build a supportive and positive environment for young artists– Lir Space in Yogyakarta; focusing on a laboratory platform as alternative education for young artists, creating research-based artistic projects, and using independently-published book as an alternative space for exhibition. In 2017, she graduated from De Appel Curatorial Program 2016/2017 at De Appel Art Center – Amsterdam. Mira is especially interested in conceptually-driven projects, combining art practice with multidisciplinary academic background, while playing with the tension between the private and the public. She is actively performing the act of flânerie and spatial practice in her curatorial works, reusing abandoned places and public space with emphasis on site-specificity. She is now working on her long-term site-specific project called 900mdpl in Kaliurang, a resort village under Mt.Merapi, the most active volcano in Indonesia. "
       },
       {
-          "name": "author name",
-          "text":   "Anna psychoanalysis refer to as the Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "name": "Bakudapan",
+          "text": "(Indonesia) is a study group that discuss ideas about food and was initiated by Elia Nurvista and Khairunnisa. The name ‘Bakudapan’ comes from ‘bakudapa’ in Manadonese (North Sulawesi) language meaning ‘to meet’, and ‘kudapan’ a snack that is usually served on the occasion of collective activities and gatherings. The study group uses food as a starting point and material to engage with social, collective and collaborative projects. Freely circulating within art, ethnography and research, Bakudapan makes of food a medium to address broader issues, such as politics, social, gender, economy, ecology, etc. The group’s production ranges from exhibitions settings to performances, workshops, essays, reading sessions, gardening and cooking."
       },
       {
-          "name": "author name",
-          "text":   "Anna psychoanalysis refer to as the Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "name": "Martin Belou",
+          "text": "(1986, France) holds a MA from Ecole Supérieure d’Art de Clermont Métropole. He has been living and working in Brussels since 2006. Belou’s practice evokes sensual experiences involving the mind as much as the body, and flirts with the fringes of anthropology. Freely combining sculpture, drawing and performative events, Martin Belou always lets organic materials—whether they are molds, mushrooms or people—uncontrollably participate in his production. He often creates performative situations and experiences using the four elements: earth, water, air, and fire. Driven by intuition and artisanal savoir-faire, he combines sculpture, drawing, and organic materials (mushrooms, spices, wood, stone, chalk…) in installations that often deal with universal notions of craftsmanship, tradition, and community."
       },
       {
-          "name": "author name",
-          "text":   "Anna psychoanalysis refer to as the Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "name": "Yudi Chandra",
+          "text": "(1982, Indonesia) is an artist living and working in Bali. Fascinated by digital technology, Yudi studied multimedia at the Royal Melbourne Institute of Technology, in 2004, where he pursued a research into exploring interactivity. Active in the performing arts, Yudi is initiating and joining collective and collaborative projects involving mapping and projections, live music, theatre and dance. His productions often bridge Indonesian traditional arts with contemporary media, providing a renewed reading on his deeply rooted culture and heritage. His immersive multimedia installations offer multi-sensorial stimulation for human’s needs and desire to be transcended."
+      },
+      {
+          "name": "Cooking Sections",
+          "text": "(Daniel Fernández Pascual & Alon Schwabe, Spain & Israel) is a duo of spatial practitioners based out of London. It was born to explore the systems that organize the WORLD through FOOD. Using installation, performance, mapping and video, their research-based practice explores the overlapping boundaries between visual arts, architecture and geopolitics. Cooking Sections was part of the exhibition at the U.S. Pavilion, 2014 Venice Architecture Biennale. Their work has also been exhibited at numerous venues, biennials and institutions internationally ; and they have been residents in The Politics of Food at Delfina Foundation, London. Cooking Sections was part of the 2016 Oslo Architecture Triennale and 2016 Brussels ParckDesign. Their work has been featured in a number of international publications. They currently lead a studio unit at RCA, London and in  2016 they opened The Empire Remains Shop."
+      },
+      {
+          "name": "Charlotte Dumoncel d’Argence",
+          "text": "(1985, France) is a designer and curator based in Brussels. She holds a BA in Industrial Design and a MA in Conceptual Design from the Design Academy of Eindhoven, as well as several uncompleted cursuses in Sociology, Ethnology and Anthropology. From 2008 to 2015 she ran her design studio within collective spaces in the Netherlands and in Belgium. Since 2012, she focuses on collaborative and curatorial projects, and began a collaboration at Galerie Caroline Van Hoek in Brussels. Interested in knowledge sharing and public events, she co-founded Objection, an artist-run space focussing on engaged design practices. In 2016 she takes part in Atelier Luma in Arles. Recent collaborations and experiences have brought her closer to the field of contemporary art in which she initiates and contributes to exhibitions, publications and events with a transdisciplinary mindset."
+      },
+      {
+          "name": "T.J. Demos",
+          "text": "(US) writes widely on modern and contemporary art and his essays have appeared in magazines, journals, and catalogues worldwide. His published work centers broadly on the conjunction of art and politics, examining the ability of artistic practice to invent innovative and experimental strategies that challenge dominant social, political, and economic conventions. He has served on the Art Journal editorial board (2004-08), and currently is on the editorial board of Third Text, and on the advisory board of Grey Room. Demos is Director of the forthcoming Center for Creative Ecologies at UC Santa Cruz. Professor Demos’ current research focuses on contemporary art and visual culture, investigating in particular the diverse ways that artists and activists have negotiated crises associated with globalization, including the emerging conjunction of post-9/11 political sovereignty and statelessness, the hauntings of the colonial past, and the growing biopolitical conflicts around ecology and climate change."
+      },
+      {
+          "name": "Syaiful Garibaldi",
+          "text": "(1985, Indonesia) Syaiful Aulia Garibaldi was born in 1985 in Jakarta, Indonesia. He obtained a Bachelor of Arts from Institut Teknologi Bandung (ITB) and currently works in Bandung, Indonesia. Syaiful, fondly known as Tepu, started off as a student of agriculture in university before pursuing experimental fine arts where he applies his scientific background to create a conceptual foundation for his art. Tepu’s works show a remarkably strong vision of art that collides with science in a graceful manner. His creation of an immersive environment was sparked by his interest in the networked and interconnected nature of ecologies, and the evocative power of microorganisms as symbols of death and decay, as well as life. Infusion between art and science transcends through Tepu’s work and gives way to a new gateway of knowledge, which is illuminated within his prints and installations. Tepu has participated in several exhibitions in Indonesia and abroad."
+      },
+      {
+          "name": "Alexis Gautier",
+          "text": "(1990, France) is an artist living and working between France and Belgium. He focuses his research on experiments connected to process, transformation and movement. His recent works in Indonesia, China and Nepal are episodes of a continuous exploration of misunderstandings and attempts to infiltrate defined customs. Facts, fictions, myths, and material’s specificity become tools to engage individuals into collaborative works, sketching a dialogue between the specific and the general. Creating a fabric of relations, he documents his researches and interventions through films, drawings, sculptures and textiles."
+      },
+      {
+          "name": "Jimmy Hendrickx",
+          "text": "(1979, Belgium) Is a video artist and film producer working around social and environmental topics in South East Asia. After completing his master in 3d Multimedia, Hendrickx focused mainly on the applied aspects of film and video art. Up until 2007 he was a freelance producer for promotional shorts. In 2007 Jimmy became a lecturer at School of Arts Ghent, where he lectured video and mixed-media techniques. In 2013 he received multiple awards for his documentary SEMALU, a short film on the effect of urbanisation on children in Kuala Lumpur. He has recently focused his interests towards the documentation of endangered populations and minorities, amongst others the punk kids of Indonesia and the innumerable tribes scattered around the archipelago. In 2017 his first feature documentary will be released, a movie on the livelihood of punk children in Jakarta."
+      },
+      {
+          "name": "Laura Herman",
+          "text": "(1988, Belgium) is a curator and writer whose work focuses on spatial infrastructure, organisational models, and affective architectures. Her writing and projects engage with the interdependencies between hard and soft infrastructures, and the relationship between architecture and social constructs such as family and gender. She currently serves as an assistant curator at La Loge and as editor at De Witte Raaf. In 2016 she received her MA from CCS Bard College, New York. She also holds a master’s degree in Comparative Modern Literature (Ghent University, 2010). From 2012 to 2014 she served as an assistant curator at Z33, House for Contemporary Art in Hasselt. Her reviews and essays have appeared in Frieze, Mousse, Spike Art Quarterly, Metropolis M, and elsewhere, and she has curated exhibitions and events including Wild Horses & Trojan Dreams at Marres (Maastricht, 2013), Definition Series: Infrastructure at the Storefront for Art and Architecture (New York, 2016), and Third Nature at the Hessel Museum (New York, 2016)."
+      },
+      {
+          "name": "Elisabeth Ida",
+          "text": "(1979, Indonesia) is a visual artist who lives and works in Brussels. In 2010 she obtained a MA in Photography from KASK / The School of Arts in Ghent. Ida works interdisciplinary and uses various media. Her most recent work Saksi Bisu/Silent Witness (Let Me Take You To A Tropical Paradise) is a delicate video installation about the 1965 mass killings and its succeeding brainwash in her home country, which she presented in Cultuurcentrum Strombeek in the context of Europalia Indonesia 2017-2018. In January 2018, she will present a commemoration to the disappeared students and activists during the end of the 90s in S.M.A.K. in Ghent. Elisabeth was awarded by Fotomuseum Antwerpen as Young Belgian Talent and by S.M.A.K. for Coming People. She has exhibited her work, among other places, in Taman Ismail Marzuki Jakarta, Utan Kayu Jakarta, BOZAR (Brussels), S.M.A.K. (Ghent), Musée de la Photographie (Charleroi), and De Brakke Grond (Amsterdam). Her first book Inside Embassies is published by Art Paper Editions in 2015."
+      },
+      {
+          "name": "Setu legi",
+          "text": "(1971, Indonesia) is an artist who was born in Yogyakarta and completed his studies at the Faculty of Art and Design at the Indonesian Institute of Art (ISI) in Yogyakarta in 2000. In 1998, he and his friends established the Taring Padi art and cultural community. He is now more focused on his individual practice. Setu Legi’s central concern is the rapid growth and the exploitation of natural resources. Seeing natural diversity being replaced with patterns of uniformity has brought the artist to question the idea of progress and the humans’ willingness to make nature bend to their needs. His reflections are articulated across different media, from terracotta sculptures to paintings, drawings and installations. He tackles specific environmental issues such as plantation-based systems of production and consumption, land exploitation, deforestation and the impacts on traditional communities."
+      },
+      {
+          "name": "Celia Lowe",
+          "text": "(USA) is Professor of Anthropology and International Studies, and Director of the Southeast Asia Center, at the University of Washington, Seattle, USA. Her work in Indonesia concerns the travels of scientific knowledge, especially biological knowledge, between EuroAmerica and Southeast Asia. Her first book, Wild Profusion: Biodiversity Conservation in an Indonesian Archipelago, published by Princeton in 2006, examined the role of Indonesian’s conservation biology in the creation of a new national park in the Togean Islands of Indonesia. She is currently working on a book on the recent H5N1 avian influenza outbreak in Indonesia and is interested in the way new forms of biosecurity and risk were in play in relation to the disease. Lowe has also consulted with the Ford Foundation, Conservation International, the World Wide Fund for Nature, and the Asian University for Women in this field."
+      },
+      {
+          "name": "Adrien Missika",
+          "text": "(1981, France) is an artist with a travel-based practice, and who seeks a physical encounter with the foreign and the unknown. Willing to overcome a possible all-digital experience of the world and to tackle his deep frustration regarding a noxious human action on nature, he embeds in his works his acute perception of being present - in a physical space, at a certain time, within a given culture. He subverts the notions of exoticism and cultural appropriation in multimedia productions that highlight the frictions and incompatibilities between natural and manmade, and the absurdities that ensue.Through a wide range of media, from photography, video, to sculpture and installation, the artist records his finds encountered during travels. Adrien studied at Ecole Cantonale d'Art de Lausanne (ECAL) in Lausanne, and is currently living and working in Berlin."
+      },
+      {
+          "name": "Rachel Monosov",
+          "text": "(1987, Russia/Israel) is an artist who lives and works between Berlin, Brussels and Harare. Her artistic practice bridges photography, video, performance, and sculpture, and delves into cultural notions of alienation, territorial belonging, gender, and identity. Nature serves as a source for the artist’s imagery and objects, which can be interpreted as both symbolic and indexical. In her recent works, Monosov lets the borders between private life and artistic performance blurr, therefore lets a questioning about authenticity, fantasy and fiction settle in her latest artworks. The act of presenting, representing and the communication between the artist the artwork and the public is of a growing importance in her practice.  While seemingly self-focussed and almost autobiographical, Monosov’s artworks subtly succeeds in tackling broad social and political through the use of appealing imagery and precisely scripted performances."
+      },
+      {
+          "name": "Offshore Studio",
+          "text": "(Isabel Seiffert (1986, Germany) and Christoph Miler (1988, Austria)) is a graphic design studio based in Zurich. They are the founders and editors of the magazine Migrant, that explores the circulation of people, goods, information, but also flora and fauna around the world and their transformation. Interested in collaborative, transnational, and decentralised projects and productions, Offshore Studio has a sustained production of projects engaging with social, political, ecological and cultural issues.  Offshore Studio’s designs often feature bold typefaces, signs and glyphs that support and signals an in depth research and their stubbornness to tackle heavy and sensitive topics."
+      },
+      {
+          "name": "David O’Reilly",
+          "text": "(1985, Ireland) is an artist and game designer based in Los Angeles. Exploring the realms of 3D animation, his subversive style is instantly recognizable, balancing giddy humour with nightmarish scenarios, childlike characters with severe and significant circumstances. Known for his seemingly unrefined, low-polygonal aesthetic, he uses animation with a demiurge-like mindset, to create worlds. He recently created Everything, an interactive game and experience where everything you see is a thing you can be, from animals to planets to galaxies and beyond. Creator of the influential short films Please Say Something and The External World, his animation work has won numerous awards and been the subject of several international retrospectives. He has lectured at Pixar, Harvard, Yale, USC, CalArts and at many other conferences and festivals around the world. He has written for Adventure Time & South Park, and created fictional video games in Spike Jonze’s Academy Award winning film 'Her'."
+      },
+      {
+          "name": "Yasmine Ostendorf",
+          "text": "(1984, The Netherlands) is a curator who works on international cultural mobility programmes and on the topic of art and environment. She has worked for expert organisations such as Julie’s Bicycle (UK), Cape Farewell (UK) and Trans Artists (NL). She runs the Green Art Lab Alliance, a network of 35 cultural organisations in Europe and Asia that explores, questions, and addresses social and environmental responsibility. She is the author of the series of guides Creative Responses to Sustainability, published by the Asia-Europe Foundation, mappings of art organisations working with environmental issues. Since March 2017 she is the Head of the Jac. P. Thijsse Lab for Nature Research at the Van Eyck Academy (NL). Recent exhibitions include: Non-Human Narratives, stories of bacteria, fungi and viruses, Van Eyck academy, Netherlands (2017) and The Big Invisible, Kunst Haus Wien, Austria (2017)."
+      },
+      {
+          "name": "Filip Van Dingenen",
+          "text": "(1975, Belgium) is a multidisciplinary artist and co-founder of the Ecole Mondiale in Brussels. He is currently PHD researcher at LUCA School of Arts in Ghent/Brussels and affiliated researcher at the Laboratory of Education and Society at KU Leuven. In his process-based art practice he uses a broad range of different methods and outputs merging participatory strategies with a social and ecological relevance, in between leisure and education. The last years he worked extensively on zoological issues and observed the phenomena of zoo culture from different angles. With the Argentinian choreographer/dancer Barbara Pereyra he co-founded Fantaman Productions & Matelisto Contemporary Movements, a platform for developing projects in between performance and visual arts. He is represented by Waldburger Wouters in Brussels."
+      },
+      {
+          "name": "Adrien Vermont",
+          "text": "(1981, France) explores drawing as a communication tool, playing with codes ranging from natural sciences to comics via medieval enluminures and children color books. In an endless quest for the right tone, through the format of etudes, Adrien Vermont has fine-tuned a unique handwriting embedding all the above mentioned reference in a seemingly universal visual language, focussed on animals. His bold figures and striking colors often carry antinomic ideas and generate frictions. Far from being simply provocative, with these confrontations and through his use of text and language he raises questions of culture, and self-expression of the observed subjects. Adrien studied fine arts in Beaux Arts, Paris. Currently based in Brussels he has an reclusive atelier-based artistic production, where commitment, repetition and practice are at work."
       }
-  ]
+  ],
+
+  "resources" : [
+    {
+      "item" : "Bauer, Ute Meta, and Brigitte Oetker, eds. <i>SouthEastAsia spaces of the curatorial =: Räume des Kuratorischen.</i> Jahresring 63. Berlin: Sternberg Press, 2016."
+    },
+    {
+      "item" : "Bonneuil, Christophe, and Jean-Baptiste Fressoz. <i>The Shock of the Anthropocene: The Earth, History, and Us.</i> London ; Brooklyn, NY: Verso, 2016."
+    },
+    {
+      "item" : "Butcher, John G., and R. E. Elson. <i>Sovereignty and the Sea: How Indonesia Became an Archipelagic State.</i> Singapore: NUS Press, 2014."
+    },
+    {
+      "item" : "Cramb, R. A., John F. McCarthy, and NUS Press, eds. <i>The Oil Palm Complex: Smallholders, Agribusiness, and the State in Indonesia and Malaysia.</i> Singapore: NUS Press, 2015."
+    },
+    {
+      "item" : "Demos, T. J. <i>Against the Anthropocene: Visual Culture and Environment Today.</i> Berlin: Sternberg Press, 2017."
+    },
+    {
+      "item" : "———. <i>Decolonizing Nature: Contemporary Art and the Politics of Ecology.</i> Berlin: Sternberg Press, 2016."
+    },
+    {
+      "item" : "Dioramas / exposition, Paris, Palais de Tokyo, du 13 juin au 10 septembre 2017. Exhibition catalogue collection. Flammarion, 2017 "
+    },
+    {
+      "item" : "Drake, Phillip. Indonesia and the Politics of Disaster: Power and Representation in Indonesia’s Mud Volcano. Routledge Contemporary Southeast Asia Series 83. London New York: Routledge, Taylor & Francis Group, 2017."
+    },
+    {
+      "item" : "Humboldt, Alexander von, and Jason Wilson. Personal Narrative. Penguin Classics. London ; New York: Penguin Books, 1995."
+    },
+    {
+      "item" : "Hugo, Victor. Toilers of the sea (Les travailleurs de la mer.)"
+    },
+    {
+      "item" : "Lowe, Celia. Wild Profusion: Biodiversity Conservation in an Indonesian Archipelago. Information Series. Princeton, N.J: Princeton University Press, 2006."
+    },
+    {
+      "item" : "Mizuno, Kōsuke, Motoko Fujita, Shūichi Kawai, and NUS Press, eds. Catastrophe and Regeneration in Indonesia’s Peatlands: Ecology, Economy, and Society. Kyoto CSEAS Series on Asian Studies / Center for Southeast Asian Studies, Kyoto University 15. Singapore: NUS Press, Singapore in association with Kyoto University Press, Japan, 2016."
+    },
+    {
+      "item" : "Nabhan, Gary Paul. Cumin, Camels, and Caravans: A Spice Odyssey. California Studies in Food and Culture 45. Berkeley: University of California Press, 2014."
+    },
+    {
+      "item" : "‘PetaBencana.id’. Petabencana.id. Accessed 6 June 2017. http://www.petabencana.id/."
+    },
+    {
+      "item" : "Resosudarmo, Budy P., Frank Jotzo, and Institute of Southeast Asian Studies, eds. Working with Nature against Poverty: Development, Resources and the Environment in Eastern Indonesia. Singapore: Institute of Southeast Asian Studies, 2009."
+    },
+    {
+      "item" : "Robins, Nick. The Corporation That Changed the World: How the East India Company Shaped the Modern Multinational. 2nd ed. London: Pluto Press, 2012."
+    },
+    {
+      "item" : "Springer, Anna-Sophie, Etienne Turpin, and Haus der Kulturen der Welt Berlin, eds. Land & Animal & Nonanimal. Intercalations 2. Berlin: K-Verl, 2015."
+    },
+    {
+      "item" : "Suhardiman, Diana. Bureaucracy and Development: Reflections from the Indonesian Water Sector. Singapore: Institute of Southeast Asian Studies, 2015."
+    },
+    {
+      "item" : "Toer, Pramoedya Ananta, and Max Lane. The Buru Quartet. 1: This Earth of Mankind. A Penguin Book Fiction. New York: Penguin Books, 1996."
+    },
+    {
+      "item" : "———. The Buru Quartet. 4: House of Glass: A Novel. A Penguin Book Fiction. New York: Penguin Books, 1997."
+    },
+    {
+      "item" : "Tri Sambodo, Maxensius. From Darkness to Light: Energy Security Assessment in Indonesia’s Power Sector. Singapore: ISEAS, Yusof Ishak Institute, 2016."
+    },
+    {
+      "item" : "Turpin, Etienne, and Anna-Sophie Springer. Reverse Hallucinations in the Archipelago. Verlag & Haus der Kulturen der Welt, 2017."
+    },
+    {
+      "item" : "———. The Word for World Is Still Forest. Berlin: K. Verlag & Haus der Kulturen der Welt, 2017., 2017."
+    },
+    {
+      "item" : "Wallace, Alfred Russel. The Malay Archipelago: The Land of the Orang-Utan, and the Bird of Paradise : A Narrative of Travel, with Studies of Man and Nature, 2015."
+    },
+    {
+      "item" : "Wulf, Andrea. The Invention of Nature: Alexander von Humboldt’s New World. First American Edition. New York: Alfred A. Knopf, 2015."
+    },
+    {
+      "item" : "‘Www.anexact.org’. Accessed 6 June 2017. http://www.anexact.org/."
+    }
+      ]
 }

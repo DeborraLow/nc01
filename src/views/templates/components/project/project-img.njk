@@ -1,3 +1,14 @@
-{% macro img(img) %}
-    <img class="project-img" src="{{ img }}" alt="#">
+{% from "components/project/project-caption.njk" import caption as caption %}
+
+
+{% macro img(item) %}
+	<figure>
+
+    	<img class="project-img" src="{{ item.img }}" alt="#">
+
+    	{% if item.caption %}
+    		{{ caption(item.caption) }}
+    	{% endif %}
+
+    </figure>
 {% endmacro %}

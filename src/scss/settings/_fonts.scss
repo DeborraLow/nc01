@@ -2,6 +2,29 @@
   #FONTS
 \*------------------------------------*/
 
+@font-face {
+    font-family: 'Agipo Regular Extended';
+    src: url('../fonts/agipo_regular_extended.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/agipo_regular_extended.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/agipo_regular_extended.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/agipo_regular_extended.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/agipo_regular_extended.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+}
 
-$title: 'Agipo Regular Extended', Helvetica;
-$text:  'Agipo Regular Extended', Helvetica;
+
+@font-face {
+    font-family: 'Agipo Regular Italic';
+    src: url('../fonts/agipo_regular_italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/agipo_regular_italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/agipo_regular_italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/agipo_regular_italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/agipo_regular_italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+$title: 'Agipo Regular Extended', Arial;
+$text:  'Agipo Regular Extended', Arial;
+$italic:'Agipo Regular Italic', Arial;

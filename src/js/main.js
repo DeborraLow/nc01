@@ -24,9 +24,11 @@ Call all functions from here depending on what page we are on
 		// LANDING PAGE
 		if(GLOBAL_BODY.classList.contains('landing-page')) {
 
+			window.scrollTo(0, 0);
+
 			scrollIndicator();
 			expandProjectOverview();
-			//introAnimation();
+			introAnimation();
 			//infoPanel();
 			objectInteraction();
 			sticky();
@@ -42,6 +44,8 @@ Call all functions from here depending on what page we are on
 		//ABOUT PAGE
 		else if (GLOBAL_BODY.classList.contains('about-page')) {
 
+			GLOBAL_BODY.classList.remove('no-scroll');
+
 			scrollIndicator();
 			aboutNavigation();
 			filterSelector('about');
@@ -54,6 +58,8 @@ Call all functions from here depending on what page we are on
 
 		//PROJECT PAGE
 		else {
+
+			GLOBAL_BODY.classList.remove('no-scroll');
 
 			scrollIndicator();
 			mediaControl();
@@ -191,4 +197,32 @@ function removeTransitionToScrollIndicator() {
 
 
 
+
+(function() {
+    var throttle = function(type, name, obj) {
+        obj = obj || window;
+        var running = false;
+        var func = function() {
+            if (running) { return; }
+            running = true;
+             requestAnimationFrame(function() {
+                obj.dispatchEvent(new CustomEvent(name));
+                running = false;
+            });
+        };
+        obj.addEventListener(type, func);
+    };
+
+    /* init - you can init any event */
+    throttle("resize", "optimizedResize");
+})();
+
+// handle event
+window.addEventListener("optimizedResize", function() {
+    setTimeout(function(){ 
+						addTransitionToScrollIndicator();
+						
+						updateScrollIndicator();
+					}, 100);
+});
 

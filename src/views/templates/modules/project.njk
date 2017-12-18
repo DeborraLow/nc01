@@ -1,5 +1,5 @@
 {% from "components/project/project-audio.njk" import audio as audio %}
-{% from "components/project/project-creator.njk" import creator as creator %}
+{% from "components/project/project-author.njk" import author as author %}
 {% from "components/project/project-gallery.njk" import gallery as gallery %}
 {% from "components/project/project-img.njk" import img as img %}
 {% from "components/project/project-interview.njk" import interview as interview %}
@@ -13,6 +13,7 @@
 
 
 {% set work = projects[projectIndex] %}
+
 
 
 <div class="project-page">
@@ -35,8 +36,8 @@
         {# CONTENT #}
         <div class="project-content">
 
-            {# CREATOR #}
-            {{ creator(work.creator) }}
+            {# author #}
+            {{ author(work.author) }}
 
 
             {% for item in work.content %}
@@ -54,7 +55,8 @@
                 {% elif item.type == 'img' %}
 
                     {# IMAGE #}
-                    {{ img(item.img) }}
+
+                    {{ img(item) }}
 
                 {% elif item.type == 'video' %}
 
@@ -80,7 +82,7 @@
 
             {% if projectIndex < nrOfProjects - 1 %}
                 {# NEXT PROJECT #}
-                {{ nextProject('./project_' + (projectIndex + 2) + '.html') }}
+                {{ nextProject('./contribution_' + (projectIndex + 2) + '.html') }}
                 {% include "components/project/project-next.njk" %}
             {% endif %}
 

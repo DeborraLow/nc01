@@ -23,7 +23,7 @@ gulp.task('nunjucks', function() {
 
 
 gulp.task('nunjucks_projects', function() {
-  return gulp.src('src/views/pages/projects/*.+(html|njk)')
+  return gulp.src('src/views/pages/contributions/*.+(html|njk)')
   .pipe(data(function() {
       return require('./src/views/data/data.json')
     }))

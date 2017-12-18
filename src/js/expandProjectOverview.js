@@ -2,7 +2,6 @@ function expandProjectOverview(){
 
 	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
 	var objectSelectors = document.querySelector('.js-object-selector');
-	var projectOverview = document.querySelector('.js-landing-expandable');
 
 
 	expandProjectOverviewButton.addEventListener(
@@ -10,13 +9,13 @@ function expandProjectOverview(){
 		function() {
 
 
-			objectSelectors.classList.add('tr-move-down');
+			//objectSelectors.classList.add('tr-move-down');
 
-			objectSelectors.classList.add('vertical');
+			objectSelectors.classList.remove('object-selector-home');
 
 			objectSelectors.classList.add('tr-move-in');
 
-			projectOverview.classList.add('tr-expand');
+			document.body.classList.add('expanded-view');
 
 			expandProjectOverviewButton.classList.add('tr-fade-out');
 		}

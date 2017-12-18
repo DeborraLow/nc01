@@ -1,3 +1,7 @@
+//RESET
+@import "general/_reset.scss";
+
+
 //SETTINGS
 @import "settings/_colors.scss";
 @import "settings/_breakpoints.scss";
@@ -11,17 +15,18 @@
 
 //GENERAL
 @import "general/_general.scss";
-@import "general/_reset.scss";
+
 
 
 //COMPONENTS
+@import "components/about/_about-bibliography.scss";
 @import "components/about/_about-nav.scss";
 @import "components/about/_about-contact.scss";
 @import "components/about/_about-contributor-item.scss";
 @import "components/about/_about-contributors.scss";
 @import "components/about/_about-section.scss";
 @import "components/about/_about-text.scss";
-@import "components/about/_about-theproject.scss";
+@import "components/about/_about-editorial.scss";
 @import "components/about/_about-title.scss";
 
 @import "components/_arrow.scss";
@@ -29,13 +34,15 @@
 @import "components/_custom-input-range.scss";
 @import "components/_filters.scss";
 @import "components/_half-panel.scss";
-@import "components/_landing-view.scss";
+@import "components/_intro-animation.scss";
+@import "components/_landing-intro.scss";
 @import "components/_landing-logo.scss";
 @import "components/_object-3d.scss";
 @import "components/_object-selector-item.scss";
 @import "components/_navigation.scss";
+@import "components/_no-scroll.scss";
 
-@import "components/project-overview/_creator-and-type.scss";
+@import "components/project-overview/_author-and-type.scss";
 @import "components/project-overview/_project-overview-expand-button.scss";
 @import "components/project-overview/_project-overview-img.scss";
 @import "components/project-overview/_project-overview-item.scss";

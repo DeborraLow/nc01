@@ -6,6 +6,12 @@
 	padding: $project-overview-padding + 2px $project-overview-padding $project-overview-padding - 2px $project-overview-padding;
 	height: calc(4vh + 2 * #{$project-overview-padding});
 	background: $black;
+	transition: 0.3s ease-out;
+
+	&.fade-away {
+		opacity: 0;
+		transform: translateY(90%);
+	}
 }
 
 
@@ -13,3 +19,5 @@
 	position: absolute;
 	height: 4vh;
 }
+
+

@@ -1,0 +1,19 @@
+{#
+ # Project template
+ # ---------------
+ #
+ #}
+
+
+{% set bodyClass = 'project' %}
+{% set dataNamespace = 'project' %}
+
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    {#  PROJECT TEMPLATE #}
+    {% set projectIndex = 5 %}
+    {% include "modules/project.njk" %}
+
+{% endblock %}

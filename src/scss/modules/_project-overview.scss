@@ -3,16 +3,18 @@
     top: $navigationPanelH;
 	float: left;
     width: 100%;
-    //height: calc(100vh - #{$infoPanelH} - #{$navigationPanelH});
     box-sizing: content-box;
     background: $background;
-   //  margin-right: -100px;
-   // padding-right: 100px;
+
+
+   @include bp-s {
+       top: $navigationPanel-h-bps;
+    }
 }
 
 
 .sticky {
 	.project-overview {
-		padding-top: $infoPanelH;
+		padding-top: calc(#{$infoPanelH});
 	}
 }

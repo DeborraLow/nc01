@@ -12,14 +12,19 @@
 
 {% block content %}
 
+    <h1 class="landing-title">
+        Natural capital
+    </h1>
 
-    {# LANDING VIEW #}
-    {% include "modules/landing-view.njk" %}
+    <div class="landing-background"></div>
 
     <div class="landing-content">
 
+        {# LANDING INTRO #}
+        {% include "modules/landing-intro.njk" %}
 
-        <div class="half-panel half-panel--left js-fix-indicator stick">
+
+        <div class="half-panel half-panel--left stick">
 
             {# OBJECT 3D #}
             {% include "modules/object-3d.njk" %}
@@ -27,7 +32,7 @@
         </div>
 
 
-        <div class="half-panel half-panel--right js-landing-expandable">
+        <div class="half-panel half-panel--right">
 
             {# INFO PANEL #}
             {% set extraClass = 'stick' %}

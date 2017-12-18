@@ -1,0 +1,15 @@
+.intro-animation {
+	position: relative;
+
+	svg{
+		position: absolute;
+		top: 0%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		height: 100vh!important;
+		width: auto!important;
+	}
+	
+}
+
+//original-ratio: 1920 x 1080

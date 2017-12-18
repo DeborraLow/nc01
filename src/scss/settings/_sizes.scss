@@ -9,8 +9,9 @@ $landing-font-size: 8vw;
 
 $project-text-font-size: 2vw;
 $project-title-font-size: 4vw;
-$project-creator-font-size: 2vw;
+$project-author-font-size: 2vw;
 $project-type-font-size: 1vw;
+$project-caption-font-size: 1vw;
 
 $about-title-font-size: 2vw;
 $about-contributor-font-size: 1.5vw;
@@ -23,17 +24,18 @@ $navigation-font-size: 2vw;
 //bp-s
 $landing-font-size-bps: 10vw;
 
-$project-text-font-size-bps: 7vw;
-$project-title-font-size-bps: 2vw;
-$project-creator-font-size-bps: 5vw;
+$project-text-font-size-bps: 4vw;
+$project-title-font-size-bps: 10vw;
+$project-author-font-size-bps: 5vw;
 $project-type-font-size-bps: 5vw;
+$project-caption-font-size-bps: 3vw;
 
 $about-title-font-size-bps: 5vw;
 $about-contributor-font-size-bps: 3vw;
 $about-text-font-size-bps: 3vw;
-$about-navigation-font-size-bps: 1vw;
+$about-navigation-font-size-bps: 3vw;
 
-$navigation-font-size-bps: 1vw;
+$navigation-font-size-bps: 3vw;
 
 
 
@@ -56,9 +58,11 @@ $project-overview-padding-bps: 10px;
 
 //SECTION HEIGHTS
 $navigationPanelH: calc(#{$navigation-font-size} + #{$project-overview-padding} * 2);
+$navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$project-overview-padding-bps} * 2);
 $infoPanelH: 80px;
 $object3D-h: 80vh;
 $about-navigation-h: calc(#{$about-navigation-font-size} * 3 + #{$project-overview-padding} * 2);
+$about-navigation-h-bps: calc(#{$about-navigation-font-size-bps} * 3 + #{$project-overview-padding-bps} * 2);
 
 
 $vertical-object-selectorW: 10vw;
@@ -90,8 +94,4 @@ $about-section-w: 50vw;
 $project-content-w: 50vw;
 $project-title-w: $project-content-w;
 $project-text-w: 75%;
-$project-creator-w: 25%;
-
-
-
-
+$project-author-w: 25%;

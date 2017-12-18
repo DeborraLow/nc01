@@ -17,6 +17,12 @@ $projectHeaderH: 200px;
         width: calc(100vw - #{$vertical-object-selectorW});
         border-bottom: $borderW solid $border-color;
         background: $background;
+
+        @include bp-s {
+            top: $navigationPanel-h-bps;
+            width: 100vw;
+            padding: $project-overview-padding-bps;
+        }
     }
 
 
@@ -49,22 +55,27 @@ $projectHeaderH: 200px;
 
 
     .project-content {
+        position: relative;
+        float: left;
+        width: $project-content-w;
         padding-top: $navigationPanelH;
         margin-top:  $projectHeaderH;
-        width: $project-content-w;
         margin-left: calc((100vw - #{$vertical-object-selectorW} - #{$project-content-w}) / 2);
 
         @include bp-s {
-            width: 85%;
-            margin-left: 15%;
+            width: 100%;
+            margin-left: 0;
+            padding: $project-overview-padding-bps;
+            padding-top: $navigationPanel-h-bps;
+            padding-bottom: calc(#{$project-text-font-size-bps} * 2 + #{$project-overview-padding-bps});
         }
     }
 
 
-    .project-creator {
+    .project-author {
         float: left;
-        width: $project-creator-w;
-        font-size: $project-creator-font-size;
+        width: $project-author-w;
+        font-size: $project-author-font-size;
         text-transform: uppercase;
 
         &:before {
@@ -76,8 +87,9 @@ $projectHeaderH: 200px;
         }
 
         @include bp-s {
-            width: 90%;
-            font-size: $project-creator-font-size-bps;
+            width: 85%;
+            margin-left: 15%;
+            font-size: $project-author-font-size-bps;
         }
     }
 
@@ -89,9 +101,19 @@ $projectHeaderH: 200px;
         margin-bottom: $project-item-margin-bottom;
 
         @include bp-s {
-            width: 100%;
-            font-size: $project-text-font-size-bps;
+            width: 85%;
+            margin-left: 15%;
             margin-bottom: $project-item-margin-bottom-bps;
+            font-size: $project-text-font-size-bps;
+        }
+    }
+
+
+    .project-caption {
+        font-size: $project-caption-font-size;
+
+        @include bp-s {
+            font-size: $project-caption-font-size-bps;
         }
     }
 
@@ -152,6 +174,15 @@ $projectHeaderH: 200px;
         transform: rotate(-90deg) translate(50%, -50%);
         transform-origin: right center;
         text-transform: uppercase;
+
+        @include bp-s {
+            position: absolute;
+            top: auto;
+            bottom: $project-item-margin-bottom-bps;
+            right: auto;
+            left: $project-overview-padding-bps;
+            transform: rotate(0deg) translate(0%, 0%);
+        }
     }
 
 

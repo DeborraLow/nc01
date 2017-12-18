@@ -21,11 +21,40 @@
 
 
 .object-selector-home {
-
+    
     .object-selector-item {
         width: 20%;
         height: 100%;
         border: none;    
         border-right: $borderW solid $border-color;
+
+        &:last-child {
+            border: none;
+        }
     }
+}
+
+
+.load-assets{
+
+    .object-selector-item:nth-child(1) {
+        background-image:  url('../img/objects/object_0.png');
+    }
+
+    .object-selector-item:nth-child(2) {
+        background-image:  url('../img/objects/object_1.png');
+    }
+
+    .object-selector-item:nth-child(3) {
+        background-image:  url('../img/objects/object_2.png');
+    }
+
+    .object-selector-item:nth-child(4) {
+        background-image:  url('../img/objects/object_3.png');
+    }
+
+    .object-selector-item:nth-child(5) {
+        background-image:  url('../img/objects/object_4.png');
+    }
+
 }

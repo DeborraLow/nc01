@@ -1,6 +1,6 @@
 {% macro object_selector_item(img, selector, isWithLink, loopIndex) %}
 
-    {% set backgroundImg = 'background-image: url(' + img + ');'  %}
+    
     {% set activeClass = ''  %}
 
     {% if  loopIndex == 0 %}
@@ -10,16 +10,19 @@
 
     	{% if isWithLink %}
 
-    		<li class="object-selector-item js-filter-selector {{ activeClass }}" style = "{{ backgroundImg }}">
+    		<li class="object-selector-item js-filter-selector {{ activeClass }}">
     			<a href="./index.html"></a>
     		</li>
 
     	{% else %}
 
-    		<li class="object-selector-item js-filter-selector {{ activeClass }}" style = "{{ backgroundImg }}"></li>
+    		<li class="object-selector-item js-filter-selector {{ activeClass }}"></li>
 
     	{% endif %}
 
     
 
 {% endmacro %}
+
+
+{% set backgroundImg = 'background-image: url(' + img + ');'  %}

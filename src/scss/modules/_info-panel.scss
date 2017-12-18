@@ -5,20 +5,29 @@
     height: $infoPanelH;
     padding: $project-overview-padding;
     background: $background;
+    border-left: $borderW solid $border-color;
     border-bottom: $borderW solid $border-color;
 
     @include bp-s {
-       border-left: none;
-       border-right: none;
+        // width: 100vw;
+        // top: $navigationPanel-h-bps;
+        // padding: $project-overview-padding-bps;
+        // border-left: none;
+        // border-right: none;
+        display: none;
     }
 }
 
 
 .sticky {
     .info-panel.stick {
+        z-index: 1;
         top: $navigationPanelH;
         right: 0;
-        
+
+        @include bp-s {
+            top: $navigationPanel-h-bps;
+        } 
     }
 }
 
@@ -27,5 +36,9 @@
     th, td {
         width: 8vw;
         text-align: left;
+
+        @include bp-s {
+            width: 18vw;
+        }
     }
 }
