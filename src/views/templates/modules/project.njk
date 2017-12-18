@@ -5,7 +5,7 @@
 {% from "components/project/project-interview.njk" import interview as interview %}
 {% from "components/project/project-text.njk" import text as text %}
 {% from "components/project/project-title.njk" import title as title %}
-{% from "components/project/project-type.njk" import type as type %}
+{% from "components/project/project-location.njk" import location as location %}
 {% from "components/project/project-video.njk" import video as video %}
 
 {% from "components/project/project-next.njk" import nextProject as nextProject %}
@@ -27,8 +27,8 @@
             {# TITLE #}
             {{ title(work.title) }}
 
-            {# TYPE #}
-            {{ type(work.type) }}
+            {# LOCATION #}
+            {{ location(work.location) }}
             
         </div>
 

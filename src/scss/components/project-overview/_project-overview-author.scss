@@ -1,20 +1,11 @@
-.project-author-and-type {
+.project-author {
     width: 20%;
     float: right;
     padding: $project-overview-padding;
+    text-transform: uppercase;
 
     @include bp-s {
         width: 35%;
         padding: $project-overview-padding-bps;
-    }
-}
-
-.project-author {
-    text-transform: uppercase;
-}
-
-.project-type {
-    @include bp-s {
-        display: none;
     }
 }

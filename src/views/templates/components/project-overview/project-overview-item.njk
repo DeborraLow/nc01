@@ -1,4 +1,4 @@
-{% macro projectOverview(author, type, title, text, img, index) %}
+{% macro projectOverview(author, title, text, img, index) %}
 
 {% set href =  "./contribution_" + index + ".html" %}
 
@@ -16,12 +16,9 @@
                 <p class="project-text">{{ text }}</p>
             </div>
 
-
-            <div class="project-author-and-type">
-                <div class="project-author">{{ author }}</div>
-                <div class="project-type">[{{ type }}]</div>
-            </div>
-
+            
+            <div class="project-author">{{ author }}</div>
+            
         </a>
     </li>
 

@@ -41,15 +41,16 @@ $projectHeaderH: 200px;
     }
 
 
-    .project-type {
+    .project-location {
         width: calc((100vw - #{$vertical-object-selectorW} - #{$project-title-w}) / 2);
         float: right;
-        font-size: $project-type-font-size;
+        padding: $project-overview-padding;
+        font-size: $project-location-font-size;
         text-transform: capitalize;
 
         @include bp-s {
             display: none;
-            font-size: $project-type-font-size-bps;
+            font-size: $project-location-font-size-bps;
         }
     }
 
