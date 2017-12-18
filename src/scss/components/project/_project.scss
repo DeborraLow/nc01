@@ -15,21 +15,23 @@ $projectHeaderH: 200px;
         top: $navigationPanelH;
         float: left;
         width: $ganeral-main-panel;
+        padding: $gutter;
+        padding-right: 0;
         border-bottom: $borderW solid $border-color;
         background: $background;
 
         @include bp-s {
             top: $navigationPanel-h-bps;
             width: 100vw;
-            padding: $project-overview-padding-bps;
+            padding: $gutter-bps;
         }
     }
 
 
     .project-title {
-        width: $project-title-w;
+        width: $project-w;
         float: right;
-        margin-right: calc((100vw - #{$vertical-object-selectorW} - #{$project-title-w}) / 2);
+        margin-right: $project-right-margin;
         font-size: $project-title-font-size;
         text-transform: uppercase;
 
@@ -42,9 +44,7 @@ $projectHeaderH: 200px;
 
 
     .project-location {
-        width: calc((100vw - #{$vertical-object-selectorW} - #{$project-title-w}) / 2);
-        float: right;
-        padding: $project-overview-padding;
+        float: left;
         font-size: $project-location-font-size;
         text-transform: capitalize;
 
@@ -56,18 +56,18 @@ $projectHeaderH: 200px;
 
     .project-content {
         position: relative;
-        float: left;
-        width: $project-content-w;
+        float: right;
+        width: $project-w;
         padding-top: $navigationPanelH;
         margin-top:  $projectHeaderH;
-        margin-left: calc((100vw - #{$vertical-object-selectorW} - #{$project-content-w}) / 2);
+        margin-right: $project-right-margin;
 
         @include bp-s {
             width: 100%;
             margin-left: 0;
-            padding: $project-overview-padding-bps;
+            padding: $gutter-bps;
             padding-top: $navigationPanel-h-bps;
-            padding-bottom: calc(#{$project-text-font-size-bps} * 2 + #{$project-overview-padding-bps});
+            padding-bottom: calc(#{$project-text-font-size-bps} * 2 + #{$gutter-bps});
         }
     }
 
@@ -82,7 +82,7 @@ $projectHeaderH: 200px;
             @include bp-s {
                 content: 'BY';
                 position: absolute;
-                left: $project-overview-padding-bps;
+                left: $gutter-bps;
             }
         }
 
@@ -111,20 +111,27 @@ $projectHeaderH: 200px;
 
     .project-caption {
         font-size: $project-caption-font-size;
+        margin-left: $project-caption-margin-left;
+        margin-top: $project-caption-margin-top;
 
         @include bp-s {
             font-size: $project-caption-font-size-bps;
+            margin-top: $project-caption-margin-top-bps;
+        }
+    }
+
+
+    .project-img-container {
+        margin-bottom: $project-item-margin-bottom;
+
+        @include bp-s {
+            margin-bottom: $project-item-margin-bottom-bps;
         }
     }
 
 
     .project-img {
         width: 100%;
-        margin-bottom: $project-item-margin-bottom;
-
-        @include bp-s {
-            margin-bottom: $project-item-margin-bottom-bps;
-        }
     }
 
 
@@ -148,9 +155,10 @@ $projectHeaderH: 200px;
     .project-interview-item {
         float: left;
         width: 100%;
+        margin-bottom: $project-interview-item-margin-bottom;
 
         @include bp-s {
-            margin-bottom: $project-item-margin-bottom-bps;
+            margin-bottom: $project-interview-item-margin-bottom-bps;
         }
     }
 
@@ -180,7 +188,7 @@ $projectHeaderH: 200px;
             top: auto;
             bottom: $project-item-margin-bottom-bps;
             right: auto;
-            left: $project-overview-padding-bps;
+            left: $gutter-bps;
             transform: rotate(0deg) translate(0%, 0%);
         }
     }

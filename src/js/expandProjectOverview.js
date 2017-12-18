@@ -1,24 +1,24 @@
-function expandProjectOverview(){
+// function expandProjectOverview(){
 
-	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
-	var objectSelectors = document.querySelector('.js-object-selector');
-
-
-	expandProjectOverviewButton.addEventListener(
-		'click',
-		function() {
+// 	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
+// 	var objectSelectors = document.querySelector('.js-object-selector');
 
 
-			//objectSelectors.classList.add('tr-move-down');
+// 	expandProjectOverviewButton.addEventListener(
+// 		'click',
+// 		function() {
 
-			objectSelectors.classList.remove('object-selector-home');
 
-			objectSelectors.classList.add('tr-move-in');
+// 			//objectSelectors.classList.add('tr-move-down');
 
-			document.body.classList.add('expanded-view');
+// 			objectSelectors.classList.remove('object-selector-home');
 
-			expandProjectOverviewButton.classList.add('tr-fade-out');
-		}
-	);
+// 			objectSelectors.classList.add('tr-move-in');
 
-}
+// 			document.body.classList.add('expanded-view');
+
+// 			expandProjectOverviewButton.classList.add('tr-fade-out');
+// 		}
+// 	);
+
+// }

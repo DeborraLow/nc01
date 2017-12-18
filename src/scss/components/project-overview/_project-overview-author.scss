@@ -1,11 +1,14 @@
-.project-author {
-    width: 20%;
+.project-overview-author {
+    width: $project-overview-author-w;
     float: right;
-    padding: $project-overview-padding;
+    padding: $gutter;
+    padding-right: 0;
     text-transform: uppercase;
+    font-size: $project-overview-author-font-size;
 
     @include bp-s {
         width: 35%;
-        padding: $project-overview-padding-bps;
+        padding: $gutter-bps;
+        font-size: $project-overview-author-font-size-bps;
     }
 }

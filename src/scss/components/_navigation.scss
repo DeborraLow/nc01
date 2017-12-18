@@ -4,10 +4,10 @@
     top: 0;
     left: 0;
     height: 100%;
-    padding: $project-overview-padding;
+    padding: $gutter;
 
     @include bp-s {
-        padding: $project-overview-padding-bps;
+        padding: $gutter-bps;
     }
 }
 
@@ -18,9 +18,9 @@
     top: 0;
     right: 0;
     height: 100%;
-    padding: $project-overview-padding;
+    padding: $gutter;
 
     @include bp-s {
-        padding: $project-overview-padding-bps;
+        padding: $gutter-bps;
     }
 }

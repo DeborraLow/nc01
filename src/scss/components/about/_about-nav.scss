@@ -2,9 +2,9 @@
 	display: block;
 	position: fixed;
 	top: $navigationPanelH;
-	width: calc(100% - #{$vertical-object-selectorW});
+	width: $ganeral-main-panel;
 	height: $about-navigation-h;
-	padding: $project-overview-padding;
+	padding: $gutter;
 	border-bottom: $borderW solid $border-color;
 	background: $background;
 	font-size: $about-navigation-font-size;
@@ -13,7 +13,7 @@
 		top: $navigationPanel-h-bps;
 		width: 100vw;
 		height: $about-navigation-h-bps;
-		padding: $project-overview-padding-bps;
+		padding: $gutter-bps;
         font-size: $about-navigation-font-size-bps;
     }
 }

@@ -1,23 +1,23 @@
-{% macro projectOverview(author, title, text, img, index) %}
+{% macro projectOverview(author, title, lead, img, index) %}
 
 {% set href =  "./contribution_" + index + ".html" %}
 
     <li class="project-overview-item">
         <a href="{{ href }}">
             
-            <div class="saturated-img-container">
-                <img class="project-img-saturation js-load-img" src=# alt="{{ title }}" data-src="{{ img }}">
-                <img class="project-img-grayscale js-load-img" src=# alt="{{ title }}" data-src="{{ img }}">
+            <div class="project-overview-img saturated-img-container">
+                <img class="saturated-img-saturation js-load-img" src=# alt="{{ title }}" data-src="{{ img }}">
+                <img class="saturated-img-grayscale js-load-img" src=# alt="{{ title }}" data-src="{{ img }}">
             </div>
 
 
-            <div class="project-title-and-text">
-                <h2 class="project-title">{{ title }}</h2>
-                <p class="project-text">{{ text }}</p>
+            <div class="project-overview-title-w-lead">
+                <h2 class="project-overview-title">{{ title }}</h2>
+                <p class="project-overview-lead">{{ lead }}</p>
             </div>
 
             
-            <div class="project-author">{{ author }}</div>
+            <div class="project-overview-author">{{ author }}</div>
             
         </a>
     </li>

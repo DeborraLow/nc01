@@ -3,8 +3,8 @@
 	left: 0;
 	bottom: 0;
 	width: 100vw;
-	padding: $project-overview-padding + 2px $project-overview-padding $project-overview-padding - 2px $project-overview-padding;
-	height: calc(4vh + 2 * #{$project-overview-padding});
+	padding: $gutter + 2px $gutter $gutter - 2px $gutter;
+	height: calc(4vh + 2 * #{$gutter});
 	background: $black;
 	transition: 0.3s ease-out;
 

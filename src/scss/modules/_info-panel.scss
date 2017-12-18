@@ -3,15 +3,16 @@
     top: $navigationPanelH;
     width: $landing-right-panel;
     height: $infoPanelH;
-    padding: $project-overview-padding;
+    padding: $gutter-small $gutter;
     background: $background;
     border-left: $borderW solid $border-color;
     border-bottom: $borderW solid $border-color;
+    font-size: $info-panel-font-size;
 
     @include bp-s {
         // width: 100vw;
         // top: $navigationPanel-h-bps;
-        // padding: $project-overview-padding-bps;
+        // padding: $gutter-bps;
         // border-left: none;
         // border-right: none;
         display: none;

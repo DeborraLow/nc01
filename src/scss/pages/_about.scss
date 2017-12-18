@@ -1,6 +1,6 @@
 .about {
     padding-top: calc(#{$navigationPanelH} + #{$about-navigation-h});
-    width: calc(100% - #{$vertical-object-selectorW});
+    width: $ganeral-main-panel;
     float: right;
     font-size: $about-text-font-size;
 

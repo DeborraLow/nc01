@@ -1,10 +1,10 @@
 .about-section {
 	width: $about-section-w;
 	margin: 0 auto;
-    padding: $project-overview-padding;
+    padding: $gutter;
 
     @include bp-s {
     	width: 100vw;
-        padding: $project-overview-padding-bps;
+        padding: $gutter-bps;
     }
 }

@@ -14,7 +14,7 @@
 .expanded-view {
 
     .half-panel--right, .navigation-panel, .info-panel {
-        width: calc(100vw - #{$vertical-object-selectorW});
+        width: $ganeral-main-panel;
     }
 }
 
@@ -34,7 +34,7 @@
 
 .half-panel--left {
     width: $landing-left-panel;
-    height: 100vh;
+    height: $object3D-h;
 
     &.stick {
         z-index: 1;

@@ -36,7 +36,10 @@ gulp.task('nunjucks_projects', function() {
 
 gulp.task('css', function() {
     return gulp.src('src/scss/main.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+        outputStyle: 'compressed',
+        includePaths: ['node_modules/susy/sass']
+    }).on('error', sass.logError))
     .pipe(autoprefixer('last 4 version'))
     .pipe(gulp.dest('public/assets/css'))
     .pipe(cssnano())

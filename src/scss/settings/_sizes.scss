@@ -9,8 +9,8 @@ $landing-font-size: 8vw;
 
 $project-text-font-size: 2vw;
 $project-title-font-size: 4vw;
-$project-author-font-size: 2vw;
-$project-location-font-size: 1vw;
+$project-author-font-size: 1.5vw;
+$project-location-font-size: 1.3vw;
 $project-caption-font-size: 1vw;
 
 $about-title-font-size: 2vw;
@@ -19,7 +19,11 @@ $about-text-font-size: 1.5vw;
 $about-navigation-font-size: 1.5vw;
 
 $navigation-font-size: 2vw;
-$info-panel-font-size: 2vw;
+$info-panel-font-size: 1.3vw;
+
+$project-overview-author-font-size: 1.3vw;
+$project-overview-lead-font-size: 1.3vw;
+$project-overview-title-font-size: 1.6vw;
 
 
 //bp-s
@@ -39,6 +43,10 @@ $about-navigation-font-size-bps: 3vw;
 $navigation-font-size-bps: 3vw;
 
 
+$project-overview-author-font-size-bps: 1vw;
+$project-overview-title-font-size-bps: 2vw;
+
+
 
 //LINE HEIGHTS
 $project-text-line-height: 1.5;
@@ -50,48 +58,3 @@ $closeBbutton: 50px;
 
 //BORDERS
 $borderW: 1px;
-
-
-//PADDING
-$project-overview-padding: 10px;
-$project-overview-padding-bps: 10px;
-
-
-//SECTION HEIGHTS
-$navigationPanelH: calc(#{$navigation-font-size} + #{$project-overview-padding} * 2);
-$navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$project-overview-padding-bps} * 2);
-$infoPanelH: calc(#{$info-panel-font-size} * 3 + #{$project-overview-padding} * 2);
-$object3D-h: 80vh;
-$about-navigation-h: calc(#{$about-navigation-font-size} * 3 + #{$project-overview-padding} * 2);
-$about-navigation-h-bps: calc(#{$about-navigation-font-size-bps} * 3 + #{$project-overview-padding-bps} * 2);
-
-
-$vertical-object-selectorW: 10vw;
-
-
-//VERTICAL SPACING
-$about-title-margin-bottom: 1vw;
-$about-title-margin-bottom-bps: 1vw;
-
-$about-contribution-item-margin-bottom: 1vw;
-$about-contribution-item-margin-bottom-bps: 1vw;
-
-$project-item-margin-bottom: 2vw;
-$project-item-margin-bottom-bps: 2vw;
-
-
-//HORIZONTAL SPACING
-$about-contribution-item-margin-left: 5%;
-$about-contribution-item-margin-left-bps: 5%;
-
-
-
-$about-section-w: 50vw;
-
-
-
-//PROJECT PAGE SIZES
-$project-content-w: 50vw;
-$project-title-w: $project-content-w;
-$project-text-w: 75%;
-$project-author-w: 25%;

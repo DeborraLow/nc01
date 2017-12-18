@@ -1,0 +1,39 @@
+.project-overview-title-w-lead {
+    width: $project-overview-title-w;
+    float: right;
+    padding: $gutter;
+    padding-right: 0;
+
+    @include bp-s {
+        width: 65%;
+        padding: $gutter-bps;
+    }
+}
+
+
+.project-overview-title {
+    text-transform: uppercase;
+    margin-bottom: $project-overview-title-margin-bottom;
+    font-size: $project-overview-title-font-size;
+
+    @include bp-s {
+        font-size: $project-overview-title-font-size-bps;
+    }
+}
+
+
+.project-overview-lead {
+    display: none;
+    font-size: $project-overview-lead-font-size;
+}
+
+
+.expanded-view {
+    .project-overview-title-w-lead {
+        width: $project-overview-expanded-title-w;
+    }
+
+    .project-overview-lead {
+    	display: block;
+    }
+}

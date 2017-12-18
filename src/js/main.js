@@ -196,6 +196,33 @@ function removeTransitionToScrollIndicator() {
 }
 
 
+function expandProjectOverview(){
+
+	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
+	var objectSelectors = document.querySelector('.js-object-selector');
+
+
+	expandProjectOverviewButton.addEventListener(
+		'click',
+		function() {
+
+			objectSelectors.classList.remove('object-selector-home');
+
+			document.body.classList.add('expanded-view');
+
+			expandProjectOverviewButton.classList.add('tr-fade-out');
+
+			setTimeout(function(){ 
+				addTransitionToScrollIndicator();
+				updateContentH();
+				updateScrollIndicator();
+			}, 100);
+		}
+	);
+
+}
+
+
 
 
 (function() {
