@@ -19,6 +19,11 @@ Call all functions from here depending on what page we are on
 		var GLOBAL_INDICATOR;
 		var GLOBAL_NAVIGATION_PANEL = document.querySelector('.js-navigation-panel');
 		var GLOBAL_OBJECT_SELECTOR = document.querySelector('.js-object-selector');
+		var GLOBAL_BP_S = 568; //px
+		var GLOBAL_IS_BP_S = false;
+
+
+		checkBreakpoint();
 
 		
 		// LANDING PAGE
@@ -30,7 +35,7 @@ Call all functions from here depending on what page we are on
 			expandProjectOverview();
 			introAnimation();
 			//infoPanel();
-			objectInteraction();
+			//objectInteraction();
 			sticky();
 			filterSelector('landing');
 
@@ -103,153 +108,217 @@ Call all functions from here depending on what page we are on
 			}
 		}
 
-		
-	})
 
-}())
+		function scrollIndicator() {
 
+		    GLOBAL_INDICATOR = document.querySelector('.js-scroll-indicator');
+		    GLOBAL_CONTENT = document.querySelector('.js-content-height');
+		    
+		    updateContentH();
+		    updateScrollIndicator();
+		    
 
-function scrollIndicator() {
+		    window.addEventListener('scroll', function(e) {
 
-    GLOBAL_INDICATOR = document.querySelector('.js-scroll-indicator');
-    GLOBAL_CONTENT = document.querySelector('.js-content-height');
-    
-    updateContentH();
-    updateScrollIndicator();
-    
+		        if(GLOBAL_INDICATOR.getBoundingClientRect().top <= 0) {
+		        	removeTransitionToScrollIndicator();
+		            updateScrollIndicator();
+		        }
 
-    window.addEventListener('scroll', function(e) {
-
-        if(GLOBAL_INDICATOR.getBoundingClientRect().top <= 0) {
-        	removeTransitionToScrollIndicator();
-            updateScrollIndicator();
-        }
-
-    });
-}
+		    });
+		}
 
 
-function aboutNavigation() {
+		function aboutNavigation() {
 
-	var navigationItemList = document.querySelectorAll('.js-about-nav-item');
+			var navigationItemList = document.querySelectorAll('.js-about-nav-item');
 
 
-	if(navigationItemList) {
+			if(navigationItemList) {
 
-		var navigationItemListLength = navigationItemList.length;
-		var previousSection = document.querySelector('[data-section]:not(.hidden)');
-		var previousNavigationItem = navigationItemList[0];
+				var navigationItemListLength = navigationItemList.length;
+				var previousSection = document.querySelector('[data-section]:not(.hidden)');
+				var previousNavigationItem = navigationItemList[0];
 
-		for(var i = 0; i < navigationItemListLength; i++) {
+				for(var i = 0; i < navigationItemListLength; i++) {
 
-			navigationItemList[i].addEventListener(
+					navigationItemList[i].addEventListener(
+						'click',
+						function(e) {
+
+							previousSection.classList.add('hidden');
+							previousNavigationItem.classList.remove('active');
+
+							var referencedSectionDataAttr = e.target.dataset.referencedSection;
+
+							var referencedSection = document.querySelector('[data-section=' + referencedSectionDataAttr + ']');
+
+							referencedSection.classList.remove('hidden');
+							e.target.classList.add('active');
+
+							previousSection = referencedSection;
+							previousNavigationItem = e.target;
+
+							setTimeout(function(){ 
+								addTransitionToScrollIndicator();
+								updateContentH();
+								updateScrollIndicator();
+							}, 100);
+
+						}
+					)
+				}
+			}
+
+		}
+
+
+		function updateContentH() {
+			GLOBAL_CONTENT_H = GLOBAL_CONTENT.getBoundingClientRect().height;
+		}
+
+		function updateScrollIndicator() {
+			GLOBAL_CONTENT_H = GLOBAL_CONTENT.getBoundingClientRect().height;
+
+			GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO = Math.min((window.scrollY + window.innerHeight) / GLOBAL_CONTENT_H, 1);
+		    GLOBAL_INDICATOR.style.transform = 'scaleX(' + GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO + ')';
+
+		}
+
+
+		function addTransitionToScrollIndicator() {
+			GLOBAL_INDICATOR.classList.add('transition');
+		}
+
+
+		function removeTransitionToScrollIndicator() {
+			GLOBAL_INDICATOR.classList.remove('transition');
+		}
+
+
+		function expandProjectOverview(){
+
+			var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
+			var objectSelectors = document.querySelector('.js-object-selector');
+
+
+			expandProjectOverviewButton.addEventListener(
 				'click',
-				function(e) {
+				function() {
 
-					previousSection.classList.add('hidden');
-					previousNavigationItem.classList.remove('active');
+					objectSelectors.classList.remove('object-selector-home');
 
-					var referencedSectionDataAttr = e.target.dataset.referencedSection;
+					document.body.classList.add('expanded-view');
 
-					var referencedSection = document.querySelector('[data-section=' + referencedSectionDataAttr + ']');
-
-					referencedSection.classList.remove('hidden');
-					e.target.classList.add('active');
-
-					previousSection = referencedSection;
-					previousNavigationItem = e.target;
+					expandProjectOverviewButton.classList.add('tr-fade-out');
 
 					setTimeout(function(){ 
 						addTransitionToScrollIndicator();
 						updateContentH();
 						updateScrollIndicator();
 					}, 100);
-
 				}
-			)
+			);
+
 		}
-	}
 
-}
-
-
-function updateContentH() {
-	GLOBAL_CONTENT_H = GLOBAL_CONTENT.getBoundingClientRect().height;
-}
-
-function updateScrollIndicator() {
-	GLOBAL_CONTENT_H = GLOBAL_CONTENT.getBoundingClientRect().height;
-
-	GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO = Math.min((window.scrollY + window.innerHeight) / GLOBAL_CONTENT_H, 1);
-    GLOBAL_INDICATOR.style.transform = 'scaleX(' + GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO + ')';
-
-}
+		function checkBreakpoint() {
+			if (window.innerWidth <= GLOBAL_BP_S){
+				GLOBAL_IS_BP_S = true;
+			} else {
+				GLOBAL_IS_BP_S = false;
+			}
+		}
 
 
-function addTransitionToScrollIndicator() {
-	GLOBAL_INDICATOR.classList.add('transition');
-}
+		function sticky() {
+
+			var indicator = document.querySelector('.js-fix-indicator');
+			var toBeFixedList = document.querySelectorAll('.js-fix');
+			var done = false;
+			
+			if(indicator) {
+
+				var indicatorDistFromTop = indicator.offsetTop;
+
+				window.addEventListener(
+					'scroll',
+					function() {
+
+						if(!GLOBAL_IS_BP_S) {
+
+							//check if the indicator has reached the top
+							if(window.pageYOffset >= indicatorDistFromTop && !done) {
+								done = true;
+								GLOBAL_BODY.classList.add('no-intro');
+								GLOBAL_BODY.classList.add('sticky');
+								window.scrollTo(0, 0);
+							} 
+
+						} else {
+
+							if(window.pageYOffset >= indicatorDistFromTop) {
+
+								if(!done) {
+									done = true;
+									GLOBAL_BODY.classList.add('no-intro');
+									window.scrollTo(0, window.innerHeight);
+
+									indicatorDistFromTop = window.innerHeight;
+								}
+								
+								GLOBAL_BODY.classList.add('sticky');
+								
+							}  else {
+								GLOBAL_BODY.classList.remove('sticky');
+							}
+							
+						}
+					}
+				);
+
+			}
+
+			
+		}
 
 
-function removeTransitionToScrollIndicator() {
-	GLOBAL_INDICATOR.classList.remove('transition');
-}
+		(function() {
+		    var throttle = function(type, name, obj) {
+		        obj = obj || window;
+		        var running = false;
+		        var func = function() {
+		            if (running) { return; }
+		            running = true;
+		             requestAnimationFrame(function() {
+		                obj.dispatchEvent(new CustomEvent(name));
+		                running = false;
+		            });
+		        };
+		        obj.addEventListener(type, func);
+		    };
+
+		    /* init - you can init any event */
+		    throttle("resize", "optimizedResize");
+		})();
 
 
-function expandProjectOverview(){
+		// handle event
+		window.addEventListener("optimizedResize", function() {
 
-	var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
-	var objectSelectors = document.querySelector('.js-object-selector');
-
-
-	expandProjectOverviewButton.addEventListener(
-		'click',
-		function() {
-
-			objectSelectors.classList.remove('object-selector-home');
-
-			document.body.classList.add('expanded-view');
-
-			expandProjectOverviewButton.classList.add('tr-fade-out');
-
-			setTimeout(function(){ 
-				addTransitionToScrollIndicator();
-				updateContentH();
+		    setTimeout(function(){ 
+				addTransitionToScrollIndicator();			
 				updateScrollIndicator();
 			}, 100);
-		}
-	);
 
-}
-
+			checkBreakpoint();
+		});
 
 
 
-(function() {
-    var throttle = function(type, name, obj) {
-        obj = obj || window;
-        var running = false;
-        var func = function() {
-            if (running) { return; }
-            running = true;
-             requestAnimationFrame(function() {
-                obj.dispatchEvent(new CustomEvent(name));
-                running = false;
-            });
-        };
-        obj.addEventListener(type, func);
-    };
+		
+	})
 
-    /* init - you can init any event */
-    throttle("resize", "optimizedResize");
-})();
+}())
 
-// handle event
-window.addEventListener("optimizedResize", function() {
-    setTimeout(function(){ 
-						addTransitionToScrollIndicator();
-						
-						updateScrollIndicator();
-					}, 100);
-});
 

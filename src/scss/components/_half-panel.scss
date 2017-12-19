@@ -27,9 +27,11 @@
     border-left: $borderW solid $border-color;
 
     @include bp-s {
+        float: left;
         border-left: none;
     }
 }
+
 
 
 .half-panel--left {
