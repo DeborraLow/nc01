@@ -16,7 +16,7 @@
       },
       {
           "title": "Natural Capital—The Exhibition",
-          "author": "Charlotte Dumoncel d’Argence (FR) and Laura Herman (BE)",
+          "author": "C. Dumoncel d’Argence and Laura Herman",
           "type": "not ready",
           "location":"Brussels",
           "cover_img": "./assets/img/projects/02/thumbnail.jpg",
@@ -150,7 +150,7 @@
       },
       {
           "title": "Rumah Putih",
-          "author": "Yudi Chandra and Charlotte Dumoncel d’Argence",
+          "author": "Yudi Chandra and C. Dumoncel d’Argence",
           "type": "not ready",
           "location": "Lamalera",
           "cover_img": "./assets/img/projects/07/thumbnail.jpg",
@@ -552,145 +552,6 @@
               {
                   "type": "text",
                   "text": ""
-              }
-          ]
-      },
-      {
-          "title": "title 3",
-          "author": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img": "./assets/img/projects/title3/thumbnail.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
-              },
-              {
-                  "type": "interview",
-                  "q_name": "q_name",
-                  "a_name": "a_name",
-                  "interview": [
-                    {
-                      "type": "question",
-                      "text": "question?"
-                    },
-                    {
-                      "type": "answer",
-                      "text": "answer?"
-                    },
-                    {
-                      "type": "question",
-                      "text": "Can you perhaps briefly outline the project which as le you from the study of madness in the classical period to the study of criminality and delinquence?"
-                    },
-                    {
-                      "type": "answer",
-                      "text": "When I was working in the years 50-55 one of the most serious problems which was being ..."
-                    },
-                    {
-                      "type": "question",
-                      "text": "question?"
-                    },
-                    {
-                      "type": "answer",
-                      "text": "question?"
-                    },
-                    {
-                      "type": "question",
-                      "text": "question?"
-                    }
-                  ]
-              },
-              {
-                  "type": "gallery",
-                  "gallery": [
-                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" },
-                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" }
-                  ]
-              },
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-              }
-
-          ]
-      },
-      {
-          "title": "title 4",
-          "author": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img": "./assets/img/projects/title2/thumbnail.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
-              }
-          ]
-      },
-      {
-          "title": "title 5",
-          "author": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img": "./assets/img/projects/title1/thumbnail.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
-              }
-          ]
-      },
-      {
-          "title": "title 6",
-          "author": "Ho Tzu Nyen",
-          "type": "text",
-          "cover_img": "./assets/img/projects/title2/thumbnail.jpg",
-          "cover_text": "A phenomenology of consciousness, then, explores neither the metaphysical composition nor the causal genesis of things, but the 'constitution' of their meaning. Husserl employed this method to clarify our experience of nature, the socio-cultural world, logic, and mathematics, but Heidegger argued that he had failed to raise the most fundamental question, that of the 'meaning of being' as such. In turning phenomenology toward the question of what it means to be",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu."
-              },
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-              },
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-              },
-              {
-                  "type": "img",
-                  "img": "./assets/img/projects/title1/thumbnail.jpg"
-              },
-              {
-                  "type": "video",
-                  "video": "./assets/video/Intro_Video.mp4"
-              },
-              {
-                  "type": "gallery",
-                  "gallery": [
-                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" },
-                      { "img": "./assets/img/projects/title1/gallery/thumbnail.jpg" }
-                  ]
-              },
-              {
-                  "type": "text",
-                  "text": "Lorem ipsum dolor sit um ei.<sup>1</sup> Has id facete officiis perfecto. Sed in etiam voluptua accommodare. No mea graeci scripta theophrastus, in suas prodesset vim, at dicam ullamcorper eos. Ius novum aeterno necessitatibus an, est legere eruditi aliquando eu. Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu Lorem ipsum dolor sit um ei. Has id facete officiis perfecto. Sed in etiam voluptu. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-              },
-              {
-                  "type": "audio",
-                  "video": "./assets/video/Intro_Video.mp4"
-              },
-              {
-                  "type": "credits",
-                  "credits": [
-                    {
-                      "nr": "[1]",
-                      "text": "credit text blwij irejc erirjc rcij cierojc ijrioéjcn ircjeio."
-                    }
-                  ]
               }
           ]
       }

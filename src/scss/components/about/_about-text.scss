@@ -1,3 +1,16 @@
 .about-text {
     line-height: $about-text-line-height;
+    letter-spacing: $about-text-letter-spacing;
+}
+
+
+.about {
+	line-height: $about-text-line-height;
+    letter-spacing: $about-text-letter-spacing;
+    line-height: 1.2;
+    letter-spacing: 0.03vw;
+}
+
+.about * {
+	letter-spacing: 0.03vw;
 }

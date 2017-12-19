@@ -1,14 +1,15 @@
 .project-overview {
     position: relative;
     top: $navigationPanelH;
-	float: left;
+	  float: left;
     width: 100%;
     box-sizing: content-box;
     background: $background;
 
 
    @include bp-s {
-       top: $navigationPanel-h-bps;
+      width: 100vw;
+      top: $navigationPanel-h-bps;
     }
 }
 
@@ -16,5 +17,9 @@
 .sticky {
 	.project-overview {
 		padding-top: calc(#{$infoPanelH});
+
+    @include bp-s {
+      padding-top: 0;
+    }
 	}
 }

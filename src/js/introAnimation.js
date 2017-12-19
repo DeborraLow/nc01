@@ -56,7 +56,7 @@ function introAnimation() {
 
 	        //load images
 
-	        //document.body.classList.add('load-assets');
+	        document.body.classList.add('load-assets');
 
 	        var imgList = document.querySelectorAll('.js-load-img');
 	        var imgListLength = imgList.length;

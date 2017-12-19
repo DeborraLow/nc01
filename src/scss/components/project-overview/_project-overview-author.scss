@@ -5,10 +5,13 @@
     padding-right: 0;
     text-transform: uppercase;
     font-size: $project-overview-author-font-size;
+    line-height: $project-overview-author-line-height;
+    letter-spacing: $project-overview-author-letter-spacing;
 
     @include bp-s {
         width: 35%;
         padding: $gutter-bps;
+        padding-bottom: calc(#{$gutter-bps} - 2px);
         font-size: $project-overview-author-font-size-bps;
     }
 }

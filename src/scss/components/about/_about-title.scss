@@ -6,5 +6,7 @@
     @include bp-s {
         font-size: $about-title-font-size-bps;
         margin-bottom: $about-title-margin-bottom-bps;
+        line-height: 1;
+        letter-spacing: 0.05vw;
     }
 }

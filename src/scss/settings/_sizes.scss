@@ -5,52 +5,109 @@
 
 //FONT SIZE
 //landscape
-$landing-font-size: 8vw;
+$navigation-font-size: 1.8vw;
+$info-panel-font-size: 1vw;
 
-$project-text-font-size: 2vw;
-$project-title-font-size: 4vw;
-$project-author-font-size: 1.5vw;
-$project-location-font-size: 1.3vw;
-$project-caption-font-size: 1vw;
+$project-overview-author-font-size: $info-panel-font-size;
+$project-overview-lead-font-size: 	$info-panel-font-size;
+$project-overview-title-font-size: 	$navigation-font-size;
 
-$about-title-font-size: 2vw;
-$about-contributor-font-size: 1.5vw;
-$about-text-font-size: 1.5vw;
-$about-navigation-font-size: 1.5vw;
+$project-text-font-size: 		1.4vw;
+$project-title-font-size: 		4vw;
+$project-author-font-size: 		$project-text-font-size;
+$project-location-font-size: 	$info-panel-font-size;
+$project-caption-font-size: 	$info-panel-font-size;
+$project-next-font-size: 		$project-caption-font-size;
 
-$navigation-font-size: 2vw;
-$info-panel-font-size: 1.3vw;
+$about-title-font-size: 		$navigation-font-size;
+$about-contributor-font-size: 	$project-text-font-size;
+$about-text-font-size: 			$project-text-font-size;
+$about-navigation-font-size: 	$project-text-font-size;
 
-$project-overview-author-font-size: 1.3vw;
-$project-overview-lead-font-size: 1.3vw;
-$project-overview-title-font-size: 1.6vw;
 
 
 //bp-s
-$landing-font-size-bps: 10vw;
+$navigation-font-size-bps: 4vw;
 
-$project-text-font-size-bps: 4vw;
-$project-title-font-size-bps: 10vw;
-$project-author-font-size-bps: 5vw;
-$project-location-font-size-bps: 5vw;
-$project-caption-font-size-bps: 3vw;
+$project-overview-author-font-size-bps: 3vw;
+$project-overview-title-font-size-bps: 	4.5vw;
 
-$about-title-font-size-bps: 5vw;
-$about-contributor-font-size-bps: 3vw;
-$about-text-font-size-bps: 3vw;
-$about-navigation-font-size-bps: 3vw;
+$project-text-font-size-bps: 		$navigation-font-size-bps;
+$project-title-font-size-bps: 		10vw;
+$project-author-font-size-bps: 		$navigation-font-size-bps;
+$project-caption-font-size-bps: 	$project-overview-author-font-size-bps;
+$project-next-font-size-bps: 		$navigation-font-size-bps;
 
-$navigation-font-size-bps: 3vw;
+$about-title-font-size-bps: 		$navigation-font-size-bps;
+$about-contributor-font-size-bps: 	$navigation-font-size-bps;
+$about-text-font-size-bps: 			$navigation-font-size-bps;
+$about-navigation-font-size-bps: 	$navigation-font-size-bps;
 
-
-$project-overview-author-font-size-bps: 1vw;
-$project-overview-title-font-size-bps: 2vw;
 
 
 
 //LINE HEIGHTS
-$project-text-line-height: 1.5;
-$about-text-line-height: 1.5;
+$navigation-line-height: 0.9;
+$info-panel-line-height: 1.2;
+
+$project-overview-author-line-height: $info-panel-line-height;
+$project-overview-lead-line-height:   $info-panel-line-height;
+$project-overview-title-line-height:  $info-panel-line-height;
+
+$project-text-line-height: 		1.2;
+$project-title-line-height: 	0.95;
+$project-author-line-height: 	$project-text-line-height;
+$project-caption-line-height: 	$project-text-line-height;
+
+
+$about-title-line-height: 		$project-text-line-height;
+$about-contributor-line-height: $project-text-line-height;
+$about-text-line-height: 		$project-text-line-height;
+$about-navigation-line-height: 	$info-panel-line-height;
+
+
+
+
+
+//LETTER SPACING
+$navigation-letter-spacing: 0.03vw;
+$info-panel-letter-spacing: 0.03vw;
+
+$project-overview-author-letter-spacing: $info-panel-letter-spacing;
+$project-overview-lead-letter-spacing:   $info-panel-letter-spacing;
+$project-overview-title-letter-spacing:  $navigation-letter-spacing;
+
+$project-text-letter-spacing: 		0.03vw;//0.05
+$project-author-letter-spacing: 	$project-text-letter-spacing;
+$project-caption-letter-spacing: 	$info-panel-letter-spacing;
+$project-next-letter-spacing: 		$info-panel-letter-spacing;
+
+$about-title-letter-spacing: 		$info-panel-letter-spacing;
+$about-contributor-letter-spacing:  $project-text-letter-spacing;
+$about-text-letter-spacing: $info-panel-letter-spacing;
+$about-navigation-letter-spacing: $info-panel-letter-spacing;
+
+
+$navigation-letter-spacing-bps: 		0.05vw;
+$project-title-letter-spacing-bps: 		0.1vw;
+
+
+// $project-overview-author-letter-spacing-bps: $info-panel-letter-spacing-bps;
+// $project-overview-lead-letter-spacing-bps:   $info-panel-letter-spacing-bps;
+// $project-overview-title-letter-spacing-bps:  $navigation-letter-spacing-bps;
+
+// $project-text-letter-spacing-bps: 		0.05vw;
+	
+// $project-author-letter-spacing-bps: 	$project-text-letter-spacing-bps;
+// $project-caption-letter-spacing-bps: 	$info-panel-letter-spacing-bps;
+
+
+// $about-title-letter-spacing-bps: 		$info-panel-letter-spacing-bps;
+// $about-contributor-letter-spacing-bps:  $project-text-letter-spacing-bps;
+// $about-text-letter-spacing-bps: 		$info-panel-letter-spacing-bps;
+// $about-navigation-letter-spacing-bps: 	$info-panel-letter-spacing-bps;
+
+
 
 
 $closeBbutton: 50px;

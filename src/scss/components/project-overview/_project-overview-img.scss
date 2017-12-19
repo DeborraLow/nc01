@@ -6,6 +6,7 @@
     @include bp-s {
         width: calc(100vw - 2 * #{$gutter-bps});
         margin: $gutter-bps;
+        margin-bottom: 0;
     }
 
 }

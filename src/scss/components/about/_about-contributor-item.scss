@@ -18,7 +18,10 @@
         margin-left: $about-contribution-item-margin-left;
 
         @include bp-s {
-            margin-left: $about-contribution-item-margin-left-bps;
+            margin-left: 0;
+            //margin-left: $about-contribution-item-margin-left-bps;
+            line-height: 1.2;
+            letter-spacing: 0.05vw;
         }
     }
 

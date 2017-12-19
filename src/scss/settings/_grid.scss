@@ -33,9 +33,12 @@ $project-text-w: calc((100vw - 110px) / 10 * 4 + 30px);
 $project-reference-w: calc((100vw - 110px) / 10 * 2 + 10px);
 $project-reference-margin-right: 10px;
 
-$project-author-w: calc((100vw - 110px) / 10 * 1);
+$project-author-w: calc((100vw - 110px) / 10 * 2 + 10px);
+$project-author-margin-left: calc(-1 * ((100vw - 110px) / 10 * 2 + 20px));
 
 $project-caption-margin-left: calc((100vw - 110px) / 10 * 1 + 10px);
+
+$project-interview-person-w: calc((100vw - 110px) / 10 * 1);
 
 
 

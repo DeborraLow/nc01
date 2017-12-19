@@ -7,6 +7,7 @@
     @include bp-s {
         width: 65%;
         padding: $gutter-bps;
+        padding-bottom: calc(#{$gutter-bps} - 2px);
     }
 }
 
@@ -15,8 +16,11 @@
     text-transform: uppercase;
     margin-bottom: $project-overview-title-margin-bottom;
     font-size: $project-overview-title-font-size;
+    line-height: $project-overview-title-line-height;
+    letter-spacing: $project-overview-title-letter-spacing;
 
     @include bp-s {
+        margin-bottom: 0;
         font-size: $project-overview-title-font-size-bps;
     }
 }
@@ -25,6 +29,8 @@
 .project-overview-lead {
     display: none;
     font-size: $project-overview-lead-font-size;
+    line-height: $project-overview-lead-line-height;
+    letter-spacing: $project-overview-lead-letter-spacing;
 }
 
 

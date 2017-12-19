@@ -9,6 +9,8 @@
     border-bottom: $borderW solid $border-color;
     text-transform: uppercase;
     font-size: $navigation-font-size;
+    line-height: $navigation-line-height;
+    letter-spacing: $navigation-letter-spacing;
 
     @include bp-s {
         width: 100vw; 
@@ -16,6 +18,7 @@
         border-left: none;
         border-right: none;
         font-size: $navigation-font-size-bps;
+        letter-spacing: $navigation-letter-spacing-bps;
     }
 }
 
@@ -35,3 +38,15 @@
     }
 }
 
+
+.no-intro {
+    .navigation-panel-home {
+        @include bp-s { top: 100vh; }
+    }
+}
+
+.sticky {
+    .navigation-panel-home.stick {
+        top: 0;
+    }
+}

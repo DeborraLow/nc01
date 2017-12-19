@@ -8,13 +8,10 @@
     border-left: $borderW solid $border-color;
     border-bottom: $borderW solid $border-color;
     font-size: $info-panel-font-size;
+    line-height: $info-panel-line-height;
+    letter-spacing: $info-panel-letter-spacing;
 
     @include bp-s {
-        // width: 100vw;
-        // top: $navigationPanel-h-bps;
-        // padding: $gutter-bps;
-        // border-left: none;
-        // border-right: none;
         display: none;
     }
 }
