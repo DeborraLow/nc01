@@ -143,8 +143,8 @@
                   "img": "./assets/img/projects/06/thumbnail.jpg"
               },
               {
-                  "type": "audio",
-                  "video": "./assets/video/Intro_Video.mp4"
+                  "type": "video",
+                  "video": "<iframe src=\"https://player.vimeo.com/video/247694580\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
               }
           ]
       },
