@@ -34,6 +34,7 @@ $projectHeaderH: 200px;
         font-size: $project-title-font-size;
         text-transform: uppercase;
         line-height: $project-title-line-height;
+        letter-spacing: $project-title-letter-spacing;
 
         @include bp-s {
             width: 100%;
