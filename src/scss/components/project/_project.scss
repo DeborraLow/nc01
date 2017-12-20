@@ -114,20 +114,35 @@ $projectHeaderH: 200px;
     }
 
 
-    .project-caption {
-        margin-left: $project-caption-margin-left;
-        margin-top: $project-caption-margin-top;
+
+    figcaption {
         font-size: $project-caption-font-size;
         line-height: $project-caption-line-height;
         letter-spacing: $project-caption-letter-spacing;
 
         @include bp-s {
             font-size: $project-caption-font-size-bps;
+        }
+    }
+
+
+    .project-caption {
+        width: $project-caption-w;
+        margin-left: $project-caption-margin-left;
+        margin-top: $project-caption-margin-top;
+        
+
+        @include bp-s {
+            width: auto;
             margin-top: $project-caption-margin-top-bps;
             margin-left: 15%;
         }
     }
 
+
+    .project-img-nr {
+        float: left;
+    }
 
     .project-img-container {
         margin-bottom: $project-item-margin-bottom;
@@ -243,5 +258,43 @@ $projectHeaderH: 200px;
             width: 100%;
             height: 100%;
         }
+    }
+
+    .project-bibliography {
+        float: left;
+        width: 100vw;
+
+        .bibliorgraphy_col {
+            width: $project-bibliography-w;
+            float: left;
+            margin-right: $gutter;
+
+            @include bp-s {
+                width: 100%;
+                margin-right: 0;
+                font-size: $project-text-font-size-bps;
+                letter-spacing: $project-text-letter-spacing;
+            }
+        }
+
+        .project-bibliography-item {
+            float: right;
+            width: 100%;
+
+            @include bp-s {
+                margin-bottom: 0.7vw;
+            }
+        }
+
+        .project-bibliography-text {
+            width: 80%;
+            float: right;
+
+            @include bp-s {
+                width: 85%;
+            }
+        }
+        
+        
     }
 }

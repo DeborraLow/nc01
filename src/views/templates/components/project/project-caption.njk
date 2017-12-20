@@ -1,3 +1,9 @@
-{% macro caption(caption) %}
-	<figcaption class="project-caption">{{ caption }}</figcaption>
+{% macro caption(item) %}
+	<figcaption>
+		{% if item.nr %}
+    		<span class="project-img-nr">IMG {{ item.nr }}</span>
+    	{% endif %}
+	
+		<div class="project-caption">{{ item.caption|safe }}</div>
+	</figcaption>
 {% endmacro %}

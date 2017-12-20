@@ -9,6 +9,8 @@ body {
   overflow-x: hidden;
   font-family: $text;
   color: $text-color;
+  line-height: 1.2;
+  letter-spacing: 0.05vw;
 }
 
 
@@ -19,4 +21,18 @@ body {
 
 i {
 	font-family: $italic;
+}
+
+
+sup {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+
+a:hover {
+  font-family: $italic;
+  &:not(.project-overview-item) {
+    font-family: inherit;
+  }
 }

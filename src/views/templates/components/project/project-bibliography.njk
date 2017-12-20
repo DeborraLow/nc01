@@ -1,0 +1,34 @@
+{% macro bibliography(bibliography) %}
+
+{% set i = 0 %}
+	<div class="project-bibliography">
+
+		<div class="bibliorgraphy_col">
+			
+		
+		
+		{% for item in bibliography %}
+
+			{% if item.type == "item" %}
+
+				{% set i = i + 1 %}
+
+			<div class="project-bibliography-item">
+				<span class="project-bibliography-number">[{{ i }}]</span>
+				<div class="project-bibliography-text">{{ item.item|safe }}</div>
+		    </div>
+
+		    {% elif item.type == "column_break" %}
+
+
+		    </div>
+
+		    <div class="bibliorgraphy_col">
+		    {% endif %}
+		{% endfor %}
+
+		</div>
+
+	</div>
+    
+{% endmacro %}

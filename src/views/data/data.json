@@ -1,27 +1,203 @@
 {
     "projects": [
       {
-          "title": "title 1",
-          "author": "ho tzu nyen",
+          "title": "Natural Capital—Editorial ",
+          "author": "Charlotte Dumoncel d’Argence and Laura Herman",
+          "author_overview": "C. Dumoncel d’Argence and Laura Herman",
           "type": "not ready",
-          "location":"",
-          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
-          "cover_text": "empty",
+          "location":"?",
+          "cover_img": "./assets/img/projects/01/thumbnail.png",
+          "cover_text": "When did nature become a marketplace? Where one might imagine clean oceans and healthy forests to be priceless, they are often viewed global assets valued in economic terms. By allowing abstraction, opacity, and poetry to enter the discussion, perhaps we can attribute other forms of value to our environment than those of “natural capital”. A short history of the financialisation of nature joined with an exploration of more emancipated forms of mediation and representation.",
           "content": [
               {
                   "type": "text",
-                  "text": ""
+                  "text": "I. DISCLAIMER "
+              },
+              {
+                  "type": "text",
+                  "text": "The premise of the Europalia Curator’s Award—as stipulated in the open call we applied to in December 2016—was based on offering resources for emerging curators to develop a project with three artists living and working in Belgium. The project’s charge was to address the large subject of biodiversity in relation to ecological questions in the equally vast and diverse nation of Indonesia. The winning curators, along with the selected artists, would be given the opportunity to go on a journey to the Indonesian archipelago in order to inspire the content of their proposed project."
+              },
+              {
+                  "type": "text",
+                  "text": "In our application, we initially expressed serious doubts over these given grounds on which to develop our proposal. Rather than claiming that five Europeans traveling to a far away place would even be able to go through a meaningful experience and return with new insights about issues of biodiversity, we asked: what would it mean to simply stay at home? How could we ‘know’ a subject or place solely as the result of a filtered or mediated experience and aesthetic, placed at a remove from the ‘authentic’, or the ‘real’ confrontation? After all, palm oil moistens our lips and skins, and smiling, endangered species feature happily on our cereal packaging."
+              },
+              {
+                  "type": "text",
+                  "text": "Admittedly, we were only scratching the surface, and cultural diplomacy, of course, has its own ways. We were finally persuaded to travel to Indonesia, each of us defining our own itineraries. During those weeks in the country, we traveled to different sites and places, enthralled by volcanoes and mangroves, tricked into the spectacle of lush nature. In fairness, we were more inclined to explore the global stakes and agendas behind modes of representing the ‘natural world’ than to work around the specificity and complexity of Indonesian biodiversity, which we felt was not ours to speak about. Finally, we pulled our eyes away from Internet articles, imperial travelogues, and business plans, in favour of real encounters and conversations with artists and activists across Indonesia, whose first-hand experiences put the information we had consumed in a different light."
+              },
+              {
+                  "type": "text",
+                  "text": "In eco-lobbying, Indonesia is often described as the planet’s second largest ‘biodiversity hotspot’, a phrase that is both a blessing and a curse. Defining a biogeographic region that is at once both a rich reservoir of biodiversity and threatened with destruction, this terms is associated with different modes of representation—think of images of exotic tropical resorts in tourist guides or scenes of massive monoculture plantations in documentary photography. Yet images of biodiversity hotspots only offer a partial view. Their high profile of coincides with a tendency to concentrate conservation efforts on zones in the world with high terrestrial concentrations of endemic species, in order to be more ‘effective’ and ‘impactful’, while disregarding less diverse areas."
+              },
+              {
+                  "type": "text",
+                  "text": "Through our research, we found out that the ways in which nature is mediated, represented, spoken of, and consumed,  are closely intertwined with the emergence of several concepts: the ‘economy of nature’ (Oeconomia) in the eighteenth century; ‘ecology’ (Oecologia) in the nineteenth century; and ‘natural capital’ from the 1970s onwards. Through diverse approaches by contributors from Indonesia, Belgium, and elsewhere, this online publication seeks to address the processes of making and unmaking the ‘natural world’."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/01/1_editorial.jpg",
+                  "nr": "1",
+                  "caption": "The mediation of experiences of nature. Europe's largest tropical holiday resort in Krausnick, Germany"
+              },
+              {
+                  "type": "text",
+                  "text": "II. SCIENCE AND THE MASTERY OVER NATURE"
+              },
+              {
+                  "type": "text",
+                  "text": "When did nature become a marketplace? The contemporary notion of ‘nature as economy’ has its roots in nineteenth century, colonial, scientific discovery and eco-imperialist narratives, influenced by the legacy of the eighteenth century, Swedish natural scientist Carl Linnaeus, the father of modern taxonomy. In his dissertation <i>Oeconomia naturae</i> (1749), Linnaeus described the ‘economy of nature’ as its orderliness and its harmonious equilibrium. Linnaeus’ classification theory, though stereotypical and erroneous, shaped work by naturalists such as Charles Darwin, who in turn influenced German biologist Ernst Haeckel in the foundation of  ecology as a discipline. In the making of natural knowledge by means of systemic illustrations, maps, tables, and diagrams of species, Linnaeus contributed to the construction of new rational systems of classifying nature.<sup>1</sup> One could argue that Linnaeus’ foundational work, based as it was around \"notions of equilibria\" as \"checks and balances and feedback loops\",<sup>2</sup> already served as the groundwork for understanding nature as capital."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/01/2_editorial.png",
+                  "nr": "2",
+                  "caption": "Table of the Animal Kingdom (Regnum Animale) from Carolus Linnaeus’s first edition (1735) of Systema Naturae."
+              },
+              {
+                  "type": "text",
+                  "text": "The financialisation of nature is undoubtedly one of the outcomes of the systems of classification and ecology’s disciplinary formation he and other naturalists introduced; a supposedly objective and rational understanding of the natural world, closely linked to heroic discovery and colonial mastery over nature.<sup>3</sup> Colonial scientists used Latin, a dead language, to name living matter, further decontextualising and alienating specimens from their locality all the while ignoring the complex and long-standing local and botanical knowledge of indigenous societies. This indifference toward indigenous knowledge still holds today, as CELIA LOWE argues in her contribution <i>Making The Money</i>—a plea for a “postcolonial refiguration, not only of how science’s matter is made but of where and by whom”. In the island archipelago of the Dutch East Indies (now the Republic of Indonesia), it was Alfred Russel Wallace who was making nature by structurally assembling a large collection of animals and plants. Describing and visualising them as scientific specimens in his travel chronicles, he too reinforced a Cartesian dualism between human and nonhuman, contributing—perhaps unwittingly—to the modern devaluation of diverse life-forms."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/01/3_editorial.jpg",
+                  "nr": "3",
+                  "caption": "Drawing of a Flying Frog from Alfred Russel Wallace's book <i>The Malay Archipelago.</i>"
+              },
+              {
+                  "type": "text",
+                  "text": "Simultaneously, developments in cartography and ethnographic modes of representation played a role in the appropriation and exploitation of nature. The design of maps, as grids laid over natural landscapes, turned insular, opaque, illegible land, into visible, controllable territory and resources. One of the most renowned colonial maps is the meticulously detailed map of Java by the Dutch-German botanist and geologist Friedrich Franz Wilhelm Junghuhn, which “provided both evidence of the colonised territory and an instrument for its further domination.”<sup>4</sup> Not only did the map serve as an imperial weapon of “colonial domination guiding explicit military campaigns”, it also facilitated “resource extraction and plantation management”.<sup>5</sup> This spatial colonisation, through strategies of both literally and metaphorically mining the landscape’s resources was accompanied by a cultural colonisation, supported and made visible by the Mooie Indie movement. Exemplifying the concept of the ‘aesthetical service’ provided by nature—a discreet and insidious application of the notion of natural capital—, artists of the Dutch Indies specialised in a genre of painting which captured romantic depictions of the country; landscape scenes, showing volcanoes, mountains, river valleys, and villages emerging in golden sunshine. The style Mooie Indie, its title coming from the eponymous series of paintings by the Dutch artist Fredericus Jacobus van Rossum du Chattel, contributed to propagating an image of an idyllic nature, conceived for our enjoyment. Far before any form of digital imagery or photo documentation, artists were playing a crucial role in mediating Indonesia’s natural landscape to the world."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/01/4_editorial.jpg",
+                  "nr": "4",
+                  "caption": "Large fold-out coloured map at front of Alfred Russel Wallace’s book The Malay Archipelago, Macmillan, 1869"
+              },
+              {
+                  "type": "text",
+                  "text": "In turn, nineteenth-century colonial discovery, research, and exoticism paved the way for the development of a Global North tourism industry which relies on cheap travel, experiences of ‘difference’, and sex work. Throughout the twentieth century, economic, cultural, and environmental injustice remained firmly in place in Indonesia, despite the country’s colonial independence, evidenced, for example, by deforestation, the displacement of peoples and animals, the depletion of the earth’s resources, and the exploitation of cheap and unpaid labor. On the other hand, awareness about the planet’s fragility and uniqueness slowly grew. In 1969, architect Buckminster Fuller published his acclaimed essay <i>Operating Manual for Spaceship Earth<sup>6</sup>,</i>offering an apt metaphor for a new ideal of planetary management. Yet universalising ideas of a “whole earth”, a “Blue Marble”, or  a new “ecology” as a systems-oriented view of the natural world proved to be biased and incomplete, once again representing the world as a totality to be governed."
+              },
+              {
+                  "type": "text",
+                  "text": "Against these grand narratives which have developed into technocratic approaches to the earth (including the Anthropocene discourse), eco activists and artists have developed practices and research that bring in new ecological imaginaries, paying attention to the personal and particular. Uncovering the logics and mechanisms of natural capital, the artists and theorists invited within the framework of this online publication explore different representations and understandings of nature, offering alternatives to the current “corporate control of life owing to neoliberal globalisation, international trade policies, deregulated environmental protections, and the patenting of biological matter”.<sup>7</sup>"
+              },
+              {
+                  "type": "text",
+                  "text": "III. DECONSTRUCTING NATURAL CAPITAL"
+              },
+              {
+                  "type": "text",
+                  "text": "The economic value of Indonesia’s Leuser ecosystem services - including two mountain ranges, three lakes, nine river systems, and three national parks - is estimated at $23 billion per year by environmental NGOs. Where one might imagine clean oceans and healthy forests to be priceless, they are often understood as global assets valued in economic terms as ‘natural capital’. The term ‘natural capital’ was coined by Ernst Friedrich Schumacher in 1973 as an economic concept that we have come to understand as the world’s assets of natural resources—such as air, water, and soil—capable of flowing into goods and services. The idea of describing natural resources not as “income” but as “capital” subject to depletion coincided with a growing awareness of the value of nature. But by describing the value of nature only in economic terms, we collapse its intrinsic worth into a system of capital flow and exchange, rather than bearing with other possible narratives such as speculation or care. No doubt, there must be more liberating and emancipatory concepts to describe the natural commons than their current management, quantification, and representation under the banner of ‘natural capital’."
+              },
+              {
+                  "type": "text",
+                  "text": "Dealing with this hegemonic treatment of the natural world while still being aware of the contemporary filters through which the experience of nature is mediated, the contributors to this online publication engage with languages and visualisations of nature that attempt to thwart the abstractions of natural capital. Yet, these investigations equally question whether the channels that allow us to mediate and exchange alternative forms of knowledge and experience—such as travel, cultural diplomacy, the media, and the Internet—are capable of transmitting a genuine understanding. We have to be attentive and critical to the rhetorics surrounding site and place."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/01/5_editorial.png",
+                  "nr": "5",
+                  "caption": "A global map of terrestrial and marine natural capital assets. Source: The UNEP Global Natural Capital pilot project."
+              },
+              {
+                  "type": "text",
+                  "text": "As T.J. Demos has argued, the omnipresent visual representation and terminology of the Anthropocene, <sup>8</sup> sustains neoliberalism’s subjection of nature to an economic calculus. Along those lines, Christophe Bonneuil and Jean-Baptiste Fressoz have warned of the manipulative and biased ways in which nature is presented by “such phenomena as lobbying, storytelling, rebound effect, technological coup, greenwashing, recuperation of criticism, complexification, banalisation or a simulated taking into account.” <sup>9</sup> So what can we then do? According to Demos, we need to develop an alternative visual culture and vocabulary in order to combat the geoengineering solutions offered by techno-utopians whose visual culture “reinforces humanity’s mastery of nature through digital satellite photography and data visualizations in the form of maps, graphs, and virtual simulations.” <sup>10</sup> In this regard, we can observe a change. New voices are advocating different scenarios and we cannot help but notice that women are at the forefront in developing new paradigms."
+              },
+              {
+                  "type": "text",
+                  "text": "In her book <i>The Word for World is Forest<sup>11</sup>,</i> a fictional scenario of the destruction of the planet’s resources, Ursula K. Le Guin revokes the understanding and management of the world by white men, deconstructing the logic of our current exploitation of nature on Earth. Anna Lowenhaupt Tsing, too, has lead us to turn our attention to local struggles around Indonesian tropical rainforests and to the possibility of multispecies landscapes to survive despite capitalist destruction. Not to forget, of course, the important and influential work of the true eco-heroine Donna Haraway whose famous phrase “staying with the trouble of our times” keeps resonating with us, and convinced us of the importance of taking responsibility towards our inherited damages, rather than finding recourse to quick technofixes."
+              },
+              {
+                  "type": "text",
+                  "text": "How can we continue to critically develop new strategies and solutions other than the ones that belong to technoscience and capitalism and act in ways that are “less naïve than the grand narrative of an awakening of awareness”? <sup>12</sup> From various angles and through different media, the contributors of <i>naturalcapital.online</i> address the relationship between knowledge, nature, and value. They look into what kind of knowledge and strategies are needed to speak meaningfully about nature. By bringing in more sensorial, poetic, and intuitive approaches (MARTIN BELOU), joined with local accounts (SETU LEGI, MIRA ASRININGTYAS), minor narratives (BAKUDAPAN, ELISABETH IDA, RACHEL MONOSOV), ‘unscientific’ forms of representation (SYAIFUL GARIBALDI, FILIP VAN DINGENEN, ADRIEN VERMONT, ADRIEN MISSIKA), non-anthropocentric experiences (YUKI AGRIARDI, DAVID O’REILLY), and different ethics or politics in caring for the environment (YASMINE OSTENDORF), the contributors retrieve a more direct experience of nature. The contributions often return to the concrete and the personal, at times referring to animism and rituals which, though still strong in Indonesia, are too often dismissed as irrational and unscientific. Other contributors deconstruct and question the processes of the scientific production of nature (CELIA LOWE), the economic logic of turning life into financial assets (COOKING SECTIONS, ALEXIS GAUTIER, JIMMY HENDRICKX), the visual culture surrounding natural capital (T.J. DEMOS), and the artificiality of a natureculture (OFFSHORE STUDIO), asking for more emancipatory ways to deal with biodiversity. As Bonneuil and Fressoz have put it, “to strive for decent lives means freeing ourselves from repressive institutions, from alienating dominations and imaginaries. It can be an extraordinary emancipatory experience.” <sup>13</sup> By allowing abstraction, opacity, and poetry to come in, perhaps we can attribute other forms of value to our environment than those of “natural capital”."
               }
-          ]
+          ],
+          "bibliography": [
+              {
+                "type": "item",
+                "item": "Charmantier I., <i>Carl Linnaeus and the visual representation of nature,</i> in: Hist Stud Nat Sci. 2011; 41(4): 365–404."
+              },
+              {
+                "type": "item",
+                "item": "Staffan Müller-Wille, <i>Nature as a Marketplace: The Political Economy of Linnaean Botany, ,</i> in History of Political Economy, Volume 35, Annual Supplement, 2003, pp. 154–172."
+              },
+              {
+                "type": "item",
+                "item": "Demos T.J., <i>Decolonizing Nature: Contemporary Art and the Politics of Ecology.</i> Berlin: Sternberg Press, 2016."
+              },
+              {
+                "type": "item",
+                "item": "Turpin, Etienne, and Anna-Sophie Springer. <i>Reverse Hallucinations in the Archipelago.</i> Verlag & Haus der Kulturen der Welt, 2017.p.20."
+              },
+              {
+                "type": "item",
+                "item": "Ibid., p.22."
+              },
+              {
+                "type": "column_break"
+              },
+              {
+                "type": "item",
+                "item": "R. Buckminster Fuller, <i>Operating Manual for Spaceship Earth.</i> (New York: Simon & Schuster, 1971)."
+              },
+              {
+                "type": "item",
+                "item": "Demos, T. J. <i>Against the Anthropocene: Visual Culture and Environment Today.</i> Berlin: Sternberg Press, 2017."
+              },
+              {
+                "type": "item",
+                "item": "The Anthropocene defines Earth’s most recent geologic time period as being human-influenced, or anthropogenic, based on overwhelming global evidence that atmospheric, geologic, hydrologic, biospheric, and other Earth system processes are now altered by humans. http://www.anthropocene.info/ The Anthropocene, however, is not an official geological period and many theorists have criticised its use and totalising blame. Donna Haraway, for example, has suggested using other names, including Capitalocene,"
+              },
+              {
+                "type": "column_break"
+              },
+              {
+                "type": "item",
+                "item": "Plantationocene, and Chthulucene. Bonneuil, Christophe, and Jean-Baptiste Fressoz. <i>The Shock of the Anthropocene: The Earth, History, and Us.</i> London ; Brooklyn, NY: Verso, 2016."
+              },
+              {
+                "type": "item",
+                "item": "Demos, T. J. <i>Against the Anthropocene: Visual Culture and Environment Today. </i> Berlin: Sternberg Press, 2017."
+              },
+              {
+                "type": "item",
+                "item": "Ursula Kroeber Le Guin, <i>The Word for World Is Forest.</i> New York: Berkley, 1976."
+              },
+              {
+                "type": "item",
+                "item": "Bonneuil, Christophe, and Jean-Baptiste Fressoz. <i>The Shock of the Anthropocene: The Earth, History, and Us.</i> London ; Brooklyn, NY: Verso, 2016."
+              },
+              {
+                "type": "item",
+                "item": "Ibid., p.291."
+              }
+            ]
       },
       {
-          "title": "Natural Capital—The Exhibition",
-          "author": "C. Dumoncel d’Argence and Laura Herman",
+          "title": "NATURAL CAPITAL (MODAL ALAM)",
+          "author": "Charlotte Dumoncel d’Argence and Laura Herman",
+          "author_overview": "C. Dumoncel d’Argence and Laura Herman",
           "type": "not ready",
           "location":"Brussels",
           "cover_img": "./assets/img/projects/02/thumbnail.jpg",
-          "cover_text": "For second edition of the Europalia Curator’s Award in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition Natural Capital (Modal Alam), including five participating artists: Martin Belou(FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH) and Adrien Vermont (FR). Here you can findits catalogue.",
+          "cover_text": "For the second edition of the Europalia Curator’s Award, in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition <i>Natural Capital (Modal Alam),</i>including five participating artists: Martin Belou (FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH), and Adrien Vermont (FR).",
           "content": [
+              {
+                  "type": "text",
+                  "text": "December 21, 2017–January 21, 2018"
+              },
+              {
+                  "type": "text",
+                  "text": "BOZAR, Centre for Fine Arts <br> <a href=\"https://www.google.com/maps/search/Rue+Ravenstein+23/@46.8131873,8.22421,8z/data=!3m1!4b1\">Rue Ravenstein 23</a> <br> B-1000 Brussels"
+              },
+              {
+                  "type": "text",
+                  "text": "With MARTIN BELOU, ADRIEN MISSIKA, RACHEL MONOSOV, OFFSHORE STUDIO and ADRIEN VERMONT"
+              },
+              {
+                  "type": "text",
+                  "text": "Curated by CHARLOTTE DUMONCEL D’ARGENCE and LAURA HERMAN"
+              },
               {
                   "type": "text",
                   "text": "Comprising an exhibition and online publication, Natural Capital (Modal Alam) aims to confront economic and scientific accounts of biodiversity in the Indonesian archipelago — one of the world's most biodiverse countries. ‘Natural capital’ is an economic concept that we have come to understand as the world’s assets of natural resources capable of flowing into goods and services. No doubt, there must be more liberating and emancipatory concepts to describe the natural commons, currently managed, quantified, and represented as natural capital."
@@ -40,7 +216,7 @@
               },
               {
                 "type": "video",
-                "video": "/.."
+                "video": "<iframe src=\"https://player.vimeo.com/video/247997346\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
               },
               {
                   "type": "text",
@@ -85,40 +261,223 @@
           ]
       },
       {
-          "title": "title 3",
-          "author": "",
+          "title": "Revisiting the Long Slow Walk to 900mdpl: a Personal Note",
+          "author": "Mira Asriningtyas",
+          "author_overview": "Mira Asriningtyas",
           "type": "not ready",
-          "location":"",
-          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
-          "cover_text": "empty",
+          "location":"Kaliurang",
+          "cover_img": "./assets/img/projects/03/thumbnail.jpg",
+          "cover_text": "To grasp and share her irresistible attraction to returning to Kaliurang—a village at the gate of the volcano Mount Merapi where she grew up—Mira Asriningtyas invited fellow artists for residencies in the town. <i>900mdlp</i> culminates in an exhibition and deambulation on the volcano-sides, weaving in and out of the narratives of the personified mountain.",
           "content": [
               {
+                  "type": "img",
+                  "img": "./assets/img/projects/03/03_Asriningtyas.jpg",
+                  "nr": "1",
+                  "caption": "Mt.Merapi seen on the backgroud of Kaliurang entrance gate during the opening day of 900mdpl. Image by Sandi Kalifadani."
+              },
+              {
                   "type": "text",
-                  "text": ""
+                  "text": "1<sup>ST</sup> WALK: <i>900MDPL</i>"
+              },
+              {
+                  "type": "text",
+                  "text": "<i>900mdpl</i> is an extensive site-specific art project in Kaliurang, a small village on the southern slope of an active stratovolcano, Mt.Merapi, in Yogyakarta—Indonesia. Kaliurang is an hour drive from the city of Yogyakarta with an average altitude of 900 meters above sea level. Historically, Kaliurang was built as a resort area for Dutch geologists during the colonial period; enjoying its heyday until the end of the New Order era—and is still an important base for volcanologists to monitor the activity of Mt.Merapi."
+              },
+              {
+                  "type": "text",
+                  "text": "<i>900mdpl</i> aims to respond to the spaces, collect stories, and revisit local wisdoms while promoting on knowledge exchange and community engagements through collaborative projects and public programs. <i>900mdpl</i> consists of two parts: first, the residency period resulting in different solo projects by each of the artists; second, the grand project presentation of all artists at scattered sites around Kaliurang where a wider audience will be guided on the exhibition walking route."
+              },
+              {
+                  "type": "text",
+                  "text": "This text aims to revisit the long slow walk of creating the <i>900mdpl</i>; a site-specific project which started from the residency period in early 2014, through to the final presentation in November 2017."
+              },
+              {
+                  "type": "text",
+                  "text": "2<sup>ND</sup> WALK: <i>THE HOST, THE GUEST, AND A CONVERSATION ABOUT ROOTEDNESS AS CAPITAL</i>"
+              },
+              {
+                  "type": "text",
+                  "text": "This part is where the personal note begins."
+              },
+              {
+                  "type": "text",
+                  "text": "Kaliurang is a place where I was born and raised, and has been the home of my ancestors for at least seven generations—up until this day. We grew up with family myths about the spirits of ancestors who guard Mt.Merapi, stories of fish that blinks, a man who got lost because of the enchanting spells of the forest fairies, and the white tiger that warns mountain climbers when they are about to cross dangerous path. At night, I would get shiver listening to the stories of <i>banaspati</i> that chase people who point the torchlight to the treetops or <i>wewe</i> that enjoys kidnapping children who still play outside when the sun is setting down."
+              },
+              {
+                  "type": "text",
+                  "text": "We know that somewhere deep inside the forest behind our home in Kaliurang, magic creeps secretly under the spell of the mighty kingdom of Mt.Merapi. Kaliurang for me is never just a place: it is composed of stories. Behind the surface of what is seen, each place is heavy with collective memories, spirits, myth, absences of things which used to be, and invisible identities of the visible. In De Certeau’s words, “Stories are becoming private and sink into the secluded place in the neighbourhoods, families, or individuals […] while memories are a sort of anti-museum: it is not localizable.”<sup>1</sup> Yet, the invisible builds up into layers and layers which make up a place."
+              },
+              {
+                  "type": "text",
+                  "text": "There must be a strange spell in the air that keeps people coming back. A family member once warned me to be careful, because those who get too comfortable in Kaliurang will be bounded there for a lifetime. As a response, I let myself wander and escape each time there is a chance; but escape is always an act of returning. Travel (like walking) is a substitute for the legends that used to open up space to something different—the return to nearby exoticism by way of a detour through distance places.<sup>2</sup> Each time when I return from my erratic escape, I invite someone (an artist, musician, historian, etc.) for a residency to explore whether my fascination of this place is sharable. The residency itself is a slow developing process which started in early 2014. The slowness is one of the visible qualities of Kaliurang that I implemented in curating 900mdpl. Away from the hustle bustle of the city of Yogyakarta; Kaliurang is the place where quiet streets are surrounded by lush greenery, cool air, tranquillity, and only the faint sound of the neighbour chit-chats flowing with the wind every now and then."
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/03/17_Asriningtyas.jpg",
+                  "nr": "2",
+                  "caption": "The Walk–One of the walks to 900mdpl. Image by Cosmas Dipta."
+              },
+              {
+                  "type": "text",
+                  "text": "The <i>900mdpl</i> residency series has taken place between 2014–2016; and during this period I have invited each of the artists involved to stay in my house in Kaliurang for two-weeks up to three-months. Some artists involved in this project, who live in the neighbouring city of Yogyakarta and are familiar with Kaliurang, chose to regularly commuting between the city and Kaliurang due to its proximity and only staying in for few intensive nights at a time. To open up a private house and share it with other people for a long period of time can be challenging. It requires trust, comfort, intimacy, and openness. This is applied not only in the physical presence of the house and the role of the host in welcoming the guest; but also in its non-physical present of the stories and local legends—whether or not the host, the native people of Kaliurang, are willing to share the stories to the visitors. Stories can be very personal and openness allows one to become vulnerable. This required generosity on the part of the people and in the other side of the exchange, the artist needs to earn the trust of the local people, observe the invisible features, and work within the mundane of everyday life."
+              },
+              {
+                  "type": "text",
+                  "text": "Within this project walking was the central research methodology—the artists were free to explore and observe through walking around the neighbourhoods in Kaliurang; the practice of walking operates both as poetic practice and as an anthropological observation of the space; tracing fragments, spatialising personal experiences, and stopping every now and then to connect with the community through social interaction."
+              },
+              {
+                  "type": "text",
+                  "text": "Trust, apparently, is something easily given to me as a native by the local community. My rootedness in the site (Kaliurang) was not something I had either courage or intention to reveal. I was concerned that I could be too close, too deeply rooted, and too biased to create a project out of a place that is so intimate and personal to me. At this point, the conversation about cultural identity and roots as capital begins. In this case, my position as a native was something I considered a privilege as a host—something to always be conscious about and to only use in moderation. The depth of my roots in Kaliurang can be viewed as a useful source of local knowledge and connection within this project—while the position of the visiting artists as observers, have the privilege of distance to offer fresh perspective."
+              },
+              {
+                  "type": "text",
+                  "text": "This project has big ambition and zero funds; but how did it come about? It was the generous contribution of the community (in Kaliurang and in the art scene) that made it happen: the people who shared their personal stories, those people who are generous enough to share their time interpreting oral histories from one of the oldest member of the community; the people who let us use their personal infrastructures, spare land, hotel lobby, restaurant, and volcano observatory office for project presentation site, and the families who invited the artists to join the dinners and lunches every now and then. My root, as one of the member of the society, soon translated into an asset—a non-monetary capital of infrastructures that does not belong to me. It is something that I would take for granted until someone pointed it out and call it by its name. It was not only because to contribute something to the project gives them a sense of belonging to the project; but also, we share the same concern—an impulse to make a note, to remember, and to archive. For example, one of the oldest members of the community approached me the other day in a waiting room; he began telling me a long comprehensive story about his ancestors and the family line. He even offered to write them down for me so that I could revisit the notes one day. That was the first time I actually had a long conversation with him so I asking him why he would burst into sharing such comprehensive oral history with me; and he said, “Because I know you believe in nonsense and you care enough to preserve it”. For me, that is the least that I can do."
+              },
+              {
+                  "type": "text",
+                  "text": "3<sup>RD</sup> WALK: <i>900 METERS ABOVE THE SEA, 8KM AWAY FROM THE CRATER</i> "
+              },
+              {
+                  "type": "text",
+                  "text": "A month after the exhibition finished, a question lingers: “What urged you to make this project?” Deep down, perhaps the answer was fear; maybe it was an excitement to share my fascination for the place; but, most probably, it was also an impulse to archive."
+              },
+              {
+                  "type": "text",
+                  "text": "As one walks around the <i>900mdpl</i> exhibition site, the presence of the volcano feels stronger. If one is lucky enough to arrive in Kaliurang on a nice weather day, one will be graced by the majestic presence of Mt.Merapi in the background, with two hills which are believed to be Kaliurang village’s protectors. It is difficult to escape the majestic shadow of Mt.Merapi, breathing behind our necks. Sometime his presence is taken for granted, but most of the time it feels comforting, majestic, and strong. Instead of being scared, the natives understand the mutual relation between people and the volcano."
+              },
+              {
+                  "type": "text",
+                  "text": "Mt.Merapi is the most active volcano in Indonesia that has erupted regularly since 1548.<sup>3</sup>  It is one-of-16 ‘Decade Volcanoes’, worthy of particular study in light of their history of large, destructive eruptions and proximity to populated areas.<sup>4</sup> Mt.Merapi is also an important volcano for the Javanese culture and is believed to be a mythical kingdom and the spiritual counterpart to the Yogyakarta Sultanate. The spirits of the good ancestors live in the palace in the mountain and occasionally visit their descendants in dreams to deliver prophecies or warning when the volcano is about to erupt. In Javanese cosmological symbolism, Merapi is one of three ruling ‘kingdoms’ within Yogyakarta; the three ruling kingdoms are connected through the sacred axis—from the northern point Mt.Merapi; the centre point the Tugu Monument and Kraton the Palace of the King of Yogyakarta; and the southern point the domain of the Queen of the Southern Sea. All of which are bounded in a mutual relationship between one another.<sup>5</sup>"
+              },
+              {
+                  "type": "text",
+                  "text": "Him, the Mountain, is personified because he is believed to be a breathing living being with conscience and will. What is seen to the eyes as <i>lahar</i>, lava flow, stones, and hot cloud are believed to be the troop of spirits that inhabited the great kingdom of Mount Merapi who needs to make their way to the sea every once in a while. Each time there is a major eruption, the people who resides near the mountain needs to give way to the spirits and move for a certain period of time. Each time an eruption occurs, the people who live at the slope of the volcano believe that the kingdom of Mt.Merapi celebrates—the eruption is considered as a process of rejuvenation, granting the people in the slope with ash rain that makes the land fertile. It was not until Mt.Merapi changed shape in 2010 has people started to fear him. Along with the changing shape and explosive tendency, Mt.Merapi feels foreign and threatening. In the big eruption in 2010, 320,000 people were evacuated from the dangerous area and the death toll was more than 350 casualties. The aftermath left many villages burned down and buried in ashes. For the first time in many years, the volcano triggered paranoia among people with such a real threat and danger. The sense of impermanence is getting stronger; especially in populated places that has proximity to the crater. Kaliurang, 8 kilometres away from the crater, is pulsing with a silent sense of temporality. This was the starting point of my impulse to archive the stories of the people, the specificity of the sites, and the collective memories."
+              },
+              {
+                  "type": "text",
+                  "text": "4<sup>TH</sup> WALK: <i> AN ACT OF RETURNING</i>"
+              },
+              {
+                  "type": "text",
+                  "text": "What does it mean to create an art project under the volcano? For the artists, it meant immersing themselves in a strongly bound of community that has been shaped and reshaped through reappearing temporal communities where kinship and affinity get stronger each time the volcano erupts. For me, it is an act of returning. It is inevitable that the topics of nostalgia, community, collective memory, tourism, non-monetary trade, and the volcano are reoccurring and colliding within this project."
+              },
+              {
+                  "type": "text",
+                  "text": "In this part, I will take you on a walk around Kaliurang, to visit each exhibition sites."
+              },
+              {
+                  "type": "text",
+                  "text": "1/"
+              },
+              {
+                  "type": "text",
+                  "text": "The first location is a local antique shop that has been hereditary from three generations of the past. The first owner opened the shop in 1930 and was a legendary cook well-known for her remarkable cuisine which she served for the royal family; the daughter who was the second generation was a persistent business-woman who turned the shop into a go-to place for everyone in the region, selling everything from local delicacies to Dutch chocolate and German cologne. The third generation of the shop owner is a man who chooses a quieter path with profound passion for antiques and history of mundane objects from all over the world. Simon Kentgens is an artist from Rotterdam who chose to work with the owner of Warung Joyo, the antique shop. He explores the shop as some kind of social space where not only products get exchanged, but also news, anecdotes, gossip, and history. As a result, he presented a video work containing short explanation on why a certain object is special to the owner.  How trivial these objects sometimes seem to be, they can show us our interdependency with local and global economies, history, our neighbours and the world. At the same time, he creates a dry museum-like cataloguing of the items being sold in the shop and posts it in  <a href=\"http://instagr.am/warung_joyo\">instagram</a>. Can a local shop function as some sort of museum of contemporary relations? One in which these objects and stories are not fixed, like in a traditional museum, but constantly moving, changing and exchanging?"
+              },
+              {
+                  "type": "text",
+                  "text": "2/"
+              },
+              {
+                  "type": "text",
+                  "text": "The second site is a remnant of a house that used to belong to Lik Sigun—a guy who went missing in the sacred forest in the slope of Mt.Merapi.  During one of his walk in Kaliurang, Maryanto found the remnant of Lik Sigun’s house,— dense with collective memories and local anecdotes of one peculiar guy.  For most of his lifetime, Lik Sigun used to live in that house, undisturbed by the world that going by around him. He owned a motorcycle that which he had decorated with the Indonesian flag but instead of riding it, he would take it for a walk on regular basis. He learned self-defence to protect those he cared the most. He made sword in the middle of the night using scraps of metal he collected on the way. When his goat died, instead of burying it, he tied the animal’s four legs on the house poles to let it rotten and dried. Three years ago, he went missing in the forest of confusion, not yet to be found. Taking on his own method in painting, Maryanto let the grass overgrown the remnant of the house to later trim the weed and highlight the part where the ‘artworks’ made by Lik Sigun are hidden; creating a conceptual landscape of remembrance."
+              },
+              {
+                  "type": "text",
+                  "text": "3/"
+              },
+              {
+                  "type": "text",
+                  "text": "Mella Jaarsma chose to create her work in one of five original Dutch houses that are still standing in Kaliurang to be her site of performance. During colonial times, the Dutch were creating settlements in mountain areas to escape the tropical heat. They build their second houses in Puncak, Lembang,  Munduk, and also Kaliurang.  Up until now we can find Dutch architecture and other recognizable traces in these areas. For Mella Jaarsma who was born in Emmeloord, in the Netherlands and left for Indonesia in the 80’s, Kaliurang is where she got her shot of nostalgic fixed. In her words: “One small house in central Kaliurang,- reminded me of my grandmother’s house in the Netherlands, is where I sometimes go since the eighties, in order to get my shot of nostalgias, fresh air and a cup of hot chocolate. For this project I will bring you to Vogels, a traveller’s café in the centre of Kaliurang with co-owner Pak Christian, who in the past brought people up the Merapi Mountain and has many stories to tell, while I will serve you a shot of hot and cold to activate your senses.”"
+              },
+              {
+                  "type": "text",
+                  "text": "4/"
+              },
+              {
+                  "type": "text",
+                  "text": "Sandi Kalifadani chose a garage in a private home that used to be one of the sites of the first Walk the Folk (WTF). WTF is a participatory secret gig where people are invited to exchange not only music performance but also stories, poem, coffee, service, among others. It is a gig with the spirit of <i>‘kado silang’</i> (secret gift-exchange). WTF eliminating the boundary between stage and audience. While walking, a local guided the participants to destined places and tell site-specific stories along the way. In WTF #1 (2014), the gig occupied abandoned public spaces around Kaliurang; WTF #2 (2015) occupied abandoned private spaces; and WTF #3 (2015) occupied local community’s gathering spaces.  When looking at the video documentations presented in this exhibition, one can trace the changes in the landscape and politic of spaces in Kaliurang from 2014 to the present time: half of the tennis court has been transformed into parking lot, a beautiful old house was torn down and changed into a big concrete building, the once-abandoned swimming pool where is now back to business, and many more."
+              },
+              {
+                  "type": "text",
+                  "text": "5/"
+              },
+              {
+                  "type": "text",
+                  "text": "Dimaz Maulana is a historian who decides to research the genealogies of the people in Kaliurang for this project. For him, Kaliurang is a resort area where people let go of their problems and exhaustions. To be the place heavily burdened by such expectation, Dimaz wonders what are the aspirations, fantasies, and dreams of Kaliurang people. What were left from the heyday of Kaliurang in the 80s to 90s all the tangible trace of glory from the past and stories.  He then starts collecting pieces of collective memory, myth, local stories, while at the same time tracing the genealogy back to the first person who turn the forest under the slope of Mt.Merapi to a village. Those oral histories are transformed into tales in a soundpiece and a room instalation; combining local wisdoms, beliefs, and fantasy. Responding to the height, the expectation as a place to relax, and to the people’s stories; Dimaz decides to take people’s mind up high in the sky while he tells the story in person or in a comfortable nostalgic setting.  Within this realm, he himself turns into an itinerant storyteller, taking the audience to a different moment in time."
+              },
+              {
+                  "type": "text",
+                  "text": "6/"
+              },
+              {
+                  "type": "text",
+                  "text": "At the end of 2013 until 2015, Dito Yuwono initiated a project: \"Recollecting Memories: Tukang Foto Keliling (Itinerant Photographer)” as an on-going research project, focusing on tracking the practices of tourism photography in Kaliurang. This project departs from the photo archives of an informal group of itinerant photographer who were active around 1981– 2005 as well as the memory of tourism photography practices during the heyday of Kaliurang. This study is now being presented in the form of a publication and a retrospective exhibition of the anonymous photography group that later referred as “Kelompok Fotografi Kaliurang” (Kaliurang Photography Collective). Through this history of itinerant tourist photography practices, not only can we get an overview of the economic aspects of tourism specifically in Kaliurang, but also learning about the history of the region, the social relations between the local and the newcomers, the political power that works in the realm of photography during the New Order era through a national campaign of “Tourism Awareness” <i>(Kampanye Sadar Wisata)</i>, and the fall of Polaroid industry."
+              },
+              {
+                  "type": "text",
+                  "text": "7/"
+              },
+              {
+                  "type": "text",
+                  "text": "When Anggun Priambodo decided to stay in Kaliurang for two consecutive weeks, he opens up himself for any opportunities that came his way. He started by creating his own ritual of morning walk, doing the chores, drinking coffee on the porch, writing, reading, and interacting with the locals. His presence in the community is transient, thus, it amazes him to see how closely-knit the community is. He considered that this special closeness of the Kaliurang community could be the result of living together under the continuous looming danger of the volcano. Yet, in spite of danger, it is the comfort of living in Kaliurang which keeps people coming back, resulting in longstanding composition of inhabitants. Soon enough he made new friends while responding to different interactions by producing new artworks for what he later refers as his ‘solo exhibition’. In no time, he start mimicking local activities by trading handmade walking sticks, volunteering on the afternoon school for senior citizens by creating an acting class, and get himself involved in the local’s endless attempt to promote the area. All of which are wrapped into a show called Anjelir, musing on a song with same title written by a local activist for Kaliurang elderly while putting the elder member of the society back in the spotlight and archive their presence through playcard called ‘Gambar Umbul Kaliurang’."
+              },
+              {
+                  "type": "text",
+                  "text": "8/"
+              },
+              {
+                  "type": "text",
+                  "text": "Eva Olthof choses to present her sound instalation inside the office of the volcano watch tower in Kaliurang. <i>‘If Merapi tells us to go, we go’</i> (2017) comprises of a montage and stacking of interviews, field recordings, ads and handy talky sounds compiled between 2015 and 2017 on Mt.Merapi. Listening to it, you tune in and out to stories related to life on the mountain: “On the 25th of November Mt Merapi erupted. The seismograms of the 23rd-24th of November 1930 showed many large tremors and a considerable number of micro ones. “/ “When I am in the forest I know when the volcano is going to erupt by looking at the movement of nature” / “After 2010 people started listening to the rain that wakes them at night, some people can’t differentiate whether it’s the sound of the rocks coming down or if it’s just the sound of rain (…). And that’s when they start turning on their handy talky.” / “If it’s like, weeee, weeee, weeee, … that means a lot of things are happening underground...” / “Because now there is a community radio, we realize we can do it ourselves, also we provide news, because the regular media doesn’t always provide the correct information.”/ “We were all forced to transmigrate as a group. But we came home one by one by one.” / “After the 2010 eruption the government told the villagers that their village is part of the red zone. Recently some business man opened a castle there for tourism, privatized.”"
+              },
+              {
+                  "type": "text",
+                  "text": "9/"
+              },
+              {
+                  "type": "text",
+                  "text": "Edita Atmaja continues the research from her residency two years ago and took a longer stay to further immerse inside the community. For this work, she chose a storage room that used to be a shop by the street where neighbours are passing by. During her first residency, she collected information about several well-known types of vegetation that were indigenous to Kaliurang and how it interconnected with the locals. When she starts tracing the passage of the plants, she vaguely saw a plant circulation map brimming with human touch. This distinctive dissemination pattern portrays its communal connectedness. As the result, she discovered an exceptional bond between plants and the people of Kaliurang that she presented in “Botanica 1.1: Vanda Tricolor and Other Findings”. Instead of finding the formal dissemination of the native plants, she found out how unreserved the way people in Kaliurang socialized and exchange with their neighbours. This time, Edita tries to simulate this exchange by preparing a non-monetary trading space called “Taman Tukar” (Swap Garden) especially to accommodate people around Kaliurang to meet their neighbours, exchange domestic plants, and share information about them. All the information are documented and openly displayed for public access."
+              },
+              {
+                  "type": "text",
+                  "text": "5<sup>TH</sup> WALK: <i> THE WALKER, THE WEAVER</i>"
+              },
+              {
+                  "type": "text",
+                  "text": "In this exhibition, walking is a crucial method of spatial practice. For the audience, walking is the act of activating the place and turns it into a space of experience: weaving together the narration in each sites presented by the artist.  As you walk along, you would feel the tempo, the pace of time, and the stillness that this project requires: to create and to fully enjoy. You can spend hours and hours with the artists to talk about the work and everything else in between. Time, is a funny thing. It is somehow feel like it was stretched out to form a longer and thinner surface. Here, time seems to be abundant but transient: it’s time to keep the notes and add it up. <i>900mdpl</i> is projected to be a seed of a continuous platform of a site-specific art project, offering a space of possibilities."
+              },
+              {
+                  "type": "text",
+                  "text": "(Mira Asriningtyas)"
               }
-          ]
+
+          ],
+          "bibliography": [
+              {
+                "item": "Certeau, M. D. (1984). “Walking in the City”, The Practice of Everyday Life . Berkeley/Los Angeles, Ca: University of California Press, 108"
+              },
+              {
+                "item": "Ibid, 106–107."
+              },
+              {
+                "item": "Mount Merapi. Retrieved December 13, 2017, from https://en.wikipedia.org/wiki/Mount_Merapi"
+              },
+              {
+                "item": "Decade Volcanoes. Retrieved December 13, 2017, from https://en.wikipedia.org/wiki/Decade_Volcanoes"
+              },
+              {
+                "item": "Triyoga, L. S. (1991). <i>Manusia Jawa dan Gunung Merapi: Persepsi dan Kepercayaannya.</i> Yogyakarta: Gadjah Mada University Press, 45–54"
+              }
+            ]
+
       },
       {
           "title": "Nature Conflict Scenario",
           "author": "Yuki Agriardi",
+          "author_overview": "Yuki Agriardi",
           "type": "not ready",
           "location":"",
           "cover_img": "./assets/img/projects/04/thumbnail.jpg",
           "cover_text": "The observation of an environment and its inhabitants is part of a journey in bonding with nature and within ourselves. Departing from the belief that everything around us keeps moving, nudging, colliding or growing, Nature Conflict Scenario deciphers and fragments nature’s density and the invisible daily conflict taking place in a forest.",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "there will only be gifs here"
-              }
-          ]
-      },
-      {
-          "title": "title 5",
-          "author": "",
-          "type": "not ready",
-          "location":"",
-          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
-          "cover_text": "empty",
           "content": [
               {
                   "type": "text",
@@ -129,9 +488,10 @@
       {
           "title": "Cooking in Pressure",
           "author": "Bakudapan",
+          "author_overview": "Bakudapan",
           "type": "",
           "location":"",
-          "cover_img":  "./assets/img/projects/06/thumbnail.jpg",
+          "cover_img":  "./assets/img/projects/05/thumbnail.jpg",
           "cover_text": "The ethnobotanical project Cooking in Pressure (2017) by Badukapan, food study group, engages with knowledge of edible weeds and the intersection with gender. The film brings the minor histories of the female former political prisoners of 1965-66, pitted against the politics of food and agriculture policies implemented during the Soeharto-era in Indonesia.",
           "content": [
               {
@@ -149,8 +509,24 @@
           ]
       },
       {
-          "title": "Rumah Putih",
-          "author": "Yudi Chandra and C. Dumoncel d’Argence",
+          "title": "Cooking in Pressure—Part II",
+          "author": "Bakudapan",
+          "author_overview": "Bakudapan",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/06/thumbnail.jpg",
+          "cover_text": "Since there are no photographs to provide evidence for the events of 1965–66, Bakudapan Food Study Group, has made a series of drawings based on the stories of the female ex-prisoners. The illustrations made in black ink become a historical metaphor for memory, which is always perceived in black and white, while the use of paper refers to memory’s fragility.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      },
+      {
+          "title": "Meta Rumah Putih",
+          "author": "Yudi Chandra and Charlotte Dumoncel d’Argence",
+          "author_overview": "Yudi Chandra and C. Dumoncel d’Argence",
           "type": "not ready",
           "location": "Lamalera",
           "cover_img": "./assets/img/projects/07/thumbnail.jpg",
@@ -165,6 +541,7 @@
       {
           "title": "The offsetted",
           "author": "Cooking Sections",
+          "author_overview": "Cooking Sections",
           "type": "not ready",
           "location": "New York City",
           "cover_img": "./assets/img/projects/08/thumbnail.jpg",
@@ -235,6 +612,7 @@
       {
           "title": "title 9",
           "author": "",
+          "author_overview": "",
           "type": "not ready",
           "location":"",
           "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
@@ -247,22 +625,66 @@
           ]
       },
       {
-          "title": "title 10",
-          "author": "",
+          "title": "Terhah Language",
+          "author": "Syaiful Garibaldi",
+          "author_overview": "Syaiful Garibaldi",
           "type": "not ready",
           "location":"",
-          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
-          "cover_text": "empty",
+          "cover_img": "./assets/img/projects/10/thumbnail.jpg",
+          "cover_text": "Terhah is a language whose alphabet is grown from cells in petri dishes.  It was born from the imagination and need of Syaiful Garibaldi, as a tool for intertwining nature and culture. Implemented to translate <i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas,</i> Terhah straddles the acts of writing about nature and writing with nature",
           "content": [
               {
                   "type": "text",
-                  "text": ""
+                  "text": "<div class=\"font-terhah\">PLANG GUSHAHAH CIMKUM LA GUSHAHAH IJLUR LI GUSHAHAH GUSMURU LA EHOH EHGOHEG PLINCUN</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "<div class=\"font-terhah\">CIRMOY EBASUAH LAKNOR ILJUR.  LAKNOR FRUMU EBASUAH LAKNOR PAH PIYEO PERCIMKUM. IJLURKA AUAUEO LURPUHAH OAH MORSONTOK 1000OLUN LUAR PNENCUR MAR KUSNURA. PERCIMKUMLO NUHUS 50- 90PRRCIAH CIMKUMARTWUY LURPUHAH KICUYMARANGEO MORSONTOKIU.CUHUATUK EUUAIRCIH CUKHAK GUSJU AOAIKIK PLINCUN GUSHAHAH IJLUR LA CIMKUM. ERNOY KLONE XEXOM KLENCOKMEN CENGKLIMUN UKIKI CENGKLIMUH CEKWASKLENCOKMEN.</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "<div class=\"font-terhah\">HARTUK HOMMA UKILUH EHOH UKIKI BURTOK SOSMUAH CUHUATUK GUSHAHAH CIRKUM GUSHAHAH IJLUR LI CELAMAY LA BARTUOK PARLINUK IJLUR LA CURBOR ANARTOR TERHAH : GUSMURU GUSHAHAH IJLUR PNERCUR IOAMUN GUSHAHAH EHOH ULIOM NUHUS PLINCUNENOM GUSHAHAH CIMKUM LO MARMUSAK 70PERCIAH HARTUK CIMKUMLOROTERHAHEHOLOH CIMKUM LI CIRMUY EHOH SUSUAHAH PARLINUK PLINCUN EHOH YUOOUN.</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "<div class=\"font-terhah\">NGUK PIANG GUSHAHAH CIMKUM LA GUSHAHAH UHUJU CESMENO LA GUSHAHAH GRUS PLINCUN, ERNOY CARPIN YA CUARPUK WOS GUSHAHAH IJLUR LA CIMKUM LI EHOH PLINCUN PREHOHAH KLENTEK PERLIUK CURKAR JATUH</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "<div class=\"font-terhah\">CIMKUM LI PLINCUN CENGKLIMUH GUSHAHAH IJLUR EHOH FRUMU XEXOM PIANG GUSJU CENGKLIMUH IOAMUN LUARJUAW BIREW PARLINUK, HARTUK KERTUAK PIANG OAH SUSUAHAH LA CELAMAY TARMALA, YA WHO CARPIN BLENJUG SOSMU PLUAS PERLUK GUSHAHAH TU</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "<div class=\"font-terhah\">ULLOM YA EKLIUH CEKWAS UKIKI NI GUSBUAHA GUSMURU SOSMUAH CUHUATUK KLORCUCOS JARWIH GUSHAHAH IJLUR LA GUSHAHAH ANARTOR CIMKUM LI EHOH LI PLINCUN YA EO PLUAS</div>",
+                  "no_paragraph_wrap": true
+              },
+              {
+                  "type": "text",
+                  "text": "CO-OCCURRENCE OF LINGUISTIC AND BIOLOGICAL DIVERSITY IN BIODIVERSITY HOTSPOTS AND HIGH BIODIVERSITY WILDERNESS AREAS"
+              },
+              {
+                  "type": "text",
+                  "text": "As the world grows less biologically diverse, it is becoming less linguistically and culturally diverse as well. Biologists estimate annual loss of species at 1,000 times or more greater than historic rates, and linguists predict that 50–90%of the world’s languages will disappear by the end of this century. Prior studies indicate similarities in the geographic arrangement of biological and linguistic diversity, although conclusions have often been constrained by use of data with limited spatial precision. Here we use greatly improved datasets to explore the co-occurrence of linguistic and biological diversity in regions containing many of the Earth’s remaining species: biodiversity hotspots and high biodiversity wilderness areas. Results indicate that these regions often contain considerable linguistic diversity, accounting for 70% of all languages on Earth. Moreover, the languages involved are frequently unique (endemic) to particular regions, with many facing extinction. Likely reasons for co-occurrence of linguistic and biological diversity are complex and appear to vary among localities, although strong geographic concordance between biological and linguistic diversity in many areas argues for some form of functional connection. Languages in high biodiversity regions also often co-occur with one or more specific conservation priorities, here defined as endangered species and protected areas, marking particular localities important for maintaining both forms of diversity. The results reported in this article provide a starting point for focused research exploring the relationship between biological and linguistic– cultural diversity, and for developing integrated strategies designed to conserve species and languages in regions rich in both."
+              },
+              {
+                  "type": "text",
+                  "text": "Translation of the abstract of the article"
+              },
+              {
+                  "type": "text",
+                  "text": "<i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas,</i>L. J. Gorenflo, Suzanne Romaine, Russell A. Mittermeier, and Kristen Walker-Painemilla; PNAS, May 22, 2012, vol. 109, no. 21. Full article:  <a href=\"http://www.pnas.org/content/109/21/8032.full.pdf\" target=\"_blank\">http://www.pnas.org/content/109/21/8032.full.pdf</a>"
               }
           ]
       },
       {
           "title": "title 11",
           "author": "",
+          "author_overview": "",
           "type": "not ready",
           "location":"",
           "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
@@ -277,6 +699,7 @@
       {
           "title": "title 12",
           "author": "",
+          "author_overview": "",
           "type": "not ready",
           "location":"",
           "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
@@ -291,19 +714,20 @@
       {
           "title": "Saksi Bisu (Silent Witness) / Let Me Take You to a Tropical Paradise.",
           "author": "Elisabeth Ida",
+          "author_overview": "Elisabeth Ida",
           "type": "not ready",
           "location":"Yogyakarta",
           "cover_img": "./assets/img/projects/13/thumbnail.jpg",
-          "cover_text": "Nature in Elisabeth Ida’s film Saksi Bisu (Silent Witness) is not what it seems. It appears to be light, paradisiacal, and exotic, yet as silent witness it conceals a dark episode from Indonesian history that is seldom openly discussed. A conversation with Elisabeth Ida on the 1965-events and nature as silent witness.",
+          "cover_text": "Nature in Elisabeth Ida’s film <i>Saksi Bisu (Silent Witness)</i> is not what it seems. It appears to be light, idyllic, and exotic, yet as silent witness it conceals a dark episode from Indonesian history that is seldom discussed openly. A conversation with Elisabeth Ida on the events of 1965 and the notion of nature as a silent witness.",
           "content": [
               {
                 "type": "text",
-                "text": "Saksi Bisu. A Conversation with Elisabeth Ida on the 1965-events and Nature as Silent Witness."
+                "text": "Saksi Bisu. A Conversation between the curators (NC) and Elisabeth Ida (EI) on the 1965-events and Nature as Silent Witness."
               },
               {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -316,14 +740,9 @@
                   ]
               },
               {
-                  "type": "img",
-                  "img": "./assets/img/projects/13/EIM_1.jpg",
-                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
-              },
-              {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -337,13 +756,14 @@
               },
               {
                   "type": "img",
-                  "img": "./assets/img/projects/13/EIM_2.jpg",
-                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+                  "img": "./assets/img/projects/13/EIM_4.jpg",
+                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
+                  "nr": "1"
               },
               {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -356,14 +776,9 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_3.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
-              },
-              {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -376,14 +791,15 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_4.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+                  "type": "img",
+                  "img": "./assets/img/projects/13/EIM_2.jpg",
+                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
+                  "nr": "2"
               },
               {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -396,14 +812,9 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_5.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
-              },
-              {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -416,14 +827,9 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_6.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
-              },
-              {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -436,14 +842,15 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_7.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
+                  "type": "img",
+                  "img": "./assets/img/projects/13/EIM_9.jpg",
+                  "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
+                  "nr": "3"
               },
               {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -456,14 +863,9 @@
                   ]
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_9.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
-              },
-              {
                   "type": "interview",
-                  "q_name": "?",
-                  "a_name": "Elisabeth Ida",
+                  "q_name": "NC",
+                  "a_name": "EI",
                   "interview": [
                     {
                       "type": "question",
@@ -474,17 +876,13 @@
                       "text": "In the coming years, I want to extend my work to a broader and more universal investigation into genocide. I want to study how genocides were visually translated into the public at various places in the world. Which languages, word choices or visual aspects are used by the rulers and oppressed? That is how I went to Sarajevo in Bosnia and Herzegovina and to Phnom Penh in Cambodia. Communication about genocide is very specific from country to country. While all traces were wiped out in Indonesia, the genocide in Cambodia was extensively documented, eventually making possible a trial of the regime. In Indonesia we can only dream about that kind of documentation. In order to arrive at proof, the law must first be amended in which it is still stated that Communism is forbidden. This prohibition must first be lifted before 1965-66 can openly be discussed."
                     }
                   ]
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/13/EIM_10.jpg",
-                "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017"
               }
           ]
       },
       {
           "title": "Hujan emas di negri orang, hujan batu di negri sendiri",
           "author": "Setu Legi",
+          "author_overview": "Setu Legi",
           "type": "not ready",
           "location": "?",
           "cover_img": "./assets/img/projects/14/thumbnail.jpg",
@@ -502,6 +900,7 @@
       {
           "title": "Making the monkey",
           "author": "Celia Lowe",
+          "author_overview": "Celia Lowe",
           "type": "not ready",
           "location":"Togean Island",
           "cover_img": "./assets/img/projects/15/thumbnail.jpg",
@@ -516,6 +915,7 @@
       {
           "title": "Everything",
           "author": "David O’Reilly",
+          "author_overview": "David O’Reilly",
           "type": "not ready",
           "location": "?",
           "cover_img": "./assets/img/projects/16/thumbnail.jpg",
@@ -530,6 +930,7 @@
       {
           "title": "Where Farming Methods Read as Poems",
           "author": "Yasmine Ostendorf",
+          "author_overview": "Yasmine Ostendorf",
           "type": "not ready",
           "location": "Indonesia",
           "cover_img": "./assets/img/projects/17/thumbnail.jpg",
@@ -542,12 +943,13 @@
           ]
       },
       {
-          "title": "title 18",
-          "author": "",
+          "title": "Tidal Migration Pattern of Seaweed Spirit when Moon is Shining",
+          "author": "Filip Van Dingenen",
+          "author_overview": "Filip Van Dingenen",
           "type": "not ready",
           "location":"",
-          "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
-          "cover_text": "empty",
+          "cover_img": "./assets/img/projects/18/thumbnail.jpg",
+          "cover_text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed.",
           "content": [
               {
                   "type": "text",

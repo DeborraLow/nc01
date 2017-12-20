@@ -2,24 +2,25 @@
     margin-bottom: $about-contribution-item-margin-bottom;
 
     @include bp-s {
-        margin-bottom: $about-contribution-item-margin-bottom-bps;
+        margin-bottom: $about-text-font-size-bps * 1.2;
     }
 
     .name {
+        float: left;
+        margin-left: $project-author-margin-left;
         font-size: $about-contributor-font-size;
         text-transform: uppercase;
 
         @include bp-s {
+            float: none;
+            margin-left: 0;
             font-size: $about-contributor-font-size-bps;
         }
     }
 
     .description {
-        margin-left: $about-contribution-item-margin-left;
 
         @include bp-s {
-            margin-left: 0;
-            //margin-left: $about-contribution-item-margin-left-bps;
             line-height: 1.2;
             letter-spacing: 0.05vw;
         }

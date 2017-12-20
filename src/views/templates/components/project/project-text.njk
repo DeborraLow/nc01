@@ -1,5 +1,13 @@
-{% macro text(text) %}
-    <p class="project-text">
-        {{ text }}
-    </p>
+{% macro text(item) %}
+
+	{% if item.no_paragraph_wrap %}
+		<div class="project-text">
+	        {{ item.text|safe }}
+	    </div>
+	{% else %}
+		<p class="project-text">
+	        {{ item.text|safe }}
+	    </p>
+	{% endif %}
+
 {% endmacro %}
