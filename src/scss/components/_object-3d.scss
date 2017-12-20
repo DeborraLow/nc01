@@ -7,16 +7,42 @@
 	height: 50vw;
 	max-height: 1000px;
 	margin: 0 auto;
-	//background-size: 100% 9100%;
+	background-size: 100% 9100%;
 	background-repeat: no-repeat;
-	//background-position: 0 0%;
-	background-size: contain;
-	background-position: center;
+	background-position: 0 0%;
+	opacity: 0;
 
 	@include bp-s {
       width: 100vw;
       height: 100vw;
     }
+}
+
+
+.object-3d-placeholder {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50vw;
+	max-width: 1000px;
+	height: 50vw;
+	max-height: 1000px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: opacity 0s 1s;
+
+	@include bp-s {
+      width: 100vw;
+      height: 100vw;
+    }
+}
+
+
+.sprite-loaded {
+	.object-3d-placeholder { display: none; }
+	.object-3d { opacity: 1; }
 }
 
 
@@ -33,48 +59,83 @@
 }
 
 
-.load-assets {
 	
+&.filter-0 {
+    .object-3d-placeholder {
+		background-image:  url('../img/objects/placeholder/object_0.png');
+	}
+}
+
+
+&.filter-1 {
+    .object-3d-placeholder {
+		background-image:  url('../img/objects/placeholder/object_1.png');
+	}
+}
+
+
+&.filter-2 {
+    .object-3d-placeholder {
+		background-image:  url('../img/objects/placeholder/object_2.png');
+	}
+}
+
+
+&.filter-3 {
+    .object-3d-placeholder {
+		background-image:  url('../img/objects/placeholder/object_3.png');
+	}
+}
+
+
+&.filter-4 {
+    .object-3d-placeholder {
+		background-image:  url('../img/objects/placeholder/object_4.png');
+	}
+}
+
+
+
+
+
 	&.filter-0 {
 	    .object-3d {
-			//background-image:  url('../img/objects/object-0-sprite.png');
-			background-image:  url('../img/objects/placeholder/object_0.png');
+	    	width: 50vw;
+			max-width: 1000px;
+			height: 50vw;
+			max-height: 1000px;
+			background-image:  url('../img/objects/3d/medium/object_0_sprite_medium.png');
 		}
 	}
 
 
 	&.filter-1 {
 	    .object-3d {
-			//background-image:  url('../img/objects/object-1-sprite.png');
-			background-image:  url('../img/objects/placeholder/object_1.png');
+			background-image:  url('../img/objects/3d/medium/object_1_sprite_medium.png');
 		}
 	}
 
 
 	&.filter-2 {
 	    .object-3d {
-			//background-image:  url('../img/objects/object-2-sprite.png');
-			background-image:  url('../img/objects/placeholder/object_2.png');
+			background-image:  url('../img/objects/3d/medium/object_2_sprite_medium.png');
 		}
 	}
 
 
 	&.filter-3 {
 	    .object-3d {
-			//background-image:  url('../img/objects/object-3-sprite.png');
-			background-image:  url('../img/objects/placeholder/object_3.png');
+			background-image:  url('../img/objects/3d/medium/object_3_sprite_medium.png');
 		}
 	}
 
 
 	&.filter-4 {
 	    .object-3d {
-			//background-image:  url('../img/objects/object-4-sprite.png');
-			background-image:  url('../img/objects/placeholder/object_4.png');
+			background-image:  url('../img/objects/3d/medium/object_4_sprite_medium.png');
 		}
 	}
 
-}
 
 
 

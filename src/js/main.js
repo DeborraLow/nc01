@@ -36,6 +36,7 @@ Call all functions from here depending on what page we are on
 			introAnimation();
 			//infoPanel();
 			//objectInteraction();
+			isLoadedObject();
 			sticky();
 			filterSelector('landing');
 
