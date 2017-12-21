@@ -2,8 +2,10 @@
   #BREAKPOINTS
 \*------------------------------------*/
 
+
+//changes here need to be updated in main.js!!!!!!
 @mixin bp-s() {
-    @media only screen and (max-width: $bp-s) {
+    @media only screen and (orientation : portrait) {
         @content;
     }
 }
