@@ -8,7 +8,8 @@
 
 /* LANDING */
 	/* PANELS */
-	$infoPanelH: calc(#{$info-panel-font-size} * 1.2 * 3 + #{$gutter-small} * 2);
+	//$infoPanelH: calc(#{$info-panel-font-size} * 1.2 * 3 + #{$gutter-small} * 2);
+	$infoPanelH: 0;
 	$object3D-h: 80vh;
 
 
