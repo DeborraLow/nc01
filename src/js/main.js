@@ -21,6 +21,12 @@ Call all functions from here depending on what page we are on
 		var GLOBAL_OBJECT_SELECTOR = document.querySelector('.js-object-selector');
 		var GLOBAL_BP_S = 568; //px
 		var GLOBAL_IS_BP_S = false;
+		var GLOBAL_OBJECT_INTERACTION_AREA = document.querySelector('.js-object-interaction-area');
+
+		if(GLOBAL_OBJECT_INTERACTION_AREA) {
+			var GLOBAL_OBJECT_INTERACTION_AREA_WIDTH = GLOBAL_OBJECT_INTERACTION_AREA.getBoundingClientRect().width;
+		}
+		
 
 
 		checkBreakpoint();
@@ -70,6 +76,7 @@ Call all functions from here depending on what page we are on
 			scrollIndicator();
 			mediaControl();
 			filterSelector('project');
+			initGalleries();
 
 			//handle barba fix elements
 			GLOBAL_NAVIGATION_PANEL.classList.remove('navigation-panel-home');
@@ -94,6 +101,7 @@ Call all functions from here depending on what page we are on
 						'click',
 						function(e) {
 
+							//change filter
 							filterSelectorList[currentlyActiveIndex].classList.remove('active');
 							GLOBAL_BODY.classList.remove('filter-' + currentlyActiveIndex);
 
@@ -101,12 +109,80 @@ Call all functions from here depending on what page we are on
 
 							filterSelectorList[j].classList.add('active');
 							GLOBAL_BODY.classList.add('filter-' + j);
+
+							//disable 3d model
+							
+							isLoadedObject();
+							resetObjectInteractionRatio();
+							// disableObjectInteraction();
 						}
 					);
 
 				}(i));
 				
 			}
+		}
+
+
+		function disableObjectInteraction() {
+
+			GLOBAL_OBJECT_INTERACTION_AREA.style.display = 'none';
+		}
+
+
+		function resetObjectInteractionRatio() {
+
+			TweenMax.set('.js-3d-object', { backgroundPosition: '0%' });
+		}
+
+		
+
+
+		function objectInteraction() {
+
+
+			if(GLOBAL_OBJECT_INTERACTION_AREA) {
+
+				GLOBAL_OBJECT_INTERACTION_AREA.style.display = 'block';
+
+				var object = document.querySelector('.js-3d-object');
+				
+				var nrOfSegments = 60; //minus one
+
+				GLOBAL_OBJECT_INTERACTION_AREA.addEventListener('mousemove', function(e) {
+					objectRotateAnimation(e.clientX);
+				})
+
+				function objectRotateAnimation(mousePosX) {
+
+					var mousePosToScreenRation = Math.round((1 - (mousePosX / GLOBAL_OBJECT_INTERACTION_AREA_WIDTH)) * nrOfSegments) / nrOfSegments * 100;
+
+					return (
+						TweenMax.to('.js-3d-object', 0.01, 
+						{
+						    backgroundPosition: '0 ' + mousePosToScreenRation + '%', 
+						    ease: SteppedEase.config(1)
+						})
+					)
+
+				}
+
+			}
+
+		}
+
+
+		function isLoadedObject() {
+			var object = document.querySelector('.js-3d-object');
+			GLOBAL_BODY.classList.remove('sprite-loaded');
+
+
+			imagesLoaded( object, { background: true }, function() {
+			    console.log('#container background image loaded');
+			    GLOBAL_BODY.classList.add('sprite-loaded');
+			    objectInteraction();
+			});
+
 		}
 
 
@@ -284,6 +360,20 @@ Call all functions from here depending on what page we are on
 		}
 
 
+		function initGalleries() {
+			var domGalleryNode = document.querySelectorAll('.myGalleryExample');
+			var galleryListLength = domGalleryNode.length;
+			var instanceGallery;
+
+			for(var i = 0; i < galleryListLength; i++) {
+				console.log('domGalleryNode ' + domGalleryNode);
+				instanceGallery = new LightBoxGallery(domGalleryNode[i]);
+		    	instanceGallery.init();
+			}
+		    
+		}
+
+
 		(function() {
 		    var throttle = function(type, name, obj) {
 		        obj = obj || window;
@@ -313,6 +403,15 @@ Call all functions from here depending on what page we are on
 			}, 100);
 
 			checkBreakpoint();
+
+
+			if(GLOBAL_OBJECT_INTERACTION_AREA) {
+
+				GLOBAL_OBJECT_INTERACTION_AREA_WIDTH = GLOBAL_OBJECT_INTERACTION_AREA.getBoundingClientRect().width;
+				
+			}
+
+			
 		});
 
 

@@ -16,6 +16,8 @@
 
     &:hover, &.active { filter: grayscale(0%); }
 
+    &.active:hover { cursor: auto; }
+
     &:hover { cursor: pointer; }
 }
 
@@ -38,23 +40,23 @@
 //.load-assets{
 
     .object-selector-item:nth-child(1) {
-        background-image:  url('../img/objects/object_0.png');
+        background-image:  url('../img/objects/thumbnail/object_0.png');
     }
 
     .object-selector-item:nth-child(2) {
-        background-image:  url('../img/objects/object_1.png');
+        background-image:  url('../img/objects/thumbnail/object_1.png');
     }
 
     .object-selector-item:nth-child(3) {
-        background-image:  url('../img/objects/object_2.png');
+        background-image:  url('../img/objects/thumbnail/object_2.png');
     }
 
     .object-selector-item:nth-child(4) {
-        background-image:  url('../img/objects/object_3.png');
+        background-image:  url('../img/objects/thumbnail/object_3.png');
     }
 
     .object-selector-item:nth-child(5) {
-        background-image:  url('../img/objects/object_4.png');
+        background-image:  url('../img/objects/thumbnail/object_4.png');
     }
 
 //}

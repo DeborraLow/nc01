@@ -1,7 +1,54 @@
 {% macro gallery(gallery) %}
-    <div class="project-gallery">
-        {% for item in gallery %}
-            <img src="{{ item.img }}" alt="">
-        {% endfor %}
-    </div>
+
+	<div class="myGalleryExample">
+    	<div class="Gallery">
+
+	        <div class="GalleryContainer">
+
+	        	{% for item in gallery %}
+	        		<div class="GalleryRow">
+		                <img src="{{ item.img }}" alt="">
+		            </div>
+		            
+		        {% endfor %}
+
+	        </div>
+
+	        <div class="GalleryArrow ArrowPrev">
+	        	{% include "components/general/arrows.njk" %}
+	        </div>
+	        <div class="GalleryArrow ArrowNext">
+				{% include "components/general/arrows.njk" %}
+	        </div>
+
+	        <div class="GalleryIndex"><p></p></div>
+	        <div class="GalleryCaptions"><p></p></div>
+	        
+	        <div class="GalleryOpenLightbox">
+	        	{% include "components/icons/fullscreen-icon.njk" %}
+	        </div>
+
+	    </div>
+
+	    <div class="Lightbox">
+	        <button class="LightBoxClose">close your lightbox</button>
+
+	        <div class="LightBoxArrow ArrowPrev">
+	        	{% include "components/general/arrows.njk" %}
+	        </div>
+
+	        <div class="LightBoxArrow ArrowNext">
+	        	{% include "components/general/arrows.njk" %}
+	        </div>
+
+	        <div class="LightboxIndex"><p></p></div>
+	        <div class="LightboxCaption"><p></p></div>
+	        <div class="LightboxContainer">
+	            <div class="LightboxImgContainer">
+	                <img src="http://www.lorempizza.com/500/500" alt="">
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
 {% endmacro %}

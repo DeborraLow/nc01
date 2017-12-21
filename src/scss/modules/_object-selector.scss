@@ -25,6 +25,7 @@
     border-top: $borderW solid $border-color;
 
     @include bp-s {
+        z-index: 6;
         display: block;
         width: 100vw;
         border-bottom: $borderW solid $border-color;

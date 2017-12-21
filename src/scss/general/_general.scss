@@ -32,7 +32,13 @@ sup {
 
 a:hover {
   font-family: $italic;
-  &:not(.project-overview-item) {
+}
+
+.project-overview-item a:hover, nav a:hover, a.project-next:hover {
     font-family: inherit;
-  }
+}
+
+
+address {
+    font-style: inherit;
 }

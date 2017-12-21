@@ -1,10 +1,9 @@
 /* GENERAL LAYOUT */
 	/* PANELS */
-	$navigationPanelH: calc(#{$navigation-font-size} + #{$gutter} * 2);
-	$navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$gutter-bps} * 2);
+	$navigationPanelH: calc(#{$navigation-font-size} + #{$gutter} * 2 - 0.12 * #{$navigation-font-size});
+	$navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$gutter-bps} * 2 - 0.12 * #{$navigation-font-size-bps});
 
 	/* MARGIN BOTTOM */
-
 
 
 /* LANDING */
@@ -37,8 +36,8 @@
 
 /* ABOUT PANELS */
 	/* PANELS */
-	$about-navigation-h: calc(#{$about-navigation-font-size} * 3 + #{$gutter} * 2);
-	$about-navigation-h-bps: calc(#{$about-navigation-font-size-bps} * 3 + #{$gutter-bps} * 2);
+	$about-navigation-h: calc(#{$about-navigation-font-size} * 3 * 1.2 + #{$gutter} * 2 - 0.12 * #{$about-navigation-font-size});
+	$about-navigation-h-bps: calc(#{$about-navigation-font-size-bps} * 3 + #{$gutter-bps} * 2 - 0.12 * #{$about-navigation-font-size-bps});
 
 
 	/* MARGIN BOTTOM */

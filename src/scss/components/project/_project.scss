@@ -16,6 +16,7 @@ $projectHeaderH: 200px;
         margin-bottom: $gutter;
         padding: $gutter;
         padding-right: 0;
+        padding-bottom: calc(#{$gutter} - 0.12 * #{$project-title-font-size});
         border-bottom: $borderW solid $border-color;
 
         @include bp-s {
@@ -23,6 +24,7 @@ $projectHeaderH: 200px;
             margin-top: $navigationPanel-h-bps;
             margin-bottom: $gutter-bps;
             padding: $gutter-bps;
+            padding-bottom: calc(#{$gutter-bps} - 0.12 * #{$project-title-font-size-bps});
         }
     }
 
@@ -61,6 +63,7 @@ $projectHeaderH: 200px;
         float: right;
         width: $project-w;
         margin-right: $project-right-margin;
+        padding-bottom: 4 * $gutter;
 
         @include bp-s {
             width: 100%;

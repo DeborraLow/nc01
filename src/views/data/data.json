@@ -4,7 +4,7 @@
           "title": "Natural Capital—Editorial ",
           "author": "Charlotte Dumoncel d’Argence and Laura Herman",
           "author_overview": "C. Dumoncel d’Argence and Laura Herman",
-          "type": "not ready",
+          "type": "ready",
           "location":"?",
           "cover_img": "./assets/img/projects/01/thumbnail.png",
           "cover_text": "When did nature become a marketplace? Where one might imagine clean oceans and healthy forests to be priceless, they are often viewed global assets valued in economic terms. By allowing abstraction, opacity, and poetry to enter the discussion, perhaps we can attribute other forms of value to our environment than those of “natural capital”. A short history of the financialisation of nature joined with an exploration of more emancipated forms of mediation and representation.",
@@ -146,7 +146,7 @@
               },
               {
                 "type": "item",
-                "item": "The Anthropocene defines Earth’s most recent geologic time period as being human-influenced, or anthropogenic, based on overwhelming global evidence that atmospheric, geologic, hydrologic, biospheric, and other Earth system processes are now altered by humans. <a href=\"http://www.anthropocene.info/\">anthropocene.info</a>  The Anthropocene, however, is not an official geological period and many theorists have criticised its use and totalising blame. Donna Haraway, for example, has suggested using other names, including Capitalocene,"
+                "item": "The Anthropocene defines Earth’s most recent geologic time period as being human-influenced, or anthropogenic, based on overwhelming global evidence that atmospheric, geologic, hydrologic, biospheric, and other Earth system processes are now altered by humans. <a href=\"http://www.anthropocene.info/\" target=\"_blank\">anthropocene.info</a>  The Anthropocene, however, is not an official geological period and many theorists have criticised its use and totalising blame. Donna Haraway, for example, has suggested using other names, including Capitalocene,"
               },
               {
                 "type": "column_break"
@@ -174,10 +174,10 @@
             ]
       },
       {
-          "title": "NATURAL CAPITAL (MODAL ALAM)",
+          "title": "Natural Capital—The Exhibition",
           "author": "Charlotte Dumoncel d’Argence and Laura Herman",
           "author_overview": "C. Dumoncel d’Argence and Laura Herman",
-          "type": "not ready",
+          "type": "ready",
           "location":"Brussels",
           "cover_img": "./assets/img/projects/02/thumbnail.jpg",
           "cover_text": "For the second edition of the Europalia Curator’s Award, in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition <i>Natural Capital (Modal Alam),</i>including five participating artists: Martin Belou (FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH), and Adrien Vermont (FR).",
@@ -188,7 +188,7 @@
               },
               {
                   "type": "text",
-                  "text": "BOZAR, Centre for Fine Arts <br> <a href=\"https://www.google.com/maps/search/Rue+Ravenstein+23/@46.8131873,8.22421,8z/data=!3m1!4b1\">Rue Ravenstein 23</a> <br> B-1000 Brussels"
+                  "text": "BOZAR, Centre for Fine Arts <br> <a href=\"https://www.google.com/maps/search/Rue+Ravenstein+23/@46.8131873,8.22421,8z/data=!3m1!4b1\" target=\"_blank\">Rue Ravenstein 23</a> <br> B-1000 Brussels"
               },
               {
                   "type": "text",
@@ -223,40 +223,75 @@
                   "text": "Inspired by Conrad Gesner’s 1615 Historiae Animalium, the first species encyclopedia, Adrien Vermont researches the historical shifts in animal representation. Through a series of drawings he references the ambiguous representation of the tiger, which, throughout Indonesian history, has provoked both terror and admiration, and — tough facing near-extinction — continues to appear as an emblem of nationalism, a brand mascot, and as a stand-in for the Western fascination with an ancestral nature."
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/02/tigre-A4-1.jpeg"
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/02/tigre-A4-3.jpeg"
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/02/tigreA4-1.jpeg"
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/02/tigreA4-2.jpeg"
+                "type": "gallery",
+                "gallery": [
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_1/tigre-A4-1.jpeg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_1/tigre-A4-3.jpeg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_1/tigreA4-1.jpeg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_1/tigreA4-2.jpeg"
+                  }
+                ]
               },
               {
                 "type": "text",
                 "text": "With More or Less (Psychometric Portrait), Adrien Missika connects the hazards of nature with his own mood swings. A series of hygrometers simultaneously measure humidity and human feelings. Using humour, Missika questions our relationship to nature, spanning scientific rationality, quasi-esoteric beliefs, and undeniable biological rhythms."
               },
               {
-                "type": "img",
-                "img": "./assets/img/projects/02/Adrien_Missika_1.jpg"
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/02/Adrien_Missika_2.jpg"
-              },
-              {
-                "type": "img",
-                "img": "./assets/img/projects/02/Adrien_Missika_3.jpg"
+                "type": "gallery",
+                "gallery": [
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_1.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_2.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_3.jpg"
+                  }
+                ]
               },
               {
                   "type": "text",
                   "text": "Finally, a series of pivoting, synthetic, organic-looking 3D objects by Offshore Studio refer to the artificiality of the ‘natural’, as well as the challenges of going beyond clichés of cultural appropriation in contemporary modes of representation."
+              },
+              {
+                "type": "gallery",
+                "gallery": [
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_3/Specimens1.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_3/Specimens2.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_3/Specimens3.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_3/Specimens4.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/02/gallery_3/Specimens5.jpg"
+                  }
+                ]
               }
           ]
       },
@@ -264,7 +299,7 @@
           "title": "Revisiting the Long Slow Walk to 900mdpl: a Personal Note",
           "author": "Mira Asriningtyas",
           "author_overview": "Mira Asriningtyas",
-          "type": "not ready",
+          "type": "ready",
           "location":"Kaliurang",
           "cover_img": "./assets/img/projects/03/thumbnail.jpg",
           "cover_text": "To grasp and share her irresistible attraction to returning to Kaliurang—a village at the gate of the volcano Mount Merapi where she grew up—Mira Asriningtyas invited fellow artists for residencies in the town. <i>900mdlp</i> culminates in an exhibition and deambulation on the volcano-sides, weaving in and out of the narratives of the personified mountain.",
@@ -371,7 +406,7 @@
               },
               {
                   "type": "text",
-                  "text": "The first location is a local antique shop that has been hereditary from three generations of the past. The first owner opened the shop in 1930 and was a legendary cook well-known for her remarkable cuisine which she served for the royal family; the daughter who was the second generation was a persistent business-woman who turned the shop into a go-to place for everyone in the region, selling everything from local delicacies to Dutch chocolate and German cologne. The third generation of the shop owner is a man who chooses a quieter path with profound passion for antiques and history of mundane objects from all over the world. Simon Kentgens is an artist from Rotterdam who chose to work with the owner of Warung Joyo, the antique shop. He explores the shop as some kind of social space where not only products get exchanged, but also news, anecdotes, gossip, and history. As a result, he presented a video work containing short explanation on why a certain object is special to the owner.  How trivial these objects sometimes seem to be, they can show us our interdependency with local and global economies, history, our neighbours and the world. At the same time, he creates a dry museum-like cataloguing of the items being sold in the shop and posts it in  <a href=\"http://instagr.am/warung_joyo\">instagram</a>. Can a local shop function as some sort of museum of contemporary relations? One in which these objects and stories are not fixed, like in a traditional museum, but constantly moving, changing and exchanging?"
+                  "text": "The first location is a local antique shop that has been hereditary from three generations of the past. The first owner opened the shop in 1930 and was a legendary cook well-known for her remarkable cuisine which she served for the royal family; the daughter who was the second generation was a persistent business-woman who turned the shop into a go-to place for everyone in the region, selling everything from local delicacies to Dutch chocolate and German cologne. The third generation of the shop owner is a man who chooses a quieter path with profound passion for antiques and history of mundane objects from all over the world. Simon Kentgens is an artist from Rotterdam who chose to work with the owner of Warung Joyo, the antique shop. He explores the shop as some kind of social space where not only products get exchanged, but also news, anecdotes, gossip, and history. As a result, he presented a video work containing short explanation on why a certain object is special to the owner.  How trivial these objects sometimes seem to be, they can show us our interdependency with local and global economies, history, our neighbours and the world. At the same time, he creates a dry museum-like cataloguing of the items being sold in the shop and posts it in  <a href=\"http://instagr.am/warung_joyo\" target=\"_blank\">instagram</a>. Can a local shop function as some sort of museum of contemporary relations? One in which these objects and stories are not fixed, like in a traditional museum, but constantly moving, changing and exchanging?"
               },
               {
                   "type": "text",
@@ -453,22 +488,32 @@
           ],
           "bibliography": [
               {
+                "type": "item",
                 "item": "Certeau, M. D. (1984). “Walking in the City”, The Practice of Everyday Life . Berkeley/Los Angeles, Ca: University of California Press, 108"
               },
               {
+                "type": "item",
                 "item": "Ibid, 106–107."
               },
               {
-                "item": "Mount Merapi. Retrieved December 13, 2017, from https://en.wikipedia.org/wiki/Mount_Merapi"
+                "type": "column_break"
               },
               {
-                "item": "Decade Volcanoes. Retrieved December 13, 2017, from https://en.wikipedia.org/wiki/Decade_Volcanoes"
+                "type": "item",
+                "item": "Mount Merapi. Retrieved December 13, 2017, from <a href=\"https://en.wikipedia.org/wiki/Mount_Merapi\" target=\"_blank\">wikipedia.org</a>"
               },
               {
+                "type": "item",
+                "item": "Decade Volcanoes. Retrieved December 13, 2017, from <a href=\"https://en.wikipedia.org/wiki/Decade_Volcanoes\" target=\"_blank\">wikipedia.org</a>"
+              },
+              {
+                "type": "column_break"
+              },
+              {
+                "type": "item",
                 "item": "Triyoga, L. S. (1991). <i>Manusia Jawa dan Gunung Merapi: Persepsi dan Kepercayaannya.</i> Yogyakarta: Gadjah Mada University Press, 45–54"
               }
             ]
-
       },
       {
           "title": "Nature Conflict Scenario",
@@ -492,19 +537,15 @@
           "type": "",
           "location":"",
           "cover_img":  "./assets/img/projects/05/thumbnail.jpg",
-          "cover_text": "The ethnobotanical project Cooking in Pressure (2017) by Badukapan, food study group, engages with knowledge of edible weeds and the intersection with gender. The film brings the minor histories of the female former political prisoners of 1965-66, pitted against the politics of food and agriculture policies implemented during the Soeharto-era in Indonesia.",
+          "cover_text": "The ethnobotanical project <i>Cooking in Pressure,</i> by Badukapan Food Study Group engages with a knowledge of edible weeds and their intersection with gender. The film pittsthe minor histories of the female, former political prisoners of1965–66, against the politics of food and agriculture policies implemented during Indonesia’s Soeharto-era.",
           "content": [
-              {
-                  "type": "text",
-                  "text": ""
-              },
-              {
-                  "type": "img",
-                  "img": "./assets/img/projects/06/thumbnail.jpg"
-              },
               {
                   "type": "video",
                   "video": "<iframe src=\"https://player.vimeo.com/video/247694580\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+              },
+              {
+                  "type": "text",
+                  "text": "The ethnobotanical project <i>Cooking in Pressure,</i> by Badukapan Food Study Group engages with a knowledge of edible weeds and their intersection with gender. The film pittsthe minor histories of the female, former political prisoners of1965–66, against the politics of food and agriculture policies implemented during Indonesia’s Soeharto-era."
               }
           ]
       },
@@ -518,8 +559,65 @@
           "cover_text": "Since there are no photographs to provide evidence for the events of 1965–66, Bakudapan Food Study Group, has made a series of drawings based on the stories of the female ex-prisoners. The illustrations made in black ink become a historical metaphor for memory, which is always perceived in black and white, while the use of paper refers to memory’s fragility.",
           "content": [
               {
+                "type": "gallery",
+                "gallery": [
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/1.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/2.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/3.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/4.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/5.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/6.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/7.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/8.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/9.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/10.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/11.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/12.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/06/gallery_1/13.jpg"
+                  }
+                ]
+              },
+              {
                   "type": "text",
-                  "text": ""
+                  "text": "Since there are no photographs to provide evidence for the events of 1965–66, Bakudapan Food Study Group, has made a series of drawings based on the stories of the female ex-prisoners. The illustrations made in black ink become a historical metaphor for memory, which is always perceived in black and white, while the use of paper refers to memory’s fragility."
               }
           ]
       },
@@ -533,8 +631,12 @@
           "cover_text": "Rumah Putih is a house located in the traditional whale hunting village of Lamalera, NTT Indonesia. From within, one can hear the sea and the sounds of daily life, but through the openings, the wind also carries inside, legends,stories, rumors, traditions and the narratives of random encounters.",
           "content": [
               {
-                  "type": "audio",
-                  "video": "./assets/img/projects/07/Meta_Rumah_Putih.mpeg"
+                  "type": "video",
+                  "video": "<iframe src=\"https://player.vimeo.com/video/247999199\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+              },
+              {
+                  "type": "text",
+                  "text": "Rumah Putih is a house located in the traditional whale hunting village of Lamalera, NTT Indonesia. From within, one can hear the sea and the sounds of daily life, but through the openings, the wind also carries inside, legends,stories, rumors, traditions and the narratives of random encounters."
               }
           ]
       },
@@ -545,11 +647,17 @@
           "type": "not ready",
           "location": "New York City",
           "cover_img": "./assets/img/projects/08/thumbnail.jpg",
-          "cover_text": "How do you turn a tree into a financial asset? In Offsetted, Cooking Sections (Daniel Fernández Pascual and Alon Schwabe) explores the legacy of “America’s greenest mayor”, Michael Bloomberg, who championed afforestation (the process of planting trees in areas devoid of any) to increase local resistance to storms and improve energy conservation, while at the same time transforming trees into carbon reserves for industrialists to offset their environmental damage.",
+          "cover_text": "How do you turn a tree into a financial asset? In<i>The Offsetted,</i> Cooking Sections (Daniel Fernández Pascual and Alon Schwabe) explores the legacy of “America’s greenest mayor,” Michael Bloomberg, who championed afforestation to increase local resistance to storms and improve energy conservation, while at the same time transforming trees into carbon reserves for industrialists to offset their environmental damage.",
           "content": [
               {
                   "type": "text",
                   "text": "Michael Bloomberg, once referred to as “America’s greenest mayor,” launched One Million Trees for New York (MTNYC) in 2007. This project, initiated as the subprime mortgage crisis started to be noticed, ventured to protect citizens from the effects of air pollution and climate change. Working to add the eponymous amount of trees to the city, MTNYC was considered the largest urban afforestation effort in the world. Highlighting the benefits of improved air quality, increased shading, and reduced energy consumption, the majority of trees were planted in low income neighborhoods with poor tree canopy and high asthma rates. The aspiration was to increase the city’s “urban resilience” in times of devaluation of real estate assets and ecological collapse. The project was accompanied by an extensive community-based survey that invited people to document trees in their neighborhood. This promoted the caretaking and mapping of the different species by involving  “the community” in that process. Volunteers contributed 12,000 hours of their own time, worth an estimated $100,000, inventorying the city’s trees. As a consequence, each single tree in the city was assigned an economic value based on the “environmental services” it performed."
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/08/1.png",
+                "caption": "Mapped trees in Manhattan, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
+                "nr": "1"
               },
               {
                   "type": "text",
@@ -562,6 +670,12 @@
               {
                   "type": "text",
                   "text": "The New York Street Tree Map (NYSTM), released online in early 2017 by the Department of Parks and Recreation, is deeply embedded in the financial quantification of trees and reveals a slightly less benevolent agenda behind urban greening. Despite the publicly stated goal being the maintenance and caretaking of the trees in the city, the target of NYC Street Tree Map is to “provide tools for developers.” The 681,053 street trees that appear on the cartographic tool provide much more information than the species, trunk diameter, and exact address of each plant. Utilizing the Tree Carbon Calculator (TCC), a federally approved spreadsheet developed by the Center for Urban Forest Research, the yearly capacity of stormwater interception, energy conservation, air pollutant removal, and CO2 reduction prefigures each tree on the database. Plugging this latter set of information into an algorithm behind environmental investment software allows the TCC to accurately calculate the annual financial benefits provided by each one of those trees, which developers or industrialists who have to mitigate their environmental damage can pay to “neutralize” the detrimental effect of their activities."
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/08/2.png",
+                "caption": "Mapped trees in Manhattan, Brooklyn and Queens, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
+                "nr": "2"
               },
               {
                   "type": "text",
@@ -580,6 +694,12 @@
                   "text": "This circulation of greening capital to mitigate architectural development is indebted to George H.W. Bush’s No Net Loss policy, passed in the 1980s. According to No Net Loss, any development that destroys natural habitats (especially wetlands, streams or vernal pools) has to be recouped by the restoration of an “equivalent” landscape elsewhere. The net amount of biodiversity is meant to remain “the same” in terms of surface, quality, or quantity. For each acre of lost wetland, for instance, there should be at least one acre created or restored. This one-for-one logic becomes perverse when the idea of preservation gets thrown into the mix: a developer can destroy a forest for the construction of a condominium on site A and pay a third-party entity owning an equivalent amount of trees on site B to preserve them. Like the trading of air-rights to build higher developments, this logic of urban afforestation has evolved into more sophisticated forms. Air pollution can be legitimized as long as it is traded with planting and keeping trees untouched that absorb the equivalent amount of CO2. The US government has recently updated its social cost of carbon to $37 a ton, which refers to the total social and environmental benefits that accrue from avoiding the emission of one ton of CO2, or alternatively, the damage done by releasing that ton of CO2. Once these equivalences are set, trading can easily commence."
               },
               {
+                "type": "img",
+                "img": "./assets/img/projects/08/3.png",
+                "caption": "The way in which a thornless honey locust tree is quantified on 320 E 43rd St, Manhattan, NYC Street Tree Map, August 25th 2017,  <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
+                "nr": "3"
+              },
+              {
                   "type": "text",
                   "text": "With this logic of offsetting by means of environmental mitigation, architecture acquired the agency to destroy, displace, and replicate natural landscapes miles away from their original location. Offsetting becomes a financial practice that swaps destruction here with reconstruction, or preservation there. Eventually, spatial offsets are directly entangled with the offsetting, and obfuscation of responsibility. As María Gutiérrez remarks, even if such a mechanism of spatial offsetting was to be considered environmentally sensitive, it is not clear yet who is accountable if, for instance, the mitigation forest catches fire or succumbs to a disease, releasing all the “stored carbon” back into the atmosphere. Hence, environmental mitigation and holding trees accountable as a solution remains nebulous."
               },
@@ -596,6 +716,12 @@
                   "text": "From No Net Loss to profiting from bioassets and local livelihood, what is emerging appears to be a new green space race. Nations and companies are competing to appropriate the last piece of available “untapped” forest that can provide the most amount of “environmental services.” A green space race to designate space itself as a protected zone. Eco-utilities and forest bonds are some of the instruments that are boosting the neoliberal quantification of space embedded in that process and determining how to classify and demarcate it. The main challenge for this form of speculation, however, is how and whether to make offsetting calculations standard and universal. In order to securitize ecology, the definition of the “values” of each single tree are crucial. For that operation, standard measurements to quantify forests properties would be necessary. However, such agreement on a transnational form of currency or valuing units has yet to happen. No governmental body has proven offsetting mechanisms as simultaneously financially efficient and environmentally successful."
               },
               {
+                "type": "img",
+                "img": "./assets/img/projects/08/4.png",
+                "caption": "How to make profit out of the destruction of landscapes: the environmental services that a tree provides in Manhattan ready to be traded, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
+                "nr": "4"
+              },
+              {
                   "type": "text",
                   "text": "Pierre Bourdieu stated that there are three forms of capital—economic, social, and cultural—and that value can be translated from one category to the other by means of economic conversions. Ernst Friedrich Schumacher further articulated this morphology when, after the 1973 oil crisis and the accessibility of fossil fuels was under threat for Western powers, he posited the idea of natural capital. Further still, Paul Hawken, Amory Lovins, and Hunter Lovins expanded the lexicon into the notion of natural capitalism at the end of the twentieth century, framing natural capitalism within the notion of eco-efficiency—how to make sense of nature by making money—and arguing that environmental sensitivity is so necessary to shareholders that for the sake of business, corporations should be careful not to miss out. Natural capitalism did not refer to capitalism as being a natural phenomenon to humanity, as it was misunderstood at the time, but as something embedded in the trading of nature. This vision implies that the environment has its own assets waiting for human stewards to make the most of them."
               },
@@ -607,13 +733,110 @@
                   "type": "text",
                   "text": "Energy efficient glazing or LEED certificates will not make humanity resilient to the effects of climate change. On the contrary, they will carry on instrumentalizing “resilience” in order to create new markets. New forms of capital are monetizing the environment through the banking of nature. Increasingly after the collapse of the housing market in 2007–2008, an ever-increasing number of international investors and credit institutions shifted their activity from real estate speculation to trading natural capital. What we are observing in New York is just one example of a booming market in which inhabitants of the city are environmentally dispossessed by a price tag on its trees. In this transformation process, a neighborhood like East New York, comprised of a population of which more than 50% live under the poverty line, is now becoming one of the highest valued areas of urban trees in the whole city, generating annual benefits of millions of dollars in environmental services for offsetting powers. Very quickly some of the most vulnerable people in the city could be also offset, swept away under a new speculative market where the environment serves as a driving force for new forms of dispossession, real estate speculation, and green “renewal.” The offsetted (humans and other-than-humans) are a new social class that stands not to be displaced, but replaced by trees. Trees might be purifying the air on-site, but the financial value of each tree does not stay in front of citizens’ houses. The double agenda of calculating the carbon footprint for each tree, and the services it provides, exposes how every tree of New York is connected to a very specific architectural site of destruction. It is the responsibility of architects and realtors to de-quantify the “value” of trees instead of profiteering from them and what they offset."
               }
+          ],
+          
+          "bibliography": [
+                {
+                    "type": "item",
+                    "item": "http://www.wnyc.org/story/71747-the-mayors-money-bloomberg-pressed-on-offshore-investments/"
+                },
+                {
+                    "type": "item",
+                    "item": "Diestimasikan sebagai $9 per jam. Lihat “NYC Street Tree Map,” https://www.nycgovparks.org/trees/treescount"
+                },
+                {
+                    "type": "item",
+                    "item": "David Gissen, Manhattan Atmospheres: Architecture, the Interior Environment, and Urban Crisis. Minneapolis: University of Minnesota Press, 2014, 29."
+                },
+                {
+                    "type": "item",
+                    "item": "Gregory A. Barton, Empire Forestry and the Origins of Environmentalism (Cambridge: Cambridge University Press, 2002), 163."
+                },
+                {
+                    "type": "item",
+                    "item": "Arun Agrawal, Environmentality: Technologies of Government and the Making of Subjects (Duke University Press, 2005), 1-2."
+                },
+                {
+                    "type": "item",
+                    "item": "Sebagimana dinyatakan secara publik dalam halaman web mereka: “NYC Street Tree Map,” https://tree-map.nycgovparks.org/learn/about"
+                },
+                {
+                    "type": "item",
+                    "item": "Figur ini berkorespondensi dengan 9 Agustus 2017, sebagaimana muncul dalam halaman web dari NYC DPR. Sejak April 15, 2017, platform yang sama dipublikasan bahwa mereka memetakan 682,515 pohon. Antara April dan Agustus, kota sepertinya kehilangan 1,462 pohon dari pemetaan mereka."
+                },
+                {
+                    "type": "item",
+                    "item": "“NYC Street Tree Map,” https://tree-map.nycgovparks.org/learn/about Menurut halaman web mereka, adalah alat satu-satunya yang disetujui oleh California Climate Action Registry's Urban Forest Project Reporting Protocol untuk menghitung penyerapan CO2 dari proyek menanam pohon. http://cares.ucdavis.edu/resource/center-urban-forest-research-tree-carbon-calculator-ctcc"
+                },
+                {
+                    "type": "column_break"
+                },
+                {
+                    "type": "item",
+                    "item": "Istialah “yang lain-selain-manusia” menghaluskan binary manusia – non manusia dan menghindari pengurangan yang lain pada oposisi langsung dari manusia. Lihat Sian Sullivan, “(Re)countenancing an Animate Nature,” in Bram Büscher, Wolfram Dressler and Robert Fletcher, Nature™ Inc.: Environmental Conservation in the Neoliberal Age (Tucson: University of Arizona Press, 2014), 230."
+                },
+                {
+                    "type": "item",
+                    "item": "Ingmar Lippert, “Corporate Carbon Footprinting as Techno-Political Practice,” in The Carbon Fix: Forest Carbon, Social Justice, and Environmental Governance, ed. Stephanie Paladino and Shirley J. Fiske (New York and London: Routledge, 2017), 120."
+                },
+                {
+                    "type": "item",
+                    "item": "María Gutiérrez, “Forest Carbon Sinks Prior to REDD: A Brief History of Their Role in the Clean Development Mechanism,” in The Carbon Fix: Forest Carbon, Social Justice, and Environmental Governance, ed. Stephanie Paladino and Shirley J. Fiske (New York and London: Routledge, 2017), 62."
+                },
+                {
+                    "type": "item",
+                    "item": "David Takacs, The Idea of Biodiversity: Philosophies of Paradise (Baltimore: Johns Hopkins University Press, 1996), 5"
+                },
+                {
+                    "type": "item",
+                    "item": "ibid, 27 dan 107."
+                },
+                {
+                    "type": "item",
+                    "item": "“History of Carbon Offsetting and Carbon Trading,” EBSCOHost, diakses 18 Juni 2017, http://connection.ebscohost.com/science/carbon-offsetting/history-carbon-offsetting-and-carbon-trading"
+                },
+                {
+                    "type": "item",
+                    "item": "Ezra Rosser, “Offsetting and the Consumption of Social Responsibility,” Washington University Law Review 89, 2011: 28-29.."
+                },
+                {
+                    "type": "column_break"
+                },
+                {
+                    "type": "item",
+                    "item": "Pierre Bourdieu, “The Forms of Capital”, in Handbook of Theory and Research for the Sociology of Education, ed. John G. Richardson (New York: Greenwood, 1986), 241-242."
+                },
+                {
+                    "type": "item",
+                    "item": "Ernst Friedrich Schumacher, Small is Beautiful: A Study of Economics As If People Mattered (London: Vintage Books, 1993), Pengantar"
+                },
+                {
+                    "type": "item",
+                    "item": "Paul Hawken, Amory Lovins and Hunter Lovins, Natural Capitalism: Creating the Next Industrial Revolution (Boston, London and New York: Little, Brown & Co, 1999), xvii-xviii."
+                },
+                {
+                    "type": "item",
+                    "item": "Philip E. Steinberg, The Social Construction of the Ocean (Cambridge: Cambridge University Press, 2001), 176."
+                },
+                {
+                    "type": "item",
+                    "item": "Kemunculan dari esktraksi sumber daya berkelanjutan terjadi dalam pertengahan 1990-an dengan “sertifikasi keberlanjutan” seperti Forest Stewardship Council (1993) dan Marine Stewardship Council (1996) yang meregulasikan eksploitasi dari sumber daya alam dalam cara yang lebih bertanggung jawab. Namun alat dan mekanisme yang mana hal ini dilakukan telah secara berat dikritisasi dimana para pengaturnya cenderung permisif untuk memastikan bahwa mereka akan dipanggil kembali untuk menjamin proyek dan situs oleh perusahaan yang mereka sertifikasi."
+                },
+                {
+                    "type": "item",
+                    "item": "Steinberg, 178; George Leddy, “Televisuals and Environmentalism: The Dark Side of Marine Resource Protection As Global Thinking.” Annual Meeting of the Association of American Geographers, 1996."
+                },
+                {
+                    "type": "item",
+                    "item": "Bram Büscher and Robert Fletcher, “Accumulation by Conservation,” in New Political Economy (2014): 1-26. DOI: 10.1080/13563467.2014.923824"
+                }
           ]
       },
       {
           "title": "title 9",
           "author": "",
           "author_overview": "",
-          "type": "not ready",
+          "type": "EMPTY",
           "location":"",
           "cover_img": "./assets/img/projects/empty/thumbnail.jpg",
           "cover_text": "empty",
@@ -628,11 +851,15 @@
           "title": "Terhah Language",
           "author": "Syaiful Garibaldi",
           "author_overview": "Syaiful Garibaldi",
-          "type": "not ready",
+          "type": "ready",
           "location":"",
           "cover_img": "./assets/img/projects/10/thumbnail.jpg",
           "cover_text": "Terhah is a language whose alphabet is grown from cells in petri dishes.  It was born from the imagination and need of Syaiful Garibaldi, as a tool for intertwining nature and culture. Implemented to translate <i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas,</i> Terhah straddles the acts of writing about nature and writing with nature",
           "content": [
+              {
+                "type": "text",
+                "text": "Terhah is a language whose alphabet is grown from cells in petri dishes.  It was born from the imagination and need of Syaiful Garibaldi, as a tool for intertwining nature and culture. Implemented to translate <i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas,</i> Terhah straddles the acts of writing about nature and writing with nature"
+              },
               {
                   "type": "text",
                   "text": "<div class=\"font-terhah\">PLANG GUSHAHAH CIMKUM LA GUSHAHAH IJLUR LI GUSHAHAH GUSMURU LA EHOH EHGOHEG PLINCUN</div>",
@@ -886,14 +1113,16 @@
           "type": "not ready",
           "location": "?",
           "cover_img": "./assets/img/projects/14/thumbnail.jpg",
-          "cover_text": "Land and water, rather than oil and coals lie at the basis of life, according to Setu Legi. Taking care of the environment, rather than exploring what it can bring us is far more important. Setu Legi’s work consists of references to natural elements and what they are destined to become. Biodiversity becomes biouniformity.",
+          "cover_text": "According to Setu Legi, it is land and water, not oil and coal, that lie at the basis of life i. It is far more important to take care of the environment than to ask only what it can bring us.Setu Legi’s work cross-references natural elements with whatthey are destined to become. Biodiversity winds up as bio-uniformity.",
           "content": [
               {
                   "type": "img",
-                  "text": "./assets/img/projects/14/Monsanto.jpg"
+                  "img": "./assets/img/projects/14/Monsanto.jpg",
+                  "nr": "1"
               },
               {
-                  "type": "cover"
+                  "type": "text",
+                  "text": "According to Setu Legi, it is land and water, not oil and coal, that lie at the basis of life i. It is far more important to take care of the environment than to ask only what it can bring us.Setu Legi’s work cross-references natural elements with whatthey are destined to become. Biodiversity winds up as bio-uniformity."
               }
           ]
       },
@@ -909,6 +1138,18 @@
               {
                   "type": "text",
                   "text": ""
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/15/1.jpg",
+                  "caption": "Kalimantan, 1955. Classroom poster reads: “Memperlindungi Alam Berarti Mendapat Penghormatan Dimata Dunia (Protecting Nature Means to Receive Honor in the Eyes of the World).” J. Roberts/National Geographic Image Collection.",
+                  "nr": "1"
+              },
+              {
+                  "type": "img",
+                  "img": "./assets/img/projects/15/2.jpg",
+                  "caption": "Measuring a Tarsier at Camp Uemata, by Celia Lowe.",
+                  "nr": "2"
               }
           ]
       },
@@ -919,11 +1160,19 @@
           "type": "not ready",
           "location": "?",
           "cover_img": "./assets/img/projects/16/thumbnail.jpg",
-          "cover_text": "Everything is an interactive experience where everything you see is a thing you can be, from animals to planets to galaxies and beyond. Everything is a procedural, AI-driven simulation of the systems of nature, seen from the points of view of everything in the universe. Everything is narrated by the late great British American philosopher Alan Watts.",
+          "cover_text": "<i>Everything</i> is a videogame conceived as an interactive experience, where everything you see is a thing you can be; from animals to plants to galaxies and beyond. <i>Everything</i> is a simulation of the systems of nature, a limitless playground to enjoy a non-anthropocentric experience of the universe.",
           "content": [
               {
+                  "type": "video",
+                  "video": "<iframe src=\"https://player.vimeo.com/video/248000176\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+              },
+              {
+                "type": "text",
+                "text": "Publisher: Double Fine Presents & David OReilly<br>Creator: David OReilly<br>Programmer: Damien Di Fede<br>Sound: Eduardo Ortiz Frau<br>Music: Ben Lukas Boysen & Sebastian Plano"
+              },
+              {
                   "type": "text",
-                  "text": ""
+                  "text": "<i>Everything</i> is a videogame conceived as an interactive experience, where everything you see is a thing you can be; from animals to plants to galaxies and beyond. <i>Everything</i> is a simulation of the systems of nature, a limitless playground to enjoy a non-anthropocentric experience of the universe."
               }
           ]
       },
@@ -938,8 +1187,140 @@
           "content": [
               {
                   "type": "text",
-                  "text": ""
+                  "text": "You must have come across the word ‘commons’. A simple way of explaining the concept of the commons is that it is a form of sharing resources by a community without private or governmental intervention. This could concern inherited commons (for instance rivers, forests, air...), immaterial commons (for instance intellectual, cultural...) or material commons (for instance machinery). It concerns communal resources that are (or rather could be) managed collectively without identified ownership but with shared responsibility. Though the concept of the commons often remains in the topic of social processes, more and more artists, city planners, environmentalists, philosophers, designers and architects around the world are recognising ‘commoning’ as an interesting way of working against capitalism, which keep commodification, commercialisation and privatisation of resources at arm’s length. Indonesian urbanist Marco Kusumawijaya explains<sup>1</sup>: “communities can play an important role in moving towards a different paradigm that is not dominated by capitalism and neoliberal governments. Rather, communities can be the stewards of land and resources as well as being an essential place where relationships, alternatives, substitutes and critiques are constantly in the making.”<sup>2</sup>"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/17/02_Nurvista.jpg",
+                "caption": "Elia Nurvista. Performance. Hunger Inc. Courtesy of Jogja Biennale",
+                "nr": "1"
+              },
+              {
+                  "type": "text",
+                  "text": "The inherited commons in Indonesia, however, are under constant threat because of their great monetary value. They are valuable natural capital. Indigenous people who have been living in rainforests for centuries often face displacement from their ancestral land, and risk getting detached from their customary systems of natural resource management. A lot of these communities—especially rural ones—hold vast amounts of local knowledge of the natural world,including maintenance of high biodiversity levels, sustainable farming practices, water irrigation systems, food, sustainable architecture and crafts. Indigenous knowledge is a product of the adaptation of farming practices to the local environment, creating unique practices that go hand in hand with creativity, culture and spirituality. Many indigenous farmers, for example, believe that the success of their harvest is depends on divine intervention."
+              },
+              {
+                  "type": "text",
+                  "text": "There are numerous examples of displacement of indigenous communities, including the Mentawai people in Siberut<sup>3</sup> and the Dayak people in Kalimantan (Borneo)<sup>4</sup>. The main reason for this is to make space for more palm oil companies. Deforestation and forest degradation are important environmental issues In Indonesia; about 1 million hectares of forest is decreasing every year. A needed transition from clearing to protecting is occurring (too) slowly. Environmental protection suffers from infrastructural bottlenecks and ineffective bureaucracy. In addition, corruption allows for illegal logging and unlawful licensing. The responsibility for licensing often shifts back and forth between national and local levels of the government. This makes that the implementation of legislation is weak. Extractive industries often strongly oppose legislation as this is not in their economic interest."
+              },
+              {
+                  "type": "text",
+                  "text": "Indonesia has a long history of what we might now call ‘commoning’, but what is locally known as <i>gotong royong</i><sup>5</sup> or <i>bersama sama</i><sup>6</sup>. Traditionally, both social and environmental stewardship have been at the heart of Indonesian kampung<sup>7</sup> life and Indonesian artists play a pivotal role in keeping this spirit alive. Artist Gustaff Harriman Iskandar<sup>8</sup> explains that artists traditionally have a special status and social function in Indonesian society: “The artist often has an important position in the community (sometimes as spiritual leader, or politician) and is expected to make a contribution to society. They are not seen in the individual domain but rather seen in a social context.”Iskandar explains how indigenous farming and culture are interlinked and adds: “the mechanism for the equipment of the indigenous farmers is explained in a poem. The manual and guidelines are read as a poem. Art and cultural expression is integrated in the farming practices. There is a necessity to record and recognise the knowledge. It’s not possible to document what they do with general approaches, nothing is written down, it’s all oral and you need to live and work with them to understand.”"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/17/01_Not_For_Sale2.jpg",
+                "caption": "Not for Sale, ©Jacob Gatot Surarjo",
+                "nr": "2"
+              },
+              {
+                  "type": "text",
+                  "text": "The communities themselves often don’t recognise the value, qualities or importance of their practice as it has been like that forever. “For them, what they make and do is nothing special,”explains Anindita Taufani,“People will only value the product, not the craftsmanship. The cost is only the material, not the labour.”<sup>9</sup>In Bumi Pemuda Rahayu<sup>10</sup>, the residency programme Taufani helps running, a vision of ecological sustainability is promoted through their works with communities. The residency organises workshops and trainings in order to facilitate knowledge exchange and knowledge preservation from local communities for instance on the use of bamboo but also concerning recycling and composting."
+              },
+              {
+                  "type": "text",
+                  "text": "Artist Irene Agrivine<sup>11</sup>, member of art/science collective XXlab adds to this: “We’re doing a lot of experiments and if we don’t know something we ask the experts. We tap into local wisdom; we do research in the village to see if someone already knows how to produce nano-cellulose for instance. Or when we want to get the pigment to use for natural dyes. These local people use different methods than universities. We combine all three: local wisdom, the universities and...Google. Colonialism diminished a lot of the old knowledge, it was considered as witchcraft.”"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/17/03_trashball1.jpg",
+                "caption": "Irwan Ahmett and Tita Salina. ‘Trash Ball’.",
+                "nr": "3"
+              },
+              {
+                  "type": "text",
+                  "text": "Like Irena Agrivine, artists in Indonesia often work in collectives. Art collectives across Indonesia, and particularly in Yogyakarta, are practising this way of working in which they share knowledge, skills, responsibility and resources. Because the government often lacks in providing resources for artists, the artists started to organise themselves. “The sheer size of the country makes that things only work on a small scale”, artist Andreas Siagian from Yogyakarta based art/science collective Lifepatch explains.<sup>12</sup> In a country that is so big and diverse, things function better in smaller systems and structures that allow for flexibility, fluidity and self-organising. Lifepatch enjoys the process of collaborating and calls this approach DIWO. Not just “do it yourself (DIY)” but “to do it with others” (DIWO)."
+              },
+              {
+                  "type": "text",
+                  "text": "Across Indonesia art collectives are leading the charge in creating alternative ways of dealing with resources, alternative currencies, exchanging skills, repairing, and that have created a strong DIY culture and arts infrastructure. They are innovating, experimenting and having fun. The collective is a good alternative to what artist Ade Darmawan from Ruangrupa calls the big structures: “Big structures have more difficulties to be relevant. They are always slow. You need to have real conversation with society and they miss a radar or mapping system. That’s lost. It’s hard for an institution to be localised. My experience with Ruangrupa is not bringing the community to an institution but the other way around.”<sup>13</sup>"
+              },
+              {
+                  "type": "text",
+                  "text": "At Arsitek Komunitas, a community architecture initiative in Yogyakarta, each project starts with advice from the community. “The community doesn’t want to be an object in the collaboration”, says Amalia Nur Indah Sari from Arsitek Komunitas, “Our principle is: believe the people, they are the solution. You need to trust the community and the community needs to trust you.”<sup>14</sup>"
+              },
+              {
+                "type": "img",
+                "img": "./assets/img/projects/17/05_monorail_slalom-screenshot.jpg",
+                "caption": "Irwan Ahmett and Tita Salina, ‘Monorail Slalom’. Jakarta, 2010",
+                "nr": "4"
+              },
+              {
+                  "type": "text",
+                  "text": "Key things to learn from Indonesia include its creativity, solidarity and resourcefulness. Whether it’s the indigenous communities in Riau, farmers on the rice fields of Bali practising <i>subak</i><sup>15</sup>, or the <i>Tukang</i><sup>16</sup> in Jakarta, together the knowledge and skills that the people hold allow for a strong set-up for a sustainability. There is so much to learn from this society that has been through wars and genocide, which is at the forefront of climate change, centre of environmental degradation and one of the biggest carbon emitters in the world and yet through art and culture manages to inspire and perhaps hold some solutions for global problems. This is our chance to widen our thought horizons: there are alternatives on offer."
               }
+          ],
+          "bibliography": [
+            {
+              "type": "item",
+              "item": "The author interviewed urbanist Marco Kusumawijaya on the 28th of February 2016."
+            },
+            {
+              "type": "item",
+              "item": "Kusumawijaya explains community as ‘a group of people where its members live together in a territory, and share some commons in concrete way, with bounds and consequences immediately felt when something goes wrong.’"
+            },
+            {
+              "type": "item",
+              "item": "New York Times. 2 December 2016 <a href=\"http://www.nytimes.com/2016/12/02/world/asia/modern-world-tugs-at-an-indonesian-tribe-clinging-to-its-ancient-ways.html\" target=\"_blank\">nytimes.com</a>"
+            },
+            {
+              "type": "column_break"
+            },
+            {
+              "type": "item",
+              "item": "Three case studies of four ethnic subgroups of the Dayak Bidayuh indigenous people (Hibun, Sami, Jangkang and Pompang), describe and explore conflict and collaboration between these communities in West Kalimantan in relation to the expansion of oil palm plantations. Full report: <a href=\"http://www.worldagroforestry.org/downloads/Publications/PDFS/RP16385.pdf\" target=\"_blank\">worldagroforestry.org</a>"
+            },
+            {
+              "type": "item",
+              "item": "Refers to a collaborative approach and a way of working for a higher communal goal."
+            },
+            {
+              "type": "item",
+              "item": "A Malay word that translates as togetherness."
+            },
+            {
+              "type": "item",
+              "item": "Village or community."
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed artist Gustaff Harriman Iskandar on the 19th of August 2016 in Bandung."
+            },
+            {
+              "type": "column_break"
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed Anindita Taufani on the 19th of August 2016"
+            },
+            {
+              "type": "item",
+              "item": "<a href=\"http://www.bumipemudarahayu.org/\" target=\"_blank\">bumipemudarahayu.org</a>"
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed Irena Agrivine on the 8th of August 2016"
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed artist Andreas Siagan on the 8th of August 2016 in Yogyakarta."
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed artist Ade Darmawan from Ruangrupa on the 4th of October 2016."
+            },
+            {
+              "type": "item",
+              "item": "The author interviewed Amalia Nur Indah Sarih on the 14th of August 2016."
+            },
+            {
+              "type": "item",
+              "item": "A sustainable form of water management developed in the 9th century that is based on sharing."
+            },
+            {
+              "type": "item",
+              "item": "Repairmen."
+            }
           ]
       },
       {
@@ -952,8 +1333,69 @@
           "cover_text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed.",
           "content": [
               {
+                "type": "gallery",
+                "gallery": [
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/1_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/2_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/3_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/4_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/5_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/6_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/7_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/8_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/9_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/10_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/11_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/12_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/13_seaweed_scans.jpg"
+                  },
+                  {
+                    "type": "img",
+                    "img": "./assets/img/projects/18/gallery_1/14_seaweed_scans.jpg"
+                  }
+                ]
+              },
+              {
                   "type": "text",
-                  "text": ""
+                  "text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed."
               }
           ]
       }
