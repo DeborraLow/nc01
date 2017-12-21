@@ -29,16 +29,19 @@ sup {
 	font-size: 70%;
 }
 
+a {
+  font-style: normal;
+}
 
 a:hover {
-  font-family: $italic;
+  text-decoration: underline;
 }
 
 .project-overview-item a:hover, nav a:hover, a.project-next:hover {
-    font-family: inherit;
+    text-decoration: none;
 }
 
 
 address {
-    font-style: inherit;
+    text-decoration: none;
 }

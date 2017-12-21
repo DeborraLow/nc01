@@ -5,7 +5,7 @@
 >
 
     {% for item in about_editorial %}
-    	<p class="about-text">{{ item.p }}</p>
+    	<p class="about-text">{{ item.p|safe }}</p>
     {% endfor %}
 
 </section>

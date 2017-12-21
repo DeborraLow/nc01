@@ -1,11 +1,10 @@
 $circleW : 30px;
-$circleBorderW : 1px;
 
 .circle-with-border {
     position: relative;
     width: $circleW;
     height: $circleW;
-    border: 1px solid $white;
+    border: $borderW solid $white;
     border-radius: 60%;
     background: $background;
 }

@@ -1,6 +1,48 @@
 {% macro gallery(gallery) %}
 
-	<div class="myGalleryExample">
+<div class="project-gallery js-project-gallery">
+
+{% set length = 5 %}
+	
+	<div class="main-carousel">
+
+		{% for item in gallery %}
+
+			{% set caption = item.caption|default('') %}
+		    <div class="carousel-cell" data-index="{{ loop.index }}" data-caption="{{ caption }}">
+			    <img src="{{ item.img }}" alt="">
+			</div>
+
+			{% set length = loop.length %}
+			            
+		{% endfor %}
+		
+	 </div>
+
+
+
+	 <button class="gallery-button button--previous">
+	 	{% include "components/general/gallery-arrow.njk" %}
+	 </button>
+
+	 <button class="gallery-button button--next">
+		{% include "components/general/gallery-arrow.njk" %}
+	 </button>
+
+	 <div class="project-caption-container">
+    		<span class="project-img-nr">
+    			<span class="js-gallery-img-nr">1</span>/{{ length }}
+    		</span>
+			<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('') }}</div>
+	</div>
+
+</div>
+
+	
+{% endmacro %}
+
+
+<div class="myGalleryExample">
     	<div class="Gallery">
 
 	        <div class="GalleryContainer">
@@ -50,5 +92,3 @@
 	        </div>
 	    </div>
 	</div>
-
-{% endmacro %}

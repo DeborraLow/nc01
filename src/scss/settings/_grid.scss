@@ -11,8 +11,8 @@ $ganeral-main-panel: calc(5px + (100vw - 110px) / 10 * 9 + 90px);
 
 
 /* LANDING LAYOUT */
-$landing-left-panel: calc(10px + (100vw - 110px) / 10 * 5 + 50px - 1px);
-$landing-right-panel: calc((100vw - 110px) / 10 * 5 + 50px + 1px);
+$landing-left-panel: calc(10px + (100vw - 110px) / 10 * 5 + 50px - #{$borderW});
+$landing-right-panel: calc((100vw - 110px) / 10 * 5 + 50px + #{$borderW});
 
 
 

@@ -516,22 +516,7 @@
             ]
       },
       {
-          "title": "Nature Conflict Scenario",
-          "author": "Yuki Agriardi",
-          "author_overview": "Yuki Agriardi",
-          "type": "not ready",
-          "location":"",
-          "cover_img": "./assets/img/projects/04/thumbnail.jpg",
-          "cover_text": "The observation of an environment and its inhabitants is part of a journey in bonding with nature and within ourselves. Departing from the belief that everything around us keeps moving, nudging, colliding or growing, Nature Conflict Scenario deciphers and fragments nature’s density and the invisible daily conflict taking place in a forest.",
-          "content": [
-              {
-                  "type": "text",
-                  "text": ""
-              }
-          ]
-      },
-      {
-          "title": "Cooking in Pressure",
+          "title": "Cooking in Pressure—Part I",
           "author": "Bakudapan",
           "author_overview": "Bakudapan",
           "type": "",
@@ -622,7 +607,7 @@
           ]
       },
       {
-          "title": "Meta Rumah Putih",
+          "title": "Meta Rumah ",
           "author": "Yudi Chandra and Charlotte Dumoncel d’Argence",
           "author_overview": "Yudi Chandra and C. Dumoncel d’Argence",
           "type": "not ready",
@@ -1337,65 +1322,78 @@
                 "gallery": [
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/1_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/1_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/2_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/2_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/3_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/3_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/4_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/4_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/5_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/5_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/6_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/6_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/7_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/7_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/8_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/8_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/9_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/9_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/10_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/11_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/11_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/12_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/12_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/13_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   },
                   {
                     "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/13_seaweed_scans.jpg"
-                  },
-                  {
-                    "type": "img",
-                    "img": "./assets/img/projects/18/gallery_1/14_seaweed_scans.jpg"
+                    "img": "./assets/img/projects/18/gallery_1/14_seaweed_scans.jpg",
+                    "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                   }
                 ]
               },
               {
                   "type": "text",
-                  "text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed."
+                  "text": "Filip Van Dingenen spent several years researching seaweed in Ireland. After the government sold off seaweed harvesting rights to a Canadian company, the artist witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on a traditional Victorian preservation/art form and the artist’s poetic endeavour to re-address the spirit of the sea plants. Van Dingenen encourages visitors to make pressings semiannually at the high tide of the moon with the goal of creating a new calendar, experimenting with forms of representations and different narratives besides the scientific study of the state of the seaweed (and an alternative approach to scientific study of the state of seaweed)."
+              },
+              {
+                  "type": "text",
+                  "text": "The Collections of pressings are from the West coast of Ireland and Lofoten Norway"
               }
           ]
       }
@@ -1426,15 +1424,19 @@
 
   "about_editorial" : [
     {
-      "p": "Naturalcapital.online is a digital publication that addresses the visual culture and discourses surrounding biodiversity in the Indonesian archipelago, and challenges the biased ways in which we experience, describe and visually represent the \"natural world\". It is the digital counterpart of—and includes the catalogue of— the exhibition Natural Capital (Modal Alam) organised by Charlotte Dumoncel d’Argence and Laura Herman in the context of Europalia Indonesia at BOZAR, Centre for Fine Arts in Brussels, Belgium (21 December 2017–21 January 2018). The online publication features commissioned contributions and interviews with artists and theorists living in Indonesia, Belgium, and elsewhere, written in English and Bahasa Indonesia. The format of the online publication was conceived as a platform to enable artworks and ideas to travel outside of Belgium, to generate a new dimension of artistic production, and to bypass the constraints of the physical exhibition. "
+      "p": "Naturalcapital.online is a digital publication that addresses the visual culture and discourses surrounding biodiversity in the Indonesian archipelago, and challenges the biased ways in which we experience, describe and visually represent the \"natural world\". It is the digital counterpart of—and includes the catalogue of—the exhibition <i>Natural Capital (Modal Alam)</i> organised by Charlotte Dumoncel d’Argence and Laura Herman in the context of Europalia Indonesia at BOZAR, Centre for Fine Arts in Brussels, Belgium (21 December 2017–21 January 2018). The online publication features commissioned contributions and interviews with artists and theorists living in Indonesia, Belgium, and elsewhere, written in English and Bahasa Indonesia. The format of the online publication was conceived as a platform to enable artworks and ideas to travel outside of Belgium, to generate a new dimension of artistic production, and to bypass the constraints of the physical exhibition. "
     }
   ],
-
+  "about_acknowledgements": [
+    {
+      "p": "We would like to express our gratitude and appreciation to: All the artists and contributors for generously sharing their work Isabel Seiffert and Christoph Miler, Renald Lenzin, Gabriella Kovács for making this online publication possible  Astrid Reza and Henry Andersen for their translation and editing work  Dirk Vermaelen, Eva Bialek and the Europalia team for giving us a platform and supporting us  All the great and inspiring people whom we met and were in touch with during our research  Our lovers, friends and family"
+    }
+  ],
 
   "contributors" : [
       {
           "name": "Yuki Agriardi",
-          "text": "(1984, Indonesia), <i>received his</i> MA in Design (Furniture) from Central Saint Martins, University of The Arts in London. Over the past years, he has developed many projects using different media, and often crossing the boundaries between art and design. Agriardi is interested in the complex relationship between humans, animals and space. He is currently working on a journey to The Native Island, an expedition through a space that straddles the line between the space of the domestic and wildlife. His observations of different types of habitats and the relationships between inhabitants enable new reflections on how to connect with nature. In his work, Agriardi often relies on the color blue, which sometimes appears in nature, but almost never as pigment."
+          "text": "(1984, Indonesia), received his MA in Design (Furniture) from Central Saint Martins, University of The Arts in London. Over the past years, he has developed many projects using different media, and often crossing the boundaries between art and design. Agriardi is interested in the complex relationship between humans, animals and space. He is currently working on a journey to The Native Island, an expedition through a space that straddles the line between the space of the domestic and wildlife. His observations of different types of habitats and the relationships between inhabitants enable new reflections on how to connect with nature. In his work, Agriardi often relies on the color blue, which sometimes appears in nature, but almost never as pigment."
       },
       {
           "name": "Mira Asriningtyas",
@@ -1457,7 +1459,7 @@
           "text": "(Daniel Fernández Pascual & Alon Schwabe, Spain & Israel) is a duo of spatial practitioners based out of London. It was born to explore the systems that organize the WORLD through FOOD. Using installation, performance, mapping and video, their research-based practice explores the overlapping boundaries between visual arts, architecture and geopolitics. Cooking Sections was part of the exhibition at the U.S. Pavilion, 2014 Venice Architecture Biennale. Their work has also been exhibited at numerous venues, biennials and institutions internationally ; and they have been residents in The Politics of Food at Delfina Foundation, London. Cooking Sections was part of the 2016 Oslo Architecture Triennale and 2016 Brussels ParckDesign. Their work has been featured in a number of international publications. They currently lead a studio unit at RCA, London and in  2016 they opened The Empire Remains Shop."
       },
       {
-          "name": "Charlotte Dumoncel d’Argence",
+          "name": "Charlotte<br>Dumoncel<br>d’Argence",
           "text": "(1985, France) is a designer and curator based in Brussels. She holds a BA in Industrial Design and a MA in Conceptual Design from the Design Academy of Eindhoven, as well as several uncompleted cursuses in Sociology, Ethnology and Anthropology. From 2008 to 2015 she ran her design studio within collective spaces in the Netherlands and in Belgium. Since 2012, she focuses on collaborative and curatorial projects, and began a collaboration at Galerie Caroline Van Hoek in Brussels. Interested in knowledge sharing and public events, she co-founded Objection, an artist-run space focussing on engaged design practices. In 2016 she takes part in Atelier Luma in Arles. Recent collaborations and experiences have brought her closer to the field of contemporary art in which she initiates and contributes to exhibitions, publications and events with a transdisciplinary mindset."
       },
       {
@@ -1466,7 +1468,7 @@
       },
       {
           "name": "Syaiful Garibaldi",
-          "text": "(1985, Indonesia) Syaiful Aulia Garibaldi was born in 1985 in Jakarta, Indonesia. He obtained a Bachelor of Arts from Institut Teknologi Bandung (ITB) and currently works in Bandung, Indonesia. Syaiful, fondly known as Tepu, started off as a student of agriculture in university before pursuing experimental fine arts where he applies his scientific background to create a conceptual foundation for his art. Tepu’s works show a remarkably strong vision of art that collides with science in a graceful manner. His creation of an immersive environment was sparked by his interest in the networked and interconnected nature of ecologies, and the evocative power of microorganisms as symbols of death and decay, as well as life. Infusion between art and science transcends through Tepu’s work and gives way to a new gateway of knowledge, which is illuminated within his prints and installations. Tepu has participated in several exhibitions in Indonesia and abroad."
+          "text": "(1985, Indonesia) obtained a Bachelor of Arts from Institut Teknologi Bandung (ITB) and currently works in Bandung, Indonesia. Syaiful, fondly known as Tepu, started off as a student of agriculture in university before pursuing experimental fine arts where he applies his scientific background to create a conceptual foundation for his art. Tepu’s works show a remarkably strong vision of art that collides with science in a graceful manner. His creation of an immersive environment was sparked by his interest in the networked and interconnected nature of ecologies, and the evocative power of microorganisms as symbols of death and decay, as well as life. Infusion between art and science transcends through Tepu’s work and gives way to a new gateway of knowledge, which is illuminated within his prints and installations. Tepu has participated in several exhibitions in Indonesia and abroad."
       },
       {
           "name": "Alexis Gautier",
@@ -1601,5 +1603,22 @@
     {
       "item" : "‘Www.anexact.org’. Accessed 6 June 2017. http://www.anexact.org/."
     }
-      ]
+      ],
+"delayed_prjects": [
+  {       "nr": "4",
+          "title": "Nature Conflict Scenario",
+          "author": "Yuki Agriardi",
+          "author_overview": "Yuki Agriardi",
+          "type": "not ready",
+          "location":"",
+          "cover_img": "./assets/img/projects/04/thumbnail.jpg",
+          "cover_text": "The observation of an environment and its inhabitants is part of a journey in bonding with nature and within ourselves. Departing from the belief that everything around us keeps moving, nudging, colliding or growing, Nature Conflict Scenario deciphers and fragments nature’s density and the invisible daily conflict taking place in a forest.",
+          "content": [
+              {
+                  "type": "text",
+                  "text": ""
+              }
+          ]
+      }
+]
 }

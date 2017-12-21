@@ -23,6 +23,14 @@
 }
 
 
+.expanded-view {
+    .navigation-panel-home {
+        left: auto;
+        width: $ganeral-main-panel;
+    }
+}
+
+
 .navigation-panel-home {
     z-index: 3;
     position: absolute;

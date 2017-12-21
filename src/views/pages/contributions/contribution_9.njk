@@ -5,6 +5,27 @@
  #}
 
 
+ {% block style %}
+
+<style>
+	@font-face {
+	    font-family: 'Terhah';
+	    src: url('assets/fonts/terhah_normal.eot'); /* IE9 Compat Modes */
+	    src: url('assets/fonts/terhah_normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	         url('assets/fonts/terhah_normal.woff2') format('woff2'), /* Super Modern Browsers */
+	         url('assets/fonts/terhah_normal.woff') format('woff'), /* Pretty Modern Browsers */
+	         url('assets/fonts/terhah_normal.ttf')  format('truetype'); /* Safari, Android, iOS */
+	    font-weight: normal;
+	    font-style: italic;
+	}
+
+	.font-terhah {
+		font-family: Terhah;
+	}
+</style>
+{% endblock %}
+
+
 {% set bodyClass = 'project' %}
 {% set dataNamespace = 'project' %}
 

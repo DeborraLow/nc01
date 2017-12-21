@@ -16,7 +16,7 @@
 
 .sticky {
 	.project-overview {
-		padding-top: calc(#{$infoPanelH});
+		padding-top: $infoPanelH;
 
     @include bp-s {
       padding-top: 0;

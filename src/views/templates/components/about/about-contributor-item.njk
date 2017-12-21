@@ -1,6 +1,6 @@
 {% macro item(author, description) %}
     <li class="about-contribution-item">
-        <h3 class="name">{{ author }}</h3>
+        <h3 class="name">{{ author|safe }}</h3>
         <p class="description about-text">
         {{ description|safe }}
         </p>
