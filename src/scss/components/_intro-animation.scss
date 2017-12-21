@@ -9,6 +9,15 @@
 		height: 100vh!important;
 		width: auto!important;
 	}
+
+
+	@include bp-s {
+        svg{
+			height: auto!important;
+			width: 100vw!important;
+			transform: translate(-50%, -25%);
+		}
+    }
 	
 }
 
