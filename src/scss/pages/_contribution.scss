@@ -1,0 +1,28 @@
+.contribution-page {
+	.landing-content {
+		padding-top: 0px;
+	}
+
+	.navigation-panel-home {
+		position: fixed;
+		top: 0;
+	}
+
+	.half-panel--left {
+		position: fixed;
+	}
+
+	.object-selector-home {
+		position: fixed;
+		bottom: 0;
+		top: auto;
+	}
+
+	.project-overview-expand-button {
+		position: fixed;
+		opacity: 1;
+		top: 50vh;
+		transform: translate(-50%, -50%);
+		left: calc(50vw + 5px);
+	}
+}

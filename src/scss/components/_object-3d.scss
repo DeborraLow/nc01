@@ -104,13 +104,13 @@
 
 &.filter-2 {
     .object-3d-placeholder {
-    	width: 39vw;
-		height: 39vw;
+    	width: 37vw;
+		height: 37vw;
 		background-image:  url('../img/objects/placeholder/object_2.png');
 
 		@include bp-s {
-		      width: 78vw;
-		      height: 78vw;
+		      width: 75vw;
+		      height: 75vw;
 		    }
 	}
 }
@@ -156,13 +156,13 @@
 
 &.filter-2 {
     .object-3d {
-    	width: 39vw;
-		height: 39vw;
+    	width: 37vw;
+		height: 37vw;
 		background-image:  url('../img/objects/3d/medium/object_2_sprite.png');
 
 		@include bp-s {
-	      width: 78vw;
-	      height: 78vw;
+	      width: 75vw;
+	      height: 75vw;
 	    }
 	}
 }

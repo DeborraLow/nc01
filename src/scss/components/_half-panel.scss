@@ -33,6 +33,13 @@
 }
 
 
+.expanded-view {
+    .half-panel--right {
+        border-left: 0;
+    }
+}
+
+
 
 .half-panel--left {
     width: $landing-left-panel;

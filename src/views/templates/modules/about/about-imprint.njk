@@ -1,5 +1,9 @@
 <section class="about-section hidden"
 		 data-section="imprint"
 >
-	imprint
+
+{% for item in about_imprint %}
+    	<p class="about-text">{{ item.p|safe }}</p>
+    {% endfor %}
+	
 </section>

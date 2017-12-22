@@ -11,6 +11,46 @@ body {
   color: $text-color;
   line-height: 1.2;
   letter-spacing: 0.05vw;
+
+  
+}
+
+.cover{
+
+
+  display: none;
+
+
+  &.message:after{
+      content: 'mobile version coming soon';
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 10vw;
+      text-align: center;
+      line-height: 1;
+    
+  }
+
+
+  &.show {
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    z-index: 222;
+    position: fixed;
+    background: $background;;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    &+main {
+      display: none;
+    }
+  }
+
 }
 
 

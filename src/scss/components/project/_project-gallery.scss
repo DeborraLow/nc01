@@ -1,11 +1,17 @@
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co
 ---------------------------------------------- */
+.hide-galleries .project-gallery {
+  opacity: 0;
+}
+
 
 .project-gallery {
     position: relative;
     float: left;
     width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
 
     img {
         width: $project-w;

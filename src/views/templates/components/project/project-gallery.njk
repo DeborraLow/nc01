@@ -33,7 +33,7 @@
     		<span class="project-img-nr">
     			<span class="js-gallery-img-nr">1</span>/{{ length }}
     		</span>
-			<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('') }}</div>
+			<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('')|safe }}</div>
 	</div>
 
 </div>

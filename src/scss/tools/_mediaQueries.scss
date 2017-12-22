@@ -5,7 +5,7 @@
 
 //changes here need to be updated in main.js!!!!!!
 @mixin bp-s() {
-    @media only screen and (orientation : portrait) {
+    @media only screen and (orientation : portrait) and (max-width: 700px) {
         @content;
     }
 }
