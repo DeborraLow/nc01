@@ -5,11 +5,13 @@
     width: 100%;
     box-sizing: content-box;
     background: $background;
+    border-left: $borderW solid $border-color;
 
 
    @include bp-s {
       width: 100vw;
       top: $navigationPanel-h-bps;
+      border-left: 0;
     }
 }
 
