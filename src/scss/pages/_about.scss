@@ -1,7 +1,8 @@
 .about {
     padding-top: calc(#{$navigationPanelH} + #{$about-navigation-h});
     width: $ganeral-main-panel;
-    float: right;
+    position: absolute;
+    right: 0;
     font-size: $about-text-font-size;
 
     @include bp-s {

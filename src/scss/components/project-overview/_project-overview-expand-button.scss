@@ -1,7 +1,7 @@
 .project-overview-expand-button {
 	z-index: 2;
     position: absolute;
-    top: calc(50vw - #{$navigationPanelH} - #{$infoPanelH});
+    top: calc(50vh - #{$navigationPanelH} - #{$infoPanelH});
     left: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -22,7 +22,8 @@
 .sticky {
 	.project-overview-expand-button {
         z-index: 4;
-		top: 50%;
+        position: fixed;
+		top: 50vh;
 		left: $landing-left-panel;
         opacity: 1;
 	}

@@ -5,52 +5,56 @@ $gutter-small: 5px;
 
 
 /* GENERAL LAYOUT */
-$general-side-panel: calc(5px + (100vw - 110px) / 10 + 10px);
-$ganeral-main-panel: calc(5px + (100vw - 110px) / 10 * 9 + 90px);
+$general-side-panel: calc(5px + (100% - 110px) / 10 + 10px);
+$ganeral-main-panel: calc(5px + (100% - 110px) / 10 * 9 + 90px);
+$ganeral-main-panel-with-border: calc(5px + (100% - 110px) / 10 * 9 + 90px + #{$borderW});
 
 
 
 /* LANDING LAYOUT */
-$landing-left-panel: calc(10px + (100vw - 110px) / 10 * 5 + 50px - #{$borderW});
-$landing-right-panel: calc((100vw - 110px) / 10 * 5 + 50px + #{$borderW});
-
-
-
-/* ABOUT INSIDE ELEMENTS */
-$about-section-w: 50vw;
-
-$about-contribution-item-margin-left: 5%;
-$about-contribution-item-margin-left-bps: 5%;
+$landing-left-panel: calc(10px + (100% - 110px) / 10 * 5 + 50px - #{$borderW});
+$landing-right-panel: calc((100% - 110px) / 10 * 5 + 50px + #{$borderW});
 
 
 
 /* PROJECT INSIDE ELEMENTS */
-$project-w: calc((100vw - 110px) / 10 * 5 + 40px);
-$project-right-margin: calc((100vw - 110px) / 10 * 2 + 30px);
+$project-w: calc((100% - 95px) / 9 * 5 + 40px);
+$project-right-margin: calc((100% - 95px) / 9 * 2 + 30px);
 
-$project-text-w: calc((100vw - 110px) / 10 * 4 + 30px);
+$project-text-w: calc((100% - 40px) / 5 * 4 + 30px);
 
 $project-bibliography-w: calc((100vw - 110px) / 10 * 2 + 10px);
 $project-bibliography-margin-right: 10px;
 
-$project-author-w: calc((100vw - 110px) / 10 * 1.5 + 10px);
-$project-author-margin-left: calc(-1 * ((100vw - 110px) / 10 * 2 + 20px - 5px));
+$project-author-w: calc((100% - 40px) / 5 * 1.5 + 10px);
+$project-author-margin-left: calc(-1 * ((100% - 40px) / 5 * 2 + 20px - 5px));
 
-$project-caption-w: calc((100vw - 110px) / 10 * 3 + 30px);
-$project-caption-margin-left: calc((100vw - 110px) / 10 * 1 + 10px);
+$project-caption-w: calc((100% - 40px) / 5 * 3 + 30px);
+$project-caption-margin-left: calc((100% - 40px) / 5 * 1 + 10px);
 
-$project-interview-person-w: calc((100vw - 110px) / 10 * 1);
+$project-interview-person-w: calc((100% - 40px) / 5 * 1);
 
 
 
 /* PROJECT OVERVIEW INSIDE ELEMENTS */
-$project-overview-author-w: calc((100vw - 110px) / 10 * 1);
-$project-overview-title-w: calc((100vw - 110px) / 10 * 2 + 20px);
-$project-overview-img-w: calc((100vw - 110px) / 10 * 2 + 10px);
+$project-overview-author-w: calc((100% - 50px) / 5);
+$project-overview-title-w: calc((100% - 50px) / 5 * 2 + 20px);
+$project-overview-img-w: calc((100% - 50px) / 5 * 2 + 10px);
 
-$project-overview-expanded-author-w: $project-overview-author-w;
-$project-overview-expanded-title-w: calc((100vw - 110px) / 10 * 4 + 40px);
-$project-overview-expanded-img-w: calc((100vw - 110px) / 10 * 4 + 30px);
+$project-overview-expanded-author-w: calc((100% - 95px) / 9 * 1 + 5px);
+$project-overview-expanded-title-w: calc((100% - 95px) / 9 * 4 + 40px);
+$project-overview-expanded-img-w: calc((100% - 95px) / 9 * 4 + 30px);
+
+
+
+/* ABOUT INSIDE ELEMENTS */
+$about-section-w: $project-w;
+$about-section-right-margin: $project-right-margin;
+
+$about-contribution-item-margin-left: 5%;
+$about-contribution-item-margin-left-bps: 5%;
+
+$about-nav-item-odd-w: calc((100% - 95px) / 9 * 2 + 25px);
 
 
 

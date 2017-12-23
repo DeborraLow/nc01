@@ -14,20 +14,21 @@
 .expanded-view {
 
     .half-panel--right, .info-panel {
-        width: $ganeral-main-panel;
+        width: $ganeral-main-panel-with-border;
     }
 }
 
 
 .half-panel--right {
     z-index: 2;
-    float: right;
+    position: absolute;
+    right: 0;
     width: $landing-right-panel;
     height: auto;
     padding-top: 100vh;
 
     @include bp-s {
-        float: left;
+        position: relative;
     }
 }
 

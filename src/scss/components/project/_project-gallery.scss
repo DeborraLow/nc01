@@ -13,8 +13,12 @@ http://flickity.metafizzy.co
     opacity: 1;
     transition: opacity 0.5s ease-out;
 
+    .carousel-cell {
+      width: 100%;
+    }
+
     img {
-        width: $project-w;
+        width: 100%;
 
         @include bp-s {
             width: calc(100vw - 2 * #{$gutter-bps});

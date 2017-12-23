@@ -25,8 +25,8 @@
 
 .expanded-view {
     .navigation-panel-home {
-        left: calc(#{$general-side-panel} - #{$borderW});
-        width: calc(#{$ganeral-main-panel} + #{$borderW});
+        right: 0;
+        width: $ganeral-main-panel-with-border;
     }
 }
 
@@ -35,14 +35,13 @@
     z-index: 3;
     position: absolute;
     top: 100vh;
-    left: $landing-left-panel;  
+    right: 0;
     width: $landing-right-panel; 
     border-left: $borderW solid $border-color;
 
     @include bp-s {
         top: 200vh;
         width: 100vw; 
-        left: 0;
         border-left: none;
     }
 }

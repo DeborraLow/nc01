@@ -2,7 +2,8 @@ $projectHeaderH: 200px;
 
 .project {
     width: $ganeral-main-panel;
-    float: right;
+    position: absolute;
+    right: 0;
 
     @include bp-s {
         width: 100vw;
@@ -11,7 +12,7 @@ $projectHeaderH: 200px;
 
     .project-header {
         float: left;
-        width: $ganeral-main-panel;
+        width: 100%;
         margin-top: $navigationPanelH;
         margin-bottom: $gutter;
         padding: $gutter;
