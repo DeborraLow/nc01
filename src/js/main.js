@@ -166,10 +166,6 @@ Call all functions from here depending on what page we are on
 			}
 
 
-
-			
-
-
 			function objectInteraction() {
 
 
@@ -325,7 +321,10 @@ Call all functions from here depending on what page we are on
 					'click',
 					function() {
 
+
 						objectSelectors.classList.remove('object-selector-home');
+
+						objectSelectors.style.top = 0;
 
 						document.body.classList.add('expanded-view');
 
@@ -363,20 +362,65 @@ Call all functions from here depending on what page we are on
 				animLoaded();
 
 				
-				var srollControlledAnimationFrameNumber = 216;
+				var srollControlledAnimationFrameNumber = 220;
 				var isScrollable = false;
 				var landingLogo = document.querySelector('.js-landing-logo-wrapper');
-
+				var startContentScrollInAnim = false;
+				var isContentIn = false;
 
 				function update() {
-					requestAnimationFrame(update);
-					if(animItem.currentFrame >= 210 && !isScrollable) {
-						animItem.pause();
-						isScrollable = true;
+					
+					if(animItem.currentFrame >= srollControlledAnimationFrameNumber && !isScrollable) {
+						//animItem.pause();
+						//isScrollable = true;
+						startContentScrollInAnim = true;
 						
 						//give back body auto height
 						document.body.classList.remove('no-scroll');
-					} 
+					} else {
+						requestAnimationFrame(update);
+					}
+
+					if(startContentScrollInAnim && !isContentIn) {
+						isContentIn = true;
+
+						landingLogo.classList.add('fade-away');
+
+						TweenMax.to('.half-panel--right', 1.5,
+						{
+							paddingTop: '0', 
+							delay:0.5,
+							ease: Power1.easeOut
+						})
+
+						TweenMax.to('.js-navigation-panel', 1.5,
+						{
+							top: 0, 
+							delay:0.5,
+							ease: Power1.easeOut
+						})
+
+						TweenMax.to('.js-object-selector', 1.5, 
+						{
+							top: '80vh', 
+							delay:0.5,
+							ease: Power1.easeOut
+						})
+
+						TweenMax.to('.half-panel--left', 1.5, 
+						{
+							paddingTop: '0', 
+							ease: Power1.easeOut
+						})
+
+						
+
+						setTimeout(
+							function() { GLOBAL_BODY.classList.add('sticky'); },
+							1590
+						)
+
+					}
 
 					if(isScrollable) {
 						topPosition = document.body.getBoundingClientRect().top * -1;

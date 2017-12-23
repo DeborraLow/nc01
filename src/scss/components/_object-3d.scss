@@ -7,11 +7,11 @@
 
 
 .object-3d-container {
+	position: relative;
 	width: 50vw;
 	height: $object3D-h;
 
 	@include bp-s {
-		position: relative;
         width: 100vw;
         height: $object3D-h;
     }
