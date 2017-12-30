@@ -1,4 +1,4 @@
-{% macro object_selector_item(img, selector, isWithLink, loopIndex) %}
+{% macro object_selector_item(img, selector, loopIndex) %}
 
     
     {% set activeClass = ''  %}
@@ -7,20 +7,7 @@
     	{% set activeClass = 'active'  %}
     {% endif %}
 
-
-    	{% if isWithLink %}
-
-    		<li class="object-selector-item js-filter-selector {{ activeClass }}">
-    			<a href="./index.html"></a>
-    		</li>
-
-    	{% else %}
-
-    		<li class="object-selector-item js-filter-selector {{ activeClass }}"></li>
-
-    	{% endif %}
-
-    
+    	<a class="object-selector-item js-filter-selector {{ activeClass }}" href="./index.html"></a>
 
 {% endmacro %}
 

@@ -9,87 +9,71 @@
 {% from "components/project/project-video.njk" import video as video %}
 {% from "components/project/project-bibliography.njk" import bibliography as bibliography %}
 
-{% from "components/project/project-next.njk" import nextProject as nextProject %}
-
 
 
 {% set work = projects[projectIndex] %}
 
 
-
-<div class="project-page">
-
-    <div class="project js-content-height js-hide-galleries hide-galleries">
+<div class="project js-content-height js-hide-galleries hide-galleries">
 
 
-        {# HEADER #}
-        <div class="project-header">
+    {# HEADER #}
+    <div class="project-header">
 
-            {# TITLE #}
-            {{ title(work.title) }}
+        {# TITLE #}
+        {{ title(work.title) }}
 
-            {# LOCATION #}
-            {# location(work.location) #}
-            
-        </div>
-
-
-        {# CONTENT #}
-        <div class="project-content">
-
-            {# author #}
-            {{ author(work.author) }}
+        {# LOCATION #}
+        {# location(work.location) #}
+        
+    </div>
 
 
-            {% for item in work.content %}
+    {# CONTENT #}
+    <div class="project-content">
 
-                {% if item.type == 'text' %}
-
-                    {# TEXT #}
-                    {{ text(item) }}
-
-                {% elif item.type == 'gallery' %}
-
-                    {# GALLERY #}
-                    {{ gallery(item.gallery) }}
-
-                {% elif item.type == 'img' %}
-
-                    {# IMAGE #}
-
-                    {{ img(item) }}
-
-                {% elif item.type == 'video' %}
-
-                    {# VIDEO #}
-                    {{ video(item.video) }}
-
-                {% elif item.type == 'audio' %}
-
-                    {# AUDIO #}
-                    {{ audio(item.audio) }}
-
-                {% elif item.type == 'interview' %}
-
-                    {# INTERVIEW #}
-                    {{ interview(item.interview, item.q_name, item.a_name) }}
-
-                {% endif %}
-
-            {% endfor %}
-
-            {# BIBLIOGRAPHY #}
-            {{ bibliography(work.bibliography) }}
-
-            {% set nrOfProjects = projects | length %}
+        {# author #}
+        {{ author(work.author) }}
 
 
-            {% if projectIndex < nrOfProjects - 1 %}
-                {# NEXT PROJECT #}
-                {{ nextProject('./contribution_' + (projectIndex + 2) + '.html') }}
-                {% include "components/project/project-next.njk" %}
+        {% for item in work.content %}
+
+            {% if item.type == 'text' %}
+
+                {# TEXT #}
+                {{ text(item) }}
+
+            {% elif item.type == 'gallery' %}
+
+                {# GALLERY #}
+                {{ gallery(item.gallery) }}
+
+            {% elif item.type == 'img' %}
+
+                {# IMAGE #}
+
+                {{ img(item) }}
+
+            {% elif item.type == 'video' %}
+
+                {# VIDEO #}
+                {{ video(item.video) }}
+
+            {% elif item.type == 'audio' %}
+
+                {# AUDIO #}
+                {{ audio(item.audio) }}
+
+            {% elif item.type == 'interview' %}
+
+                {# INTERVIEW #}
+                {{ interview(item.interview, item.q_name, item.a_name) }}
+
             {% endif %}
 
-    </div>
+        {% endfor %}
+
+        {# BIBLIOGRAPHY #}
+        {{ bibliography(work.bibliography) }}
 
 </div>

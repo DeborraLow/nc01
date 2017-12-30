@@ -1,10 +1,9 @@
 .project-overview-expand-button {
-	z-index: 2;
-    position: absolute;
-    top: calc(50vh - #{$navigationPanelH} - #{$infoPanelH});
-    left: 0;
+	z-index: 4;
+    position: fixed;
+    top: 50vh;
+    left: $landing-left-panel;
     transform: translate(-50%, -50%);
-    cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease-out;
 
@@ -12,19 +11,18 @@
         display: none;
     }
 
-    &.tr-fade-out {
+}
+
+.expanded-view {
+    .project-overview-expand-button {
         opacity: 0!important;
         pointer-events: none;
     }
 }
 
-
-.sticky {
-	.project-overview-expand-button {
-        z-index: 4;
-        position: fixed;
-		top: 50vh;
-		left: $landing-left-panel;
+.no-intro {
+    .project-overview-expand-button {
         opacity: 1;
-	}
+        cursor: pointer;
+    }
 }

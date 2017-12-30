@@ -6,6 +6,7 @@
           "author_overview": "C. Dumoncel d’Argence and Laura Herman",
           "type": "ready",
           "location":"?",
+          "next_href": "./contribution_2.html",
           "cover_img": "./assets/img/projects/01/thumbnail.png",
           "cover_text": "When did nature become a marketplace? Where one might imagine clean oceans and healthy forests to be priceless, they are often viewed global assets valued in economic terms. By allowing abstraction, opacity, and poetry to enter the discussion, perhaps we can attribute other forms of value to our environment than those of “natural capital”. A short history of the financialisation of nature joined with an exploration of more emancipated forms of mediation and representation.",
           "content": [
@@ -179,6 +180,7 @@
           "author_overview": "C. Dumoncel d’Argence and Laura Herman",
           "type": "ready",
           "location":"Brussels",
+          "next_href": "./contribution_3.html",
           "cover_img": "./assets/img/projects/02/thumbnail.jpg",
           "cover_text": "For the second edition of the Europalia Curator’s Award, in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition <i>Natural Capital (Modal Alam),</i>including five participating artists: Martin Belou (FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH), and Adrien Vermont (FR).",
           "content": [
@@ -301,6 +303,7 @@
           "author_overview": "Mira Asriningtyas",
           "type": "ready",
           "location":"Kaliurang",
+          "next_href": "./contribution_4.html",
           "cover_img": "./assets/img/projects/03/thumbnail.jpg",
           "cover_text": "To grasp and share her irresistible attraction to returning to Kaliurang—a village at the gate of the volcano Mount Merapi where she grew up—Mira Asriningtyas invited fellow artists for residencies in the town. <i>900mdlp</i> culminates in an exhibition and deambulation on the volcano-sides, weaving in and out of the narratives of the personified mountain.",
           "content": [
@@ -517,6 +520,7 @@
           "author_overview": "Bakudapan",
           "type": "",
           "location":"",
+          "next_href": "./contribution_5.html",
           "cover_img":  "./assets/img/projects/05/thumbnail.jpg",
           "cover_text": "The ethnobotanical project <i>Cooking in Pressure,</i> by Badukapan Food Study Group engages with a knowledge of edible weeds and their intersection with gender. The film pittsthe minor histories of the female, former political prisoners of1965–66, against the politics of food and agriculture policies implemented during Indonesia’s Soeharto-era.",
           "content": [
@@ -536,6 +540,7 @@
           "author_overview": "Bakudapan",
           "type": "not ready",
           "location":"",
+          "next_href": "./contribution_6.html",
           "cover_img": "./assets/img/projects/06/thumbnail.jpg",
           "cover_text": "Since there are no photographs to provide evidence for the events of 1965–66, Bakudapan Food Study Group, has made a series of drawings based on the stories of the female ex-prisoners. The illustrations made in black ink become a historical metaphor for memory, which is always perceived in black and white, while the use of paper refers to memory’s fragility.",
           "content": [
@@ -608,6 +613,7 @@
           "author_overview": "Yudi Chandra and C. Dumoncel d’Argence",
           "type": "not ready",
           "location": "Lamalera",
+          "next_href": "./contribution_7.html",
           "cover_img": "./assets/img/projects/07/thumbnail.jpg",
           "cover_text": "Rumah Putih is a house located in the traditional whale hunting village of Lamalera, NTT Indonesia. From within, one can hear the sea and the sounds of daily life, but through the openings, the wind also carries inside, legends,stories, rumors, traditions and the narratives of random encounters.",
           "content": [
@@ -627,6 +633,7 @@
           "author_overview": "Cooking Sections",
           "type": "not ready",
           "location": "New York City",
+          "next_href": "./contribution_8.html",
           "cover_img": "./assets/img/projects/08/thumbnail.jpg",
           "cover_text": "How do you turn a tree into a financial asset? In<i>The Offsetted,</i> Cooking Sections (Daniel Fernández Pascual and Alon Schwabe) explores the legacy of “America’s greenest mayor,” Michael Bloomberg, who championed afforestation to increase local resistance to storms and improve energy conservation, while at the same time transforming trees into carbon reserves for industrialists to offset their environmental damage.",
           "content": [
@@ -818,6 +825,7 @@
           "author": "Charlotte Dumoncel d’Argence and Laura Herman",
           "author_overview": "C. Dumoncel d’Argence and Laura Herman",
           "location":"",
+          "next_href": "./contribution_9.html",
           "cover_img": "./assets/img/projects/09/thumbnail.jpg",
           "cover_text": "<i>Against the Anthropocene: Visual Culture and Environment Today</i> is a particular attempt to critique theAnthropocene thesis. It proposes different, critical perceptual lenses and methodologies by drawing on decolonial forms emerging out of indigenous histories and social practices. It calls for a ‘movement of movements’ in order to work towards a multiplicity of ways of thinking, forms of sensibility,and modes of representation.",
           "content": [
@@ -964,6 +972,7 @@
           "author_overview": "Syaiful Garibaldi",
           "type": "ready",
           "location":"",
+          "next_href": "./contribution_10.html",
           "cover_img": "./assets/img/projects/10/thumbnail.jpg",
           "cover_text": "Terhah is a language whose alphabet is grown from cells in petri dishes.  It was born from the imagination and need of Syaiful Garibaldi, as a tool for intertwining nature and culture. Implemented to translate <i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas,</i> Terhah straddles the acts of writing about nature and writing with nature",
           "content": [
@@ -1025,6 +1034,7 @@
           "author_overview": "Alexis Gautier",
           "type": "not ready",
           "location":"",
+          "next_href": "./contribution_11.html",
           "cover_img": "./assets/img/projects/11/thumbnail.jpg",
           "cover_text": "Through gravity and groundlessness, Alexis Gautier’s film follows a drifting island in the Komodo National Park—an attempt to capture the island’s birth, its myths and inherent paradoxes, as well as its physical and semantic mobility. How many ways are there to understand the nature of an island?",
           "content": [
@@ -1059,6 +1069,7 @@
           "author": "Jimmy Hendrickx",
           "author_overview": "Jimmy Hendrickx",
           "location":"",
+          "next_href": "./contribution_12.html",
           "cover_img": "./assets/img/projects/12/thumbnail.jpg",
           "cover_text": "The Dayak community and their lifestyle in symbiosis with nature is threatened by a global agricultural plan and monocultures. Jimmy Hendrickx recorded the words of Stephanus Mulyadi a witness of the changes in his society, about the need and difficulty to uphold of their ancestral wisdom, and on the importance of traditional tattoo.",
           "content": [
@@ -1159,6 +1170,7 @@
           "author_overview": "Elisabeth Ida",
           "type": "not ready",
           "location":"Yogyakarta",
+          "next_href": "./contribution_13.html",
           "cover_img": "./assets/img/projects/13/thumbnail.jpg",
           "cover_text": "Nature in Elisabeth Ida’s film <i>Saksi Bisu (Silent Witness)</i> is not what it seems. It appears to be light, idyllic, and exotic, yet as silent witness it conceals a dark episode from Indonesian history that is seldom discussed openly. A conversation with Elisabeth Ida on the events of 1965 and the notion of nature as a silent witness.",
           "content": [
@@ -1327,6 +1339,7 @@
           "author_overview": "Setu Legi",
           "type": "not ready",
           "location": "?",
+          "next_href": "./contribution_14.html",
           "cover_img": "./assets/img/projects/14/thumbnail.jpg",
           "cover_text": "According to Setu Legi, it is land and water, not oil and coal, that lie at the basis of life i. It is far more important to take care of the environment than to ask only what it can bring us.Setu Legi’s work cross-references natural elements with whatthey are destined to become. Biodiversity winds up as bio-uniformity.",
           "content": [
@@ -1347,6 +1360,7 @@
           "author_overview": "Celia Lowe",
           "type": "not ready",
           "location":"Togean Island",
+          "next_href": "./contribution_15.html",
           "cover_img": "./assets/img/projects/15/thumbnail.jpg",
           "cover_text": "In Togean Island, anthropologist Celia Lowe witnessed and reported the acts of “making, unmaking, and remaking” a monkey, its unique and endemic status being crucial for the preservation their living area; while observing an indonesian and american scientific collaboration in a postcolonial context.",
           "content": [
@@ -1374,6 +1388,7 @@
           "author_overview": "David O’Reilly",
           "type": "not ready",
           "location": "?",
+          "next_href": "./contribution_16.html",
           "cover_img": "./assets/img/projects/16/thumbnail.jpg",
           "cover_text": "<i>Everything</i> is a videogame conceived as an interactive experience, where everything you see is a thing you can be; from animals to plants to galaxies and beyond. <i>Everything</i> is a simulation of the systems of nature, a limitless playground to enjoy a non-anthropocentric experience of the universe.",
           "content": [
@@ -1397,6 +1412,7 @@
           "author_overview": "Yasmine Ostendorf",
           "type": "not ready",
           "location": "Indonesia",
+          "next_href": "./contribution_17.html",
           "cover_img": "./assets/img/projects/17/thumbnail.jpg",
           "cover_text": "The inherited commons in Indonesia are valuable natural capital under continuous threat. Yasmine Ostendorf describes how art collectives across Indonesia create alternative ways of dealing with resources, alternative currencies, and skills. Artists communities play an important role in society, where art and cultural expression is integrated in farming practices. A strong DIWO (do-it-with-others) ethic and arts infrastructure makes commoning in Indonesia possible.",
           "content": [
@@ -1544,6 +1560,7 @@
           "author_overview": "Filip Van Dingenen",
           "type": "not ready",
           "location":"",
+          "next_href": "./contribution_1.html",
           "cover_img": "./assets/img/projects/18/thumbnail.jpg",
           "cover_text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed.",
           "content": [
@@ -1858,6 +1875,7 @@
     "p": "Images by kind permission of the photographers, artists / copyright holders."
   }
 ],
+
 "delayed_prjects": [
   {       "nr": "4",
           "title": "Nature Conflict Scenario",

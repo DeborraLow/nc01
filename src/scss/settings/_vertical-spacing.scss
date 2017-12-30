@@ -10,7 +10,7 @@
 	/* PANELS */
 	//$infoPanelH: calc(#{$info-panel-font-size} * 1.2 * 3 + #{$gutter-small} * 2);
 	$infoPanelH: 0;
-	$object3D-h: 80vh;
+	$object3D-h: 80vh;//needs to be changed in pageTransition.js as well!!!
 
 
 	/* MARGIN BOTTOM */

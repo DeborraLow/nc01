@@ -5,7 +5,7 @@
  #}
 
 
-{% set bodyClass = 'landing' %}
+{% set bodyClass = 'home' %} {# if this is changed it also has to change in the lyout.njk #}
 {% set dataNamespace = 'homepage' %}
 
 {% extends "layout.njk" %}
@@ -24,7 +24,7 @@
         {% include "modules/landing-intro.njk" %}
 
 
-        <div class="half-panel half-panel--left stick">
+        <div class="half-panel half-panel--left">
 
             {# OBJECT 3D #}
             {% include "modules/object-3d.njk" %}
@@ -35,16 +35,15 @@
         <div class="half-panel half-panel--right">
 
             {# INFO PANEL #}
-            {# set extraClass = 'stick' #}
             {# include "modules/info-panel.njk" #}
 
             {# PROJECTS OVERVIEW #}
             {% include "modules/project-overview.njk" %}
 
-            {# PROJECTS OVERVIEW EXPANND BUTTON #}
-            {% include "components/project-overview/project-overview-expand-button.njk" %}
-
         </div>
+
+        {# PROJECTS OVERVIEW EXPANND BUTTON #}
+        {% include "components/project-overview/project-overview-expand-button.njk" %}
 
     </div>
 

@@ -8,12 +8,14 @@
 {% set bodyClass = 'project' %}
 {% set dataNamespace = 'project' %}
 
+{% set projectIndex = 6 %}
+{% set nextProjectHref = projects[projectIndex].next_href %}
+
 {% extends "layout.njk" %}
 
 {% block content %}
 
     {#  PROJECT TEMPLATE #}
-    {% set projectIndex = 6 %}
     {% include "modules/project.njk" %}
 
 {% endblock %}

@@ -1,0 +1,28 @@
+.project-next {
+    z-index: 6;
+    position: fixed;
+    top: 50%;
+    right: $gutter;
+    transform: rotate(-90deg) translate(50%, -50%);
+    transform-origin: right center;
+    text-transform: uppercase;
+    font-size: $project-next-font-size;
+    letter-spacing: $project-next-letter-spacing;
+
+
+    @include bp-s {
+        position: absolute;
+        top: auto;
+        bottom: $project-item-margin-bottom-bps;
+        right: auto;
+        left: $gutter-bps;
+        margin-left: 15%;
+        transform: rotate(0deg) translate(0%, 0%);
+        font-size: $project-next-font-size-bps;
+    }
+}
+
+
+.home-page, .about-page {
+    .project-next { display: none; }
+}

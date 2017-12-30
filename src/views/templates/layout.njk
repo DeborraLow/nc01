@@ -39,6 +39,15 @@
 
     </head>
 
+
+    {% if bodyClass == 'project' %}
+        {% set contentExtraClass = 'project-container' %}
+    {% else %}
+        {% set nextProjectHref = '#' %}
+        {% set contentExtraClass = '' %}
+    {% endif %}
+
+
     <body class="filter-0 {{ bodyClass }}-page no-scroll">
 
         <div class="cover show"></div>
@@ -46,14 +55,16 @@
         <main id="barba-wrapper">
 
             {# OBJECT SELECTOR #}
-            {% set objectSelectorClass = 'object-selector-home' %}
             {% include "modules/object-selector.njk" %}
 
             {# NAVIGATION PANEL #}
-            {% set extraClass = 'stick navigation-panel-home js-fix-indicator' %}
             {% include "modules/navigation-panel.njk" %}
 
-            <div class="barba-container" data-namespace="{{ dataNamespace }}">
+            {# NEXT PROJECT #}
+            {% include "components/project/project-next.njk" %}
+
+            {# CONTENT #}
+            <div class="barba-container {{ contentExtraClass }}" data-namespace="{{ dataNamespace }}" data-next-contribution="{{ nextProjectHref }}">
                 {% block content %}{% endblock %}
             </div>
 

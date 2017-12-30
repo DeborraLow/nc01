@@ -1,7 +1,5 @@
-$projectHeaderH: 200px;
-
 .project {
-    width: $ganeral-main-panel;
+    width: 100%;
     position: absolute;
     right: 0;
 
@@ -217,30 +215,6 @@ $projectHeaderH: 200px;
         @include bp-s {
             width: 100%;
             font-size: $project-author-font-size-bps;
-        }
-    }
-
-
-    .project-next {
-        position: fixed;
-        top: 50%;
-        right: $gutter;
-        transform: rotate(-90deg) translate(50%, -50%);
-        transform-origin: right center;
-        text-transform: uppercase;
-        font-size: $project-next-font-size;
-        letter-spacing: $project-next-letter-spacing;
-
-
-        @include bp-s {
-            position: absolute;
-            top: auto;
-            bottom: $project-item-margin-bottom-bps;
-            right: auto;
-            left: $gutter-bps;
-            margin-left: 15%;
-            transform: rotate(0deg) translate(0%, 0%);
-            font-size: $project-next-font-size-bps;
         }
     }
 

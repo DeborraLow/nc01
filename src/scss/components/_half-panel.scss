@@ -12,7 +12,6 @@
 
 
 .expanded-view {
-
     .half-panel--right, .info-panel {
         width: $ganeral-main-panel-with-border;
     }
@@ -25,7 +24,7 @@
     right: 0;
     width: $landing-right-panel;
     height: auto;
-    padding-top: 100vh;
+    transition: width 0.18s ease-out;
 
     @include bp-s {
         position: relative;
@@ -42,23 +41,14 @@
 
 
 .half-panel--left {
+     z-index: 1;
+    position: fixed;
     width: $landing-left-panel;
     height: $object3D-h;
-    padding-top: 100vh;
-
-    &.stick {
-        z-index: 1;
-    }
 
     @include bp-s {
         width: 100vw;
         height: 100vh;
         border-right: none;
-    }
-}
-
-.sticky .half-panel--left.stick {
-    @include bp-s {
-        position: relative;
     }
 }

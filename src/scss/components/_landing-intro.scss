@@ -8,18 +8,8 @@
 
 .no-intro {
     .landing-intro {
-        visibility: hidden;
+        display: none;
     }
-
-    .landing-content {
-        padding-top: 0;
-    }
-}
-
-
-.landing-content {
-    
-	// padding-top: 100vh;
 }
 
 

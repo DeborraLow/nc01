@@ -45,7 +45,6 @@
 @import "components/_saturated-img.scss";
 @import "components/_no-scroll.scss";
 @import "components/_scroll-indicator.scss";
-@import "components/_sticky.scss";
 
 @import "components/project-overview/_project-overview-author.scss";
 @import "components/project-overview/_project-overview-expand-button.scss";
@@ -54,6 +53,8 @@
 @import "components/project-overview/_project-overview-title-w-lead.scss";
 
 @import "components/project/_project.scss";
+@import "components/project/_project-container.scss";
+@import "components/project/_project-next.scss";
 @import "components/project/_project-gallery.scss";
 @import "components/project/_custom-media-controls.scss";
 
@@ -69,5 +70,4 @@
 
 //PAGES
 @import "pages/_about.scss";
-@import "pages/_contribution.scss";
-@import "pages/_landing.scss";
+@import "pages/_home.scss";

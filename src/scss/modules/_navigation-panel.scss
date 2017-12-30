@@ -11,6 +11,7 @@
     font-size: $navigation-font-size;
     line-height: $navigation-line-height;
     letter-spacing: $navigation-letter-spacing;
+    transition: width 0.18s ease-out;
 
     @include bp-s {
         width: 100vw; 
@@ -23,38 +24,23 @@
 }
 
 
-.expanded-view {
-    .navigation-panel-home {
-        right: 0;
+.home-page.expanded-view {
+    .navigation-panel {
         width: $ganeral-main-panel-with-border;
     }
 }
 
 
-.navigation-panel-home {
-    z-index: 3;
-    position: absolute;
-    top: 100vh;
-    right: 0;
-    width: $landing-right-panel; 
-    border-left: $borderW solid $border-color;
+.home-page {
+    .navigation-panel {
+        z-index: 3;
+        width: $landing-right-panel; 
+        border-left: $borderW solid $border-color;
 
-    @include bp-s {
-        top: 200vh;
-        width: 100vw; 
-        border-left: none;
-    }
-}
-
-
-.no-intro {
-    .navigation-panel-home {
-        @include bp-s { top: 100vh; }
-    }
-}
-
-.sticky {
-    .navigation-panel-home.stick {
-        top: 0;
+        @include bp-s {
+            top: 100vh;
+            width: 100vw; 
+            border-left: none;
+        }
     }
 }

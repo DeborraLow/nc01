@@ -15,38 +15,19 @@
 }
 
 
-.object-selector-home {
-    z-index: 1;
-    position: absolute;
-    top: calc(200vh - 100vh + #{$object3D-h});
-    width: $landing-left-panel;
-    height: calc(100vh - #{$object3D-h});
-    border: none;
-    border-top: $borderW solid $border-color;
-
-    @include bp-s {
-        z-index: 6;
-        display: block;
-        width: 100vw;
-        border-bottom: $borderW solid $border-color;
-    }
-}
-
-
-.no-intro {
-    .object-selector-home {
-        top: #{$object3D-h};
-    }
-}
-
-
-.sticky {
-    .object-selector.stick {
-        top: auto; 
-        bottom: 0;
+.home-page:not(.expanded-view) {
+    .object-selector {
+        top: $object3D-h;
+        width: $landing-left-panel;
+        height: calc(100vh - #{$object3D-h});
+        border: none;
+        border-top: $borderW solid $border-color;
 
         @include bp-s {
-            position: absolute;
+            display: block;
+            width: 100vw;
+            border-bottom: $borderW solid $border-color;
         }
     }
 }
+
