@@ -4,16 +4,23 @@
 
 
 body {
-  width: 100vw;
-  background: $background;
-  overflow-x: hidden;
-  font-family: $text;
-  color: $text-color;
-  line-height: 1.2;
-  letter-spacing: 0.05vw;
-
-  
+    width: 100vw;
+    background: $background;
+    overflow-x: hidden;
+    font-family: $text;
+    color: $text-color;
+    line-height: 1.2;
+    letter-spacing: 0.05vw;  
 }
+
+
+.clearfix::after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
 
 .cover{
 

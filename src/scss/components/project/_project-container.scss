@@ -2,4 +2,9 @@
 	position: relative;
 	left: $general-side-panel;
 	width: $ganeral-main-panel;
+
+	@include bp-s {
+		left: 0;
+		width: 100%;
+	}
 }

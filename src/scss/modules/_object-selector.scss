@@ -24,6 +24,8 @@
         border-top: $borderW solid $border-color;
 
         @include bp-s {
+            position: absolute;
+            top: $object3D-h;
             display: block;
             width: 100vw;
             border-bottom: $borderW solid $border-color;

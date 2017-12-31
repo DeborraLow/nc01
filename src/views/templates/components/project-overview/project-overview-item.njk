@@ -1,6 +1,4 @@
-{% macro projectOverview(author, title, lead, img, index) %}
-
-{% set href =  "./contribution_" + index + ".html" %}
+{% macro projectOverview(author, title, lead, img, index, href) %}
 
     <li class="project-overview-item">
         <a href="{{ href }}">

@@ -1,0 +1,15 @@
+.project-gif-container {
+	width: 100%;
+
+	.project-gif {
+		display: block;
+		float: left;
+		width: 20%;
+	}
+
+	&:before {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}

@@ -1,0 +1,7 @@
+{% macro gif(gifs) %}
+	<div class="project-gif-container">
+		{% for item in gifs %}
+			<img src="{{ item.src }}" alt="#" class="project-gif">
+		{% endfor %}
+	</div>
+{% endmacro %}

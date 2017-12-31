@@ -1,15 +1,9 @@
+$project-padding-left-bps: 13vw;
+
+
 .project {
-    width: 100%;
-    position: absolute;
-    right: 0;
-
-    @include bp-s {
-        width: 100vw;
-    }
-
 
     .project-header {
-        float: left;
         width: 100%;
         margin-top: $navigationPanelH;
         margin-bottom: $gutter;
@@ -30,8 +24,7 @@
 
     .project-title {
         width: $project-w;
-        float: right;
-        margin-right: $project-right-margin;
+        margin-left: $project-title-left-margin;
         font-size: $project-title-font-size;
         text-transform: uppercase;
         line-height: $project-title-line-height;
@@ -39,7 +32,7 @@
 
         @include bp-s {
             width: 100%;
-            margin-right: 0;
+            margin-left: 0;
             font-size: $project-title-font-size-bps;
             letter-spacing: $project-title-letter-spacing-bps;
         }
@@ -47,7 +40,6 @@
 
 
     .project-location {
-        float: left;
         font-size: $project-location-font-size;
         text-transform: capitalize;
 
@@ -59,22 +51,21 @@
 
     .project-content {
         position: relative;
-        float: right;
         width: $project-w;
-        margin-right: $project-right-margin;
+        margin-left: $project-left-margin;
         padding-bottom: 4 * $gutter;
 
         @include bp-s {
-            width: 100%;
-            margin-right: 0;
-            padding: $gutter-bps;
+            float: none;
+            width: calc(100% - 2 * #{$gutter-bps});
+            margin: 0 $gutter-bps;
             padding-bottom: calc(#{$project-text-font-size-bps} * 2 + #{$gutter-bps});
         }
     }
 
 
     .project-author {
-        float: left;
+        position: absolute;
         width: $project-author-w;
         margin-left: $project-author-margin-left;
         text-transform: uppercase;
@@ -86,21 +77,22 @@
             @include bp-s {
                 content: 'BY';
                 position: absolute;
-                left: $gutter-bps;
+                left: 0;
             }
         }
 
         @include bp-s {
+            position: relative;
             width: 85%;
-            margin-left: 15%;
+            margin-left: 0;
             margin-bottom: $project-author-margin-bottom-bps;
+            padding-left: $project-padding-left-bps;
             font-size: $project-author-font-size-bps;
         }
     }
 
 
     .project-text {
-        float: left;
         width: $project-text-w;
         margin-bottom: $project-item-margin-bottom;
         font-size: $project-text-font-size;
@@ -109,8 +101,8 @@
 
 
         @include bp-s {
-            width: 85%;
-            margin-left: 15%;
+            width: 100%;
+            padding-left: $project-padding-left-bps;
             margin-bottom: $project-item-margin-bottom-bps;
             font-size: $project-text-font-size-bps;
         }
@@ -138,13 +130,13 @@
         @include bp-s {
             width: auto;
             margin-top: $project-caption-margin-top-bps;
-            margin-left: 15%;
+            margin-left: $project-padding-left-bps;
         }
     }
 
 
     .project-img-nr {
-        float: left;
+        position: absolute;
     }
 
     .project-img-container {
@@ -163,7 +155,7 @@
 
     .project-gallery {
         width: 100%;
-        margin-bottom: $project-item-margin-bottom;
+        margin-bottom: $project-gallery-margin-bottom;
 
         @include bp-s {
             margin-bottom: $project-item-margin-bottom-bps;
@@ -173,13 +165,11 @@
 
 
     .project-interview {
-        float: left;
         margin-bottom: $project-item-margin-bottom;
     }
 
 
     .project-interview-item {
-        float: left;
         width: 100%;
         margin-bottom: $project-interview-item-margin-bottom;
 
@@ -190,22 +180,24 @@
 
 
     .project-interview-text {
-        float: right;
         width: $project-text-w;
+        margin-left: $project-interview-text-left-margin;
         font-size: $project-text-font-size;
         line-height: $project-text-line-height;
         letter-spacing: $project-text-letter-spacing;
 
 
         @include bp-s {
-            width: 85%;
+            width: 100%;
+            padding-left: $project-padding-left-bps;
+            margin-left:0;
             font-size: $project-text-font-size-bps;
         }
     }
 
 
     .project-interview-person {
-        float: left;
+        position: absolute;
         width: $project-interview-person-w;
         text-transform: uppercase;
         font-size: $project-author-font-size;
@@ -213,6 +205,7 @@
         letter-spacing: $project-text-letter-spacing;
 
         @include bp-s {
+            position: absolute;
             width: 100%;
             font-size: $project-author-font-size-bps;
         }
@@ -240,8 +233,18 @@
     }
 
     .project-bibliography {
-        float: left;
         width: 100vw;
+
+
+        @include bp-s {
+            width: 100%;
+        }
+
+        .project-bibliography-number {
+            @include bp-s {
+                position: absolute;
+            }
+        }
 
         .bibliorgraphy_col {
             width: $project-bibliography-w;
@@ -249,6 +252,7 @@
             margin-right: $gutter;
 
             @include bp-s {
+                float: none;
                 width: 100%;
                 margin-right: 0;
                 font-size: $project-text-font-size-bps;
@@ -261,6 +265,7 @@
             width: 100%;
 
             @include bp-s {
+                float: none;
                 margin-bottom: 0.7vw;
             }
         }
@@ -270,7 +275,9 @@
             float: right;
 
             @include bp-s {
-                width: 85%;
+                width: 100%;
+                padding-left: $project-padding-left-bps;
+                float: none;
             }
         }
         

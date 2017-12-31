@@ -792,6 +792,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     function checkBreakpoint() {
+
         if (window.innerWidth <= window.innerHeight || window.innerWidth <= 700){
             GLOBAL_IS_BP_S = true;
             document.querySelector('.cover').classList.add('show');

@@ -2,6 +2,6 @@
 
 <ul class="project-overview js-content-height">
     {% for project in projects %}
-        {{ projectOverview(project.author_overview, project.title, project.cover_text, project.cover_img, loop.index) }}
+        {{ projectOverview(project.author_overview, project.title, project.cover_text, project.cover_img, loop.index, project.href) }}
     {% endfor %}
 </ul>

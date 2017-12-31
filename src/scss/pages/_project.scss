@@ -1,0 +1,7 @@
+.project-page {
+	#barba-wrapper {
+		@include bp-s {
+            position: relative;
+        }
+	}
+}

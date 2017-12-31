@@ -19,7 +19,9 @@ $landing-right-panel: calc((100% - 110px) / 10 * 5 + 50px + #{$borderW});
 
 /* PROJECT INSIDE ELEMENTS */
 $project-w: calc((100% - 95px) / 9 * 5 + 40px);
-$project-right-margin: calc((100% - 95px) / 9 * 2 + 30px);
+$project-left-margin: calc((100% - 95px) / 9 * 2 + 25px);
+
+$project-title-left-margin: calc((100% - 95px) / 9 * 2 + 25px - #{$gutter});
 
 $project-text-w: calc((100% - 40px) / 5 * 4 + 30px);
 
@@ -33,7 +35,7 @@ $project-caption-w: calc((100% - 40px) / 5 * 3 + 30px);
 $project-caption-margin-left: calc((100% - 40px) / 5 * 1 + 10px);
 
 $project-interview-person-w: calc((100% - 40px) / 5 * 1);
-
+$project-interview-text-left-margin: calc((100% - 40px) / 5 * 1 + 10px);
 
 
 /* PROJECT OVERVIEW INSIDE ELEMENTS */
@@ -49,7 +51,7 @@ $project-overview-expanded-img-w: calc((100% - 95px) / 9 * 4 + 30px);
 
 /* ABOUT INSIDE ELEMENTS */
 $about-section-w: $project-w;
-$about-section-right-margin: $project-right-margin;
+$about-section-right-margin: calc((100% - 95px) / 9 * 2 + 30px);
 
 $about-contribution-item-margin-left: 5%;
 $about-contribution-item-margin-left-bps: 5%;

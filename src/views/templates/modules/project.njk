@@ -8,6 +8,7 @@
 {% from "components/project/project-location.njk" import location as location %}
 {% from "components/project/project-video.njk" import video as video %}
 {% from "components/project/project-bibliography.njk" import bibliography as bibliography %}
+{% from "components/project/project-gif.njk" import gif as gif %}
 
 
 
@@ -68,6 +69,11 @@
 
                 {# INTERVIEW #}
                 {{ interview(item.interview, item.q_name, item.a_name) }}
+
+            {% elif item.type == 'gifs' %}
+
+                {# GIF #}
+                {{ gif(item.gifs) }}
 
             {% endif %}
 
