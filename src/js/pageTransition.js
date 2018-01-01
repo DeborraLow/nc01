@@ -421,23 +421,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if(GLOBAL_IS_TOUCHSCREEN) {
 
-            var hammertime = new Hammer(GLOBAL_OBJECT_INTERACTION_AREA, myOptions);
-                hammertime.on('swipe', function(e) {
-                    objectRotateAnimation(e);
+            var hammertime = new Hammer(GLOBAL_OBJECT_INTERACTION_AREA, { threshold: 0, pointers: 0 });
+
+            hammertime.on('pan', function(e) {
+                objectRotateAnimation(e.center.x);
             });
 
         } else {
 
             GLOBAL_OBJECT_INTERACTION_AREA.addEventListener('mousemove', function(e) {
-                objectRotateAnimation(e);
+                objectRotateAnimation(e.clientX);
             })
 
         }
 
 
-        function objectRotateAnimation(e) {
-
-            var mousePosX = e.clientX;
+        function objectRotateAnimation(mousePosX) {
 
             var mousePosToScreenRation = Math.round((1 - (mousePosX / GLOBAL_OBJECT_INTERACTION_AREA_WIDTH)) * nrOfSegments) / nrOfSegments * 100;
 
@@ -805,9 +804,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     function checkTouchscreen() {
-        window.addEventListener('touchstart', function() {
-            GLOBAL_IS_TOUCHSCREEN = true;
-        });
+        window.addEventListener('touchstart', hadleTouchDetect);
+    }
+
+    function hadleTouchDetect() {
+        set_touchscreen_true();
+        window.removeEventListener('touchstart', hadleTouchDetect);
+
+        if(GLOBAL_NAMESPACE === 'home') { objectInteraction(); }
+        
+    }
+
+    function set_touchscreen_true() {
+        GLOBAL_IS_TOUCHSCREEN = true;
     }
 
 
