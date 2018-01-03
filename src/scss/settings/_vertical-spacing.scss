@@ -3,6 +3,11 @@
 	$navigationPanelH: calc(#{$navigation-font-size} + #{$gutter} * 2 - 0.12 * #{$navigation-font-size});
 	$navigationPanel-h-bps: calc(#{$navigation-font-size-bps} + #{$gutter-bps} * 2 - 0.12 * #{$navigation-font-size-bps});
 
+	$navigationPanelH-negativ: calc(-1 * (#{$navigation-font-size} + #{$gutter} * 2 - 0.12 * #{$navigation-font-size}));
+	$navigationPanel-h-negativ-bps: calc(-1 * (#{$navigation-font-size-bps} + #{$gutter-bps} * 2 - 0.12 * #{$navigation-font-size-bps}));
+
+
+
 	/* MARGIN BOTTOM */
 
 
