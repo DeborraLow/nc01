@@ -106,6 +106,15 @@
     }
 
 
+    .project-subtitle {
+        padding-top: $project-item-margin-bottom;
+
+        @include bp-portrait {
+            padding-top: $project-item-margin-bottom-bps;
+        }
+    }
+
+
 
     .project-caption-container {
         font-size: $project-caption-font-size;
