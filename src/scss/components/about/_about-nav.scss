@@ -9,7 +9,7 @@
 	background: $background;
 	font-size: $about-navigation-font-size;
 
-	@include bp-s {
+	@include bp-portrait {
 		top: $navigationPanel-h-bps;
 		width: 100vw;
 		height: $about-navigation-h-bps;
@@ -25,8 +25,8 @@
 	float: left;
 	width: $about-navigation-font-size * 40;
 
-	@include bp-s {
-		width: $about-navigation-font-size-bps * 40;
+	@include bp-portrait {
+		width: 105%;
 	}
 }
 
@@ -37,8 +37,10 @@
 	width: $about-navigation-font-size * 15;
 	cursor: pointer;
 
-	@include bp-s {
-		width: $about-navigation-font-size-bps * 15;
+	@include bp-portrait {
+		&:nth-child(2n + 1) { width: 42%; }
+		&:nth-child(2n)     { width: 58%; }
+		//width: $about-navigation-font-size-bps * 15;
 	}
 
 	&:before {
@@ -50,7 +52,7 @@
 		border-radius: 60%;
 		cursor: pointer;
 
-		@include bp-s {
+		@include bp-portrait {
 			width: $about-navigation-font-size-bps / 1.5;
 			height: $about-navigation-font-size-bps / 1.5;
 		}

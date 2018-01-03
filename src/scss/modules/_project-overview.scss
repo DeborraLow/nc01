@@ -1,17 +1,15 @@
 .project-overview {
     position: relative;
-    top: $navigationPanelH;
-    padding-top: $infoPanelH;
-	  float: left;
+    padding-top: $navigationPanelH;
+    top: $infoPanelH;
     width: 100%;
     box-sizing: content-box;
-    background: $background;
     border-left: $borderW solid $border-color;
+    background: $background;
 
 
-   @include bp-s {
-      width: 100vw;
-      top: $navigationPanel-h-bps;
+   @include bp-portrait {
+      padding-top: $navigationPanel-h-bps;
       border-left: 0;
     }
 }

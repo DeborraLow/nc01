@@ -4,7 +4,7 @@
     padding: $gutter;
     padding-right: 0;
 
-    @include bp-s {
+    @include bp-portrait {
         width: 65%;
         padding: $gutter-bps;
         padding-bottom: calc(#{$gutter-bps} - 2px);
@@ -19,7 +19,7 @@
     line-height: $project-overview-title-line-height;
     letter-spacing: $project-overview-title-letter-spacing;
 
-    @include bp-s {
+    @include bp-portrait {
         margin-bottom: 0;
         font-size: $project-overview-title-font-size-bps;
     }

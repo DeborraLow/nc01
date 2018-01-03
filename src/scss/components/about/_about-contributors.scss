@@ -1,7 +1,7 @@
 .about-contributors {
     min-height: 100vh;
 
-    @include bp-s {
+    @include bp-portrait {
         min-height: 0;
     }
 

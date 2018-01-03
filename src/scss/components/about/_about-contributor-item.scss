@@ -1,7 +1,7 @@
 .about-contribution-item {
     margin-bottom: $about-contribution-item-margin-bottom;
 
-    @include bp-s {
+    @include bp-portrait {
         margin-bottom: $about-text-font-size-bps * 1.2;
     }
 
@@ -11,7 +11,7 @@
         font-size: $about-contributor-font-size;
         text-transform: uppercase;
 
-        @include bp-s {
+        @include bp-portrait {
             float: none;
             margin-left: 0;
             font-size: $about-contributor-font-size-bps;
@@ -20,7 +20,7 @@
 
     .description {
 
-        @include bp-s {
+        @include bp-portrait {
             line-height: 1.2;
             letter-spacing: 0.05vw;
         }

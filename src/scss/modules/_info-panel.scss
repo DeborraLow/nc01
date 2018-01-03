@@ -11,7 +11,7 @@
     line-height: $info-panel-line-height;
     letter-spacing: $info-panel-letter-spacing;
 
-    @include bp-s {
+    @include bp-portrait {
         display: none;
     }
 }
@@ -23,7 +23,7 @@
         top: $navigationPanelH;
         right: 0;
 
-        @include bp-s {
+        @include bp-portrait {
             top: $navigationPanel-h-bps;
         } 
     }
@@ -35,7 +35,7 @@
         width: 8vw;
         text-align: left;
 
-        @include bp-s {
+        @include bp-portrait {
             width: 18vw;
         }
     }

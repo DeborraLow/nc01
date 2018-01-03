@@ -1,16 +1,3 @@
-.half-panel {
-    position: relative;
-    float: left;
-    height: 100vh;
-
-
-    @include bp-s {
-        width: 100vw;
-        height: auto;
-    }
-}
-
-
 .expanded-view {
     .half-panel--right, .info-panel {
         width: $ganeral-main-panel-with-border;
@@ -26,9 +13,9 @@
     height: auto;
     transition: width 0.18s ease-out;
 
-    @include bp-s {
+    @include bp-portrait {
         position: relative;
-        top: 100vh;
+        width: 100vw;
     }
 }
 
@@ -40,14 +27,14 @@
 }
 
 
-
 .half-panel--left {
-     z-index: 1;
+    z-index: 1;
     position: fixed;
     width: $landing-left-panel;
     height: $object3D-h;
 
-    @include bp-s {
+    @include bp-portrait {
+        position: relative;
         width: 100vw;
         height: 100vh;
         border-right: none;

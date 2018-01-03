@@ -4,6 +4,26 @@
 	left: 0;
     height: 100vh;
   	width: 100vw;
+
+    &>svg{
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height: 100vh!important;
+        width: auto!important;
+    }
+
+
+    @include bp-portrait {
+        &>svg{
+            top: 50%;
+            left:0;
+            height: auto!important;
+            width: 100vw!important;
+            transform: translate(0, -50%);
+        }
+    }
 }
 
 .no-intro {
@@ -20,12 +40,32 @@
     height: 100vh;
     width: 100vw;
     background-color: $landing-background;
+    //transition: background-color 0.3s ease-out;
+}
+
+// .start {
+//     .landing-background {
+//         background-color: $landing-background;
+//     }
+// }
+
+
+.sticky-navigation {
+    .landing-background {
+        @include bp-portrait {
+            background: $background;
+        }
+    }
 }
 
 
 .filter-0 {
     .landing-background {
         background-image: url('../img/pattern/bw/pattern_0.png');
+
+        @include bp-s {
+            background-image: url('../img/pattern/bw/s/pattern_0.png');            
+        }
     }
 }
 
@@ -34,6 +74,10 @@
 .filter-1 {
     .landing-background {
         background-image: url('../img/pattern/bw/pattern_1.png');
+
+        @include bp-s {
+            background-image: url('../img/pattern/bw/s/pattern_1.png');            
+        }
     }
 }
 
@@ -41,6 +85,10 @@
 .filter-2 {
     .landing-background {
         background-image: url('../img/pattern/bw/pattern_2.png');
+
+        @include bp-s {
+            background-image: url('../img/pattern/bw/s/pattern_2.png');            
+        }
     }
 }
 
@@ -48,6 +96,10 @@
 .filter-3 {
     .landing-background {
         background-image: url('../img/pattern/bw/pattern_3.png');
+
+        @include bp-s {
+            background-image: url('../img/pattern/bw/s/pattern_3.png');            
+        }
     }
 }
 
@@ -55,5 +107,9 @@
 .filter-4 {
     .landing-background {
         background-image: url('../img/pattern/bw/pattern_4.png');
+
+        @include bp-s {
+            background-image: url('../img/pattern/bw/s/pattern_4.png');            
+        }
     }
 }

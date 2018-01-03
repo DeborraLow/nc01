@@ -7,7 +7,7 @@
     padding: $gutter;
     padding-bottom: calc(#{$gutter} - 0.12 * #{$navigation-font-size});
 
-    @include bp-s {
+    @include bp-portrait {
         padding: $gutter-bps;
     }
 }
@@ -22,7 +22,7 @@
     padding: $gutter;
     padding-bottom: calc(#{$gutter} - 0.12 * #{$navigation-font-size});
 
-    @include bp-s {
+    @include bp-portrait {
         padding: $gutter-bps;
     }
 }

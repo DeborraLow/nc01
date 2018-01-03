@@ -8,7 +8,7 @@
             "location":"?",
             "next_href": "./natural_capital-the_exhibition.html",
             "href": "./natural_capital-editorial.html",
-            "cover_img": "./assets/img/projects/01/thumbnail.png",
+            "cover_img": "thumbnail.png",
             "cover_text": "When did nature become a marketplace? Where one might imagine clean oceans and healthy forests to be priceless, they are often viewed global assets valued in economic terms. By allowing abstraction, opacity, and poetry to enter the discussion, perhaps we can attribute other forms of value to our environment than those of ‘natural capital’. A short history of the financialisation of nature joined with an exploration of more emancipated forms of mediation and representation.",
             "content": [
                 {
@@ -37,7 +37,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/01/1_editorial.jpg",
+                    "src": "1_editorial.jpg",
                     "nr": "1",
                     "caption": "The mediation of experiences of nature. Europe's largest tropical holiday resort in Krausnick, Germany"
                 },
@@ -51,7 +51,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/01/2_editorial.png",
+                    "src": "2_editorial.png",
                     "nr": "2",
                     "caption": "Table of the Animal Kingdom (Regnum Animale) from Carolus Linnaeus’s first edition (1735) of Systema Naturae."
                 },
@@ -61,9 +61,9 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/01/3_editorial.jpg",
+                    "src": "3_editorial.jpg",
                     "nr": "3",
-                    "caption": "Drawing of a Flying Frog from Alfred Russel Wallace's book <i>The Malay Archipelago.</i>"
+                    "caption": "Large fold-out coloured map at front of Alfred Russel Wallace's book <i>The Malay Archipelago.</i>, Macmillan, 1869"
                 },
                 {
                     "type": "text",
@@ -71,7 +71,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/01/4_editorial.jpg",
+                    "src": "4_editorial.jpg",
                     "nr": "4",
                     "caption": "Drawing of a Flying Frog from Alfred Russel Wallace's book <i>The Malay Archipelago.</i>"
                 },
@@ -97,7 +97,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/01/5_editorial.png",
+                    "src": "5_editorial.png",
                     "nr": "5",
                     "caption": "A global map of terrestrial and marine natural capital assets. Source: The UNEP Global Natural Capital pilot project."
                 },
@@ -176,14 +176,14 @@
               ]
         },
         {
-            "title": "Natural Capital—The Exhibition",
+            "title": "Natural Capital — The Exhibition",
             "author": "Charlotte Dumoncel d’Argence and Laura Herman",
             "author_overview": "C. Dumoncel d’Argence and Laura Herman",
             "type": "ready",
             "location":"Brussels",
             "next_href": "./revisiting_the_long_slow_walk_to_900MPDL.html",
             "href": "./natural_capital-the_exhibition.html",
-            "cover_img": "./assets/img/projects/02/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "For the second edition of the Europalia Curator’s Award, in the context of Europalia Indonesia, curators Charlotte Dumoncel d'Argence (FR) and Laura Herman (BE) developed the exhibition <i>Natural Capital (Modal Alam),</i>including five participating artists: Martin Belou (FR), Adrien Missika (FR), Rachel Monosov (IL), Offshore Studio (CH), and Adrien Vermont (FR).",
             "content": [
                 {
@@ -230,20 +230,16 @@
                   "type": "gallery",
                   "gallery": [
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_1/tigre-A4-1.jpeg"
+                      "src": "gallery_1/tigre-A4-1.jpeg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_1/tigre-A4-3.jpeg"
+                      "src": "gallery_1/tigre-A4-3.jpeg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_1/tigreA4-1.jpeg"
+                      "src": "gallery_1/tigreA4-1.jpeg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_1/tigreA4-2.jpeg"
+                      "src": "gallery_1/tigreA4-2.jpeg"
                     }
                   ]
                 },
@@ -255,16 +251,13 @@
                   "type": "gallery",
                   "gallery": [
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_1.jpg"
+                      "src": "gallery_2/Adrien_Missika_1.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_2.jpg"
+                      "src": "gallery_2/Adrien_Missika_2.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_2/Adrien_Missika_3.jpg"
+                      "src": "gallery_2/Adrien_Missika_3.jpg"
                     }
                   ]
                 },
@@ -276,24 +269,19 @@
                   "type": "gallery",
                   "gallery": [
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_3/Specimens1.jpg"
+                      "src": "gallery_3/Specimens1.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_3/Specimens2.jpg"
+                      "src": "gallery_3/Specimens2.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_3/Specimens3.jpg"
+                      "src": "gallery_3/Specimens3.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_3/Specimens4.jpg"
+                      "src": "gallery_3/Specimens4.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/02/gallery_3/Specimens5.jpg"
+                      "src": "gallery_3/Specimens5.jpg"
                     }
                   ]
                 }
@@ -307,12 +295,12 @@
             "location":"Kaliurang",
             "next_href": "./nature_conflict_scenario.html",
             "href": "./revisiting_the_long_slow_walk_to_900MPDL.html",
-            "cover_img": "./assets/img/projects/03/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "To grasp and share her irresistible attraction to returning to Kaliurang—a village at the gate of the volcano Mount Merapi where she grew up—Mira Asriningtyas invited fellow artists for residencies in the town. <i>900mdlp</i> culminates in an exhibition and deambulation on the volcano-sides, weaving in and out of the narratives of the personified mountain.",
             "content": [
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/03/03_Asriningtyas.jpg",
+                    "src": "03_Asriningtyas.jpg",
                     "nr": "1",
                     "caption": "Mt.Merapi seen on the backgroud of Kaliurang entrance gate during the opening day of 900mdpl. Image by Sandi Kalifadani."
                 },
@@ -354,7 +342,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/03/17_Asriningtyas.jpg",
+                    "src": "17_Asriningtyas.jpg",
                     "nr": "2",
                     "caption": "The Walk–One of the walks to 900mdpl. Image by Cosmas Dipta."
                 },
@@ -524,7 +512,7 @@
             "next_href": "./cookin_in_pressure_part_I.html",
             "href": "./nature_conflict_scenario.html",
             "location":"",
-            "cover_img": "./assets/img/projects/04/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "The observation of an environment and its inhabitants is part of a journey in bonding with nature and within ourselves. Departing from the belief that everything around us keeps moving, nudging, colliding or growing, <i>Nature Conflict Scenario</i> deciphers and fragments nature’s density and the invisible daily conflict taking place in a forest.",
             "content": [
                 {
@@ -535,64 +523,64 @@
                     "type": "gifs",
                     "gifs": [
                         {
-                            "src": "./assets/img/projects/04/gifs/A1.gif"
+                            "src": "./assets/img/projects/04/gifs/A1.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/A2.gif"
+                            "src": "./assets/img/projects/04/gifs/A2.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/A3.gif"
+                            "src": "./assets/img/projects/04/gifs/A3.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/A4.gif"
+                            "src": "./assets/img/projects/04/gifs/A4.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/A5.gif"
+                            "src": "./assets/img/projects/04/gifs/A5.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/B1.gif"
+                            "src": "./assets/img/projects/04/gifs/B1.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/B2.gif"
+                            "src": "./assets/img/projects/04/gifs/B2.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/B3.gif"
+                            "src": "./assets/img/projects/04/gifs/B3.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/B4.gif"
+                            "src": "./assets/img/projects/04/gifs/B4.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/B5.gif"
+                            "src": "./assets/img/projects/04/gifs/B5.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/C1.gif"
+                            "src": "./assets/img/projects/04/gifs/C1.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/C2.gif"
+                            "src": "./assets/img/projects/04/gifs/C2.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/C3.gif"
+                            "src": "./assets/img/projects/04/gifs/C3.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/C4.gif"
+                            "src": "./assets/img/projects/04/gifs/C4.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/C5.gif"
+                            "src": "./assets/img/projects/04/gifs/C5.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/D1.gif"
+                            "src": "./assets/img/projects/04/gifs/D1.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/D2.gif"
+                            "src": "./assets/img/projects/04/gifs/D2.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/D3.gif"
+                            "src": "./assets/img/projects/04/gifs/D3.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/D4.gif"
+                            "src": "./assets/img/projects/04/gifs/D4.GIF"
                         },
                         {
-                            "src": "./assets/img/projects/04/gifs/D5.gif"
+                            "src": "./assets/img/projects/04/gifs/D5.GIF"
                         }
 
                     ]
@@ -600,14 +588,14 @@
             ]
         },
         {
-            "title": "Cooking in Pressure—Part I",
+            "title": "Cooking in Pressure — Part I",
             "author": "Bakudapan",
             "author_overview": "Bakudapan",
             "type": "",
             "location":"",
             "next_href": "./cookin_in_pressure_part_II.html",
             "href": "./cookin_in_pressure_part_I.html",
-            "cover_img":  "./assets/img/projects/05/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "The ethnobotanical project <i>Cooking in Pressure,</i> by Badukapan Food Study Group, engages with a knowledge of edible weeds and their intersection with gender. The film pits the minor histories of the female, former political prisoners of 1965–66, against the politics of food and agriculture policies implemented during Indonesia’s Soeharto-era.",
             "content": [
                 {
@@ -621,70 +609,57 @@
             ]
         },
         {
-            "title": "Cooking in Pressure—Part II",
+            "title": "Cooking in Pressure — Part II",
             "author": "Bakudapan",
             "author_overview": "Bakudapan",
             "type": "not ready",
             "location":"",
             "next_href": "./meta_rumah.html",
             "href": "./cookin_in_pressure_part_II.html",
-            "cover_img": "./assets/img/projects/06/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Since there are no photographs to provide evidence for the events of 1965–66, Bakudapan Food Study Group has made a series of drawings based on the stories of the female ex-prisoners. The illustrations made in black ink become a historical metaphor for memory, which is always perceived in black and white, while the use of paper refers to memory’s fragility.",
             "content": [
                 {
                   "type": "gallery",
                   "gallery": [
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/1.jpg"
+                      "src": "gallery_1/1.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/2.jpg"
+                      "src": "gallery_1/2.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/3.jpg"
+                      "src": "gallery_1/3.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/4.jpg"
+                      "src": "gallery_1/4.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/5.jpg"
+                      "src": "gallery_1/5.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/6.jpg"
+                      "src": "gallery_1/6.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/7.jpg"
+                      "src": "gallery_1/7.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/8.jpg"
+                      "src": "gallery_1/8.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/9.jpg"
+                      "src": "gallery_1/9.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/10.jpg"
+                      "src": "gallery_1/10.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/11.jpg"
+                      "src": "gallery_1/11.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/12.jpg"
+                      "src": "gallery_1/12.jpg"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/06/gallery_1/13.jpg"
+                      "src": "gallery_1/13.jpg"
                     }
                   ]
                 },
@@ -702,7 +677,7 @@
             "location": "Lamalera",
             "next_href": "./the_offsetted.html",
             "href": "./meta_rumah.html",
-            "cover_img": "./assets/img/projects/07/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Rumah Putih is a house located in the traditional whale hunting village of Lamalera, NTT Indonesia. From within, one can hear the sea and the sounds of daily life, but through the openings, the wind also carries inside, legends, stories, rumors, traditions, and the narratives of random encounters.",
             "content": [
                 {
@@ -723,7 +698,7 @@
             "location": "New York City",
             "next_href": "./a_conversation_with_TJ_Demos.html",
             "href": "./the_offsetted.html",
-            "cover_img": "./assets/img/projects/08/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "How do you turn a tree into a financial asset? In<i>The Offsetted,</i> Cooking Sections (Daniel Fernández Pascual and Alon Schwabe) explores the legacy of “America’s greenest mayor,” Michael Bloomberg, who championed afforestation to increase local resistance to storms and improve energy conservation, while at the same time transforming trees into carbon reserves for industrialists to offset their environmental damage.",
             "content": [
                 {
@@ -732,7 +707,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/08/1.png",
+                  "src": "1.png",
                   "caption": "Mapped trees in Manhattan, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
                   "nr": "1"
                 },
@@ -750,7 +725,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/08/2.png",
+                  "src": "2.png",
                   "caption": "Mapped trees in Manhattan, Brooklyn and Queens, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
                   "nr": "2"
                 },
@@ -772,7 +747,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/08/3.png",
+                  "src": "3.png",
                   "caption": "The way in which a thornless honey locust tree is quantified on 320 E 43rd St, Manhattan, NYC Street Tree Map, August 25th 2017,  <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
                   "nr": "3"
                 },
@@ -794,7 +769,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/08/4.png",
+                  "src": "4.png",
                   "caption": "How to make profit out of the destruction of landscapes: the environmental services that a tree provides in Manhattan ready to be traded, NYC Street Tree Map, August 25th 2017, <a href=\"https://tree-map.nycgovparks.org/\" target=\"_blank\">https://tree-map.nycgovparks.org/</a>",
                   "nr": "4"
                 },
@@ -916,7 +891,7 @@
             "location":"",
             "next_href": "./terhah_language.html",
             "href": "./a_conversation_with_TJ_Demos.html",
-            "cover_img": "./assets/img/projects/09/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "<i>Against the Anthropocene: Visual Culture and Environment Today</i> is a particular attempt to critique the Anthropocene thesis. It proposes different, critical perceptual lenses and methodologies by drawing on decolonial forms emerging out of indigenous histories and social practices. It calls for a ‘movement of movements’ in order to work towards a multiplicity of ways of thinking, forms of sensibility, and modes of representation.",
             "content": [
                 {
@@ -940,7 +915,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/09/1.jpg",
+                  "src": "1.jpg",
                   "nr": "1",
                   "caption": "Welcome to the Anthropocene  charts the growth of humanity into a global force on an equivalent scale to major geological processes."
                 },
@@ -969,7 +944,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/09/2.jpg",
+                  "src": "2.jpg",
                   "nr": "2",
                   "caption": "Space X project, the technoscientific desire to become interplanetary species"
                 },
@@ -1014,7 +989,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/09/3.jpg",
+                  "src": "3.jpg",
                   "nr": "3",
                   "caption": "The Chthulucene, tentacular thinking"
                 },
@@ -1035,7 +1010,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/09/4.jpg",
+                  "src": "4.jpg",
                   "nr": "4",
                   "caption": "Environmental Justice Map, A Map of Resistance against Fossil Fuels for Climate Justice by Blockadia"
                 },
@@ -1064,7 +1039,7 @@
             "location":"",
             "next_href": "./pulau_yang_nyasar.html",
             "href": "./terhah_language.html",
-            "cover_img": "./assets/img/projects/10/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Terhah is a language composed of an alphabet grown from cells in petri dishes. It was born from the imagination and need of Syaiful Garibaldi, as a tool for weaving together nature and culture and give language to it. Here, Terhah was implemented to translate the article <i>Co-occurrence of linguistic and biological diversity in biodiversity hotspots and high biodiversity wilderness areas.</i> Terhah joins together the act of writing about nature with the act of writing with nature.",
             "content": [
                 {
@@ -1127,7 +1102,7 @@
             "location":"",
             "next_href": "./forest_burning_and_the_identity_of_the_iban_tribe.html",
             "href": "./pulau_yang_nyasar.html",
-            "cover_img": "./assets/img/projects/11/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Through gravity and groundlessness, Alexis Gautier’s film follows a drifting island in the Komodo National Park—an attempt to capture the island’s birth, its myths and inherent paradoxes, as well as its physical and semantic mobility. How many ways are there to understand the nature of an island?",
             "content": [
                 {
@@ -1163,7 +1138,7 @@
             "location":"",
             "next_href": "./saksi_bisu.html",
             "href": "./forest_burning_and_the_identity_of_the_iban_tribe.html",
-            "cover_img": "./assets/img/projects/12/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "The Dayak community and their lifestyle in symbiosis with nature is threatened by a global agricultural plan and monocultures. Jimmy Hendrickx recorded the words of Stephanus Mulyadi, a witness of the changes in his society, about the need and difficulty to hold on to their ancestral wisdom, and on the importance of traditional tattoo.",
             "content": [
                 {
@@ -1176,7 +1151,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/12/01_JH.jpg",
+                    "src": "01_JH.jpg",
                     "nr": "1"
                 },
                 {
@@ -1201,7 +1176,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/12/02_JH.jpg",
+                    "src": "02_JH.jpg",
                     "nr": "2"
                 },
                 {
@@ -1214,7 +1189,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/12/04_JH.jpg",
+                    "src": "04_JH.jpg",
                     "nr": "3"
                 },
                 {
@@ -1235,7 +1210,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/12/03_JH.jpg",
+                    "src": "03_JH.jpg",
                     "nr": "4"
                 },
                 {
@@ -1252,7 +1227,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/12/05_JH.jpg",
+                    "src": "05_JH.jpg",
                     "nr": "5"
                 },
                 {
@@ -1269,7 +1244,7 @@
             "location":"Yogyakarta",
             "next_href": "./hujan_emas_di_negri_orang_hujan_batu_di_negri_sendiri.html",
             "href": "./saksi_bisu.html",
-            "cover_img": "./assets/img/projects/13/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Nature in Elisabeth Ida’s film <i>Saksi Bisu (Silent Witness)</i> is not what it seems. It appears to be light, idyllic, and exotic, yet as silent witness it conceals a dark episode from Indonesian history that is seldom discussed openly. A conversation with Elisabeth Ida on the events of 1965 and the notion of nature as a silent witness.",
             "content": [
                 {
@@ -1308,7 +1283,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/13/EIM_4.jpg",
+                    "src": "EIM_4.jpg",
                     "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
                     "nr": "1"
                 },
@@ -1344,7 +1319,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/13/EIM_2.jpg",
+                    "src": "EIM_2.jpg",
                     "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
                     "nr": "2"
                 },
@@ -1395,7 +1370,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/13/EIM_9.jpg",
+                    "src": "EIM_9.jpg",
                     "caption" : "Still from Elisaabeth da Mulyani, Saksi Bisu (Silent Witness) Let me take you to a tropical paradise, 2017",
                     "nr": "3"
                 },
@@ -1439,12 +1414,12 @@
             "location": "?",
             "next_href": "./making_the_monkey.html",
             "href": "./hujan_emas_di_negri_orang_hujan_batu_di_negri_sendiri.html",
-            "cover_img": "./assets/img/projects/14/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "According to Setu Legi, it is land and water, not oil and coal, that lie at the basis of life. It seems far more important to take care of the environment than to ask only what it can bring us. Setu Legi’s work cross-references natural elements with what they are destined to become. Biodiversity winds up as bio-uniformity.",
             "content": [
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/14/Monsanto.jpg",
+                    "src": "Monsanto.jpg",
                     "nr": "1"
                 },
                 {
@@ -1461,7 +1436,7 @@
             "location":"Togean Island",
             "next_href": "./everything.html",
             "href": "./making_the_monkey.html",
-            "cover_img": "./assets/img/projects/15/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "In Togean Island, anthropologist Celia Lowe witnessed and reported the acts of “making, unmaking, and remaking” a monkey, its unique and endemic status being crucial for the preservation their living area; while observing an indonesian and american scientific collaboration in a postcolonial context.",
             "content": [
                 {
@@ -1570,7 +1545,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/15/1.jpg",
+                    "src": "1.jpg",
                     "caption": "Image from National Geographic:<br>Kalimantan, 1955.<br><i>Memperlindungi Alam Berarti Mendapat Penghormatan Dimata Dunia</i><br>“Protecting Nature Means to Receive Honor in the Eyes of the World”<br>J. Roberts/National Geographic Image Collection.",
                     "nr": "1"
                 },
@@ -1680,7 +1655,7 @@
                 },
                 {
                     "type": "img",
-                    "img": "./assets/img/projects/15/2.jpg",
+                    "src": "2.jpg",
                     "caption": "Measuring a Tarsier at Camp Uemata, by Celia Lowe.",
                     "nr": "2"
                 },
@@ -1916,7 +1891,7 @@
             "location": "?",
             "next_href": "./where_farming_methods_read_as_poems.html",
             "href": "./everything.html",
-            "cover_img": "./assets/img/projects/16/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "<i>Everything</i> is a videogame conceived as an interactive experience, where everything you see is a thing you can be; from animals to plants to galaxies and beyond. <i>Everything</i> is a simulation of the systems of nature, a limitless playground to enjoy a non-anthropocentric experience of the universe.",
             "content": [
                 {
@@ -1941,7 +1916,7 @@
             "location": "Indonesia",
             "next_href": "./tidal_migration_pattern_of_seaweed_spirit_when_moon_is_shining.html",
             "href": "./where_farming_methods_read_as_poems.html",
-            "cover_img": "./assets/img/projects/17/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "The inherited commons in Indonesia are valuable natural capital under continuous threat. Yasmine Ostendorf describes how art collectives across Indonesia create alternative ways of dealing with resources, alternative currencies, and skills. Artists communities play an important role in society, where art and cultural expression is integrated in farming practices. A strong DIWO (do-it-with-others) ethic and arts infrastructure makes commoning in Indonesia possible.",
             "content": [
                 {
@@ -1950,7 +1925,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/17/02_Nurvista.jpg",
+                  "src": "02_Nurvista.jpg",
                   "caption": "Elia Nurvista. Performance. Hunger Inc. Courtesy of Jogja Biennale",
                   "nr": "1"
                 },
@@ -1968,7 +1943,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/17/01_Not_For_Sale2.jpg",
+                  "src": "01_Not_For_Sale2.jpg",
                   "caption": "Not for Sale, ©Jacob Gatot Surarjo",
                   "nr": "2"
                 },
@@ -1982,7 +1957,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/17/03_trashball1.jpg",
+                  "src": "03_trashball1.jpg",
                   "caption": "Irwan Ahmett and Tita Salina. ‘Trash Ball’.",
                   "nr": "3"
                 },
@@ -2000,7 +1975,7 @@
                 },
                 {
                   "type": "img",
-                  "img": "./assets/img/projects/17/05_monorail_slalom-screenshot.jpg",
+                  "src": "05_monorail_slalom-screenshot.jpg",
                   "caption": "Irwan Ahmett and Tita Salina, ‘Monorail Slalom’. Jakarta, 2010",
                   "nr": "4"
                 },
@@ -2090,76 +2065,63 @@
             "location":"",
             "next_href": "./natural_capital-editorial.html",
             "href": "./tidal_migration_pattern_of_seaweed_spirit_when_moon_is_shining.html",
-            "cover_img": "./assets/img/projects/18/thumbnail.jpg",
+            "cover_img": "thumbnail.jpg",
             "cover_text": "Filip Van Dingenen spent several years researching seaweed and witnessed the traditionally harvested plant transform into an international commodity. Van Dingenen’s contribution consists of seaweed pressings, based on traditional Victorian preservation techniques. His work is driven by a desire for interspecies diplomacy and encourages us to imagine how colonies of underwater sea-plants might think - beyond scientific narratives of seaweed.",
             "content": [
                 {
                   "type": "gallery",
                   "gallery": [
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/1_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/1_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/2_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/2_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/3_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/3_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/4_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/4_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/5_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/5_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/6_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/6_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/7_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/7_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/8_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/8_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/9_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/9_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/11_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/11_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/12_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/12_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/13_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/13_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     },
                     {
-                      "type": "img",
-                      "img": "./assets/img/projects/18/gallery_1/14_seaweed_scans.jpg",
-                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i>2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
+                      "src": "gallery_1/14_seaweed_scans.jpg",
+                      "caption": "<i>Tidal Migration Pattern of Seaweed Spirit when Moon is shining,</i> 2016–2017, series of 9 framed seaweed pressings, courtesy of the artist and WalburgerWouters, co-produced by Askeaton Contemporary Arts and Lismore Castle Arts, Ireland, commissioned by LIAF 2017 / North Norwegian Arts Centre (NNKS)"
                     }
                   ]
                 },
@@ -2203,6 +2165,7 @@
           "p": "Naturalcapital.online is a digital publication that addresses the visual culture and discourses surrounding biodiversity in the Indonesian archipelago, and challenges the biased ways in which we experience, describe and visually represent the \"natural world\". It is the digital counterpart of—and includes the catalogue of—the exhibition <i>Natural Capital (Modal Alam)</i> organised by Charlotte Dumoncel d’Argence and Laura Herman in the context of Europalia Indonesia at BOZAR, Centre for Fine Arts in Brussels, Belgium (21 December 2017–21 January 2018). The online publication features commissioned contributions and interviews with artists and theorists living in Indonesia, Belgium, and elsewhere, written in English and Bahasa Indonesia. The format of the online publication was conceived as a platform to enable artworks and ideas to travel outside of Belgium, to generate a new dimension of artistic production, and to bypass the constraints of the physical exhibition. "
         }
     ],
+    
     "about_acknowledgements": [
         {
           "p": "We would like to express our gratitude and appreciation to:<br>All the artists and contributors for generously sharing their work.<br>Isabel Seiffert and Christoph Miler, Renald Lenzin, Gabriella Kovács for making this online publication possible. Astrid Reza and Henry Andersen for their translation and editing work. Dirk Vermaelen, Eva Bialek and the Europalia team for giving us a platform and supporting us.<br>All the great and inspiring people whom we met and were in touch with during our research.<br>Our lovers, friends, and family."

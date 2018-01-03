@@ -11,7 +11,7 @@
 	width: 50vw;
 	height: $object3D-h;
 
-	@include bp-s {
+	@include bp-portrait {
         width: 100vw;
         height: $object3D-h;
     }
@@ -34,7 +34,7 @@
 	background-position: 0 0%;
 	opacity: 0;
 
-	@include bp-s {
+	@include bp-portrait {
       width: 100vw;
       height: 100vw;
     }
@@ -59,7 +59,7 @@
 	animation: pulse 1s ease-in-out infinite alternate;
 
 
-	@include bp-s {
+	@include bp-portrait {
       width: 100vw;
       height: 100vw;
     }
@@ -88,27 +88,39 @@
 }
 
 	
-&.filter-0 {
+.filter-0 {
     .object-3d-placeholder {
-		background-image:  url('../img/objects/placeholder/object_0.png');
+		background-image:  url('../img/objects/placeholder/m/object_0.png');
+
+		@include bp-s {
+			background-image:  url('../img/objects/placeholder/s/object_0.png');
+		}
 	}
 }
 
 
-&.filter-1 {
+.filter-1 {
     .object-3d-placeholder {
-		background-image:  url('../img/objects/placeholder/object_1.png');
+		background-image:  url('../img/objects/placeholder/m/object_1.png');
+
+		@include bp-s {
+			background-image:  url('../img/objects/placeholder/s/object_1.png');
+		}
 	}
 }
 
 
-&.filter-2 {
+.filter-2 {
     .object-3d-placeholder {
     	width: 37vw;
 		height: 37vw;
-		background-image:  url('../img/objects/placeholder/object_2.png');
+		background-image:  url('../img/objects/placeholder/m/object_2.png');
 
 		@include bp-s {
+			background-image:  url('../img/objects/placeholder/s/object_2.png');
+		}
+
+		@include bp-portrait {
 		      width: 75vw;
 		      height: 75vw;
 		    }
@@ -116,20 +128,28 @@
 }
 
 
-&.filter-3 {
+.filter-3 {
     .object-3d-placeholder {
-		background-image:  url('../img/objects/placeholder/object_3.png');
+		background-image:  url('../img/objects/placeholder/m/object_3.png');
+
+		@include bp-s {
+			background-image:  url('../img/objects/placeholder/s/object_3.png');
+		}
 	}
 }
 
 
-&.filter-4 {
+.filter-4 {
     .object-3d-placeholder {
     	width: 41vw;
 		height: 41vw;
-		background-image:  url('../img/objects/placeholder/object_4.png');
+		background-image:  url('../img/objects/placeholder/m/object_4.png');
 
 		@include bp-s {
+			background-image:  url('../img/objects/placeholder/s/object_4.png');
+		}
+
+		@include bp-portrait {
 		      width: 82vw;
 		      height: 82vw;
 		    }
@@ -139,58 +159,72 @@
 
 
 
+.no-intro {
+	&.filter-0 {
+	    .object-3d {
+			background-image:  url('../img/objects/3d/m/object_0_sprite.png');
 
-&.filter-0 {
-    .object-3d {
-		background-image:  url('../img/objects/3d/medium/object_0_sprite.png');
+			@include bp-s {
+				background-image:  url('../img/objects/3d/s/object_0_sprite.png');			
+			}
+		}
+	}
+
+
+	&.filter-1 {
+	    .object-3d {
+			background-image:  url('../img/objects/3d/m/object_1_sprite.png');
+
+			@include bp-s {
+				background-image:  url('../img/objects/3d/s/object_1_sprite.png');			
+			}
+		}
+	}
+
+
+	&.filter-2 {
+	    .object-3d {
+	    	width: 37vw;
+			height: 37vw;
+			background-image:  url('../img/objects/3d/m/object_2_sprite.png');
+
+			@include bp-s {
+				background-image:  url('../img/objects/3d/s/object_2_sprite.png');			
+			}
+
+			@include bp-portrait {
+		      width: 75vw;
+		      height: 75vw;
+		    }
+		}
+	}
+
+
+	&.filter-3 {
+	    .object-3d {
+			background-image:  url('../img/objects/3d/m/object_3_sprite.png');
+
+			@include bp-s {
+				background-image:  url('../img/objects/3d/s/object_3_sprite.png');			
+			}
+		}
+	}
+
+
+	&.filter-4 {
+	    .object-3d {
+	    	width: 41vw;
+			height: 41vw;
+			background-image:  url('../img/objects/3d/m/object_4_sprite.png');
+
+			@include bp-s {
+				background-image:  url('../img/objects/3d/s/object_4_sprite.png');			
+			}
+
+			@include bp-portrait {
+		      width: 82vw;
+		      height: 82vw;
+		    }
+		}
 	}
 }
-
-
-&.filter-1 {
-    .object-3d {
-		background-image:  url('../img/objects/3d/medium/object_1_sprite.png');
-	}
-}
-
-
-&.filter-2 {
-    .object-3d {
-    	width: 37vw;
-		height: 37vw;
-		background-image:  url('../img/objects/3d/medium/object_2_sprite.png');
-
-		@include bp-s {
-	      width: 75vw;
-	      height: 75vw;
-	    }
-	}
-}
-
-
-&.filter-3 {
-    .object-3d {
-		background-image:  url('../img/objects/3d/medium/object_3_sprite.png');
-	}
-}
-
-
-&.filter-4 {
-    .object-3d {
-    	width: 41vw;
-		height: 41vw;
-		background-image:  url('../img/objects/3d/medium/object_4_sprite.png');
-
-		@include bp-s {
-	      width: 82vw;
-	      height: 82vw;
-	    }
-	}
-}
-
-
-
-
-//TODO: crop images so that they only contain the object
-//animation: sprite 5s 10s steps(90) forwards;
-//margin: -5% auto 0 auto; /* positioning tweak */

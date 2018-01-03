@@ -1,5 +1,4 @@
 .project-overview-item {
-    float: right;
     width: 100%;
     border-bottom: $borderW solid $border-color;
     color: $project-overview-text-color;
@@ -12,7 +11,7 @@
         color: $project-overview-text-hover-color;
     }
 
-    @include bp-s {
+    @include bp-portrait {
         color: $project-overview-text-hover-color;
     }
 

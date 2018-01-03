@@ -3,7 +3,7 @@
     width: $project-overview-img-w;
     margin: $gutter;
 
-    @include bp-s {
+    @include bp-portrait {
         width: calc(100vw - 2 * #{$gutter-bps});
         margin: $gutter-bps;
         margin-bottom: 0;

@@ -1,4 +1,4 @@
-{% macro object_selector_item(img, selector, loopIndex) %}
+{% macro object_selector_item(loopIndex) %}
 
     
     {% set activeClass = ''  %}
@@ -10,6 +10,3 @@
     	<a class="object-selector-item js-filter-selector {{ activeClass }}" href="./index.html"></a>
 
 {% endmacro %}
-
-
-{% set backgroundImg = 'background-image: url(' + img + ');'  %}

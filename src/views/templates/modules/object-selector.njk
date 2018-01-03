@@ -3,6 +3,6 @@
 
 <div class="object-selector js-object-selector">
     {% for object in object_imgs %}
-        {{ object_selector_item(object.img, object.selector, loop.index0) }}
+        {{ object_selector_item(loop.index0) }}
     {% endfor %}
 </div>

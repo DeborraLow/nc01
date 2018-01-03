@@ -19,7 +19,7 @@ http://flickity.metafizzy.co
     img {
         width: 100%;
 
-        @include bp-s {
+        @include bp-portrait {
             width: calc(100vw - 2 * #{$gutter-bps});
         }
     }
@@ -139,6 +139,10 @@ http://flickity.metafizzy.co
     height: 6vw;
     outline: none;
     cursor: pointer;
+
+    @include bp-portrait {
+      display: none;
+    }
 
     svg {
         width: 100%;

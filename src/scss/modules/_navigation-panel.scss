@@ -13,7 +13,7 @@
     letter-spacing: $navigation-letter-spacing;
     transition: width 0.18s ease-out;
 
-    @include bp-s {
+    @include bp-portrait {
         width: 100vw; 
         height: $navigationPanel-h-bps;
         border-left: none;
@@ -37,11 +37,21 @@
         width: $landing-right-panel; 
         border-left: $borderW solid $border-color;
 
-        @include bp-s {
+        @include bp-portrait {
             position: absolute;
             top: 100vh;
             width: 100vw; 
             border-left: none;
+        }
+    }
+}
+
+
+.sticky-navigation {
+    .navigation-panel {
+        @include bp-portrait {
+            position: fixed;
+            top: 0;
         }
     }
 }

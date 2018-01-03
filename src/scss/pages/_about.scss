@@ -5,7 +5,7 @@
     right: 0;
     font-size: $about-text-font-size;
 
-    @include bp-s {
+    @include bp-portrait {
         width: 100%;
         padding-top: calc(#{$navigationPanel-h-bps} + #{$about-navigation-h-bps});
         font-size: $about-text-font-size-bps;

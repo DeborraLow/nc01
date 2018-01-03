@@ -1,7 +1,8 @@
 .project-page {
 	#barba-wrapper {
-		@include bp-s {
+		@include bp-portrait {
             position: relative;
+            min-height: 100vh;
         }
 	}
 }

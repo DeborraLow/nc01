@@ -15,7 +15,7 @@
 {% set work = projects[projectIndex] %}
 
 
-<div class="project js-content-height js-hide-galleries hide-galleries">
+<div class="project js-content-height">
 
 
     {# HEADER #}
@@ -47,13 +47,13 @@
             {% elif item.type == 'gallery' %}
 
                 {# GALLERY #}
-                {{ gallery(item.gallery) }}
+                {{ gallery(item.gallery, projectFolder) }}
 
             {% elif item.type == 'img' %}
 
                 {# IMAGE #}
 
-                {{ img(item) }}
+                {{ img(item, projectFolder) }}
 
             {% elif item.type == 'video' %}
 

@@ -5,7 +5,7 @@
 	padding-top: $gutter;
 
 
-    @include bp-s {
+    @include bp-portrait {
     	width: 100vw;
     	margin-right: 0;
         padding: $gutter-bps;

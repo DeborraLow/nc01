@@ -9,7 +9,7 @@
     height: 100vh;
     border-right: $borderW solid $border-color;
     
-    @include bp-s {
+    @include bp-portrait {
         display: none;
     }
 }
@@ -23,7 +23,7 @@
         border: none;
         border-top: $borderW solid $border-color;
 
-        @include bp-s {
+        @include bp-portrait {
             position: absolute;
             top: $object3D-h;
             display: block;

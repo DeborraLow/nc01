@@ -3,7 +3,7 @@
 	left: $general-side-panel;
 	width: $ganeral-main-panel;
 
-	@include bp-s {
+	@include bp-portrait {
 		left: 0;
 		width: 100%;
 	}

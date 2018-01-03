@@ -10,13 +10,13 @@
     letter-spacing: $project-next-letter-spacing;
 
 
-    @include bp-s {
+    @include bp-portrait {
         position: absolute;
         top: auto;
         bottom: $project-item-margin-bottom-bps;
         right: auto;
         left: $gutter-bps;
-        margin-left: 15%;
+        margin-left: $project-padding-left-bps;
         transform: rotate(0deg) translate(0%, 0%);
         font-size: $project-next-font-size-bps;
     }

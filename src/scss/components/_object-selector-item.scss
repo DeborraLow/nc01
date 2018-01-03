@@ -24,10 +24,11 @@
 
 .home-page:not(.expanded-view) {  
     .object-selector-item {
-        width: 20%;
+        width: calc((100% - 4 * #{$borderW}) / 5);
         height: 100%;
         border: none;    
         border-right: $borderW solid $border-color;
+        box-sizing: content-box;
 
         &:last-child {
             border: none;
@@ -36,26 +37,42 @@
 }
 
 
-//.load-assets{
+.object-selector-item:nth-child(1) {
+    background-image:  url('../img/objects/thumbnail/m/object_0.png');
 
-    .object-selector-item:nth-child(1) {
-        background-image:  url('../img/objects/thumbnail/object_0.png');
+    @include bp-s {
+        background-image:  url('../img/objects/thumbnail/s/object_0.png');
     }
+}
 
-    .object-selector-item:nth-child(2) {
-        background-image:  url('../img/objects/thumbnail/object_1.png');
+.object-selector-item:nth-child(2) {
+    background-image:  url('../img/objects/thumbnail/m/object_1.png');
+
+    @include bp-s {
+        background-image:  url('../img/objects/thumbnail/s/object_1.png');
     }
+}
 
-    .object-selector-item:nth-child(3) {
-        background-image:  url('../img/objects/thumbnail/object_2.png');
+.object-selector-item:nth-child(3) {
+    background-image:  url('../img/objects/thumbnail/m/object_2.png');
+
+    @include bp-s {
+        background-image:  url('../img/objects/thumbnail/s/object_2.png');
     }
+}
 
-    .object-selector-item:nth-child(4) {
-        background-image:  url('../img/objects/thumbnail/object_3.png');
+.object-selector-item:nth-child(4) {
+    background-image:  url('../img/objects/thumbnail/m/object_3.png');
+
+    @include bp-s {
+        background-image:  url('../img/objects/thumbnail/s/object_3.png');
     }
+}
 
-    .object-selector-item:nth-child(5) {
-        background-image:  url('../img/objects/thumbnail/object_4.png');
+.object-selector-item:nth-child(5) {
+    background-image:  url('../img/objects/thumbnail/m/object_4.png');
+
+    @include bp-s {
+        background-image:  url('../img/objects/thumbnail/s/object_4.png');
     }
-
-//}
+}

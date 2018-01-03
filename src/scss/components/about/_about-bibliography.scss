@@ -1,7 +1,7 @@
 .bibliography-list-item {
 	margin-bottom: $about-contribution-item-margin-bottom;
 
-    @include bp-s {
+    @include bp-portrait {
         margin-bottom: $about-contribution-item-margin-bottom-bps;
     }
 }

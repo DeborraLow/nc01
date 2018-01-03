@@ -1,6 +1,6 @@
-{% macro gallery(gallery) %}
+{% macro gallery(gallery, projectFolder) %}
 
-<div class="project-gallery js-project-gallery">
+<div class="project-gallery js-project-gallery hide">
 
 {% set length = 5 %}
 	
@@ -10,7 +10,10 @@
 
 			{% set caption = item.caption|default('') %}
 		    <div class="carousel-cell" data-index="{{ loop.index }}" data-caption="{{ caption }}">
-			    <img src="{{ item.img }}" alt="">
+		    	<picture>
+			  		<source media="(min-width: 501px)" srcset="./assets/img/projects/{{ projectFolder }}/m/content/{{ item.src }}">
+			    	<img class="project-img" src="./assets/img/projects/{{ projectFolder }}/s/content/{{ item.src }}" alt="#">
+			    </picture>
 			</div>
 
 			{% set length = loop.length %}
@@ -18,7 +21,6 @@
 		{% endfor %}
 		
 	 </div>
-
 
 
 	 <button class="gallery-button button--previous">
@@ -30,65 +32,13 @@
 	 </button>
 
 	 <div class="project-caption-container">
-    		<span class="project-img-nr">
-    			<span class="js-gallery-img-nr">1</span>/{{ length }}
-    		</span>
-			<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('')|safe }}</div>
+		<span class="project-img-nr">
+			<span class="js-gallery-img-nr">1</span>/{{ length }}
+		</span>
+		<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('')|safe }}</div>
 	</div>
 
 </div>
 
 	
 {% endmacro %}
-
-
-<div class="myGalleryExample">
-    	<div class="Gallery">
-
-	        <div class="GalleryContainer">
-
-	        	{% for item in gallery %}
-	        		<div class="GalleryRow">
-		                <img src="{{ item.img }}" alt="">
-		            </div>
-		            
-		        {% endfor %}
-
-	        </div>
-
-	        <div class="GalleryArrow ArrowPrev">
-	        	{% include "components/general/arrows.njk" %}
-	        </div>
-	        <div class="GalleryArrow ArrowNext">
-				{% include "components/general/arrows.njk" %}
-	        </div>
-
-	        <div class="GalleryIndex"><p></p></div>
-	        <div class="GalleryCaptions"><p></p></div>
-	        
-	        <div class="GalleryOpenLightbox">
-	        	{% include "components/icons/fullscreen-icon.njk" %}
-	        </div>
-
-	    </div>
-
-	    <div class="Lightbox">
-	        <button class="LightBoxClose">close your lightbox</button>
-
-	        <div class="LightBoxArrow ArrowPrev">
-	        	{% include "components/general/arrows.njk" %}
-	        </div>
-
-	        <div class="LightBoxArrow ArrowNext">
-	        	{% include "components/general/arrows.njk" %}
-	        </div>
-
-	        <div class="LightboxIndex"><p></p></div>
-	        <div class="LightboxCaption"><p></p></div>
-	        <div class="LightboxContainer">
-	            <div class="LightboxImgContainer">
-	                <img src="http://www.lorempizza.com/500/500" alt="">
-	            </div>
-	        </div>
-	    </div>
-	</div>

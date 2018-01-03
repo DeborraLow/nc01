@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     //SCROLL INDICATOR
     var GLOBAL_CONTENT;
     var GLOBAL_CONTENT_H;
-    var GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO;
+    var GLOBAL_SCROLL_POS = window.innerHeight;
     var GLOBAL_SCROLL_INDICATOR = document.querySelector('.js-scroll-indicator');
 
     //BARBA FIX ELEMENTS
@@ -15,10 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var GLOBAL_SCROLL_ACTIVE = true;
 
     //BREAKPOINT
-    var GLOBAL_BP_S = 700; //px
     var GLOBAL_IS_BP_S = false;
     var GLOBAL_IS_TOUCHSCREEN = false;
-
 
     var GLOBAL_NAMESPACE;
 
@@ -35,11 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
     checkTouchscreen();
 
 
-
     //FUNCTIONS FOR ALL PAGES
-    scrollIndicator();
+    initScrollIndicator();
     filterSelector();
-
+   
 
 
     var Homepage = Barba.BaseView.extend({
@@ -54,6 +51,8 @@ document.addEventListener("DOMContentLoaded", function() {
             //only init some functions on the first time
             if(!GLOBAL_VISITED_HOME) {
 
+                //isLoadedBackgroundPattern();
+
                 introAnimation();
 
                 GLOBAL_VISITED_HOME = true;
@@ -66,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             updateContentElement(this.container);
             
             expandProjectOverview();
-            isLoadedObject();
+
 
         },
         onEnterCompleted: function() {
@@ -214,6 +213,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             GLOBAL_SCROLL_ACTIVE = true;
             addTransitionToScrollIndicator();
+            //updateContentH();
             updateScrollIndicator();
 
         }
@@ -304,6 +304,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             GLOBAL_SCROLL_ACTIVE = true;
             addTransitionToScrollIndicator();
+            //updateContentH();
             updateScrollIndicator();
 
         },
@@ -318,13 +319,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if(PROJECT_IS_TRANSITION_PHASE) { 
             e.preventDefault(); 
         }
-        GLOBAL_LAST_CLICKED_ELEMENT = el;
-        
+        GLOBAL_LAST_CLICKED_ELEMENT = el;   
     });
+
 
     Aboutpage.init();
     Projectpage.init();
     Homepage.init();
+
 
     Barba.Pjax.start();
     Barba.Prefetch.init();
@@ -339,7 +341,6 @@ document.addEventListener("DOMContentLoaded", function() {
             //every other page transition
             return FadeTransition;
         }
-
     };
 
 
@@ -407,13 +408,17 @@ document.addEventListener("DOMContentLoaded", function() {
         TweenMax.set('.js-3d-object', { backgroundPosition: '0%' });
     }
 
-
     function objectInteraction() {
+
+        console.log('object interaction');
 
 
         GLOBAL_OBJECT_INTERACTION_AREA.style.display = 'block';
 
         var object = document.querySelector('.js-3d-object');
+
+        console.log('object');
+        console.log(object);
       
             
         var nrOfSegments = 60; //minus one
@@ -429,7 +434,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         } else {
 
+            console.log('not touchscreen');
+
             GLOBAL_OBJECT_INTERACTION_AREA.addEventListener('mousemove', function(e) {
+                console.log('mousemove');
                 objectRotateAnimation(e.clientX);
             })
 
@@ -449,7 +457,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 )
 
         }
-
     }
 
 
@@ -469,30 +476,25 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
         }
-        
-
     }
 
+    // function isLoadedBackgroundPattern() {
+    //     var backgroundPattern = document.querySelector('.js-landing-background');
 
-    function scrollIndicator() {
+    //     if(!backgroundPattern) {
+    //         setTimeout( isLoadedBackgroundPattern(), 4000 );
+    //     } else {
 
-        GLOBAL_CONTENT = document.querySelector('.js-content-height');
-        
-        addTransitionToScrollIndicator();
-        updateScrollIndicator();
-        
+    //         imagesLoaded( backgroundPattern, { background: true }, function() {
+    //             GLOBAL_BODY.classList.add('start');
+    //             setTimeout(function() {
+    //                 introAnimation();
+    //             }, 300)
+                
+    //         });
 
-        //todo this will not work in ios
-        window.addEventListener('scroll', function(e) {
-
-            if(GLOBAL_SCROLL_INDICATOR.getBoundingClientRect().top <= 0 && GLOBAL_SCROLL_ACTIVE) {
-                removeTransitionToScrollIndicator();
-                updateScrollIndicator();
-            }
-
-        });
-
-    }
+    //     }
+    // }
 
 
     function aboutNavigation() {
@@ -527,6 +529,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         setTimeout(function(){ 
                             addTransitionToScrollIndicator();
+                            //updateContentH();
                             updateScrollIndicator();
                         }, 100);
 
@@ -534,22 +537,98 @@ document.addEventListener("DOMContentLoaded", function() {
                 )
             }
         }
-
     }
+
+    //-----------------------------------
+    //SCROLL INDICATOR
+
+    function initScrollIndicator() {
+
+        GLOBAL_CONTENT = document.querySelector('.js-content-height');
+        
+        addTransitionToScrollIndicator();
+        //updateContentH();
+        updateScrollIndicator();
+        
+        addScrollEventListener();
+    }
+
+
+    function addScrollEventListener() {
+
+        if(GLOBAL_IS_TOUCHSCREEN) {
+
+            window.removeEventListener('scroll', handleScrollEvent);
+
+
+            function detectScroll() {
+
+                if (checkScrollPositionHasChanged()) {
+
+                    handleScrollEvent();
+                    window.requestAnimationFrame(detectScroll);
+
+                } else {
+    
+                    setTimeout(function() {
+                        window.requestAnimationFrame(detectScroll);
+                    }, 200)
+
+                }
+            }
+
+            window.requestAnimationFrame(detectScroll);
+
+        } else {
+
+            window.addEventListener('scroll', handleScrollEvent);
+
+        } 
+    }
+
+
+    function handleScrollEvent() {
+
+        if(GLOBAL_NAMESPACE == 'home' && GLOBAL_IS_BP_S) {
+            if(window.scrollY >= window.innerHeight) {
+                GLOBAL_BODY.classList.add('sticky-navigation');
+            } else {
+                GLOBAL_BODY.classList.remove('sticky-navigation');
+            }
+        }
+
+        //if(GLOBAL_SCROLL_INDICATOR.getBoundingClientRect().top <= 0 && GLOBAL_SCROLL_ACTIVE) {
+        if(GLOBAL_SCROLL_ACTIVE) {
+            removeTransitionToScrollIndicator();
+            GLOBAL_SCROLL_POS = window.scrollY + window.innerHeight;
+            updateScrollIndicator();
+        }
+    }
+
 
     function updateContentElement(barbaContainer) {
         GLOBAL_CONTENT = barbaContainer.querySelector('.js-content-height');
+        updateContentH();
     }
 
     function updateContentH() {
         GLOBAL_CONTENT_H = GLOBAL_CONTENT.getBoundingClientRect().height;
     }
 
+    function checkScrollPositionHasChanged() {
+        var newPos = window.scrollY + window.innerHeight;
+
+        if (GLOBAL_SCROLL_POS === newPos) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
     function updateScrollIndicator() {
         updateContentH();
 
-        GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO = Math.min((window.scrollY + window.innerHeight) / GLOBAL_CONTENT_H, 1);
-        GLOBAL_SCROLL_INDICATOR.style.transform = 'scaleX(' + GLOBAL_SCROLL_POS_TO_HEIGHT_RATIO + ')';
+        GLOBAL_SCROLL_INDICATOR.style.transform = 'scaleX(' + Math.min(GLOBAL_SCROLL_POS / GLOBAL_CONTENT_H, 1); + ')';
     }
 
 
@@ -561,6 +640,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function removeTransitionToScrollIndicator() {
         GLOBAL_SCROLL_INDICATOR.classList.remove('transition');
     }
+    //-----------------------------------
 
 
     function expandProjectOverview(){
@@ -575,18 +655,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 setTimeout(function(){ 
                     addTransitionToScrollIndicator();
+                    //updateContentH();
                     updateScrollIndicator();
                 }, 100);
             }
         );
-
     }
+
 
     function closeExpandedProjectOverview() {
         GLOBAL_BODY.classList.remove('expanded-view');
 
         setTimeout(function(){ 
             addTransitionToScrollIndicator();
+            //updateContentH();
             updateScrollIndicator();
         }, 100);
     }
@@ -683,6 +765,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         TweenLite.set(halfPanelLeft, { clearProps: 'all' });
                         TweenLite.set(navigationPanel, { clearProps: 'all' });
                         TweenLite.set(objectSelector, { clearProps: 'all' });
+                        isLoadedObject();
                     },
                     2000
                 )
@@ -697,8 +780,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 setTimeout( animLoaded(), 4000 );
                 return;
             } else {
-                animItem.play();
-                update();
+                setTimeout(function() {
+                    animItem.play();
+                    update();
+                     
+                }, 1000)
+                
 
           //       var imgList = document.querySelectorAll('.js-load-img');
           //       var imgListLength = imgList.length;
@@ -718,7 +805,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 
             }
         }
-
     }
 
 
@@ -732,73 +818,70 @@ document.addEventListener("DOMContentLoaded", function() {
 
         for(var i = 0; i < elemListLength; i++) {
 
-            function initGallery(j){
-
-                var elem = elemList[j];
-                var galleryContainer = galleryContainerList[j];
-
-                var flkty = new Flickity( elem, {
-                  // options
-                  cellAlign: 'left',
-                  contain: true,
-                  pageDots: false,
-                  draggable: false,
-                  prevNextButtons: false,
-                  wrapAround: true
-                  
-                });
-
-                //CAPTION
-                var caption = galleryContainer.querySelector('.js-gallery-caption');
-                var numbering = galleryContainer.querySelector('.js-gallery-img-nr');
-
-                flkty.on( 'select', function() {
-                  caption.innerHTML = flkty.selectedElement.dataset.caption;
-                  numbering.innerHTML = flkty.selectedElement.dataset.index;
-                });
-
-                //PREVIOUS-NEXT
-                var previousButton = galleryContainer.querySelector('.button--previous');
-                previousButton.addEventListener( 'click', function() {
-                  flkty.previous();
-                });
-                
-                var nextButton = galleryContainer.querySelector('.button--next');
-                nextButton.addEventListener( 'click', function() {
-                  flkty.next();
-                });
-
-                //FIGURE OUT IF GALLERIES HAVE BEEN LOADED
-                var hideGalleries = container.querySelector('.js-hide-galleries');
-
-                setTimeout(function(){ 
-
-                    flkty.resize(); 
-                    
-                    hideGalleries.classList.remove('hide-galleries');
-                }, 300);
-
-
-            }
-
             initGallery(i);
+        }
 
+        function initGallery(j){
+
+            var elem = elemList[j];
+            var galleryContainer = galleryContainerList[j];
+
+            var flkty = new Flickity( elem, {
+              // options
+              cellAlign: 'left',
+              contain: true,
+              pageDots: false,
+              prevNextButtons: false,
+              wrapAround: true
+              
+            });
+
+            //CAPTION
+            var caption = galleryContainer.querySelector('.js-gallery-caption');
+            var numbering = galleryContainer.querySelector('.js-gallery-img-nr');
+
+            flkty.on( 'select', function() {
+              caption.innerHTML = flkty.selectedElement.dataset.caption;
+              numbering.innerHTML = flkty.selectedElement.dataset.index;
+            });
+
+            //PREVIOUS-NEXT
+            var previousButton = galleryContainer.querySelector('.button--previous');
+            previousButton.addEventListener( 'click', function() {
+              flkty.previous();
+            });
+            
+            var nextButton = galleryContainer.querySelector('.button--next');
+            nextButton.addEventListener( 'click', function() {
+              flkty.next();
+            });
+
+            //FIGURE OUT IF GALLERIES HAVE BEEN LOADED
+            var flickityViewport = galleryContainer.querySelector('.flickity-viewport');
+            checkGalleryHeight();
+
+
+            function checkGalleryHeight() {
+                flkty.resize();
+
+                if(flickityViewport.clientHeight <= 20) {
+                    setTimeout(checkGalleryHeight, 2000)
+                } else {
+                    galleryContainer.classList.remove('hide');
+                }
+            }
 
 
         }
- 
     }
 
 
     function checkBreakpoint() {
 
-        if (window.innerWidth <= window.innerHeight || window.innerWidth <= 700){
+        if (window.innerWidth <= window.innerHeight){
             GLOBAL_IS_BP_S = true;
-            document.querySelector('.cover').classList.add('show');
-            document.querySelector('.cover').classList.add('message');
         } else {
             GLOBAL_IS_BP_S = false;
-            document.querySelector('.cover').classList.remove('show');
         }
     }
 
@@ -810,6 +893,9 @@ document.addEventListener("DOMContentLoaded", function() {
     function hadleTouchDetect() {
         set_touchscreen_true();
         window.removeEventListener('touchstart', hadleTouchDetect);
+
+        //change the scroll eventlistener to listen to pan instead
+        addScrollEventListener();
 
         if(GLOBAL_NAMESPACE === 'home') { objectInteraction(); }
         
@@ -844,7 +930,8 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("optimizedResize", function() {
 
         setTimeout(function(){ 
-            addTransitionToScrollIndicator();           
+            addTransitionToScrollIndicator(); 
+            //updateContentH();          
             updateScrollIndicator();
         }, 100);
 

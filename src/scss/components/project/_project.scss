@@ -1,7 +1,5 @@
-$project-padding-left-bps: 13vw;
-
-
 .project {
+    overflow: hidden;
 
     .project-header {
         width: 100%;
@@ -12,7 +10,7 @@ $project-padding-left-bps: 13vw;
         padding-bottom: calc(#{$gutter} - 0.12 * #{$project-title-font-size});
         border-bottom: $borderW solid $border-color;
 
-        @include bp-s {
+        @include bp-portrait {
             width: 100vw;
             margin-top: $navigationPanel-h-bps;
             margin-bottom: $gutter-bps;
@@ -30,7 +28,7 @@ $project-padding-left-bps: 13vw;
         line-height: $project-title-line-height;
         letter-spacing: $project-title-letter-spacing;
 
-        @include bp-s {
+        @include bp-portrait {
             width: 100%;
             margin-left: 0;
             font-size: $project-title-font-size-bps;
@@ -43,7 +41,7 @@ $project-padding-left-bps: 13vw;
         font-size: $project-location-font-size;
         text-transform: capitalize;
 
-        @include bp-s {
+        @include bp-portrait {
             display: none;
         }
     }
@@ -55,11 +53,10 @@ $project-padding-left-bps: 13vw;
         margin-left: $project-left-margin;
         padding-bottom: 4 * $gutter;
 
-        @include bp-s {
-            float: none;
+        @include bp-portrait {
             width: calc(100% - 2 * #{$gutter-bps});
             margin: 0 $gutter-bps;
-            padding-bottom: calc(#{$project-text-font-size-bps} * 2 + #{$gutter-bps});
+            padding-bottom: calc(#{$project-text-font-size-bps} * 2.5 + 2 * #{$project-item-margin-bottom});
         }
     }
 
@@ -74,14 +71,14 @@ $project-padding-left-bps: 13vw;
         letter-spacing: $project-author-letter-spacing;
 
         &:before {
-            @include bp-s {
+            @include bp-portrait {
                 content: 'BY';
                 position: absolute;
                 left: 0;
             }
         }
 
-        @include bp-s {
+        @include bp-portrait {
             position: relative;
             width: 85%;
             margin-left: 0;
@@ -100,7 +97,7 @@ $project-padding-left-bps: 13vw;
         letter-spacing: $project-text-letter-spacing;
 
 
-        @include bp-s {
+        @include bp-portrait {
             width: 100%;
             padding-left: $project-padding-left-bps;
             margin-bottom: $project-item-margin-bottom-bps;
@@ -115,7 +112,7 @@ $project-padding-left-bps: 13vw;
         line-height: $project-caption-line-height;
         letter-spacing: $project-caption-letter-spacing;
 
-        @include bp-s {
+        @include bp-portrait {
             font-size: $project-caption-font-size-bps;
         }
     }
@@ -127,7 +124,7 @@ $project-padding-left-bps: 13vw;
         margin-top: $project-caption-margin-top;
         
 
-        @include bp-s {
+        @include bp-portrait {
             width: auto;
             margin-top: $project-caption-margin-top-bps;
             margin-left: $project-padding-left-bps;
@@ -142,7 +139,7 @@ $project-padding-left-bps: 13vw;
     .project-img-container {
         margin-bottom: $project-item-margin-bottom;
 
-        @include bp-s {
+        @include bp-portrait {
             margin-bottom: $project-item-margin-bottom-bps;
         }
     }
@@ -157,8 +154,8 @@ $project-padding-left-bps: 13vw;
         width: 100%;
         margin-bottom: $project-gallery-margin-bottom;
 
-        @include bp-s {
-            margin-bottom: $project-item-margin-bottom-bps;
+        @include bp-portrait {
+            margin-bottom: $project-gallery-margin-bottom-bps;
         }
 
     }
@@ -173,7 +170,7 @@ $project-padding-left-bps: 13vw;
         width: 100%;
         margin-bottom: $project-interview-item-margin-bottom;
 
-        @include bp-s {
+        @include bp-portrait {
             margin-bottom: $project-text-font-size-bps * 1.1;
         }
     }
@@ -187,7 +184,7 @@ $project-padding-left-bps: 13vw;
         letter-spacing: $project-text-letter-spacing;
 
 
-        @include bp-s {
+        @include bp-portrait {
             width: 100%;
             padding-left: $project-padding-left-bps;
             margin-left:0;
@@ -204,7 +201,7 @@ $project-padding-left-bps: 13vw;
         line-height: $project-text-line-height;
         letter-spacing: $project-text-letter-spacing;
 
-        @include bp-s {
+        @include bp-portrait {
             position: absolute;
             width: 100%;
             font-size: $project-author-font-size-bps;
@@ -236,12 +233,12 @@ $project-padding-left-bps: 13vw;
         width: 100vw;
 
 
-        @include bp-s {
+        @include bp-portrait {
             width: 100%;
         }
 
         .project-bibliography-number {
-            @include bp-s {
+            @include bp-portrait {
                 position: absolute;
             }
         }
@@ -251,7 +248,7 @@ $project-padding-left-bps: 13vw;
             float: left;
             margin-right: $gutter;
 
-            @include bp-s {
+            @include bp-portrait {
                 float: none;
                 width: 100%;
                 margin-right: 0;
@@ -264,7 +261,7 @@ $project-padding-left-bps: 13vw;
             float: right;
             width: 100%;
 
-            @include bp-s {
+            @include bp-portrait {
                 float: none;
                 margin-bottom: 0.7vw;
             }
@@ -274,7 +271,7 @@ $project-padding-left-bps: 13vw;
             width: 80%;
             float: right;
 
-            @include bp-s {
+            @include bp-portrait {
                 width: 100%;
                 padding-left: $project-padding-left-bps;
                 float: none;

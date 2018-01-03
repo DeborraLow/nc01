@@ -8,7 +8,7 @@
     line-height: $project-overview-author-line-height;
     letter-spacing: $project-overview-author-letter-spacing;
 
-    @include bp-s {
+    @include bp-portrait {
         width: 35%;
         padding: $gutter-bps;
         padding-bottom: calc(#{$gutter-bps} - 2px);

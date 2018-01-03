@@ -1,11 +1,26 @@
-{% macro projectOverview(author, title, lead, img, index, href) %}
+{% macro projectOverview(author, title, lead, imgSrc, index, href) %}
 
-    <li class="project-overview-item">
+{% if index < 10 %}
+{% set projectFolder = '0' + index %}
+{% else %}
+{% set projectFolder = index %}
+{% endif %}
+
+    <li class="project-overview-item clearfix">
         <a href="{{ href }}">
             
             <div class="project-overview-img saturated-img-container">
-                <img class="saturated-img-saturation js-load-img" src="{{ img }}" alt="{{ title }}" data-src="">
-                <img class="saturated-img-grayscale js-load-img" src="{{ img }}" alt="{{ title }}" data-src="">
+
+                <picture>
+                    <source media="(min-width: 501px) and (orientation : landscape)" srcset="./assets/img/projects/{{ projectFolder }}/m/{{ imgSrc }}">
+                    <img class="saturated-img-saturation js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ title }}" data-src="">
+                </picture>
+
+                <picture>
+                    <source media="(min-width: 501px) and (orientation : landscape)" srcset="./assets/img/projects/{{ projectFolder }}/m/{{ imgSrc }}">
+                    <img class="saturated-img-grayscale js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ title }}" data-src="">
+                </picture>
+
             </div>
 
 
