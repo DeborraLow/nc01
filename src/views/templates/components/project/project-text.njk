@@ -1,12 +1,15 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
 {% macro text(item) %}
 
 	{% if item.no_paragraph_wrap %}
 		<div class="project-text">
-	        {{ item.text|safe }}
+			{{ text_multi_lang(item.text, item.text_in) }}
 	    </div>
 	{% else %}
 		<p class="project-text">
-	        {{ item.text|safe }}
+			{{ text_multi_lang(item.text, item.text_in) }}
 	    </p>
 	{% endif %}
 

@@ -1,9 +1,14 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
 <section class="about-section hidden"
 		 data-section="imprint"
 >
 
 {% for item in about_imprint %}
-    	<p class="about-text">{{ item.p|safe }}</p>
+    	<p class="about-text">
+    		{{ text_multi_lang(item.p, item.p_in) }} 
+    	</p>
     {% endfor %}
 	
 </section>

@@ -1,24 +1,27 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
 <nav class="about-nav-outer-wrapper">
    
     <ul class="about-nav-inner-wrapper">
     	<li class="about-nav-item active js-about-nav-item" data-referenced-section="contact">
-    		CONTACT
+    		{{ text_multi_lang('CONTACT', 'KONTAK') }}
     	</li>
 
         <li class="about-nav-item js-about-nav-item" data-referenced-section="acknowledgements">
-            ACKNOWLEDGMENTS
+            {{ text_multi_lang('ACKNOWLEDGMENTS', 'UCAPAN TERIMAKASIH') }} 
         </li>
 
     	<li class="about-nav-item js-about-nav-item" data-referenced-section="editorial">
-    		PROJECT INFO
+    		{{ text_multi_lang('PROJECT INFO', 'INFO PROYEK') }} 
     	</li>
 
         <li class="about-nav-item js-about-nav-item" data-referenced-section="imprint">
-            IMPRINT
+            {{ text_multi_lang('IMPRINT', 'TERBITAN') }} 
         </li>
 
     	<li class="about-nav-item js-about-nav-item" data-referenced-section="contributors">
-    		CONTRIBUTORS
+    		{{ text_multi_lang('CONTRIBUTORS', 'KONTRIBUTOR') }} 
     	</li>
 
     </ul>

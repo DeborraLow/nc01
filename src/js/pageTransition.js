@@ -51,20 +51,20 @@ document.addEventListener("DOMContentLoaded", function() {
             //only init some functions on the first time
             if(!GLOBAL_VISITED_HOME) {
 
-                //isLoadedBackgroundPattern();
-
                 introAnimation();
 
                 GLOBAL_VISITED_HOME = true;
 
+            } else {
+                isLoadedObject();
             }
 
-            GLOBAL_OBJECT_INTERACTION_AREA = document.querySelector('.js-object-interaction-area');
+            GLOBAL_OBJECT_INTERACTION_AREA = this.container.querySelector('.js-object-interaction-area');
             GLOBAL_OBJECT_INTERACTION_AREA_WIDTH = GLOBAL_OBJECT_INTERACTION_AREA.getBoundingClientRect().width;
 
             updateContentElement(this.container);
             
-            expandProjectOverview();
+            expandProjectOverview(this.container);
 
 
         },
@@ -381,11 +381,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         //disable 3d model
                         
-                        if(GLOBAL_NAMESPACE === 'home') {
-                            isLoadedObject();
-                            resetObjectInteractionRatio();
+                        //if(GLOBAL_NAMESPACE === 'home') {
+                       
+                        resetObjectInteractionRatio();
                             // disableObjectInteraction();
-                        }
+                        //}
                         
                         
                     }
@@ -410,16 +410,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function objectInteraction() {
 
-        console.log('object interaction');
-
-
         GLOBAL_OBJECT_INTERACTION_AREA.style.display = 'block';
 
         var object = document.querySelector('.js-3d-object');
-
-        console.log('object');
-        console.log(object);
-      
             
         var nrOfSegments = 60; //minus one
 
@@ -434,10 +427,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         } else {
 
-            console.log('not touchscreen');
-
             GLOBAL_OBJECT_INTERACTION_AREA.addEventListener('mousemove', function(e) {
-                console.log('mousemove');
                 objectRotateAnimation(e.clientX);
             })
 
@@ -517,15 +507,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         previousSection.classList.add('hidden');
                         previousNavigationItem.classList.remove('active');
 
-                        var referencedSectionDataAttr = e.target.dataset.referencedSection;
+                        var referencedSectionDataAttr = e.currentTarget.dataset.referencedSection;
 
                         var referencedSection = document.querySelector('[data-section=' + referencedSectionDataAttr + ']');
 
                         referencedSection.classList.remove('hidden');
-                        e.target.classList.add('active');
+                        e.currentTarget.classList.add('active');
 
                         previousSection = referencedSection;
-                        previousNavigationItem = e.target;
+                        previousNavigationItem = e.currentTarget;
 
                         setTimeout(function(){ 
                             addTransitionToScrollIndicator();
@@ -643,9 +633,9 @@ document.addEventListener("DOMContentLoaded", function() {
     //-----------------------------------
 
 
-    function expandProjectOverview(){
+    function expandProjectOverview(container){
 
-        var expandProjectOverviewButton = document.querySelector('.js-expand-project-overview');
+        var expandProjectOverviewButton = container.querySelector('.js-expand-project-overview');
 
         expandProjectOverviewButton.addEventListener(
             'click',
@@ -688,10 +678,15 @@ document.addEventListener("DOMContentLoaded", function() {
         var navigationPanel = document.querySelector('.js-navigation-panel');
         var objectSelector = document.querySelector('.js-object-selector');
 
-        halfPanelRight.style.transform = 'translateY(100vh)';
-        halfPanelLeft.style.transform = 'translateY(100vh)';
-        navigationPanel.style.transform = 'translateY(100vh)';
-        objectSelector.style.transform = 'translateY(100vh)';
+
+        TweenLite.set(halfPanelRight,  { transform: 'translateY(100vh)' });
+        TweenLite.set(halfPanelLeft,   { transform: 'translateY(100vh)' });
+        TweenLite.set(navigationPanel, { transform: 'translateY(100vh)' });
+        TweenLite.set(objectSelector,  { transform: 'translateY(100vh)' });
+
+        GLOBAL_BODY.classList.add('started');
+
+
     
 
         var animationContainer = document.querySelector('.js-intro-animation');
@@ -731,44 +726,48 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 TweenLite.to( halfPanelRight, 1.5,
                 {
-                    y: '0', 
+                    transform: 'translateY(0)',
                     delay:0.5,
-                    ease: Power1.easeOut
+                    ease: Power1.easeOut,
+                    onComplete: function() {
+                        TweenLite.set(halfPanelRight, { clearProps: 'all' });
+                        GLOBAL_BODY.classList.add('no-intro');
+                       
+                        isLoadedObject();
+                    }
                 })
 
                 TweenLite.to( navigationPanel, 1.5,
                 {
-                    y: '0', 
+                    transform: 'translateY(0)',
                     delay:0.5,
-                    ease: Power1.easeOut
+                    ease: Power1.easeOut,
+                    onComplete: function() {
+                        TweenLite.set(navigationPanel, { clearProps: 'all' });
+                    }
+
                 })
 
                 TweenLite.to( objectSelector, 1.5, 
-                {
-                    y: '0',  
+                { 
+                    transform: 'translateY(0)',
                     delay:0.5,
-                    ease: Power1.easeOut
+                    ease: Power1.easeOut,
+                    onComplete: function() {
+                        TweenLite.set(objectSelector, { clearProps: 'all' });
+                    }
+
                 })
 
                 TweenLite.to( halfPanelLeft, 1.5, 
                 {
-                    y: '0', 
-                    ease: Power1.easeOut
-                })
-
-                
-
-                setTimeout(
-                    function() { 
-                        GLOBAL_BODY.classList.add('no-intro');
-                        TweenLite.set(halfPanelRight, { clearProps: 'all' });
+                    transform: 'translateY(0)',
+                    ease: Power1.easeOut,
+                    onComplete: function() {
                         TweenLite.set(halfPanelLeft, { clearProps: 'all' });
-                        TweenLite.set(navigationPanel, { clearProps: 'all' });
-                        TweenLite.set(objectSelector, { clearProps: 'all' });
-                        isLoadedObject();
-                    },
-                    2000
-                )
+                    }
+
+                })
 
             }
 
@@ -841,7 +840,8 @@ document.addEventListener("DOMContentLoaded", function() {
             var numbering = galleryContainer.querySelector('.js-gallery-img-nr');
 
             flkty.on( 'select', function() {
-              caption.innerHTML = flkty.selectedElement.dataset.caption;
+              caption.querySelector('.en').innerHTML = flkty.selectedElement.dataset.caption;
+              caption.querySelector('.in').innerHTML = flkty.selectedElement.dataset.captionIn;
               numbering.innerHTML = flkty.selectedElement.dataset.index;
             });
 

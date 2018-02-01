@@ -1,3 +1,13 @@
 .home-page {
+
+	.navigation-panel, .object-selector, .half-panel--right, .half-panel--left {
+		opacity: 0;
+	}
+
+	&.started {
+		.navigation-panel, .object-selector, .half-panel--right, .half-panel--left {
+			opacity: 1;
+		}
+	}
 	
 }

@@ -1,3 +1,6 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
 {% macro interview(interview, q_name, a_name) %}
 
 	<div class="project-interview">
@@ -20,7 +23,7 @@
 			        {{ name }}
 			    </div>
 			    <div class="project-interview-text">
-			        {{ item.text|safe }}
+			        {{ text_multi_lang(item.text, item.text_in) }}
 			    </div>
 			</div>
 		    

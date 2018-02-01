@@ -1,5 +1,7 @@
-{% macro title(title) %}
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+{% macro title(title, title_in) %}
     <h1 class="project-title">
-        {{ title }}
+        {{ text_multi_lang(title, title_in) }}
     </h1>
 {% endmacro %}

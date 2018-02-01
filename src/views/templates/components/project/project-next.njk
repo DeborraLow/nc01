@@ -1,1 +1,6 @@
-<a class="project-next js-project-next" href="{{ nextProjectHref }}">next contribution</a>
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
+<a class="project-next js-project-next" href="{{ nextProjectHref }}">
+	{{ text_multi_lang('next contribution', 'kontribusi berikutnya') }}
+</a>

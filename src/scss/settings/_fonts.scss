@@ -26,14 +26,13 @@
 
 
 @font-face {
-    font-family: 'Terhah';
-    src: url('../fonts/terhah_normal.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/terhah_normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/terhah_normal.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/terhah_normal.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/terhah_normal.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-family: 'Terhah Normal';
+    src: url('../fonts/terhah_n.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/terhah_n.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/terhah_n.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/terhah_n.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/terhah_n.ttf')  format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
-    font-style: italic;
 }
 
 
@@ -42,5 +41,5 @@ $text:  'Agipo Regular Extended', Arial;
 $italic:'Agipo Regular Italic', Arial;
 
 .font-terhah {
-    font-family: Terhah;
+    font-family: 'Terhah Normal';
 }

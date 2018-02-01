@@ -1,3 +1,5 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
 {% macro gallery(gallery, projectFolder) %}
 
 <div class="project-gallery js-project-gallery hide">
@@ -9,9 +11,10 @@
 		{% for item in gallery %}
 
 			{% set caption = item.caption|default('') %}
-		    <div class="carousel-cell" data-index="{{ loop.index }}" data-caption="{{ caption }}">
+			{% set caption_in = item.caption_in|default('') %}
+		    <div class="carousel-cell" data-index="{{ loop.index }}" data-caption="{{ caption }}" data-caption-in="{{ caption_in }}">
 		    	<picture>
-			  		<source media="(min-width: 501px)" srcset="./assets/img/projects/{{ projectFolder }}/m/content/{{ item.src }}">
+			  		<source media="(min-width: 550px)" srcset="./assets/img/projects/{{ projectFolder }}/m/content/{{ item.src }}">
 			    	<img class="project-img" src="./assets/img/projects/{{ projectFolder }}/s/content/{{ item.src }}" alt="#">
 			    </picture>
 			</div>
@@ -35,7 +38,9 @@
 		<span class="project-img-nr">
 			<span class="js-gallery-img-nr">1</span>/{{ length }}
 		</span>
-		<div class="project-caption js-gallery-caption">{{ gallery[0].caption|default('')|safe }}</div>
+		<div class="project-caption js-gallery-caption">
+			{{ text_multi_lang(gallery[0].caption|default(''), gallery[0].caption_in|default('')) }}
+		</div>
 	</div>
 
 </div>

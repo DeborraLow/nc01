@@ -151,6 +151,14 @@
         @include bp-portrait {
             margin-bottom: $project-item-margin-bottom-bps;
         }
+
+        figcaption {
+            min-height: $project-item-margin-bottom;
+
+            @include bp-portrait {
+                min-height: $project-item-margin-bottom-bps;
+            }
+        }
     }
 
 

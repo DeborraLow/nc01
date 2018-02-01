@@ -1,13 +1,15 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
 <nav>
     <ul>
         <li>
             <a class="navigation-item-left" href="./index.html">
-                contributions
+                {{ text_multi_lang('contributions', 'KONTRIBUSI') }}
             </a>
         </li>
         <li>
             <a class="navigation-item-right" href="./about.html">
-                about
+                {{ text_multi_lang('about', 'TENTANG') }}
             </a>
         </li>
     </ul>

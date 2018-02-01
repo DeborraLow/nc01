@@ -1,9 +1,17 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
 {% macro caption(item) %}
 	<figcaption class="project-caption-container">
 		{% if item.nr %}
     		<span class="project-img-nr">IMG {{ item.nr }}</span>
     	{% endif %}
 	
-		<div class="project-caption">{{ item.caption|safe }}</div>
+		{% if item.caption %}
+			<div class="project-caption">
+				{{ text_multi_lang(item.caption, item.caption_in) }}
+			</div>
+		{% endif %}
+		
 	</figcaption>
 {% endmacro %}

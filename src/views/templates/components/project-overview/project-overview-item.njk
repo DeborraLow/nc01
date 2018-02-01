@@ -1,4 +1,7 @@
-{% macro projectOverview(author, title, lead, imgSrc, index, href) %}
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
+
+{% macro projectOverview(author, titleEn, titleId, leadEn, leadId, imgSrc, index, href) %}
 
 {% if index < 10 %}
 {% set projectFolder = '0' + index %}
@@ -13,20 +16,24 @@
 
                 <picture>
                     <source media="(min-width: 501px) and (orientation : landscape)" srcset="./assets/img/projects/{{ projectFolder }}/m/{{ imgSrc }}">
-                    <img class="saturated-img-saturation js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ title }}" data-src="">
+                    <img class="saturated-img-saturation js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ titleEn }}" data-src="">
                 </picture>
 
                 <picture>
                     <source media="(min-width: 501px) and (orientation : landscape)" srcset="./assets/img/projects/{{ projectFolder }}/m/{{ imgSrc }}">
-                    <img class="saturated-img-grayscale js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ title }}" data-src="">
+                    <img class="saturated-img-grayscale js-load-img" src="./assets/img/projects/{{ projectFolder }}/s/{{ imgSrc }}" alt="{{ titleEn }}" data-src="">
                 </picture>
 
             </div>
 
 
             <div class="project-overview-title-w-lead">
-                <h2 class="project-overview-title">{{ title }}</h2>
-                <p class="project-overview-lead">{{ lead|safe }}</p>
+                <h2 class="project-overview-title">
+                    {{ text_multi_lang(titleEn, titleId) }}
+                </h2>
+                <p class="project-overview-lead">
+                    {{ text_multi_lang(leadEn, leadId) }}
+                </p>
             </div>
 
             

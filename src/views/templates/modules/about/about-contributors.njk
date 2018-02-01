@@ -6,7 +6,7 @@
 
     <ul>
         {% for item in contributors %}
-            {{ contributor_item(item.name, item.text) }}
+            {{ contributor_item(item.name, item.text, item.text_in) }}
         {% endfor %}
     </ul>
 

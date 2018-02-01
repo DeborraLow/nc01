@@ -1,0 +1,8 @@
+{% macro text_multi_lang(textEn, textIn) %}
+	<span class="en">
+		{{ textEn|safe }}
+	</span>
+	<span class="in">
+		{{ textIn|safe }}
+	</span>
+{% endmacro %}

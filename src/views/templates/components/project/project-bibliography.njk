@@ -1,3 +1,5 @@
+{% from "components/general/text-multi-lang.njk" import text_multi_lang as text_multi_lang %}
+
 {% macro bibliography(bibliography) %}
 
 {% set i = 0 %}
@@ -14,8 +16,12 @@
 				{% set i = i + 1 %}
 
 			<div class="project-bibliography-item" id="footnote{{ i }}">
+			
 				<span class="project-bibliography-number">[{{ i }}]</span>
-				<div class="project-bibliography-text">{{ item.item|safe }}</div>
+
+				<div class="project-bibliography-text">
+					{{ text_multi_lang(item.item, item.item_in) }}
+				</div>
 		    </div>
 
 		    {% elif item.type == "column_break" %}

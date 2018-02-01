@@ -17,12 +17,13 @@
     z-index: 1;
     position: absolute;
     top: 0;
-    right: 0;
+    right: calc(#{$project-overview-author-font-size} * 3.5 + #{$gutter});
     height: 100%;
     padding: $gutter;
     padding-bottom: calc(#{$gutter} - 0.12 * #{$navigation-font-size});
 
     @include bp-portrait {
         padding: $gutter-bps;
+        right: calc(#{$project-overview-author-font-size-bps} * 3.5 + #{$gutter-bps});
     }
 }

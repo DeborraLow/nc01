@@ -5,13 +5,12 @@
 	<figure class="project-img-container">
 
 		<picture>
-	  		<source media="(min-width: 501px)" srcset="./assets/img/projects/{{ projectFolder }}/m/content/{{ item.src }}">
+	  		<source media="(min-width: 550px)" srcset="./assets/img/projects/{{ projectFolder }}/m/content/{{ item.src }}">
 	    	<img class="project-img" src="./assets/img/projects/{{ projectFolder }}/s/content/{{ item.src }}" alt="#">
 	    </picture>
 
-    	{% if item.caption %}
-    		{{ caption(item) }}
-    	{% endif %}
+    	
+    	{{ caption(item) }}
 
     </figure>
 {% endmacro %}
